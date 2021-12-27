@@ -8,5 +8,5 @@ markdown_extensions:
     - toc:
         permalink: ⌁
 
-#nav:
-#    - 'Introduction': 'index.md'
+nav:
+    - 'Introduction': 'index.md'
