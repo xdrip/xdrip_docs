@@ -1,5 +1,5 @@
 site_name: xDrip
-docs_dir: []
+docs_dir: .
 theme: readthedocs
 extra_css:
     - css/admonitions.css
