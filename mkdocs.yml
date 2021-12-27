@@ -1,0 +1,14 @@
+site_name: xDrip
+docs_dir: []
+theme: readthedocs
+extra_css:
+    - css/admonitions.css
+    - css/extra.css
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: ⌁
+
+nav:
+    - 'Introduction': 'index.md'
+    - 'Readme': 'README.md'
