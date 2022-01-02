@@ -1,12 +1,33 @@
-site_name: xDrip
-theme: readthedocs
+site_name: xDrip+
+
+theme:
+    name: material
+    language: en
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.tracking
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - content.code.annotate
+    logo: xDrip+logo.png
+    favicon: xDrip+logo.png
+    palette:
+      primary: white
+    nav_style: primary
+
 extra_css:
     - css/admonitions.css
-    - css/extra.css
+
 markdown_extensions:
     - admonition
     - toc:
         permalink: ⌁
-
+        
 nav:
-    - 'Introduction': 'index.md'
+    - Introduction: 'index.md'
+    - Installation:
+        - 'Prerequisites': 'install/prerequisites.md'
+        - 'Download': 'install/download.md'
+        - 'Installation': 'install/install.md'
