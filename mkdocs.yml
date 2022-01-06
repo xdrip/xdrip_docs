@@ -15,6 +15,7 @@ theme:
     favicon: xDrip+logo.png
     palette:
       primary: white
+      scheme: default
     nav_style: primary
 
 extra_css:
@@ -26,8 +27,8 @@ markdown_extensions:
         permalink: ⌁
         
 nav:
-    - Introduction: 'index.md'
-    - Installation:
+    - Getting started:
         - 'Prerequisites': 'install/prerequisites.md'
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
+ 

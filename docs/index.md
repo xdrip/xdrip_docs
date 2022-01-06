@@ -1,6 +1,4 @@
-<img src="./images/logo.png" style="zoom:70%;" />
 
-</br>
 
 ## What is xDrip+?
 
