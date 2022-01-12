@@ -32,6 +32,20 @@ This project was then modified by @jamorham to become [xDrip+](https://jamorham.
 
 xDrip+ is published by the Nightscout Foundation.
 
+## Where can I find help?
+
+On Facebook in the official group: [xDrip](https://www.facebook.com/groups/xDripG5)
+
+In the official GitHub repository [discussions](https://github.com/NightscoutFoundation/xDrip/discussions)
+
+In the xDrip-plus [room](https://gitter.im/jamorham/xDrip-plus) in Gitter
+
+## How to contribute to the documentation?
+
+You can clone and PR the documentation [repository](https://github.com/xdrip/xdrip_docs)
+
+</br>
+
 ## **Disclaimer And Warning**
 
 - All information, thought, and code described here is intended for informational and educational purposes only. Use xDrip+ at your own risk, and do not use the information or code to make medical decisions.

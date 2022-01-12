@@ -31,4 +31,9 @@ nav:
         - 'Prerequisites': 'install/prerequisites.md'
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
- 
+        - 'Data source': 'install/datasource.md'
+        - 'G4': 'install/g4.md'
+        - 'G5': 'install/g5.md'
+        - 'G6': 'install/g6.md'
+    - Troubleshooting:
+        - 'Installation': 'troubleshoot/install.md'
