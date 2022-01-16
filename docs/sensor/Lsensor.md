@@ -1,4 +1,4 @@
-# Start sensor
+# Start Libre sensor
 
 xDrip+ is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
 

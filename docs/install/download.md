@@ -47,3 +47,5 @@ Artem's private versions supporting various smartbands are available [here](http
 Bence's private versions for CareLink follower is also available [here](https://github.com/benceszasz/xDripCareLinkFollower/releases).
 
 </br>
+
+Once downloaded proceed to [installation](../install)

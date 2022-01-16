@@ -89,3 +89,7 @@ These settings are default, but still make sure they are exactly like shown belo
 If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compliance to Android specifications. This should enable automatically.
 
 <img src="../../images/M-S-LCS-OMO1.png" style="zoom:75%;" />
+
+</br>
+
+Proceed to xDrip+ [data source selection](../datasource)
