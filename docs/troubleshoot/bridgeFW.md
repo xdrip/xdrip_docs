@@ -1,0 +1,1 @@
+https://droplet.rocks/en/blog/manual/firmware-update-instruction

@@ -1,4 +1,6 @@
+<img src="./images/logo.png" style="zoom:70%;" />
 
+</br>
 
 ## What is xDrip+?
 
@@ -31,20 +33,6 @@ This project was then modified by @jamorham to become [xDrip+](https://jamorham.
 <img src="https://avatars.githubusercontent.com/u/12565568" style="zoom:33%;" />
 
 xDrip+ is published by the Nightscout Foundation.
-
-## Where can I find help?
-
-On Facebook in the official group: [xDrip](https://www.facebook.com/groups/xDripG5)
-
-In the official GitHub repository [discussions](https://github.com/NightscoutFoundation/xDrip/discussions)
-
-In the xDrip-plus [room](https://gitter.im/jamorham/xDrip-plus) in Gitter
-
-## How to contribute to the documentation?
-
-You can clone and PR the documentation [repository](https://github.com/xdrip/xdrip_docs)
-
-</br>
 
 ## **Disclaimer And Warning**
 

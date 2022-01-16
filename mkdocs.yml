@@ -15,7 +15,6 @@ theme:
     favicon: xDrip+logo.png
     palette:
       primary: white
-      scheme: default
     nav_style: primary
 
 extra_css:
@@ -27,13 +26,25 @@ markdown_extensions:
         permalink: ⌁
         
 nav:
-    - Getting started:
+    - Introduction: 'index.md'
+    - Installation:
         - 'Prerequisites': 'install/prerequisites.md'
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
+<<<<<<< Updated upstream
+=======
         - 'Data source': 'install/datasource.md'
         - 'G4': 'install/g4.md'
         - 'G5': 'install/g5.md'
         - 'G6': 'install/g6.md'
+        - 'G5/G6 Connectivity': 'install/connectivity_G.md'
+        - 'Libre NFC': 'install/libreNFC.md'
+        - 'Libre bridge': 'install/libreBT.md'
+        - 'LibreAlarm': 'install/librealarm.md'
+        - 'Libre 2': 'install/libre2.md'
+    - 'Sensors':
+        - 'G5/G6 sensor': 'sensor/G5G6sensor.md'
+        - 'Libre sensor': 'sensor/Lsensor.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
+>>>>>>> Stashed changes

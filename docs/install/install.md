@@ -1,19 +1,19 @@
-Once downloaded, install the xDrip+ apk. If you run into trouble downloading or installing look [here](../../troubleshoot/install).
+Once downloaded, install the xDrip+ apk.
 
-<img src="../images/Install02.png" style="zoom:75%;" />
+<img src="../../images/Install02.png" style="zoom:75%;" />
 
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
 The official versions of xDrip+ are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
 
-<img src="../images/Install04.png" style="zoom:75%;" />
+<img src="../../images/Install04.png" style="zoom:75%;" />
 
 Once installed, open xDrip+.
 
-<img src="../images/Install03.png" style="zoom:75%;" />
+<img src="../../images/Install03.png" style="zoom:75%;" />
 
 **Read** the important Warning.  
 
-<img src="../images/Install05.png" style="zoom:75%;" />
+<img src="../../images/Install05.png" style="zoom:75%;" />
 
 !!!warning "Make sure you fully understand the conditions before selecting `I Agree`."  
     Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
@@ -29,7 +29,7 @@ Once installed, open xDrip+.
     This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
     By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
 
-<img src="../images/Install06.png" style="zoom:75%;" />
+<img src="../../images/Install06.png" style="zoom:75%;" />
 
 </br>
 
@@ -40,25 +40,15 @@ Once installed, open xDrip+.
     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
     SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
-<img src="../images/Install06a.png" style="zoom:75%;" />
+<img src="../../images/Install06a.png" style="zoom:75%;" />
 
 </br>
 
-## Authorize background activity
+#### Authorize background activity
 
-xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` -> `Apps` -> `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
+xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
 
-<img src="../images/Install07.png" style="zoom:75%;" />
-
-</br>
-
-Congratulations, you have installed xDrip+ and should see the data source selection wizard.
-
-<img src="../images/Install23.png" style="zoom:75%;" />
-
-!!!note "Checklist time"   
-    You should now stop and verify some settings before selecting your data source.    
-    Touch the back key on your phone and return to the main screen.
+<img src="../../images/Install07.png" style="zoom:75%;" />
 
 </br>
 
@@ -74,7 +64,7 @@ Current version will be displayed after `Version`. In the example below, March 1
 
 <img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
 
-xDrip+ official versions from GitHub will display a version name coded like this: `Commit-YYYY.MM.DD` if your version displays additional information like `-dev`, `-huami`, `-debug` or others this means you are running a [private version](../../install/download/#private-versions).
+See [here](../upgradedowngrade) for upgrade or downgrade.
 
 </br>
 
@@ -96,32 +86,6 @@ These settings are default, but still make sure they are exactly like shown belo
 
 `Battery optimization prompt` should be disabled as you should have agreed to [battery whitelisting](#authorize-background-activity) during install.
 
-Even if you don't have a Samsung phone you should allow Samsung workarounds (originally designed to fix a Samsung non compliance to Android specifications). This should be enabled automatically on Samsung phones.
+If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compliance to Android specifications. This should enable automatically.
 
 <img src="../../images/M-S-LCS-OMO1.png" style="zoom:75%;" />
-
-</br>
-
-## Give all authorizations
-
-You can already give all authorizations to xDrip+ in Android Settings -> Apps -> xDrip+ or wait until they will be requested by the app.
-
-`Camera` is necessary for Auto configure
-
-`Contacts` is necessary for Emergency messages
-
-`Location` is necessary for connecting to a sensor with Bluetooth and Emergency messages
-
-`SMS` is necessary for Emergency messages
-
-`Storage` is necessary for Settings save/restore and Database import/export
-
-Make sure xDrip+ is whitelisted for data background usage.
-
-You can allow xDrip+ to Change system settings even if recent Android versions will ask you to confirm the requests.
-
-Enable Install unknown apps if you want to use the Auto update features.
-
-</br>
-
-[Proceed to data source selection](../datasource)
