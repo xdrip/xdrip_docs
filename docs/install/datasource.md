@@ -1,14 +1,14 @@
 You should now see the the data source selection wizard.
 
-<img src="../images/Install23.png" style="zoom:75%;" />
+<img src="../images/Install08.png" style="zoom:75%;" />
 
 If you don't, touching this button will display the wizard.
 
-<img src="../images/Install25.png" style="zoom:75%;" />
+<img src="../images/Install12.png" style="zoom:75%;" />
 
-If the button is not visible you can display it using a long touch on the xDrip+ icon.
+If the button is not visible you can display it using a long touch on the xDrip+ icon and enabling the `Source Wizard Button`.
 
-<img src="../images/Install24.png" style="zoom:75%;" />
+<img src="../../images/UImenu.png" style="zoom:75%;" />
 
 </br>
 
@@ -46,31 +46,44 @@ The following sensors are supported directly by xDrip+:
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
 - [Libre with patched SWR50 smartwatch](../librealarm)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install34.png" style="zoom:51%;" />
-- Libre 2 (only EU)  
+- [Libre 2 (only EU)](../libre2)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
-- Medtrum A6/S7  
+- [Medtrum A6/S7](../medtrum)  
   <img src="../images/Install36.png" style="zoom:54%;" />    <img src="../images/Install37.png" style="zoom:53%;" />
 
 The following sensors are supported with a companion app:
 
-- Libre 2 (only EU)  
+- [Libre 2 (only EU)](../libre2patch)  
   <img src="../images/Install32.png" style="zoom:51%;" />    <img src="../images/Install35.png" style="zoom:53%;" />
-- Eversense  
+- [Eversense](../eversense)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install41.png" style="zoom:53%;" />
-- 640G/670G pumps  
+- [640G/670G pumps](640G_670)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 
 </br>
 
 ## Follower mode
 
-- xDrip+ Sync (requires Google Play Services)
-- Nightscout  
+- [xDrip+ Sync](../xdripfollower) (requires Google Play Services)
+- [Nightscout](../nightscoutfollower)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
-- Dex Share  
+- [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
-- CareLink (private version)  
+- [CareLink](../carelinkfollow) (private version)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install42.png" style="zoom:53%;" />
 
 </br>
 
+## Changing data source
+
+You can select another data source without using the wizard from the settings menu:
+
+`Menu` / `Settings` / `Hardware data source`
+
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+
+<img src="../../images/M-S.png" style="zoom:75%;" />
+
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />
+
+<img src="../../images/M-S-HDSlist.png" style="zoom:75%;" />

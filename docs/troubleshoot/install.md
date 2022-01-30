@@ -32,6 +32,14 @@ Below the example for Chrome, you might be using another app to open the xDrip+ 
 
 </br>
 
+## I cannot install the app
+
+<img src="../images/Install23.png" style="zoom:75%;" />
+
+Make sure you don't have a different version of xDrip+ installed: you can update or downgrade only apps from the same developper. If necessary [reinstall](../reinstall) xDrip+ to switch from the official version to a private version (and vice versa).
+
+</br>
+
 ## xDrip+ needs background location
 
 <img src="../images/Install21.png" style="zoom:60%;" />

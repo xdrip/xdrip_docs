@@ -34,6 +34,7 @@ Once installed, open xDrip+.
 </br>
 
 **Read** the EULA.  
+
 !!!warning "Make sure you fully understand it before saving."  
     xDrip+ MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
     IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
@@ -60,11 +61,11 @@ Touch the back button on your phone until you're back to the main screen. Select
 
 <img src="../../images/M-SS.png" style="zoom:75%;" />
 
-Current version will be displayed after `Version`. In the example below, March 1st 2021.
+Current version will be displayed after `Version`. In the example below, January 28th 2022.
 
 <img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
 
-See [here](../upgradedowngrade) for upgrade or downgrade.
+See here for upgrade or downgrade.
 
 </br>
 
@@ -82,14 +83,14 @@ These settings are default, but still make sure they are exactly like shown belo
 
 <img src="../../images/M-S-LCS-OMO.png" style="zoom:75%;" />
 
-`Run Collector in Foreground` enables the graph in your phone drop down curtain but is essential to keep the app alive.
+`Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive.
 
-`Battery optimization prompt` should be disabled as you should have agreed to [battery whitelisting](#authorize-background-activity) during install.
+`Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install.
 
-If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compliance to Android specifications. This should enable automatically.
+If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compliance to Android specifications. This should enable automatically. You can also enable this option on other brands.
 
 <img src="../../images/M-S-LCS-OMO1.png" style="zoom:75%;" />
 
 </br>
 
-Proceed to xDrip+ [data source selection](../datasource)
+Proceed to [data source selection](../datasource)

@@ -14,7 +14,7 @@ To install xDrip+ on a phone monitored by [Google Family Link](https://families.
 
 If you use a company controlled phone, you might not be able to install xDrip+ due to corporate policies.
 
-You can try to sideload the app with [Android Debug](https://developer.android.com/studio/command-line/adb) using a computer after [enabling developer options](https://developer.android.com/studio/command-line/adb#Enabling) on your phone. Remember to delete xDrip+ in your work profile if necessary, as it will be installed in both environments.
+You can try to sideload the app with [Android Debug](https://developer.android.com/studio/command-line/adb) using a computer after [enabling developer options](https://developer.android.com/studio/command-line/adb#Enabling) on your phone. Remember to delete xDrip+ in your work profile if necessary, as it might be installed in both environments.
 
 ### Phone time accuracy
 

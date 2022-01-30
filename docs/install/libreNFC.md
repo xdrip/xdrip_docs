@@ -19,23 +19,23 @@ If you will only use xDrip+ to scan the sensor you should choose LibreAlarm.
 
 <img src="../../images/M-S.png" style="zoom:75%;" />
 
-<img src="../images/M-S-HDS-NFC.png" style="zoom:87%;" />
+<img src="../images/M-S-HDS-NFC.png" style="zoom:75%;" />
 
 Enable `Use NFC Feature`
 
-<img src="../images/M-S-HDS-NFC2.png" style="zoom:87%;" />
+<img src="../images/M-S-HDS-NFC2.png" style="zoom:75%;" />
 
 In order to automatically open xDrip+ upon NFC sensor detection you should enable this (recommended)
 
-<img src="../images/M-S-HDS-NFC3.png" style="zoom:87%;" />
+<img src="../images/M-S-HDS-NFC3.png" style="zoom:75%;" />
 
 You can decide how xDrip+ will inform you that the scan completed. When scanning remember that you need to keep the phone in the right NFC antenna spot for some seconds to allow a correct scan.
 
-<img src="../images/M-S-HDS-NFC4.png" style="zoom:87%;" />
+<img src="../images/M-S-HDS-NFC4.png" style="zoom:75%;" />
 
 The options below should remain disabled.
 
-<img src="../images/M-S-HDS-NFC5.png" style="zoom:87%;" />
+<img src="../images/M-S-HDS-NFC5.png" style="zoom:75%;" />
 
 ## Supported sensors
 

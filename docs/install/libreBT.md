@@ -58,11 +58,11 @@ If your bridge is a Transmitter_T or a Droplet enable this else keep it disabled
 
 <img src="../images/M-S-LCS-BT-MK.png" style="zoom:75%;" />
 
-If you have connection losses you can enable polling mode. It will not do anything useful but keep the Bluetooth link awake.
+If you have connection losses you can enable polling mode. It will not do anything useful but keep the phone Bluetooth awake.
 
 <img src="../images/M-S-LCS-BT-L4.png" style="zoom:75%;" />
 
-If your bridge is a BluCon you can enable this else keep it disabled.  
+If your bridge is a BluCon you can enable this.  
 *Note: only BluCon bonds to Android, other bridges don't.*
 
 <img src="../images/M-S-LCS-BT-L5.png" style="zoom:75%;" />
