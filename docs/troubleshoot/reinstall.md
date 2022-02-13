@@ -82,15 +82,19 @@ Select `Export database`.
 
 </br>
 
-The current database will be saved in `/storage/emulated/0/xDrip`  
+The current database will be saved in `/storage/emulated/0/xDrip` or `Internal Storage/xDrip`
 You need to authorize xDrip+ to access your phone memory.  
 You can make as many backups as your memory can store.
+
+If you're fast enough to touch the `SHARE` writing before it disappears you can use your phone share options to send the database to another device or copy it to another location.
 
 <img src="../images/3DM-IE-ExpDB.png" style="zoom:75%;" />
 
 Your backup will be named `exportYYYYMMDD-HHMMSS.zip` with `YYYY` current year, `MM` month, `DD` day, and `HHMMSS` for hour minutes and seconds. This will allow you to have multiple backups identified by a unique timestamp.
 
 If you want to keep a safe copy, send the file to yourself by email, save in on a cloud drive or copy it via USB to a computer.
+
+It is an SQLite database you can browse with various utilities like [SQLite Browser](https://sqlitebrowser.org/).
 
 </br>
 

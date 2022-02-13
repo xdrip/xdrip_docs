@@ -46,6 +46,12 @@ nav:
         - 'CareLink follower': 'install/carelinkfollow.md'
     - Discover and use:
         - 'Main view': 'use/mainUI.md'
+        - '3 Dots menu': 'use/3dotsmenu.md'
+        - 'Main menu': 'use/hamburger.md'
+        - 'Settings': 'use/settings.md'
+        - 'Statistics': 'use/statistics.md'
+        - 'Alarms and Alerts': 'use/alarms.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
+        - 'System Status': 'troubleshoot/systemstatus.md'
