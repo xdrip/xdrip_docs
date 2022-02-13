@@ -15,6 +15,7 @@ theme:
     favicon: xDrip+logo.png
     palette:
       primary: white
+      scheme: default
     nav_style: primary
 
 extra_css:
@@ -26,8 +27,31 @@ markdown_extensions:
         permalink: ⌁
         
 nav:
-    - Introduction: 'index.md'
-    - Installation:
+    - Getting started:
         - 'Prerequisites': 'install/prerequisites.md'
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
+        - 'Data source': 'install/datasource.md'
+        - 'G5': 'install/g5.md'
+        - 'G6': 'install/g6.md'
+        - 'Libre NFC': 'install/libreNFC.md'
+        - 'Libre bridge': 'install/libreBT.md'
+        - 'Libre 2': 'install/libre2.md'
+        - 'Libre 2 patch': 'install/libre2patch.md'
+        - 'Eversense': 'install/eversense.md'
+        - '640G/670G': 'install/640_670.md'
+        - 'xDrip+ follower': 'install/xdripfollower.md'
+        - 'Nightscout follower': 'install/nightscoutfollower.md'
+        - 'Dex Share follower': 'install/dexshare.md'
+        - 'CareLink follower': 'install/carelinkfollow.md'
+    - Discover and use:
+        - 'Main view': 'use/mainUI.md'
+        - '3 Dots menu': 'use/3dotsmenu.md'
+        - 'Main menu': 'use/hamburger.md'
+        - 'Settings': 'use/settings.md'
+        - 'Statistics': 'use/statistics.md'
+        - 'Alarms and Alerts': 'use/alarms.md'
+    - Troubleshooting:
+        - 'Installation': 'troubleshoot/install.md'
+        - 'Reinstallation': 'troubleshoot/reinstall.md'
+        - 'System Status': 'troubleshoot/systemstatus.md'
