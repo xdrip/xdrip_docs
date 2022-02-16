@@ -1,3 +1,6 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />    
+<img src="../../images/M-S.png" style="zoom:75%;" /> 
+
 There are many settings in xDrip+, if you can't find what you're looking for, use the search lens top right and enter the keyword you're looking for.
 
 <img src="../images/M-S-Search.png" style="zoom:75%;" />
@@ -41,6 +44,37 @@ Current settings will be overwritten. You might need to restart your phone to ap
 
 ### Cloud Upload
 
-Cloud upload is used to configure various sharing and data upload features. See here.
+Cloud upload is used to configure various sharing and data upload features.
 
 <img src="../images/M-S-CU.png" style="zoom:75%;" />
+
+### Glucose Meters
+
+You can connect compatible glucose meters to xDrip+.
+
+<img src="../images/M-S-GM.png" style="zoom:75%;" />
+
+### Smart Watch Features
+
+Various smartwatch can receive data and display them from xDrip+, some can even act as a standalone collector.
+
+<img src="../images/M-S-SW.png" style="zoom:75%;" />
+
+### Speak Readings
+
+xDrip+ can use the phone to speak values and alerts.
+
+<img src="../images/M-S-SR.png" style="zoom:75%;" />
+
+### Inter-app Settings
+
+xDrip+ can accept or send data to other apps, and act as a local web server.
+
+<img src="../images/M-S-IA.png" style="zoom:75%;" />
+
+### Less Common Settings
+
+Even more settings are available here.
+
+<img src="../../images/M-S-LCS.png" style="zoom:75%;" />
+

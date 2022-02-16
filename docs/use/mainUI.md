@@ -6,7 +6,7 @@ Welcome to xDrip+!
 
 If you've just setup xDrip+ you want to start with basic customizations:
 
-1. [Setup the unit you want to display your blood glucose with](../settings/#glucose-units)
+1. [Setup the unit you want to display your blood glucose with](../settings)
 2. [Add alarms](../alarms)
 3. If you're connecting xDrip+ to a sensor, share data
 4. Display xDrip+ on the phone when screen is locked

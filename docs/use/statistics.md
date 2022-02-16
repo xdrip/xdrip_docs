@@ -1,4 +1,7 @@
-The statistics view offers 3 basic statistics displays you can configure for different periods of time.
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../images/M-STA.png" style="zoom:75%;" />
+
+Statistics view offers 3 basic statistics displays you can configure for different periods of time.
 
 1. First select the period of time you want to calculate statistics on. ToDay, YestTerDay, last week, month or quarter.
 2. You can display the graph full screen (touch it again to exit full screen mode).

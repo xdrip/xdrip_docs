@@ -1,3 +1,7 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../images/M-S-AAA.png" style="zoom:75%;" />
+
 Many alerts can be setup with xDrip+.
 
 <img src="../images/M-S-AAM.png" style="zoom:75%;" />
@@ -84,6 +88,8 @@ Start snoozed applies the snooze delay before triggering the alarm. Make sure th
 
 <img src="../images/M-S-AA-GAf.png" style="zoom:75%;" />
 
+##### Glucose Level Alert List
+
 You can add a additional line to `Glucose Level Alert List` in the main menu.
 
 <img src="../images/M-S-AA-GAg.png" style="zoom:75%;" />
@@ -156,7 +162,7 @@ You can set an alarm on forecasted low value. This feature will use the momentum
 
 <img src="../images/M-S-AA-EAb.png" style="zoom:75%;" />
 
-In the example below if you set Alarm at forecasted low (min) to 90 minutes, il will trigger. See the red dotted line? It's the forecasted BG if it will continue with the same trend, as extrapolated from the previous measurements.
+In the example below if you set Alarm at forecasted low (min) to 50 minutes, il will trigger. The red dotted line is the forecasted BG trend, extrapolated from the previous measurements.
 
 <img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" />
 
@@ -165,3 +171,26 @@ Battery alerts are available if your bridge sends this information to xDrip+.
 
 <img src="../images/M-S-AA-EAc.png" style="zoom:75%;" />
 
+## Snooze Alert
+
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../images/M-SNO.png" style="zoom:75%;" />  
+
+If there is no active alert, you can **pre-snooze** alerts from this menu so that they won't trigger for a certain time.
+
+<img src="../images/M-SNOa.png" style="zoom:75%;" />  
+
+You will be proposed a default snooze period.
+
+<img src="../images/M-SNOb.png" style="zoom:75%;" />  
+
+If an alert triggers you will see the notification in your phone drop down panel, and eventually hear the sound.
+
+<img src="../images/M-SNOc.png" style="zoom:75%;" />  
+
+You can access the snooze menu by touching the notification or from xDrip+ main menu, snooze alert.
+
+At this point, the snooze menu will also display the active alert.  
+Touching snooze will snooze it for the period selected.
+
+<img src="../images/M-SNOd.png" style="zoom:75%;" />  
