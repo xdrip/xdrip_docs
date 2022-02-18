@@ -8,7 +8,7 @@ If you've just setup xDrip+ you want to start with basic customizations:
 
 1. [Setup the unit you want to display your blood glucose with](../settings)
 2. [Add alarms](../alarms)
-3. If you're connecting xDrip+ to a sensor, share data
+3. If you're connecting xDrip+ to a sensor, share data to another phone with xDrip+ or to the [cloud](../cloud)
 4. Display xDrip+ on the phone when screen is locked
 5. Add a widget to your phone home screen
 6. Add a smartwatch
@@ -105,13 +105,11 @@ They will be added to the graph like this:
 
 By touching them you can edit or delete them.
 
-### Main menu
+### [Main menu](../hamburger)
 
 Also called hanburger or drawer menu, this is the main menu in which you'll be able to find or place the most common actions you need and also all settings and customizations.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-Look [here](../hamburger) for more information.
 
 ### Blood drop menu
 
@@ -148,7 +146,7 @@ Graphical trend arrows angle depends on the reading difference with the previous
 
 <img src="../images/UI-GraphicArrow.png" style="zoom:90%;" />
 
-### Three dots menu
+### [Three dots menu](../3dotsmenu)
 
 This menu contains some shortcuts to settings and other unique functions.
 

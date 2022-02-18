@@ -55,6 +55,9 @@ nav:
         - 'Statistics': 'use/statistics.md'
         - 'Alarms and Alerts': 'use/alarms.md'
         - 'Cloud Upload': 'use/cloud.md'
+        - 'Glucose Meter': 'use/glucometer.md'
+    - Smart Watch:
+        - 'Smartwatches': 'smartwatch/smartwatch.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
