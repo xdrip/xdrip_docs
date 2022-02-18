@@ -1,6 +1,6 @@
 For using xDrip+ with data coming from your [Nightscout](https://nightscout.github.io/) site, you only need to enter your site URL, you can also download compatible treatments from Nightscout (BG, calibrations, treatments).
 
-<img src="../images/M-S-HDS-NSfollow.png" style="zoom:75%;" />
+<img src="../images/M-S-HDS-NSF.png" style="zoom:75%;" />
 
 With a classic DIY Nightscout URL it will look like this: `https://sitename.herokuapp.com`
 

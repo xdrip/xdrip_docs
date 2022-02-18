@@ -1,3 +1,5 @@
+<img src="../../images/3dots_menu.png" style="zoom:75%;" />
+
 ### Reminders
 
 You can setup various reminders with this menu, just touch the + button bottom right.

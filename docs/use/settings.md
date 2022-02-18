@@ -16,15 +16,13 @@ These two targets will decide when the graph BG dots change color above or below
 
 <img src="../images/M-S-GUS.png" style="zoom:75%;" />
 
-### Alarms and Alerts
+### [Alarms and Alerts](../alarms)
 
 <img src="../images/M-S-AAA.png" style="zoom:75%;" />
 
-See [here](../alarms/).
+### [Hardware Data Source](../../install/datasource)
 
-### Hardware Data Source
-
-These settings depend on the data source selected, see [here](../../install/datasource/).
+These settings depend on the data source selected.
 
 <img src="../images/M-S-DSS.png" style="zoom:75%;" />
 
@@ -42,13 +40,13 @@ You can then scan the QR code displayed on another phone in order to copy the se
 
 Current settings will be overwritten. You might need to restart your phone to apply the changes.
 
-### Cloud Upload
+### [Cloud Upload](../cloud)
 
 Cloud upload is used to configure various sharing and data upload features.
 
 <img src="../images/M-S-CU.png" style="zoom:75%;" />
 
-### Glucose Meters
+### [Glucose Meters](../glucometer)
 
 You can connect compatible glucose meters to xDrip+.
 

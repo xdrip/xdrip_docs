@@ -96,6 +96,8 @@ Mind your InfluxDB URI will be expressed like:
 
 ### Dexcom Share Server Upload
 
+Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to manage your followers.
+
 <img src="../images/M-S-CU-DX.png" style="zoom:75%;" />
 
 You can upload your BG to Dexcom share, not to Clarity.
@@ -114,7 +116,7 @@ If you don't own a physical receiver you can use `sm00000000`
 
 <img src="../images/M-S-CU-DXd.png" style="zoom:75%;" />
 
-You can manage your Dexcom followers from this menu:
+Invite followers and fill all the information.
 
 <img src="../images/M-S-CU-DXe.png" style="zoom:75%;" />
 
@@ -122,7 +124,35 @@ You can manage your Dexcom followers from this menu:
 
 <img src="../images/M-S-CU-DXg.png" style="zoom:75%;" />
 
+You will receive the invitation email, accept it and you'll have a new follower.
+
+You can also delete followers from the list.
+
 ### Tidepool
 
 <img src="../images/M-S-CU-TP.png" style="zoom:75%;" />
 
+If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.
+
+<img src="../images/M-S-CU-TPa.png" style="zoom:75%;" />
+
+Add your email address and password (those you used to [register](https://app.tidepool.org/signup/personal)).  
+Once done, test the connection.
+
+<img src="../images/M-S-CU-TPb.png" style="zoom:75%;" />
+
+Tidepool doesn't need real time data, select the amount of data to upload.
+
+<img src="../images/M-S-CU-TPc.png" style="zoom:75%;" />
+
+Do **not** use test servers (keep unselected).
+
+<img src="../images/M-S-CU-TPd.png" style="zoom:75%;" />
+
+You can select to upload at specific conditions to save battery and data costs.
+
+<img src="../images/M-S-CU-TPe.png" style="zoom:75%;" />
+
+If you also upload data manually from your pump, you might want to disable xDrip+ treatments upload to avoid duplicates.
+
+<img src="../images/M-S-CU-TPf.png" style="zoom:75%;" />
