@@ -23,45 +23,7 @@ Follow this sequence:
 
 ## Backup
 
-### Backup settings
-
-`Menu` / `Settings` / `Load / Save settings`
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../images/M-S.png" style="zoom:75%;" />
-
-<img src="../../images/M-S-LSS.png" style="zoom:75%;" />
-
-</br>
-
-You also can access it from the 3 dots menu:
-
-<img src="../../images/3dots_menu.png" style="zoom:75%;" />
-
-Select `Import Export features`.
-
-<img src="../../images/3DM.png" style="zoom:75%;" />
-
-Select `Load/Save settings`
-
-<img src="../../images/3DM-IE.png" style="zoom:75%;" />
-
-</br>
-
-Select `SAVE ALL SETTINGS`
-
-<img src="../images/M-S-Settings.png" style="zoom:75%;" />
-
-Your settings will be saved in `/storage/emulated/0/Download/xDrip-Export` for old versions (export to SD) or in the `Download/xDrip-export` folder for recent versions   
-You need to authorize xDrip+ to access your phone memory.  
-Existing backup will be overwritten.
-
-<img src="../images/M-S-SettingsLoc.png" style="zoom:75%;" />
-
-If you want to keep a safe copy, send the file to yourself by email, save in on a cloud drive or copy it via USB to a computer.
-
-</br>
+### [Backup settings](../../use/loadsavesettings)
 
 ### Backup the database
 
@@ -107,39 +69,7 @@ Select `RESTORE SETTINGS`
 
 <img src="../images/RestoreSettings.png" style="zoom:75%;" />
 
-</br>
-
-If you don't see this message, restore it manually.
-
-`Menu` / `Settings` / `Load/Save settings`
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../images/M-S.png" style="zoom:75%;" />
-
-<img src="../../images/M-S-LSS.png" style="zoom:75%;" />
-
-</br>
-
-You also can access it from the 3 dots menu:
-
-<img src="../../images/3dots_menu.png" style="zoom:75%;" />
-
-Select `Import Export features`.
-
-<img src="../../images/3DM.png" style="zoom:75%;" />
-
-Select `Load/Save settings`
-
-<img src="../../images/3DM-IE.png" style="zoom:75%;" />
-
-</br>
-
-Select `LOAD ALL SETTINGS`
-
-<img src="../images/M-S-Settings.png" style="zoom:75%;" />
-
-</br>
+If you don't see this message, [restore them manually](../../use/loadsavesettings/#load-settings).
 
 ### Restore a database
 

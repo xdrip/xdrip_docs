@@ -52,12 +52,19 @@ nav:
         - '3 Dots menu': 'use/3dotsmenu.md'
         - 'Main menu': 'use/hamburger.md'
         - 'Settings': 'use/settings.md'
+        - 'Copy settings': 'use/copysettings.md'
         - 'Statistics': 'use/statistics.md'
         - 'Alarms and Alerts': 'use/alarms.md'
         - 'Cloud Upload': 'use/cloud.md'
         - 'Glucose Meter': 'use/glucometer.md'
-    - Smart Watch:
+        - 'Speak Readings': 'use/speak.md'
+        - 'Inter-apps': 'use/interapp.md'
+        - 'Display': 'use/display.md'
+        - 'Load / Save Settings': 'use/loadsavesettings.md'
+    - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
+        - 'Android Wear': 'smartwatch/wear.md'
+        - 'Pebble': 'smartwatch/pebble.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
