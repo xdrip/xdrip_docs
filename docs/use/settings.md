@@ -26,19 +26,11 @@ These settings depend on the data source selected.
 
 <img src="../images/M-S-DSS.png" style="zoom:75%;" />
 
-### Auto Configure
+### [Auto Configure](../copysettings/#auto-configure)
 
 Auto configure will help you copy settings between two xDrip+ apps installed on different phones.
 
 <img src="../images/M-S-AC.png" style="zoom:75%;" />
-
-You need to authorize xDrip+ to access the phone camera.
-
-You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained here.
-
-<img src="../images/M-S-ACS.png" style="zoom:75%;" />
-
-Current settings will be overwritten. You might need to restart your phone to apply the changes.
 
 ### [Cloud Upload](../cloud)
 
@@ -52,19 +44,19 @@ You can connect compatible glucose meters to xDrip+.
 
 <img src="../images/M-S-GM.png" style="zoom:75%;" />
 
-### Smart Watch Features
+### [Smart Watch Features](../../smartwatch/smartwatch)
 
 Various smartwatch can receive data and display them from xDrip+, some can even act as a standalone collector.
 
 <img src="../images/M-S-SW.png" style="zoom:75%;" />
 
-### Speak Readings
+### [Speak Readings](../speak.md)
 
 xDrip+ can use the phone to speak values and alerts.
 
 <img src="../images/M-S-SR.png" style="zoom:75%;" />
 
-### Inter-app Settings
+### [Inter-app Settings](../interapp)
 
 xDrip+ can accept or send data to other apps, and act as a local web server.
 
@@ -72,7 +64,42 @@ xDrip+ can accept or send data to other apps, and act as a local web server.
 
 ### Less Common Settings
 
-Even more settings are available here.
+More settings are available in this menu.
 
 <img src="../../images/M-S-LCS.png" style="zoom:75%;" />
 
+### xDrip+ Display Settings
+
+<img src="../images/M-S-DS.png" style="zoom:75%;" />
+
+### xDrip+ Predictive Simulation Settings
+
+<img src="../images/M-S-PS.png" style="zoom:75%;" />
+
+### xDrip+ Motion Tracking
+
+<img src="../images/M-S-MT.png" style="zoom:75%;" />
+
+### xDrip+ Update Settings
+
+<img src="../images/M-S-US.png" style="zoom:75%;" />
+
+### [Show Settings QR Code](../copysettings/#show-settings-qr-code)
+
+This feature is used to transfer settings between phones.
+
+<img src="../images/M-S-QR.png" style="zoom:75%;" />
+
+### [Load / Save Settings](../loadsavesettings)
+
+You can backup and retrieve your xDrip+ settings.
+
+<img src="../../images/M-S-LSS.png" style="zoom:75%;" />
+
+### InPen Insulin Pen
+
+<img src="../images/M-S-IP.png" style="zoom:75%;" />
+
+### Pendiq 2.0 Insulin Pen
+
+<img src="../images/M-S-PI.png" style="zoom:75%;" />
