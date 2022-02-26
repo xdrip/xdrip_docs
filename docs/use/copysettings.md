@@ -5,6 +5,7 @@ xDrip+ provides an easy way to copy settings from one phone to another.
 Show settings QR code displays a QR code containing xDrip+ settings.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../images/M-S-QR.png" style="zoom:75%;" />
 
 <img src="../images/M-S-QRa.png" style="zoom:75%;" />

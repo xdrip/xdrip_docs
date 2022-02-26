@@ -68,13 +68,17 @@ More settings are available in this menu.
 
 <img src="../../images/M-S-LCS.png" style="zoom:75%;" />
 
-### xDrip+ Display Settings
+### [xDrip+ Display Settings](../display)
 
 <img src="../images/M-S-DS.png" style="zoom:75%;" />
 
-### xDrip+ Predictive Simulation Settings
+### [xDrip+ Predictive Simulation Settings](../predictions)
 
 <img src="../images/M-S-PS.png" style="zoom:75%;" />
+
+### [xDrip+ Sync Settings](../sync)
+
+<img src="../images/M-S-SY.png" style="zoom:75%;" />
 
 ### xDrip+ Motion Tracking
 

@@ -11,6 +11,8 @@ Once installed, open xDrip+.
 
 <img src="../../images/Install03.png" style="zoom:75%;" />
 
+### Understand what is xDrip+
+
 **Read** the important Warning.  
 
 <img src="../../images/Install05.png" style="zoom:75%;" />
@@ -45,7 +47,7 @@ Once installed, open xDrip+.
 
 </br>
 
-#### Authorize background activity
+### Authorize background activity
 
 xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
 
