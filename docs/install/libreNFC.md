@@ -1,4 +1,4 @@
-If your phone has an NFC reader you can use it to scan your Libre sensor. Compatible phones will allow you to install LibreLink (if you can find it in your region Google Play store). There were doubts on some smartphones "breaking" the sensor but recent models should be safe. In case of doubt, try the feature on a sensor close to expiration date.
+If your phone has an NFC reader you can use it to scan your Libre sensor. Compatible phones will allow you to install LibreLink (if you can find it in your region Google Play store). There were doubts on some smartphones "breaking" the sensor but recent models should be safe. If your phone is not compatible with the vendor app, you should try the feature on a sensor close to expiration date.
 
 <img src="../images/M-S-HDS-NFC1.png" style="zoom:87%;" />
 

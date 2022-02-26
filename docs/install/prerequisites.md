@@ -8,7 +8,8 @@ You need an Android phone.
 
 ### Family Link
 
-To install xDrip+ on a phone monitored by [Google Family Link](https://families.google.com/families) you must disable it until you've installed the app.
+To install xDrip+ on a phone monitored by [Google Family Link](https://families.google.com/families) you must disable it until you've installed the app.  
+If you want to enable it again afterwards make sure xDrip+ has all rights and no time limitations.
 
 ### Work profile
 

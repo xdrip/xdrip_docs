@@ -8,7 +8,3 @@ For using xDrip+ with data coming from share servers, you must enter the credent
 <img src="../images/M-S-HDS-DexSh.png" style="zoom:75%;" />
 
 The same guidelines apply than those for the `bridge` plugin in Nightscout. [Please check here for more information](https://nightscout.github.io/troubleshoot/dexcom_bridge/).
-
-!!!info "Username is an email address"  
-    xDrip+ does not currently support email addresses as an username.
-

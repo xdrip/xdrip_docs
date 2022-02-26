@@ -108,8 +108,7 @@ If you use a Libre sensor `Show Libre Trend` will display the last 45 minutes se
 
 ### Share Settings via QR code
 
-This is a shortcut to `Menu` / `Settings` / `Load / Save settings`  
-See [here](../../troubleshoot/reinstall/#backup-settings).
+This is a shortcut to `Menu` / `Settings` / [`Show Settings QR Code`](../copysettings) 
 
 ### Check for Updated Version
 

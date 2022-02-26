@@ -10,7 +10,7 @@ If you've just setup xDrip+ you want to start with basic customizations:
 2. [Add alarms](../alarms)
 3. If you're connecting xDrip+ to a sensor, share data to another phone with xDrip+ or to the [cloud](../cloud)
 4. Display xDrip+ on the phone when screen is locked
-5. Add a widget to your phone home screen
+5. Add a [widget](#widget) to your phone home screen
 6. Add a smartwatch
 
 ### Basic indications
@@ -48,6 +48,9 @@ Grams of carbs
 <img src="../images/UI-Treat2.png" style="zoom:75%;" />
 
 Units of insulin
+
+!!!note  
+    If you enabled [multiple insulin types](../predictions/#multiple-insulin-types), you should also select the insulin type for this treatment.
 
 <img src="../images/UI-Treat3.png" style="zoom:75%;" />
 
@@ -154,3 +157,21 @@ This menu contains some shortcuts to settings and other unique functions.
 
 <img src="../../images/3DM.png" style="zoom:75%;" />
 
+### Widget
+
+If your phone supports widgets, long touch an empty area on your home screen and select widgets.  
+Browse the apps until you find xDrip+. 
+
+<img src="../images/Widget1.png" style="zoom:75%;" />
+
+Keep your finger on the widget and drag it to the position you want it to be displayed.
+
+<img src="../images/Widget2.png" style="zoom:75%;" />
+
+You can resize it using the blue dots.
+
+<img src="../images/Widget3.png" style="zoom:75%;" />
+
+And make it the size you like. Then you can customize colors and contents aspect in [display settings](../display).
+
+<img src="../images/Widget4.png" style="zoom:75%;" />

@@ -61,6 +61,8 @@ nav:
         - 'Inter-apps': 'use/interapp.md'
         - 'Display': 'use/display.md'
         - 'Load / Save Settings': 'use/loadsavesettings.md'
+        - 'Predictive Simulation': 'use/predictions.md'
+        - 'xDrip+ Sync': 'use/sync.md'
     - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
         - 'Android Wear': 'smartwatch/wear.md'
