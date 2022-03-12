@@ -62,7 +62,7 @@ If you want to secure your connection (local intranets and public wifi) you can 
 
 <img src="../images/M-S-SY8d.png" style="zoom:75%;" />
 
-If you're without data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. This will weight heavily on the master battery, make sure you have a backup power bank available. 
+If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weight heavily on the master battery, make sure you have a backup power bank available. 
 
 Look in system status to check everything is connecting correctly.
 

@@ -15,7 +15,6 @@ Put your meter in pairing mode and touch scan in the Scan for Bluetooth Meter me
 <img src="../images/M-S-GMc.png" style="zoom:75%;" />
 
 Once paired you can enable the meter in the menu.  
-Be careful with calibrations.  
 It is not recommended to enable automatic calibration.
 
 <img src="../images/M-S-GMd.png" style="zoom:75%;" />

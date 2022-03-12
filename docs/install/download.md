@@ -10,7 +10,9 @@ You have two main choices when installing xDrip+, either install the Latest rele
 
 Latest release is a stable version of xDrip+. It doesn't have all the newest features but has proven stability and doesn't suffer severe bugs. It's a safe version to start with.
 
-You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk).
+You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk) or follow this QR code:
+
+<img src="https://jamorham.github.io/images/download-xdrip-plus-qr-code-120.png" />
 
 You will also find it in the [main repository](https://github.com/NightscoutFoundation/xDrip) selecting Latest.
 
@@ -49,3 +51,4 @@ Bence's private versions for CareLink follower is also available [here](https://
 </br>
 
 Once downloaded proceed to [installation](../install)
+

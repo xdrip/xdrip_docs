@@ -80,11 +80,11 @@ More settings are available in this menu.
 
 <img src="../images/M-S-SY.png" style="zoom:75%;" />
 
-### xDrip+ Motion Tracking
+### [xDrip+ Motion Tracking](../motion)
 
 <img src="../images/M-S-MT.png" style="zoom:75%;" />
 
-### xDrip+ Update Settings
+### [xDrip+ Update Settings](../update)
 
 <img src="../images/M-S-US.png" style="zoom:75%;" />
 

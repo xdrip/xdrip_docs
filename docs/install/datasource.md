@@ -28,7 +28,8 @@ If your bridge paired to Android, unpair it before continuing.
 !!!warning "One device at a time"  
     Sensors and bridges can only connect to one smartphone (or tablet) at a time, and only to one app at a time.  
     You should uninstall the vendor app in order to connect xDrip+ to your sensor or bridge.  
-    If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.
+    If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.  
+    **The only exception to this is G6 that you can connect simultaneously to the receiver and xDrip+.**
 
 </br>
 
@@ -51,13 +52,15 @@ The following sensors are supported directly by xDrip+:
 - [Medtrum A6/S7](../medtrum)  
   <img src="../images/Install36.png" style="zoom:54%;" />    <img src="../images/Install37.png" style="zoom:53%;" />
 
-The following sensors are supported with a companion app:
+The following sensors and features are supported with a companion app:
 
 - [Libre 2 (only EU)](../libre2patch)  
   <img src="../images/Install32.png" style="zoom:51%;" />    <img src="../images/Install35.png" style="zoom:53%;" />
 - [Eversense](../eversense)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install41.png" style="zoom:53%;" />
-- [640G/670G pumps](640G_670)  
+- [640G/670G pumps](../640_670)  
+  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
+- [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 
 </br>
@@ -65,7 +68,7 @@ The following sensors are supported with a companion app:
 ## Follower mode
 
 - [xDrip+ Sync](../xdripfollower) (requires Google Play Services)
-- [Nightscout](../nightscoutfollower)  
+- [Nightscout and Diabox](../nightscoutfollower)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />

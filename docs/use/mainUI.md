@@ -8,10 +8,10 @@ If you've just setup xDrip+ you want to start with basic customizations:
 
 1. [Setup the unit you want to display your blood glucose with](../settings)
 2. [Add alarms](../alarms)
-3. If you're connecting xDrip+ to a sensor, share data to another phone with xDrip+ or to the [cloud](../cloud)
-4. Display xDrip+ on the phone when screen is locked
+3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](../sync) or to the [cloud](../cloud)
+4. Display xDrip+ on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
 5. Add a [widget](#widget) to your phone home screen
-6. Add a smartwatch
+6. Add a [smartwatch](../../smartwatch/smartwatch)
 
 ### Basic indications
 
@@ -86,7 +86,7 @@ When visible, you can delete treatments like this:
 
 <img src="../images/UI-Treat10.png" style="zoom:75%;" />
 
-Note that if you touch a blood test and edit it you can also convert it to a calibration using Calibrate.
+Note that if you touch a blood test and edit it you can also convert it to a calibration using Calibrate. This is possible if you didn't select `Never use them` in [Advanced Calibrations](../../calibrate/advancedcal).
 
 <img src="../images/UI-Treat11.png" style="zoom:75%;" />
 
