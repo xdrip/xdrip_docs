@@ -99,6 +99,12 @@ In order to have BG values that are not varying too rapidly, you shouldn't calib
     Unless expressly required by your sensor do not calibrate systematically when performing a blood test.  
     For Libre sensors, do not necessarily calibrate if difference is less than 15%.
 
+**Don't overcalibrate**, you can perform as many blood checks as you want, enter them as treatments in xDrip+ but add calibrations with extra care.
+
+On your calibration graph you will see active calibration points in blue and old or invalid ones in grey.
+
+<img src="../images/CAL15.png" style="zoom:75%;"  />
+
 If you see, at stable BG, comparing xDrip+ value 10 minutes after your blood test, that the value differs too much, you will add another calibration point.
 
 Since BG trends often are difficult to forecast, you can use a trick:
@@ -138,5 +144,7 @@ From the main menu, Stop Sensor.
 **Do not stop sensor** reset all calibrations.
 
 <img src="../images/CAL13.png" style="zoom:75%;"  />
+
+<img src="../images/CAL14.png" style="zoom:75%;"  />
 
 xDrip+ will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
