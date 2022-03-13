@@ -22,7 +22,7 @@ A sensor requiring a large positive intercept might not be safe. If you believe 
 
 #### New calibration is ignored
 
-<img src="../images/CAL18.png" style="zoom:75%;"  />
+<img src="../images/CAL19.png" style="zoom:75%;"  />
 
 Check Calibration Data Table and you will most probably see your calibrations ended displayed in red as they are disabled for safety reasons.
 
