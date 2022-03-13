@@ -42,15 +42,15 @@ Filtered values can be seen with sensors supporting raw data.
 
 <img src="../images/M-S-DS2d2.png" style="zoom:75%;" />
 
-1. Treatment color (treatment main curve)
-2. Treatment color dark (small dotted line)
+1. Treatment color (treatment main curve) active insulin
+2. Treatment color dark (small dotted line) Iinsulin on board
 
 <img src="../images/M-S-DS2e.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2e2.png" style="zoom:75%;" />
 
 1. Predictive color (main prediction graph)
-2. Predictive color dark (small dotted line)
+2. Predictive color dark (small dotted line) carbs on board
 
 <img src="../images/M-S-DS2f.png" style="zoom:75%;" />
 
