@@ -52,13 +52,13 @@ If your sensor requires calibrations, after connecting it to xDrip+ and receivin
 
 <img src="../images/CAL01.png" style="zoom:75%;" />
 
-Two values initial calibration values are historical from G4. If you want to use that correcty: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](../advancedcal/#calibrations).
+Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](../advancedcal/#calibrations).
 
 <img src="../images/CAL02.png" style="zoom:75%;" />
 
 If you're using native calibration, the value will be sent to the transmitter for processing.
 
-If you're using xDrip+ calibration, this value will be processed 10 minutes later to make sure to compensate for all physiological and chimical delays of the CGM measurement, **this is why it's extremely important to calibrate at stable BG**.
+If you're using xDrip+ calibration, this value will be processed 10 minutes later to make sure to compensate for all physiological and chemical delays of the CGM measurement, **this is why it's extremely important to calibrate at stable BG**.
 
 Let's look graphically at what will happen on the main view:
 

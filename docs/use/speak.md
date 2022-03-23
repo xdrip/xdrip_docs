@@ -2,11 +2,11 @@
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../images/M-S-SR.png" style="zoom:75%;" />
 
-If you phone supports text to speach, you can have xDrip+ verbally read various events for you.
+If you phone supports text to speech, you can have xDrip+ verbally read various events for you.
 
 <img src="../images/M-S-SRa.png" style="zoom:75%;" />
 
-When enabling the feature, if Text to Speach is not already present on your device you will need to install it from the [Google Store](https://play.google.com/store/apps/details?id=com.google.android.tts) or your phone vendor store.
+When enabling the feature, if Text to Speech is not already present on your device you will need to install it from the [Google Store](https://play.google.com/store/apps/details?id=com.google.android.tts) or your phone vendor store.
 
 <img src="../images/M-S-SRb.png" style="zoom:75%;" />
 

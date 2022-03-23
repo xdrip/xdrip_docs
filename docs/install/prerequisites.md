@@ -15,7 +15,7 @@ If you want to enable it again afterwards make sure xDrip+ has all rights and no
 
 If you use a company controlled phone, you might not be able to install xDrip+ due to corporate policies.
 
-You can try to sideload the app with [Android Debug](https://developer.android.com/studio/command-line/adb) using a computer after [enabling developer options](https://developer.android.com/studio/command-line/adb#Enabling) on your phone. Remember to delete xDrip+ in your work profile if necessary, as it might be installed in both environments.
+You can try to sideload the app with [Android Debug](../../troubleshoot/ADB) using a computer after enabling developer options on your phone. Remember to delete xDrip+ in your work profile if necessary, as it might be installed in both environments.
 
 ### Phone time accuracy
 
@@ -33,7 +33,7 @@ If you use xDrip+ with a Bluetooth sensor or bridge you **must** enable location
 
 ### Energy savings
 
-**Disable** all phone [energy/battery optimizations/savings](energy/battery optimizations/savings) before installing xDrip+.  
+**Disable** all phone energy savings/battery Android settings before installing xDrip+.  
 You can try to restore some after verifying xDrip+ is working correctly, never optimize xDrip+.
 
 </br>

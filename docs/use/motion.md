@@ -26,7 +26,7 @@ Vehicle mode enables more options.
 <img src="../images/M-S-MT5a.png" style="zoom:75%;" />
 
 You can enable automatically vehicle mode when connecting to your car Bluetooth audio system.  
-You can also set it manually by identifying your car audio BLuetooth connection.
+You can also set it manually by identifying your car audio Bluetooth connection.
 
 <img src="../images/M-S-MT6.png" style="zoom:75%;" />
 
@@ -38,6 +38,6 @@ You can make xDrip+ automatically enable spoken readings when driving.
 
 <img src="../images/M-S-MT8.png" style="zoom:75%;" />
 
-You can have a sound played when switching to motion detection mode and a reminder sound every 90 minues. 
+You can have a sound played when switching to motion detection mode and a reminder sound every 90 minutes. 
 
 <img src="../images/M-S-MT9.png" style="zoom:75%;" />

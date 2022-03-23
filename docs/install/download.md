@@ -39,7 +39,7 @@ Some developers add features and customizations that are not available in the of
 
 !!!warning "Updating private versions"  
     You can use these versions but need to understand they might be supported only by their creator.  
-    xDrip+ automatic updates won't work with private versions.  
+    **xDrip+ automatic updates won't work with private versions.**  
     Also keep in mind you cannot install a private version if you have an official version installed on your phone:  
     you will need to uninstall it first.  
     The same applies for the other way round (from private to official).

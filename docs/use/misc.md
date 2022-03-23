@@ -13,7 +13,7 @@ This will force displaying a graph in the notifications area, **you shouldn't di
 
 <img src="../images/M-S-LCS15a2.png" style="zoom:75%;" />
 
-Engineering mode enables feature that are potentially dangerous or untested. You do not need it to be enabled for restarting a G5 or G6 transmitter. It will automaticaly disable when restarting xDrip+ (rebooting your phone for example).
+Engineering mode enables feature that are potentially dangerous or untested. You do not need it to be enabled for restarting a G5 or an old G6 transmitter (newer ones will be permanently damaged). It will automatically disable when restarting xDrip+ (rebooting your phone for example).
 
 <img src="../images/M-S-LCS15b.png" style="zoom:75%;" />
 
@@ -25,7 +25,7 @@ Battery Optimization Prompt should be left **disabled**. xDrip+ needs [whitelist
 
 <img src="../images/M-S-LCS15c.png" style="zoom:75%;" />
 
-Samsung Workarounds fixes a non complicance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
+Samsung Workarounds fixes a non compliance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
 
 <img src="../images/M-S-LCS15j.png" style="zoom:75%;" />
 

@@ -20,7 +20,7 @@ At Home Only will make the reminder trigger only when the phone is connected to 
 
 Toggling the checkboxes will give hints on the actual function.
 
-Once set, you can cange the reminder title by touching it.
+Once set, you can change the reminder title by touching it.
 
 You can modify it with a long touch.
 
@@ -112,7 +112,7 @@ This is a shortcut to `Menu` / `Settings` / [`Show Settings QR Code`](../copyset
 
 ### Check for Updated Version
 
-This entry triggers a version check as defined in `Menu` / `Settings` / `xDrip+ Update Settings`  
+This entry triggers a version check as defined in `Menu` / `Settings` / [`xDrip+ Update Settings`](../update)  
 If a new version is available it will open the download screen.
 
 <img src="../images/3DM-CU.png" style="zoom:75%;" /> 

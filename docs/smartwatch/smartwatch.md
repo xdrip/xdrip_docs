@@ -90,7 +90,8 @@ Ionic/Sense/Versa/Versa 2/Versa 3/Versa Lite
 
 ##### [Sentinel](https://gallery.fitbit.com/developer/b50ac7f5-b932-441a-be18-e258b17c736b)
 
-Ionic/Sense/Versa/Versa 2/Versa Lite
+Sentinel Elite for Sense/Versa 3  
+Sentinel Pro for  Ionic/Versa/Versa 2/Versa Lite
 
 Facebook group: [Sentinel](https://www.facebook.com/groups/3185325128159614)
 

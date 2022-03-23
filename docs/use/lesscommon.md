@@ -20,7 +20,7 @@ This menu allows you to add extra information in this area.
 
 <img src="../images/M-S-LCS2a.png" style="zoom:75%;" />
 
-You need to enable the extra status line to add extra infomation.
+You need to enable the extra status line to add extra information.
 
 <img src="../images/M-S-LCS2b.png" style="zoom:75%;" />
 
@@ -109,7 +109,7 @@ This will add new entries in your main menu:
 
 ### Display Bridge Battery
 
-You can display your Bluetooth bridge battery level on the main view. This also applies to Libre bluetooth bridges.
+You can display your Bluetooth bridge battery level on the main view. This also applies to Libre Bluetooth bridges.
 
 <img src="../images/M-S-LCS11.png" style="zoom:75%;" />
 

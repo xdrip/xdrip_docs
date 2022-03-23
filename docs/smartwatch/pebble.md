@@ -14,7 +14,7 @@ It will also propose you to install the snooze button app, if you skipped it you
 
 <img src="../images/M-S-SW3c.png" style="zoom:75%;" />
 
-You can select different watchfaces.
+You can select different watchface.
 
 <img src="../images/M-S-SW3d.png" style="zoom:75%;" />
 

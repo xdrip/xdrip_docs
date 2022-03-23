@@ -33,7 +33,7 @@ Remote snoozing allows the snooze request to propagate along the group. Master o
 
 <img src="../images/M-S-SY7.png" style="zoom:75%;" />
 
-Disable Sync ompletely disables sharing. You might need to restart your phone when you enable it back.
+Disable Sync completely disables sharing. You might need to restart your phone when you enable it back.
 
 <img src="../images/M-S-SY9.png" style="zoom:75%;" />
 

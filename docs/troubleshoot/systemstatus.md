@@ -1,3 +1,6 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-SS.png" style="zoom:75%;" />  
+
 System status provides internal information on xDrip+ collector state (either from a sensor or as a follower) as well as sharing, followers and smartwatch connected directly.
 
 ### Classic Status Page
@@ -19,8 +22,6 @@ In the case of a physical sensor, after the data source type, you'll see the nam
 
 <img src="../images/M-SS-CS2.png" style="zoom:75%;" />
 
-Most data sources will have an advanced status tab. Swipe your finger on the screen towards the left to display it.
-
 #### Restart collector - Forget device
 
 <img src="../images/M-SS-CSRCFD.png" style="zoom:75%;" />
@@ -31,6 +32,10 @@ Forget device will only have effect when xDrip+ is connected through Bluetooth t
 The device will be disconnected and you will need to scan Bluetooth from the main menu to recover the connection.
 
 ### Advanced status page
+
+Most data sources will have an advanced status tab. Swipe your finger on the screen towards the left to display it.
+
+<img src="../images/M-SS.png" style="zoom:75%;" />
 
 General information:  
 Buggy Samsung is not an error, but just the fact xDrip+ is [correcting](https://github.com/NightscoutFoundation/xDrip/issues/435) a non-compliance of Samsung devices.
@@ -89,33 +94,7 @@ Newer firmware will require you to update xDrip+, if the latest pre-release stil
 
 #### Libre Bluetooth
 
-All devices report as LimiTTer until connected, only Libre 2 direct connection and some older bridges (Transmitter_T for example) will remain indicated as LimiTTer (and obviously [LimiTTer](https://github.com/JoernL/LimiTTer)s).
-
-<img src="../images/M-SS-CSL2.png" style="zoom:75%;" />
-
-Swipe the screen towards the left to display the BT Device page.
-
-Phone service state gives the last time data was received from the bridge, it should be equal or less than 5 minutes.  
-Next wake up will count down to the next expected data to be received, then restart at 5 minutes.
-
-Bluetooth should always be connected. If it isn't, check your [Bluetooth settings](../../install/libreBT/#bridge-settings) and [Restart collector](#restart-collector-forget-device). If device still isn't visible try to [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) to find it.
-
-<img src="../images/M-SS-BTLBa.png" style="zoom:75%;" />
-
-You will also see various information on the bridge like Mac address, hardware and firmware version. Note that battery level is not available on Blucon bridges and 100% will only mean that it's still usable. 
-
-<img src="../images/M-SS-BTLBb.png" style="zoom:75%;" />
-
-It is strongly recommended to upgrade your device firmware to the latest available version.
-
-**Bluetooth pairing should be disabled, if you changed this by mistake: touch the line to return to this state:**
-
-<img src="../images/M-SS-BTLBc.png" style="zoom:75%;" />
-
-No sensor found errors are usually due to bad positioning of the bridge over the sensor. Some bridges do not have any tolerance in respect with distance and angle to the sensor antenna area. It might also be due to an internal bridge issue, firmware issue, ...  
-Since this is a persistent message, check the time indicated is recent. If it is permamently 5 minutes ago, the sensor is not seen.
-
-<img src="../images/M-SS-BTLBd.png" style="zoom:75%;" />
+See the dedicated page [here](../librebridge).
 
 #### xDrip+ Sync Follower
 
@@ -128,5 +107,11 @@ Followers will add-up in the list when identified, if you remove a follower it m
 For initial setup problems check [here](../../install/xdripfollower/).
 
 #### Nightscout Follower
+
+This advances status page will show the activity when downloading from Nightscout. If no data is available, make sure you have current BG values in Nightscout.
+
+In case of download failure, if your Nightscout site is regularly updated by the master device and you see NS download errors this might be due to network problems. Disable Wi-Fi or SIM data and then try the other way round to exclude this problem.
+
+If it's never been working make sure you have [setup](../../install/nightscoutfollower) your follower URL correctly.
 
 <img src="../images/M-SS-NF.png" style="zoom:75%;" />
