@@ -34,7 +34,7 @@ Trust Auto-Connect really depends on your phone. If you have a Samsung phone you
 
 <img src="../images/M-S-LCS4f.png" style="zoom:75%;" />
 
-Use Backround scan is a feature of newer Android versions. If you regularly lose connection, leave it **disabled**.
+Use Background scan is a feature of newer Android versions. If you regularly lose connection, leave it **disabled**.
 
 <img src="../images/M-S-LCS4g.png" style="zoom:75%;" />
 
@@ -54,7 +54,7 @@ RFDuino support is only necessary if you use a [DIY bridge with RFDuino](https:/
 
 <img src="../images/M-S-LCS4k.png" style="zoom:75%;" />
 
-xBridge+ polling mode allows xDrip+ to send requests to the bridge. Even if it doesn't have any effect with other bluetooth devices you can leave it enabled if you have frequent connection loss as it will anyway keep your phone bluetooth busy trying to connect.
+xBridge+ polling mode allows xDrip+ to send requests to the bridge. Even if it doesn't have any effect with other Bluetooth devices you can leave it enabled if you have frequent connection loss as it will anyway keep your phone Bluetooth busy trying to connect.
 
 <img src="../images/M-S-LCS4l.png" style="zoom:75%;" />
 

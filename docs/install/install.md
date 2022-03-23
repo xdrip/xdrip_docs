@@ -67,7 +67,7 @@ Current version will be displayed after `Version`. In the example below, January
 
 <img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
 
-See here for upgrade or downgrade.
+See [here](../../use/update/) for upgrade or downgrade.
 
 </br>
 

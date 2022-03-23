@@ -42,8 +42,10 @@ In the case you have several devices uploading to Nightscout (not recommended) y
 
 <img src="../images/M-S-CU-NSf.png" style="zoom:75%;" />
 
+In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.
+
 !!!warning "Automatic Calibration"  
-    This is the same Automatic Calibration setup in calibrations. Use with care.
+    This is the same [Automatic Calibration](../../calibrate/advancedcal) setup in calibrations. Use with care.
 
 <img src="../images/M-S-CU-NSh.png" style="zoom:75%;" />
 
@@ -100,7 +102,8 @@ Once you have an active follower, created by the Dexcom apps, you can use xDrip+
 
 <img src="../images/M-S-CU-DX.png" style="zoom:75%;" />
 
-You can upload your BG to Dexcom share, not to Clarity.
+!!!info  
+    You can upload your BG to Dexcom share, not to Clarity.
 
 <img src="../images/M-S-CU-DXa.png" style="zoom:75%;" />
 

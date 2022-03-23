@@ -29,7 +29,7 @@ If your bridge paired to Android, unpair it before continuing.
     Sensors and bridges can only connect to one smartphone (or tablet) at a time, and only to one app at a time.  
     You should uninstall the vendor app in order to connect xDrip+ to your sensor or bridge.  
     If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.  
-    **The only exception to this is G6 that you can connect simultaneously to the receiver and xDrip+.**
+    **You cannot connect to two phones or applications. With an exception for G6: the second device can only be a receiver/connected pump or BlueJay watch.**
 
 </br>
 

@@ -50,7 +50,7 @@ Various smartwatch can receive data and display them from xDrip+, some can even 
 
 <img src="../images/M-S-SW.png" style="zoom:75%;" />
 
-### [Speak Readings](../speak.md)
+### [Speak Readings](../speak)
 
 xDrip+ can use the phone to speak values and alerts.
 
@@ -62,7 +62,7 @@ xDrip+ can accept or send data to other apps, and act as a local web server.
 
 <img src="../images/M-S-IA.png" style="zoom:75%;" />
 
-### Less Common Settings
+### [Less Common Settings](../lesscommon)
 
 More settings are available in this menu.
 

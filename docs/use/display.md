@@ -43,7 +43,7 @@ Filtered values can be seen with sensors supporting raw data.
 <img src="../images/M-S-DS2d2.png" style="zoom:75%;" />
 
 1. Treatment color (treatment main curve) active insulin
-2. Treatment color dark (small dotted line) Iinsulin on board
+2. Treatment color dark (small dotted line) insulin on board
 
 <img src="../images/M-S-DS2e.png" style="zoom:75%;" />
 
@@ -95,7 +95,7 @@ If you have steps and heart rate from a [wearable device](../../smartwatch/smart
 
 <img src="../images/M-S-DS2m.png" style="zoom:75%;" />
 
-In the example below 1. First step counter and 2. Heart rate
+In the example below 1. heart rate and 2. step counter.
 
 <img src="../../smartwatch/images/M-S-SW8c.png" style="zoom:75%;" />
 
@@ -137,7 +137,7 @@ Smoothing displays the smoothed curve, useful for noisy measurements.
 
 ### Show interface hints
 
-After you first installed xDrip+ you will see hintsduring first opening of some features, you can disable this behaviour or reset it.
+After you first installed xDrip+ you will see hints during first opening of some features, you can disable this behavior or reset it.
 
 <img src="../images/M-S-DS5.png" style="zoom:75%;" />
 

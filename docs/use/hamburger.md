@@ -1,7 +1,7 @@
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />    
 <img src="../images/UI-HM.png" style="zoom:75%;" />
 
-Many items can be placed in the menu, by default you'll find the following ones:
+Many items can be added to this menu, by default you'll find the following ones:
 
 `Home Screen` just returns to the main view.
 
@@ -15,7 +15,7 @@ Many items can be placed in the menu, by default you'll find the following ones:
 
 [`Settings`](../settings/) opens the settings menu.
 
-Additionally if can become more populated if you add items or when you use a sensor.
+Additionally if can show more entries if you add items or when you use a sensor.
 
 You will see sensor actions if you use xDrip+ directly connected to a sensor, also on xDrip+ Sync follower if the master is.
 
@@ -29,7 +29,7 @@ For Bluetooth bridges ([G4](../../install/G4/) and [Libre](../../install/libreBT
 
 `Level Alerts` will show if enabled in [Alerts and Alarms](../alarms/#glucose-level-alert-list).
 
-`BG Data Table`, `Calibration Graph` and `Calibration Data Table` can be added in  Less Common Settings.
+`BG Data Table`, `Calibration Graph` and `Calibration Data Table` should be [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
 
 ### History
 

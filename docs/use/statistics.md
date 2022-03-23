@@ -24,7 +24,7 @@ StdDev or standard deviation is the mathematical result of the calculation. It s
 Relative SD (CV) is the StdDev divided by mean and also shows the dispersion of your measurements.  
 GVI and PGS were parameters introduced by Dexcom see [here](https://web.archive.org/web/20160523152519/http://www.healthline.com/diabetesmine/a-new-view-of-glycemic-variability-how-long-is-your-line). 
 
-Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad mesaurements (inaccurate) will lead to bad statistics, should it be because of the sensor accuracy or your calibrations.
+Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad measurements (inaccurate) will lead to bad statistics, should it be because of the sensor accuracy or your calibrations.
 
 </br>
 

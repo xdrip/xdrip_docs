@@ -78,8 +78,12 @@ nav:
     - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
         - 'Android Wear': 'smartwatch/wear.md'
+        - 'Install on Android Wear': 'smartwatch/wearinstall.md'
         - 'Pebble': 'smartwatch/pebble.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
         - 'System Status': 'troubleshoot/systemstatus.md'
+        - 'Libre Bridge': 'troubleshoot/librebridge.md'
+        - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
+        - 'Android Debug Bridge': 'troubleshoot/ADB.md'

@@ -39,22 +39,26 @@ You can log treatments with the syringe icon.
 
 Add one or more elements to your treatment.
 
-Blood test (in the unit selected in xDrip+)
+#### Blood test
+
+It will display in the unit selected in xDrip+.
 
 <img src="../images/UI-Treat1.png" style="zoom:75%;" />
 
-Grams of carbs
+#### Grams of carbs
 
 <img src="../images/UI-Treat2.png" style="zoom:75%;" />
 
-Units of insulin
+#### Units of insulin
 
 !!!note  
     If you enabled [multiple insulin types](../predictions/#multiple-insulin-types), you should also select the insulin type for this treatment.
 
 <img src="../images/UI-Treat3.png" style="zoom:75%;" />
 
-And eventually the time of the treatment expressed in 24 hours format, with (recommended) or without a separator.
+#### Time
+
+And eventually the time of the treatment (if not now) expressed in 24 hours format, with or without a separator.
 
 <img src="../images/UI-Treat4.png" style="zoom:75%;" />
 
@@ -72,9 +76,11 @@ Units and carbs show like this:
 
 <img src="../images/UI-Treat7.png" style="zoom:75%;" />
 
-And blood tests like this (note the symbol is square unlike calibrations that are round):
+And blood tests like this (note the symbol is square unlike [calibrations](/calibrate/calibrate) that are round):
 
 <img src="../images/UI-Treat8.png" style="zoom:75%;" />
+
+#### Edit and delete
 
 When visible, you can delete treatments like this:
 
@@ -90,7 +96,9 @@ Note that if you touch a blood test and edit it you can also convert it to a cal
 
 <img src="../images/UI-Treat11.png" style="zoom:75%;" />
 
-You can use the microphone icon to verbally enter treatments.
+You can use the microphone icon to verbally enter treatments or advanced commands.
+
+A long touch on the microphone icon will allow you to write advanced commands.
 
 ### Treatment notes
 
@@ -110,7 +118,7 @@ By touching them you can edit or delete them.
 
 ### [Main menu](../hamburger)
 
-Also called hanburger or drawer menu, this is the main menu in which you'll be able to find or place the most common actions you need and also all settings and customizations.
+Also called hamburger or drawer menu, this is the main menu in which you'll be able to find or add the most common actions you need and also all settings and customizations.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 

@@ -43,7 +43,7 @@ You need to decide based on the familiarity you have with xDrip+ and safety cons
 <img src="../images/M-S-US2a.png" style="zoom:75%;" />
 
 Looking in the [official repository](https://github.com/NightscoutFoundation/xDrip/releases), you can identify the latest release by the label Latest.    
-You can download the lastest release [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk).  
+You can download the latest release [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk).  
 All others are labelled Pre-release.
 
 <img src="../images/M-S-US2b.png" style="zoom:75%;" />
@@ -83,3 +83,7 @@ No new permissions should be required.
  <img src="../images/M-S-US6a.png" style="zoom:75%;" />
 
 Once upgraded you can verify the current version in [system status](../../troubleshoot/systemstatus).
+
+### Downgrade
+
+You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to private version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
