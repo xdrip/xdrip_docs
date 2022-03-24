@@ -47,3 +47,4 @@ Sync wear logs is a very useful feature when troubleshooting: it will add the wa
 Show treatments add treatments symbols on the watch graph.
 
 <img src="../images/M-S-SW-AW26.png" style="zoom:75%;" />
+
