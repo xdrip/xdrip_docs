@@ -41,9 +41,14 @@ Proper Ongoing is mandatory for devices with Android 8 and above.
 
 <img src="../images/M-S-LCS15g.png" style="zoom:75%;" />
 
-Out Of Process Algorithm enables the integration of an external plugin to give vendor like BG values for Libre sensors.  
-If the external app doesn't exist on your phone or doesn't provide the information, xDrip+ will not display BG.  
-This option should only be enabled if using an Out Of Process algorithm version 1.
+##### Out of Process Algorithm
+
+[Out Of Process Algorithm](../OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors.  
+If the external app doesn't exist on your phone or doesn't provide the information, xDrip+ will not display BG.
+
+!!!warning  
+    This option should only be enabled if using an Out Of Process algorithm version 1 (OOP1).  
+    It must be disabled for OOP2.
 
 <img src="../images/M-S-LCS15h.png" style="zoom:75%;" />
 
@@ -60,6 +65,6 @@ Retrieve Libre History is required for BluCon bridges. Other bridges perform bac
 
 <img src="../images/M-S-LCS15k.png" style="zoom:75%;" />
 
-This option is not available at al.
+This option is not available at all.
 
 <img src="../images/M-S-LCS15l.png" style="zoom:75%;" />

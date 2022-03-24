@@ -21,8 +21,8 @@ Here below a compatibility table for supported bridge devices, for compatible se
 |    Atom     |    `Yes`    |                |                |
 
 *Note:*  
-*`*` external add-on required*  
-*`**` external add-on required, not compatible with Android 10+*
+*`*` [external add-on required](../../use/OOP)*  
+*`**` [external add-on required](../../use/OOP), not compatible with Android 10+*
 
 </br>
 
@@ -97,6 +97,9 @@ If your bridge is a Blucon enter the code written on the side.
 <img src="../images/M-BT-BK.png" style="zoom:75%;" />
 
 Position it correctly on your sensor. Some bridges have very little tolerance in respect with angle and distances to the sensor.
+
+!!!info "External Add-on"  
+    If your sensor requires an [out of process algorithm](../../use/OOP), make sure it is installed now.
 
 </br>
 
