@@ -148,3 +148,7 @@ From the main menu, Stop Sensor.
 <img src="../images/CAL14.png" style="zoom:75%;"  />
 
 xDrip+ will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

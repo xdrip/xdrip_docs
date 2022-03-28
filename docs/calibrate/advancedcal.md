@@ -97,3 +97,6 @@ During preliminary measurements for first calibration, 3 valid measurements are 
 
 <img src="../../install/images/M-SS-InitialR2.png" style="zoom:55%;" />
 
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

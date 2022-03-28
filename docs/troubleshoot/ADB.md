@@ -93,3 +93,7 @@ If there's no way to uninstall it try to sideload with the downgrade switch:
 (Windows)	`adb install -r -d myapplication.apk`
 
 (Mac)	`./adb install -r -d myapplication.apk`
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

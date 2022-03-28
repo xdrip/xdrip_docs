@@ -39,3 +39,7 @@ You can try to restore some after verifying xDrip+ is working correctly, never o
 </br>
 
 [Proceed to downloading xDrip+](../download)
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

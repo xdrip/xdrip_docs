@@ -144,3 +144,6 @@ Not used anymore.
 
 <img src="../images/M-S-LCS16.png" style="zoom:75%;" />
 
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

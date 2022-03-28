@@ -124,3 +124,7 @@ Only use this feature to send compliments.
 For other enquiries prefer [xDrip+ GitHub discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [Facebook](https://www.facebook.com/groups/xDripG5).
 
 <img src="../images/3DM-SF.png" style="zoom:75%;" /> 
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

@@ -80,6 +80,7 @@ nav:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
         - 'Android Wear': 'smartwatch/wear.md'
         - 'Install on Android Wear': 'smartwatch/wearinstall.md'
+        - 'Use Wear Extension': 'smartwatch/usewear.md'
         - 'Pebble': 'smartwatch/pebble.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'

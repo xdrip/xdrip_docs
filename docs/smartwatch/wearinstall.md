@@ -29,19 +29,20 @@ Usually it's the Sony Smartwatch 3 ([SWR50](https://www.sony.com/electronics/sup
 6. When pairing completes check your watch Google Play version is **above 9**.  
    Settings -> About -> Versions  
    <img src="../images/M-S-SW-AW3.png" style="zoom:75%;" />  
-   If it isn't: tap it to force update, and wait (up to hours).
+   If it isn't: tap it 3 times to force update, and wait (up to hours).  
+   <img src="../images/M-S-SW-AW3a.png" style="zoom:75%;" />
 7. Select an xDrip+ watchface on the phone Android Wear app  
    <img src="../images/M-S-SW-AW1.png" style="zoom:75%;" />   
    <img src="../images/M-S-SW-AW2.png" style="zoom:75%;" /> 
 8. Enable Google Play apps Auto-update and update manually to [Wear OS](https://play.google.com/store/apps/details?id=com.google.android.wearable.app).
-9. Continue [below](#android-wear-extension-in-xdrip).
 
 #### Method 2 (with a computer)
 
 1. Install [Wear OS](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) and pair the watch to your phone.
-2. Check your watch Google Play services version is above 9 (manufacturing default for latest firmware).  
+2. Check your watch Google Play services version is above 9 (manufacturing default for latest firmware is 8.7).  
    Settings -> About -> Versions  
-   <img src="../images/M-S-SW-AW3.png" style="zoom:75%;" />    
+   <img src="../images/M-S-SW-AW3.png" style="zoom:75%;" />   
+   <img src="../images/M-S-SW-AW3a.png" style="zoom:75%;" />   
    If it is, you're done: see above how to select an xDrip+ watchface.  
    Else continue below.
 3. [Download](https://www.apkmirror.com/apk/google-inc/google-play-services-android-wear/google-play-services-android-wear-9-8-41-release/google-play-services-9-8-41-534-130237018-android-apk-download/download/) a more recent version of Google Play services. Rename the file to a shorter name, like `GPS.apk`.
@@ -59,7 +60,7 @@ This might not be always possible to complete this procedure, if it fails try Me
 3. Disable the Google Play apps auto-update feature.
 4. Install an old version of Wear OS [2.51.0.398446042.gms](https://www.apkmirror.com/apk/google-inc/android-wear/android-wear-2-51-0-398446042-gms-release/wear-os-by-google-smartwatch-2-51-0-398446042-gms-android-apk-download/).
 5. Open Android Wear and pair the watch, accept and allow everything: if you want to disable some features you'll do that when you're done with xDrip+ install.
-6. On the watch, open Settings, Aps & Notifications, App Info, System Apps and search Google Play Store. Select Remove Upgrades. Confirm. (Note the watch will automatically upgrade the app, you need to be fast once downgraded.)  
+6. On the watch, open Settings, Aps & Notifications, App Info, System Apps and search Google Play Store. Select Remove Upgrades. Confirm. (Note the watch will automatically upgrade its app, you need to be fast once downgraded.)  
    <img src="../images/M-S-SW-AW6.png" style="zoom:65%;" />
 7. On the watch, open Google Play Store and scroll to Apps on my Phone. Select and install xDrip+.  
    <img src="../images/M-S-SW-AW7.png" style="zoom:65%;" />
@@ -99,17 +100,23 @@ You need to be connected to Wi-Fi. So should your watch.
 #### Method 3 (with a computer)
 
 1. Install [ADB](../../troubleshoot/ADB).
-2. Download xDrip+ on a computer and extract the APK (it's a zipped file).
+2. Download xDrip+ on a computer and extract the APK (it's a zipped file).  
+   **It must be exactly the same version you have on your phone.**
 3. Browse the the `/res/raw` folder of the xDrip+ package and copy the file `android_wear_micro_apk.apk` into your ADB folder.
 4. Sideload the xDrip+ wear extension to the watch.
 
 ### Update xDrip+ on your watch
 
-With old Android Wear watches, synchronizing all apps was enough to force the watch app to update.
+#### Wear OS 1.x
 
-With newer versions 2.0 and above you will need to uninstall and reinstall the wear app every time you want to [update](../../use/update) your phone xDrip+ in order to maintain the apps sync'ed.
+To force the watch app to update, just synchronize all apps.  
+<img src="../images/M-S-SW-AW32.png" style="zoom:75%;" />
 
-Starting with April 13th 2021, xDrip+ will automatically update your wear version if you already have a compatible version installed (which is minimum [Nightly build 13th Apr 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.04.13)).
+#### Wear OS 2.0 and above
+
+You will need to uninstall and reinstall the wear app every time you want to [update](../../use/update) your phone xDrip+ in order to maintain the apps sync'ed.
+
+Starting with April 13th 2021, xDrip+ can automatically update your wear version if you already have a compatible version installed (which is minimum [Nightly build 13th Apr 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.04.13)).
 
 For the updated version the [instructions](https://github.com/NightscoutFoundation/xDrip/issues/1648) are as follows:
 
@@ -125,3 +132,7 @@ For the updated version the [instructions](https://github.com/NightscoutFoundati
 When the versions are identical this wont really do much, but this process can be used to force xDrip to send the latest version in future but it should also automatically detect version changes and update in the background. For fun you could install the latest nightly on the watch then downgrade your phone and check that the update process then downgrades your watch app version. The version information should be displayed next to the `Force Update` text.
 
 The idea is that you no longer need to use Wear Installer or whatever method you used to install the first time around (eg PC based adb or downgrading play store) as xDrip can update itself.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

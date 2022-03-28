@@ -67,3 +67,7 @@ If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mo
 Look in system status to check everything is connecting correctly.
 
 <img src="../images/M-S-SY8d2.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

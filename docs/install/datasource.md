@@ -90,3 +90,7 @@ You can select another data source without using the wizard from the settings me
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />
 
 <img src="../../images/M-S-HDSlist.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

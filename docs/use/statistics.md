@@ -42,3 +42,7 @@ Swipe again to see the percentile chart.
 Rotate the screen to make it look better.
 
 <img src="../images/M-STA5.png" style="zoom:50%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

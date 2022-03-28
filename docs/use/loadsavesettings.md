@@ -38,3 +38,7 @@ You might need to restart your phone to complete the operation.
 <img src="../images/M-S-LSSd.png" style="zoom:75%;" />
 
 Exported settings contain private information, once transfered to another phone or a safe location you might want to delete the backup.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

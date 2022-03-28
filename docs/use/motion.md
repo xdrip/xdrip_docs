@@ -41,3 +41,7 @@ You can make xDrip+ automatically enable spoken readings when driving.
 You can have a sound played when switching to motion detection mode and a reminder sound every 90 minutes. 
 
 <img src="../images/M-S-MT9.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

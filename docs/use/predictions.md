@@ -111,3 +111,7 @@ Multiple insulin types will be displayed in an identical way on the main graph.
 <img src="../images/M-S-PS2c.png" style="zoom:75%;" />
 
 <img src="../images/M-S-PS2c2.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

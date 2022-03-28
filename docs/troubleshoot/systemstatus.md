@@ -115,3 +115,7 @@ In case of download failure, if your Nightscout site is regularly updated by the
 If it's never been working make sure you have [setup](../../install/nightscoutfollower) your follower URL correctly.
 
 <img src="../images/M-SS-NF.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

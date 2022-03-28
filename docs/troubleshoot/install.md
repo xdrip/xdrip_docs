@@ -64,5 +64,6 @@ This setting location will vary from brand to brand and Android version, you wil
 
 You might need to reboot your phone to apply these changes. If the warning message remains, make sure you are using a recent xDrip+ version: update it if necessary.
 
+</br>
 
-
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

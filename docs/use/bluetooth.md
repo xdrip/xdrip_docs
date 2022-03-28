@@ -65,3 +65,7 @@ Enabled by default.
 Allow BluCon unbonding is only useful if you use a BluCon bridge as others don't bond with your phone.
 
 <img src="../images/M-S-LCS4n.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

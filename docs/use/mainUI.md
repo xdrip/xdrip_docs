@@ -183,3 +183,7 @@ You can resize it using the blue dots.
 And make it the size you like. Then you can customize colors and contents aspect in [display settings](../display).
 
 <img src="../images/Widget4.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

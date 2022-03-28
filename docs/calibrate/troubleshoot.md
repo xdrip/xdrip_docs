@@ -54,3 +54,7 @@ Since slope and intercept safety limits will prevent xDrip+ from having a too hi
 In the example below you see the orange line is the one that matches the best calibartions, still, xDrip+ will use the red one for safety as its intercept is safe. You can see the plugin intercept value reflecting what would better match calibrations.
 
 <img src="../images/CAL20.png" style="zoom:75%;"  />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

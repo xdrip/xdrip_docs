@@ -127,3 +127,6 @@ By [John_](https://apps.garmin.com/en-US/developer/b2d30711-2708-4f3a-8e83-009c1
 
 By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9-434db16542a9/apps)
 
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

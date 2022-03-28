@@ -129,3 +129,7 @@ When you scan Bluetooth, you can see and select your bridge (usually it shows in
 6. Wait 10 seconds
 7. Enable Bluetooth
 8. Main Menu, Scan Bluetooth -> Select your bridge
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

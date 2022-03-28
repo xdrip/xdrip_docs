@@ -38,3 +38,7 @@ In order to upgrade your firmware, you first need to [Forget Device](../systemst
 Download and install the upgrade utility [here](https://github.com/bubbledevteam/BubbleFW_FlashTool/releases).
 
 Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) in xDrip+ to reconnect.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

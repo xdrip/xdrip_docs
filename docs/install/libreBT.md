@@ -169,3 +169,7 @@ If your BG is quickly varying or not within normal range, it is not recommended 
 Two readings are required from legacy G4 receiver, you can use only one if you're sure it's valid. Just put twice the same value.
 
 You BG should start displaying on the main graph.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

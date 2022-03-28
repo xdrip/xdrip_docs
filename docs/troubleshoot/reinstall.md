@@ -138,3 +138,7 @@ On the new phone:
 2. [Backup settings and database](#backup) (this is only needed to create the correct folders).
 3. Copy the files you sent yourself via mail, or from a computer to the right folders.
 4. [Restore settings and database](#restore).  
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

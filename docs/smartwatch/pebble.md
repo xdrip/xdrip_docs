@@ -33,3 +33,7 @@ On a special value (typically 100 mg/dl or 5.5 mmol/l) you can display a text me
 If you didn't install the snooze button app you can force install it here:
 
 <img src="../images/M-S-SW3i.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
