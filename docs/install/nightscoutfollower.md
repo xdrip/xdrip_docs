@@ -33,3 +33,7 @@ Once done set xDrip+ in Nightscout follower (see above) with the address:
 `http://localhost:17580`
 
 <img src="../images/Diabox3.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

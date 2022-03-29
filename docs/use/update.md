@@ -87,3 +87,7 @@ Once upgraded you can verify the current version in [system status](../../troubl
 ### Downgrade
 
 You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to private version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

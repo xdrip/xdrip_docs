@@ -21,3 +21,7 @@ For this you will need to manually upgrade the watch Google Play service using A
 ## Setup xDrip+ with LibreAlarm data source.
 
 xDrip+ will receive BG readings from the LibreAlarm app.
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

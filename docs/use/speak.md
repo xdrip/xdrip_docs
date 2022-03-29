@@ -35,3 +35,7 @@ You can modify the voice tone and reading speed.
 And eventually add a shortcut to the main menu.
 
 <img src="../images/M-S-SRi.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

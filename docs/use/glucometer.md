@@ -20,3 +20,7 @@ It is not recommended to enable automatic calibration.
 <img src="../images/M-S-GMd.png" style="zoom:75%;" />
 
 When you enable the use of the Bluetooth meter, all blood tests will automatically transfer into xDrip+ as [treatments](../mainUI/#treatments).
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

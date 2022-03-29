@@ -357,3 +357,7 @@ And enable and disable the feature for a defined period of the day.
 This will make xDrip+ open when your phone restarts.
 
 <img src="../images/M-S-DS6y.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

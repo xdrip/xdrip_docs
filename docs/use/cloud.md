@@ -159,3 +159,7 @@ You can select to upload at specific conditions to save battery and data costs.
 If you also upload data manually from your pump, you might want to disable xDrip+ treatments upload to avoid duplicates.
 
 <img src="../images/M-S-CU-TPf.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

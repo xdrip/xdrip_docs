@@ -19,3 +19,7 @@ Confirm `START SENSOR`
 Answer `NOT TODAY`
 
 <img src="../images/M-StaSToday.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

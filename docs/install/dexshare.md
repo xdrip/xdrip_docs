@@ -8,3 +8,7 @@ For using xDrip+ with data coming from share servers, you must enter the credent
 <img src="../images/M-S-HDS-DexSh.png" style="zoom:75%;" />
 
 The same guidelines apply than those for the `bridge` plugin in Nightscout. [Please check here for more information](https://nightscout.github.io/troubleshoot/dexcom_bridge/).
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

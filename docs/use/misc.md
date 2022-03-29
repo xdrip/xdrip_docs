@@ -52,9 +52,13 @@ If the external app doesn't exist on your phone or doesn't provide the informati
 
 <img src="../images/M-S-LCS15h.png" style="zoom:75%;" />
 
-For safety reasons you cannot calibrate OOP plugin values.
+*Deprecated* - For safety reasons you cannot calibrate OOP1 plugin values.
 
 <img src="../images/M-S-LCS15i.png" style="zoom:75%;" />
+
+OOP2 plugin allows calibration. If deselected, a vendor like BG value will be provided by the algorithm.
+
+<img src="../images/M-S-LCS15i2.png" style="zoom:75%;" />
 
 Smooth Libre data averages on 5 measurement. This will also delay readings.  
 If this option doesn't bring the improvement expected, also try [Smooth Sensor Noise](../display/#smooth-sensor-noise).
@@ -68,3 +72,7 @@ Retrieve Libre History is required for BluCon bridges. Other bridges perform bac
 This option is not available at all.
 
 <img src="../images/M-S-LCS15l.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

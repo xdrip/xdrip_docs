@@ -43,3 +43,6 @@ Current settings will be overwritten.
 
 You might need to restart your phone to apply the changes.
 
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

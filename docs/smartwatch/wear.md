@@ -11,7 +11,7 @@ xDrip+ will then communicate with a reduced version of itself on the watch.
 
 <img src="../images/M-S-SW-AW18.png" style="zoom:75%;" />
 
-For certain combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See here for more information.
+For certain combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See below for more information.
 
 Enable wear allows the watch to take over from the phone when the phone xDrip+ is losing connection to the sensor/bridge.
 
@@ -48,3 +48,54 @@ Show treatments add treatments symbols on the watch graph.
 
 <img src="../images/M-S-SW-AW26.png" style="zoom:75%;" />
 
+## Standalone collector mode
+
+The xDrip+ wear extension also contains the part of xDrip+ that connects to some sensors, meaning you can make the watch act in lieu of the phone and take ownership of the communication and readings, without have your phone nearby.
+
+This feature is not available for all sensors, see the table below:
+
+| Sensor                       | Wear 1.x  | Wear 2.x  |
+| ---------------------------- | --------- | --------- |
+| G5                           | Yes       | Limited*  |
+| G6                           | Yes       | Limited*  |
+| Libre 1 with bridge          | Yes       | Yes       |
+| Libre 14 days US with bridge | Limited** | Limited** |
+| Libre 2 EU without bridge    | No        | No        |
+| Libre 2 EU with bridge       | Limited** | Limited** |
+
+***Limited\*:*** There are some bugs present on most Android Wear smartwatches which prevent them working correctly with the G5/G6. In the best case scenario you will have a reading every 10 minutes. Some watches could be [patched](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) to achieve 5 minutes readings.
+
+***Limited\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) (**not OOP2**) and also need OOP1 installed on your watch.
+
+### Prerequisites
+
+The feature is available for sensor/watch combinations described above.
+
+xDrip+ extension is installed on the watch with the same version than the one on your phone.
+
+xDrip+ connectivity is good on your phone (meaning Bluetooth parameters are correctly defined).
+
+xDrip+ on the watch must be authorized to access location.  
+<img src="../images/M-S-SW-AW33.png" style="zoom:75%;" />
+
+### Recommended sequence
+
+First time attempt or failure recovery:
+
+1. On your phone xDrip+: disable force collector, then disable collection, then disable Wear.  
+   <img src="../images/M-S-SW-AW27.png" style="zoom:75%;" />
+2. Enable wear logs.  
+   <img src="../images/M-S-SW-AW30.png" style="zoom:75%;" />
+3. Restart your smartwatch. Wait until it's fully running.
+4. On you phone enable only Wear.  
+   <img src="../images/M-S-SW-AW28.png" style="zoom:75%;" />
+5. Wait until the xDrip+ graph is fully displayed on the watch (waiting for a new measurement doesn't hurt).
+6. Make sure you keep phone, watch and sensor close together and enable first collection then force collector.  
+   <img src="../images/M-S-SW-AW29.png" style="zoom:75%;" />
+7. Pairing process will take typically 10 minutes, open the phone xDrip+ event logs and wait for events starting by `wear`.  
+   <img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />
+8. If things went smooth you should now have the watch in standalone mode.
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

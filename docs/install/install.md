@@ -96,3 +96,7 @@ If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compl
 </br>
 
 Proceed to [data source selection](../datasource)
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

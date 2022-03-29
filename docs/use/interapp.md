@@ -39,3 +39,7 @@ By default the web service is only available to your device, you can open it so 
 For safety reason (anybody on the network can access this service) you should protect it with a password, if you have a Nightscout site use your API_SECRET.
 
 <img src="../images/M-S-IASh.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

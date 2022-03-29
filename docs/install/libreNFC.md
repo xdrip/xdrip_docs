@@ -39,9 +39,12 @@ The options below should remain disabled.
 
 ## Supported sensors
 
-Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan a Libre 14 days US or a Libre 2 Europe you need an Out of Process Algorithm installed on the phone.
+Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan a Libre 14 days US or a Libre 2 Europe you need an [Out of Process Algorithm](../../use/OOP/) installed on the phone.
 
 | - Libre 1 - | - 14 days US - | - Libre 2 EU - |
 | :---------: | :------------: | :------------: |
 |    `Yes`    |     `OOP`      |     `OOP`      |
 
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

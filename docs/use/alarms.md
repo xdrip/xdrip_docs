@@ -194,3 +194,7 @@ At this point, the snooze menu will also display the active alert.
 Touching snooze will snooze it for the period selected.
 
 <img src="../images/M-SNOd.png" style="zoom:75%;" />  
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

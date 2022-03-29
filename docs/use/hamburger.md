@@ -44,3 +44,7 @@ When xDrip+ has been in use for some time, history allows you to browse old data
 4. enable or disable statistics
 
 <img src="../images/M-HIS1.png" style="zoom:75%;" />
+
+</br>
+
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
