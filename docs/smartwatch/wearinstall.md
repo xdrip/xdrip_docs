@@ -1,5 +1,8 @@
 You will find the reference documentation [here](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/WatchGuide.md).
 
+!!!info "Fun fact"  
+    You can use some of these methods with the Dexcom master app and AAPS.
+
 ### Prerequisites
 
 Your watch needs to be compliant with Android Wear OS and bear the following logo:
@@ -135,4 +138,4 @@ The idea is that you no longer need to use Wear Installer or whatever method you
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

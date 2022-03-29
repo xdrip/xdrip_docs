@@ -197,4 +197,4 @@ Touching snooze will snooze it for the period selected.
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

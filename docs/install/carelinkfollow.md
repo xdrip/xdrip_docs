@@ -1,9 +1,38 @@
 CareLink follower is not a standard feature of xDrip+. You need to use a private version:
 
-[https://github.com/benceszasz/xDripCareLinkFollower/releases](https://github.com/benceszasz/xDripCareLinkFollower/releases)
+[From Bence](https://github.com/benceszasz/xDripCareLinkFollower/releases)
 
-[https://bigdigital.home.blog/](https://bigdigital.home.blog/)
+[From Artem](https://bigdigital.home.blog/) (smartband support)
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+**Check [requirements](https://github.com/benceszasz/xDripCareLinkFollower#requirements).**
+
+</br>
+
+Enter correctly your credentials and select the same country of your account.
+
+<img src="../images/M-S-HDS-CF1.png" style="zoom:75%;" />
+
+Grace period is an additional waiting time after receiving last reading + 5 minutes.
+
+<img src="../images/M-S-HDS-CF2.png" style="zoom:75%;" />
+
+Missed data polling interval is an additional waiting time after received last reading + 5 minutes + grace period.
+
+<img src="../images/M-S-HDS-CF3.png" style="zoom:75%;" />
+
+You can download treatments and receive notification.
+
+<img src="../images/M-S-HDS-CF4.png" style="zoom:75%;" />
+
+</br>
+
+Sensor status and pump status are avilable in [Extra status line](../../use/lesscommon/#extra-status-line) option.
+
+<img src="../images/M-S-HDS-CF5.png" style="zoom:75%;" />
+
+</br>
+
+*Last modified 28/3/2022*
+

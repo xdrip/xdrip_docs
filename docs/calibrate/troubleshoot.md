@@ -57,4 +57,4 @@ In the example below you see the orange line is the one that matches the best ca
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
