@@ -29,7 +29,7 @@ Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) wh
 OOP2 provides decoding for the Libre 2 EU sensor, either for direct connection or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
 
 !!!info "Calibration is optional"  
-    You can calibrate if using OOP2.
+    By [default](../misc/#out-of-process-algorithm) you can calibrate if using OOP2.
 
 The original version is available [here](https://drive.google.com/uc?id=1aeWvBiFCidOhreCMoW1S0ARa5HvNNf2m&export=download) but it is **recommended to use the [latest OOP2 release](https://drive.google.com/file/d/1cRfUDzFRnLUnsn6gKaC2cibZrIY1oIb-/view?usp=sharing)**.
 
@@ -50,7 +50,7 @@ Use service corresponds to switching ON or OFF the OOP app. If you want to use i
 
 <img src="../images/OOP_UI1.png" style="zoom:75%;" />
 
-Foreground service is an addition that makes it less probably the app will be put to sleep by the phone.  
+Foreground service is an addition that makes it less probable the app will be put to sleep by the phone.  
 Enable it if you have data loss.
 
 <img src="../images/OOP_UI2.png" style="zoom:75%;" />
