@@ -82,6 +82,7 @@ nav:
         - 'Install on Android Wear': 'smartwatch/wearinstall.md'
         - 'Use Wear Extension': 'smartwatch/usewear.md'
         - 'Pebble': 'smartwatch/pebble.md'
+        - 'MiBand': 'smartwatch/miband.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
