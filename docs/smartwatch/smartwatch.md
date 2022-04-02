@@ -46,7 +46,7 @@ Unless you still own a LeFun W3, F3, F3S, F11 or F12 band this is not of any use
 
 <img src="../images/M-S-SW6.png" style="zoom:75%;" />
 
-#### MiBand
+#### [MiBand](../miband)
 
 MiBand integration is the result of the huge work of [Artem](https://bigdigital.home.blog/).  
 Only MiBand 3 and 4 are supported by the official xDrip+ version.
