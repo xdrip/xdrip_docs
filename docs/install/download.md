@@ -4,7 +4,11 @@ xDrip+ is not available in the Google Play store. You will find all releases in 
 You have two main choices when installing xDrip+, either install the Latest release or a Pre-release.
 
 !!!note  
-    If you already have xDrip+ installed on your phone you don't need to uninstall it before installing another version.
+    If you already have xDrip+ installed on your phone you don't need to uninstall it before installing an update.  
+    If you use a private version and want to change xDrip+ to an official release, or vice versa, follow [this](../../troubleshoot/reinstall/).
+
+!!!info "Multiple xDrip+ installation"  
+    If you need to install more than one xDrip+ on the same phone you need a [variant](#variants).
 
 ### Latest release
 
@@ -54,4 +58,25 @@ Once downloaded proceed to [installation](../install)
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+## Variants
+
+Four variants are regularly released to allow a total of 5 xDrip+ being installed on your phone. This can prove particularly useful to follow more than one person at the time.
+
+!!!warning  
+    It is not recommended to use a variant connected to your sensor: use the main release only.  
+    Only use variants for followers.  
+    Some early versions of xDrip+ leaked values when using AAPS/NSClient. Use the latest variants.
+
+You can download variants [here](https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg).
+
+Sort them by last modified first and choose the variant to download.
+
+<img src="../images/Variant.png" style="zoom:90%;" />
+
+Once downloaded a variant, proceed like a normal xDrip+ install.
+
+Variants don't update automatically.
+
+</br>
+
+[*Last modified 3/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.03)

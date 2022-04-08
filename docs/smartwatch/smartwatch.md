@@ -78,7 +78,8 @@ xDrip+ can request the heartbeat sensor to activate and you can smooth that grap
 
 More smartwatches and devices can receive data from xDrip+ even if they are not directly integrated in the app.
 
-In order to have xDrip+ send data you need to enable xDrip+ [web service](../../use/interapp#web-service).
+!!!info  
+    In order to have xDrip+ send data you need to enable xDrip+ [web service](../../use/interapp#web-service).
 
 #### Fitbit
 

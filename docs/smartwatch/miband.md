@@ -138,6 +138,8 @@ More customizations are available in this menu.
 You can create your own watchface and modify the background image using these features.  
 Keep them disabled unless you have correctly set the files required in the phone xdrip folder.
 
+For tips an example look [here](https://github.com/twinko).
+
 <img src="../images/M-S-SW-MB9.png" style="zoom:75%;" />
 
 Disable High MTU can be used when experiencing watchface display issues.

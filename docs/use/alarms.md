@@ -66,6 +66,8 @@ If you unselect the checkbox you can customize activity hours (when to enable it
 
 ### Glucose Alerts Settings
 
+##### Alert volume settings
+
 You can customize the volume of your alerts
 
 <img src="../images/M-S-AA-GAa.png" style="zoom:75%;" />
@@ -74,15 +76,27 @@ Ascending volume is recommended if you don't want the alarm to blare immediately
 
 <img src="../images/M-S-AA-GAb.png" style="zoom:75%;" />
 
+##### Smart snoozing
+
+##### Smart alerting
+
 Smart snoozing and alerting avoid the alert to trigger or re-raise if BG is going in the right direction (upwards for low alerts and downwards for highs)
 
 <img src="../images/M-S-AA-GAc.png" style="zoom:75%;" />
 
+##### Don't alarm during phone calls
+
+Alarms will not sound if they trigger during a phone call.
+
 <img src="../images/M-S-AA-GAd.png" style="zoom:75%;" />
+
+##### Buttons silence alarms
 
 Button silence alarms is a quick way to snooze alarms by just pressing volume up or down.
 
 <img src="../images/M-S-AA-GAe.png" style="zoom:75%;" />
+
+##### Start snoozed
 
 Start snoozed applies the snooze delay before triggering the alarm. Make sure the `Default snooze` delay is appropriate in the alarm.
 
@@ -94,11 +108,15 @@ You can add a additional line to `Glucose Level Alert List` in the main menu.
 
 <img src="../images/M-S-AA-GAg.png" style="zoom:75%;" />
 
-Level alerts remain active even if there is no signal (sensor change for example, or follower without network). This option allows you to suppress them.
+##### Suppress alerts if missed readings
+
+Level alerts remain active even if there is no signal (sensor change for example, or follower without network). This option allows you to suppress them. Make sure you have a missed alert enabled if you use this feature.
 
 <img src="../images/M-S-AA-GAh.png" style="zoom:75%;" />
 
-You can also suppress or snooze alerts after a certain amount of time, make sure this is really what you want.
+##### Suppress snoozed and active alerts
+
+You can also suppress alerts after a certain amount of time, make sure this is really what you want.
 
 <img src="../images/M-S-AA-GAi.png" style="zoom:75%;" />
 
@@ -113,6 +131,8 @@ You'll then be able to decide each notification behaviour. If you have multiple 
 
 <img src="../images/M-S-AA-GAj2.png" style="zoom:75%;" />
 
+##### Delay ascending volume
+
 You can delay the start of the ascending volume alert without delaying vibration that will start as soon as the alert is triggered.
 
 <img src="../images/M-S-AA-GAk.png" style="zoom:75%;" />
@@ -124,6 +144,8 @@ If your sensor requires periodic calibration you can setup xDrip+ to alert you w
 You can setup the period between calibrations, sound to be played, ...
 
 <img src="../images/M-S-AA-CAa.png" style="zoom:75%;" />
+
+##### Initial alert
 
 Initial calibration alert is used when starting a sensor requiring initial calibration, it will trigger when enough readings are available to calibrate.
 
@@ -143,9 +165,13 @@ If you enabled this feature and your sensor supports it, you can setup an alert 
 
 <img src="../images/M-S-AA-OAa.png" style="zoom:75%;" />
 
+##### Falling or rising BG
+
 You can also setup alerts for fast BG changes.
 
 <img src="../images/M-S-AA-OAb.png" style="zoom:75%;" />
+
+##### Alert preferences
 
 The alerts above and also Missed Readings use the sound defined below.  
 Some recent Android versions do not ring it unless you use [Notification channels](#notification-channel).
@@ -154,9 +180,13 @@ Some recent Android versions do not ring it unless you use [Notification channel
 
 ### Extra Alerts
 
+##### Persistent high
+
 Instead of a high alert that will trigger as soon as BG reaches the trigger value, you can setup a persistent high alert that will only trigger when BG remains above the setup value for more than a certain time.
 
 <img src="../images/M-S-AA-EAa.png" style="zoom:75%;" />
+
+##### Forecasted low
 
 You can set an alarm on forecasted low value. This feature will use the momentum (extrapolation of the current BG trend) and not the prediction set. Forecasted low (min) is the time in which a low will be forecasted (the one that usually displays in yellow on the graph screen).
 
@@ -165,6 +195,8 @@ You can set an alarm on forecasted low value. This feature will use the momentum
 In the example below if you set Alarm at forecasted low (min) to 50 minutes, il will trigger. The red dotted line is the forecasted BG trend, extrapolated from the previous measurements.
 
 <img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" />
+
+##### Other xDrip+ alerts
 
 Some extra alerts are available.  
 Battery alerts are available if your bridge sends this information to xDrip+.
@@ -197,4 +229,4 @@ Touching snooze will snooze it for the period selected.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 6/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.05)

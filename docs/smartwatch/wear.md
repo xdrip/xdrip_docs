@@ -96,6 +96,14 @@ First time attempt or failure recovery:
    <img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />
 8. If things went smooth you should now have the watch in standalone mode.
 
+## Sharing data in standalone mode
+
+If you want the watch to share data (xDrip+ Sync, Nightscout, ...) it needs to be connected to your phone and your phone needs to be connected to the internet.
+
+This doesn't mean they need to be in the same place but the watch itself will not share data directly: it will send them to your phone, and it is your phone that will share. If the watch is connected to the internet through Wi-Fi or a SIM with a data plan, it will need to send them to your phone (connected to the internet also) and your phone itself will share the data. As long as they are both connected to the internet they don't need to be close one to the other.
+
+<img src="../images/M-S-SW-AW-XP24.png" style="zoom:75%;" />
+
 </br>
 
 [*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

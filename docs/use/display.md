@@ -26,6 +26,8 @@ You can revert the color to default or save it.
 
 <img src="../images/M-S-DS2a2.png" style="zoom:75%;" />
 
+##### Glucose values and lines
+
 You can customize the main BG plot. High and Low limits are defined in [Glucose Units settings.](../settings/#glucose-units)
 
 High, In-range and Low Values color will change the graph and limit lines on your main view, notification and widget charts.
@@ -42,6 +44,8 @@ Filtered values can be seen with sensors supporting raw data.
 
 <img src="../images/M-S-DS2d2.png" style="zoom:75%;" />
 
+##### Treatments and predictions curves
+
 1. Treatment color (treatment main curve) active insulin
 2. Treatment color dark (small dotted line) insulin on board
 
@@ -56,6 +60,8 @@ Filtered values can be seen with sensors supporting raw data.
 
 <img src="../images/M-S-DS2f2.png" style="zoom:75%;" />
 
+##### Average and target lines
+
 1. 8-Hour average line
 2. 24-Hour average line
 3. Target line
@@ -64,13 +70,17 @@ Filtered values can be seen with sensors supporting raw data.
 
 <img src="../images/M-S-DS2g2.png" style="zoom:75%;" />
 
+##### Annotations and dots
+
 Blood tests (also calibrations), and treatments.
 
 <img src="../images/M-S-DS2h.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2h2.png" style="zoom:75%;" />
 
-And graphs backgrounds, main
+##### Backgrounds
+
+Graphs backgrounds, main
 
 <img src="../images/M-S-DS2i.png" style="zoom:75%;" />
 
@@ -83,6 +93,8 @@ Notifications
 And widget
 
 <img src="../images/M-S-DS2k.png" style="zoom:75%;" />
+
+##### Plugins and features
 
 If you use a plugin you can also display the plugin glucose value as a secondary graph.   
 Plugin plot on graph must be enabled.
@@ -99,6 +111,8 @@ In the example below 1. heart rate and 2. step counter.
 
 <img src="../../smartwatch/images/M-S-SW8c.png" style="zoom:75%;" />
 
+##### Basal and SMB
+
 If you manage to display basal (from AAPS, scroll below for more information) you can also customize the color.
 
 <img src="../images/M-S-DS2n.png" style="zoom:75%;" />
@@ -110,6 +124,8 @@ SMBs are icons decluttering the graph for micro-bolus treatments.
 <img src="../images/M-S-DS2o.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2o2.png" style="zoom:75%;" />
+
+##### Flair colors
 
 If you want to put some color on the top and bottom bars of your Android screen, enable flair colors.
 
@@ -149,6 +165,8 @@ You can customize most of the items that will display on the main graph.
 
 <img src="../images/M-S-DS6.png" style="zoom:75%;" />
 
+##### Rewrite history
+
 Rewrite history will soften transitions after adding a new calibration to reduce the step like effect.  
 Make sure this is also enabled on followers to avoid different visualization of past BG values. 
 
@@ -156,11 +174,15 @@ Make sure this is also enabled on followers to avoid different visualization of 
 
 <img src="../images/M-S-DS6a2.png" style="zoom:75%;" />
 
+##### Widget range lines
+
 You can select to visualize high and low limit lines on the widget.
 
 <img src="../images/M-S-DS6b.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS6b2.png" style="zoom:75%;" />
+
+##### Main graph lines
 
 You can disable vertical time lines on the main graph.
 
@@ -174,6 +196,8 @@ You can disable horizontal glucose lines on the main graph.
 
 <img src="../images/M-S-DS6d2.png" style="zoom:75%;" />
 
+##### Filtered data
+
 Filtered or smoothed plot adds another graph curve and will eventually add missing data.
 
 <img src="../images/M-S-DS6e.png" style="zoom:75%;" />
@@ -183,6 +207,8 @@ Filtered or smoothed plot adds another graph curve and will eventually add missi
 For some data sources (like patched LL app) this will expose the unfiltered raw data as xDrip+ BG display is already filtered.
 
 <img src="../images/M-S-DS6e2.png" style="zoom:75%;" />
+
+##### Raw data
 
 Raw data that can be displayed by xDrip+ if available.
 
@@ -196,6 +222,8 @@ Now raw data are mainly visible for Libre sensors.
 
 <img src="../images/M-S-DS6f3.png" style="zoom:75%;" />
 
+##### Basal information
+
 If basal information is available from an external source ([AAPS](https://androidaps.readthedocs.io/en/latest/index.html)) it can be displayed by xDrip+.
 
 !!!note "Basal display in xDrip+ is not a complete feature and might not work"  
@@ -207,6 +235,8 @@ If basal information is available from an external source ([AAPS](https://androi
 
 <img src="../images/M-S-DS2n2.png" style="zoom:75%;" />
 
+##### Target and average lines
+
 You can visualize various reference lines on the graph:
 
 1. 8-Hour average line
@@ -217,6 +247,8 @@ You can visualize various reference lines on the graph:
 
 <img src="../images/M-S-DS2g2.png" style="zoom:75%;" />
 
+##### Libre trend
+
 [Libre trend](../3dotsmenu/#libre-trend) enables a small graph available in the three dots menu on the main view.
 
 <img src="../images/M-S-DS6i.png" style="zoom:75%;" />
@@ -224,6 +256,8 @@ You can visualize various reference lines on the graph:
 Obsolete. Use predictions.
 
 <img src="../images/M-S-DS6j.png" style="zoom:75%;" />
+
+##### SMB
 
 SMBs are icons decluttering the graph for micro-bolus treatments. Touching the SMB gives the amount in insulin in the information line.
 
@@ -235,17 +269,23 @@ Display the Medtrum secondary sensor values.
 
 <img src="../images/M-S-DS6l.png" style="zoom:75%;" />
 
+##### Noise workings
+
 Additional noise information (with raw data available), yellow line.
 
 <img src="../images/M-S-DS6m.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS6e2.png" style="zoom:75%;" />
 
+##### Backfilled data
+
 Backfilled data can be indicated with a different dot style.
 
 <img src="../images/M-S-DS6n.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS6n2.png" style="zoom:75%;" />
+
+##### Widget graph
 
 You can hide the graph on the widget and keep only the value.
 
@@ -360,4 +400,4 @@ This will make xDrip+ open when your phone restarts.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 7/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06)
