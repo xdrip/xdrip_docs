@@ -91,6 +91,8 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../../images/M-S-HDSlist.png" style="zoom:75%;" />
 
+If you want to disable xDrip+ just select Disable Collection.
+
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 4/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.04)

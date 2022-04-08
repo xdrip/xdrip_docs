@@ -27,7 +27,7 @@ You will see these default indications when xDrip+ receives data.
     Note that the arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
     In case of missing readings, the arrow might indicate fast rise or drop, always correlate with the indication in `1`.
 
-You can customize the information shown in `1` with Graph Settings.
+You can customize the information shown in `1` with [Graph Settings](../display/#graph-settings).
 
 You can [customize the trend arrow aspect](#blood-drop-menu) but not behavior.
 
@@ -184,6 +184,16 @@ And make it the size you like. Then you can customize colors and contents aspect
 
 <img src="../images/Widget4.png" style="zoom:75%;" />
 
+### Screensaver
+
+If your phone supports this feature you can enable xDrip+ as screensaver in Android Settings.
+
+<img src="../images/ScreenSaver1.png" style="zoom:75%;" />
+
+When you put your phone in charge it will display a small graph and the BG value.
+
+<img src="../images/ScreenSaver2.png" style="zoom:75%;" />
+
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 4/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.04)
