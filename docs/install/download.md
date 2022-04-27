@@ -60,7 +60,7 @@ Once downloaded proceed to [installation](../install)
 
 ## Variants
 
-Four variants are regularly released to allow a total of 5 xDrip+ being installed on your phone. This can prove particularly useful to follow more than one person at the time.
+Four variants are regularly released to allow a total of 5 xDrip+ being installed on your phone. This can prove particularly useful to follow more than one person at a time.
 
 !!!warning  
     It is not recommended to use a variant connected to your sensor: use the main release only.  

@@ -62,7 +62,8 @@ If you want to secure your connection (local intranets and public wifi) you can 
 
 <img src="../images/M-S-SY8d.png" style="zoom:75%;" />
 
-If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weight heavily on the master battery, make sure you have a backup power bank available. 
+If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weight heavily on the master battery, make sure you have a backup power bank available.  
+When using tethering you will need to enable a [web service](../interapp/#web-service) on the master. Make sure the secret is identical on master and followers.
 
 Look in system status to check everything is connecting correctly.
 
@@ -70,4 +71,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 10/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06)

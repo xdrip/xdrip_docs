@@ -100,14 +100,12 @@ You can backup and retrieve your xDrip+ settings.
 
 <img src="../../images/M-S-LSS.png" style="zoom:75%;" />
 
-### InPen Insulin Pen
+### [Insulin Pens](../pens)
+
+Some insulin pens can be used with xDrip+.
 
 <img src="../images/M-S-IP.png" style="zoom:75%;" />
 
-### Pendiq 2.0 Insulin Pen
-
-<img src="../images/M-S-PI.png" style="zoom:75%;" />
-
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 12/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)

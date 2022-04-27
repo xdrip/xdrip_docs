@@ -12,18 +12,17 @@ Here below a compatibility table for supported bridge devices, for compatible se
 
 |   Bridge    | - Libre 1 - | - 14 days US - | - Libre 2 EU - |
 | :---------: | :---------: | :------------: | :------------: |
-|   BluCon    |    `Yes`    |    `4.2**`     |     `4.2*`     |
-|  MiaoMiao   |    `Yes`    |     `39**`     |     `39*`      |
-| MiaoMiao 2  |    `Yes`    |     `7**`      |      `7*`      |
-| MiaoMiao 3  |    `Yes`    |     `3A**`     |     `3A*`      |
-|   Bubble    |    `Yes`    |    `2.6**`     |     `2.6*`     |
-| Bubble mini |    `Yes`    |    `2.6**`     |     `2.6*`     |
+|   BluCon    |    `Yes`    |     `4.2*`     |     `4.2*`     |
+|  MiaoMiao   |    `Yes`    |     `39*`      |     `39*`      |
+| MiaoMiao 2  |    `Yes`    |      `7*`      |      `7*`      |
+| MiaoMiao 3  |    `Yes`    |     `3A*`      |     `3A*`      |
+|   Bubble    |    `Yes`    |     `2.6*`     |     `2.6*`     |
+| Bubble mini |    `Yes`    |     `2.6*`     |     `2.6*`     |
 |   Droplet   |    `Yes`    |       No       |     `2.2*`     |
 |    Atom     |    `Yes`    |                |                |
 
 *Note:*  
-*`*` [external add-on required](../../use/OOP)*  
-*`**` [external add-on required](../../use/OOP), not compatible with Android 10+*
+*`*` [external add-on required](../../use/OOP)*
 
 </br>
 
@@ -173,4 +172,22 @@ You BG should start displaying on the main graph.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+## Stop Libre sensor
+
+xDrip+ cannot physically stop a Libre sensor, it will stop running by itself after 14 days and 12 hours and keep showing the last value.
+
+Still, when changing sensor it is strongly recommended to inform xDrip+ of the change by stopping the sensor.
+
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+
+<img src="../images/M-StoS.png" style="zoom:75%;" />
+
+Confirm you really want to stop the sensor.
+
+<img src="../images/M-StoSC.png" style="zoom:75%;" />
+
+This will reset all calibrations and allow xDrip+ to start a new sensor.
+
+</br>
+
+[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.25)

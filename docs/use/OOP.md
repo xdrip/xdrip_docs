@@ -4,6 +4,14 @@ They are only used for Libre sensors and bridges now.
 
 There are two different families of Out Of Process Algorithms (OOP):
 
+| OOP Version       | Version date | Supported sensors            | File size |
+| ----------------- | ------------ | ---------------------------- | --------- |
+| OOP1 (2bb9458)    | 2018-08-26   | Libre                        | 17.1MB    |
+| OOP1new (fa218ef) | 2019-11-22   | Libre, Libre 2 EU            | 25.3MB    |
+| OOP1us (e901151)  | 2019-09-13   | Libre 14 days US             | 27.8MB    |
+| OOP2 (70129ac)    | 2021-12-04   | Libre 2 EU                   | 2.63MB    |
+| OOP2new (93e5cac) | 2020-12-08   | Libre 14 days US, Libre 2 EU | 2.65MB    |
+
 ### OOP1
 
 <img src="../images/OOP_1.png" style="zoom:75%;" />
@@ -26,12 +34,12 @@ Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) wh
 
 <img src="../images/OOP_2.png" style="zoom:75%;" />
 
-OOP2 provides decoding for the Libre 2 EU sensor, either for direct connection or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
+OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
 
 !!!info "Calibration is optional"  
     By [default](../misc/#out-of-process-algorithm) you can calibrate if using OOP2.
 
-The original version is available [here](https://drive.google.com/uc?id=1aeWvBiFCidOhreCMoW1S0ARa5HvNNf2m&export=download) but it is **recommended to use the [latest OOP2 release](https://drive.google.com/file/d/1cRfUDzFRnLUnsn6gKaC2cibZrIY1oIb-/view?usp=sharing)**.
+The original version is available [here](https://drive.google.com/uc?id=1aeWvBiFCidOhreCMoW1S0ARa5HvNNf2m&export=download) but it is **recommended to use the [latest OOP2new](https://drive.google.com/file/d/1cRfUDzFRnLUnsn6gKaC2cibZrIY1oIb-/view?usp=sharing)**.
 
 !!!warning  
     Out Of process Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.

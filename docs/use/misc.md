@@ -43,7 +43,7 @@ Proper Ongoing is mandatory for devices with Android 8 and above.
 
 ##### Out of Process Algorithm
 
-[Out Of Process Algorithm](../OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors.  
+[Out Of Process Algorithm](../OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors or provide decoding of the Libre 2 EU sensor information.  
 If the external app doesn't exist on your phone or doesn't provide the information, xDrip+ will not display BG.
 
 !!!warning  

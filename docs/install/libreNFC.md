@@ -45,6 +45,9 @@ Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan 
 | :---------: | :------------: | :------------: |
 |    `Yes`    |     `OOP`      |     `OOP`      |
 
+!!!note "Minimum scanning interval"  
+    You should wait at least 60 seconds between two NFC scans.
+
 </br>
 
 [*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

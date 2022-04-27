@@ -74,7 +74,15 @@ You can customize the volume of your alerts
 
 Ascending volume is recommended if you don't want the alarm to blare immediately (useful during the night).
 
-<img src="../images/M-S-AA-GAb.png" style="zoom:75%;" />
+##### Audio Focus
+
+Audio Focus allows you to decide how to handle other sounds when an xDrip+ alarm or alert triggers.
+
+<img src="../images/M-S-AA-GAl.png" style="zoom:75%;" />
+
+You can automatically lower the volume, pause the other apps playing sounds (like media players) or pause all other sounds in order to better focus on xDrip+ sound.
+
+<img src="../images/M-S-AA-GAl2.png" style="zoom:75%;" />
 
 ##### Smart snoozing
 
@@ -229,4 +237,4 @@ Touching snooze will snooze it for the period selected.
 
 </br>
 
-[*Last modified 6/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.05)
+[*Last modified 21/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20)
