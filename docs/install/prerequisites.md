@@ -3,7 +3,7 @@ You need an Android phone.
 - Minimum supported Android version is 4.4 but 6 and above is recommended.
 - If you will connect xDrip+ to a sensor your phone must support Bluetooth Low Energy (BLE): you can use utilities [like this one](https://play.google.com/store/apps/details?id=com.treeteam.blechecker) to check.
 - If you want to use the embedded master - follower function of xDrip+ (called xDrip+ Sync) both phones must have the [Google Play Services](https://play.google.com/store/apps/details?id=com.google.android.gms) installed.
-- In order to use NFC scanning features for Libre sensors, or to connect directly to a Libre 2 (EU) sensor your phone needs a compatible NFC reader.
+- In order to use NFC scanning features for Libre 1 and 2 (EU only) sensors, or to connect directly to a Libre 2 (EU) sensor your phone needs a compatible NFC reader.
 - If using Android 10 and above make sure you use a recent version of xDrip+.
 
 ### Family Link

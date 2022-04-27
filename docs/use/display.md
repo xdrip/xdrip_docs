@@ -253,9 +253,13 @@ You can visualize various reference lines on the graph:
 
 <img src="../images/M-S-DS6i.png" style="zoom:75%;" />
 
-Obsolete. Use predictions.
+##### G6 predictions
+
+G6 prediction is a built-in feature of the G6 transmitter showing as small grey dots.
 
 <img src="../images/M-S-DS6j.png" style="zoom:75%;" />
+
+<img src="../images/M-S-DS6j2.png" style="zoom:75%;" />
 
 ##### SMB
 
@@ -400,4 +404,4 @@ This will make xDrip+ open when your phone restarts.
 
 </br>
 
-[*Last modified 7/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06)
+[*Last modified 29/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.26)

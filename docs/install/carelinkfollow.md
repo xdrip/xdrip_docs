@@ -22,17 +22,19 @@ Missed data polling interval is an additional waiting time after received last r
 
 <img src="../images/M-S-HDS-CF3.png" style="zoom:75%;" />
 
-You can download treatments and receive notification.
+You can download treatments and receive notifications.
 
 <img src="../images/M-S-HDS-CF4.png" style="zoom:75%;" />
 
 </br>
 
-Sensor status and pump status are avilable in [Extra status line](../../use/lesscommon/#extra-status-line) option.
+<img src="../images/M-S-HDS-CF6.png" style="zoom:75%;" />
+
+Sensor status and pump status are available in [Extra status line](../../use/lesscommon/#extra-status-line) option.
 
 <img src="../images/M-S-HDS-CF5.png" style="zoom:75%;" />
 
 </br>
 
-*Last modified 28/3/2022*
+*Last modified 8/4/2022*
 
