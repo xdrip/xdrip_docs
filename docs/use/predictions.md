@@ -19,6 +19,9 @@ xDrip+ can handle multiple insulin types. See [below](#multiple-insulin-types).
 
 ### Carb ratio and insulin sensitivity
 
+!!!note "Automatic import"  
+    If you use [accepting treatments](../interapp/#receiving-from-nsclient) from AAPS or NSClient, these parameters and the basal profile will automatically import at profile switch.
+
 ### Carb absorbtion rate
 
 These parameters are key to diabetes management and should be known.  
@@ -51,6 +54,21 @@ If necessary you can perform a global percentage modification of all parameters 
 Remember to save.
 
 <img src="../images/M-S-PS4e.png" style="zoom:75%;" />
+
+### Basal Profile Editor
+
+!!!info "This feature is under development."  
+    Current basal profile is automatically imported from NSClient when [Accept Treatments](../interapp/#receiving-from-nsclient) is enabled.
+
+<img src="../images/M-S-PS4f.png" style="zoom:78%;" />
+
+You can display and edit your basal profile.
+
+<img src="../images/M-S-PS4f.png" style="zoom:78%;" />
+
+<img src="../images/M-S-PS4f2.png" style="zoom:78%;" />
+
+<img src="../images/M-S-PS4f3.png" style="zoom:78%;" />
 
 ### Use trend momentum
 
@@ -114,4 +132,4 @@ Multiple insulin types will be displayed in an identical way on the main graph.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 30/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.30)
