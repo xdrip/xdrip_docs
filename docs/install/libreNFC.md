@@ -41,13 +41,13 @@ The options below should remain disabled.
 
 Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan a Libre 14 days US or a Libre 2 Europe you need an [Out of Process Algorithm](../../use/OOP/) installed on the phone.
 
-| - Libre 1 - | - 14 days US - | - Libre 2 EU - |
-| :---------: | :------------: | :------------: |
-|    `Yes`    |     `OOP`      |     `OOP`      |
+| - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
+| :---------------: | :------------: | :------------: |
+|       `Yes`       |     `OOP`      |     `OOP`      |
 
 !!!note "Minimum scanning interval"  
     You should wait at least 60 seconds between two NFC scans.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 27/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.27)

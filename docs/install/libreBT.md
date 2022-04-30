@@ -5,21 +5,21 @@ Many NFC to Bluetooth bridges are available on the market for Libre sensors.
 The original project was developed by Joern: [LimiTTer](https://github.com/JoernL/LimiTTer). You need to remember this name as it will appear as the default bridge name when the actual device is not identified. Unless you actually have a LimiTTer (or connect directly a Libre 2), seeing this name means your bridge is not connected to xDrip+.
 
 xDrip+ supports some of them for some sensors.  
-**Libre Pro/H, Libre 2 US/CA/AUS are not supported.**  
+**Libre H, Libre 2 US/CA/AUS are not supported.**  
 You can use Diabox in [Nightscout follower](../nightscoutfollower/#diabox) mode.
 
 Here below a compatibility table for supported bridge devices, for compatible sensors **minimum** firmware version is indicated.
 
-|   Bridge    | - Libre 1 - | - 14 days US - | - Libre 2 EU - |
-| :---------: | :---------: | :------------: | :------------: |
-|   BluCon    |    `Yes`    |     `4.2*`     |     `4.2*`     |
-|  MiaoMiao   |    `Yes`    |     `39*`      |     `39*`      |
-| MiaoMiao 2  |    `Yes`    |      `7*`      |      `7*`      |
-| MiaoMiao 3  |    `Yes`    |     `3A*`      |     `3A*`      |
-|   Bubble    |    `Yes`    |     `2.6*`     |     `2.6*`     |
-| Bubble mini |    `Yes`    |     `2.6*`     |     `2.6*`     |
-|   Droplet   |    `Yes`    |       No       |     `2.2*`     |
-|    Atom     |    `Yes`    |                |                |
+|   Bridge    | - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
+| :---------: | :---------------: | :------------: | :------------: |
+|   BluCon    |       `Yes`       |     `4.2*`     |     `4.2*`     |
+|  MiaoMiao   |       `Yes`       |     `39*`      |     `39*`      |
+| MiaoMiao 2  |       `Yes`       |      `7*`      |      `7*`      |
+| MiaoMiao 3  |       `Yes`       |     `3A*`      |     `3A*`      |
+|   Bubble    |       `Yes`       |     `2.6*`     |     `2.6*`     |
+| Bubble mini |       `Yes`       |     `2.6*`     |     `2.6*`     |
+|   Droplet   |       `Yes`       |      `No`      |     `2.2*`     |
+|    Atom     |       `Yes`       |                |                |
 
 *Note:*  
 *`*` [external add-on required](../../use/OOP)*
@@ -190,4 +190,4 @@ This will reset all calibrations and allow xDrip+ to start a new sensor.
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.25)
+[*Last modified 27/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.27)

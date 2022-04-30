@@ -25,9 +25,15 @@ You specify the identified receiver if you want xDrip+ to send messages only to 
 
 <img src="../images/M-S-IASe.png" style="zoom:75%;" />
 
+##### Receiving from NSClient.
+
 xDrip+ can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
 
 <img src="../images/M-S-IASf.png" style="zoom:75%;" />
+
+You can enable or disable the sound that plays after updating xDrip+ profile.
+
+<img src="../images/M-S-IASf2.png" style="zoom:78%;" />
 
 ### Web Service
 
@@ -42,4 +48,4 @@ For safety reason (anybody on the network can access this service) you should pr
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 30/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.30)
