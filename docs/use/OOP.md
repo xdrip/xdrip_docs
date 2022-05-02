@@ -37,12 +37,13 @@ Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) wh
 OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
 
 !!!info "Calibration is optional"  
-    By [default](../misc/#out-of-process-algorithm) you can calibrate if using OOP2.
+    You can either calibrate from raw data, not calibrate or add a calibration to native data.  
+    Check the [OOP2 settings](../misc/#oop2).
 
 The original version is available [here](https://drive.google.com/uc?id=1aeWvBiFCidOhreCMoW1S0ARa5HvNNf2m&export=download) but it is **recommended to use the [latest OOP2new](https://drive.google.com/file/d/1cRfUDzFRnLUnsn6gKaC2cibZrIY1oIb-/view?usp=sharing)**.
 
 !!!warning  
-    Out Of process Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
+    Out Of process Libre Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
 
 ### Auto-detection
 
@@ -70,4 +71,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 2/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.02)

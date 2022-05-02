@@ -66,7 +66,19 @@ You can display and edit your basal profile.
 
 <img src="../images/M-S-PS4f.png" style="zoom:78%;" />
 
+1. Select the profile you want to modify or view
+2. Export (not functional yet)
+3. Save locally
+
 <img src="../images/M-S-PS4f2.png" style="zoom:78%;" />
+
+To edit your basal profile:
+
+1.  Touch the basal hour bar you want to modify, it will turn orange
+2. Change the step if necessary
+3. Use the positive numbered box or the upwards arrow to increase
+4. Use the negative numbered box or the downwards arrow to decrease
+5. Use set, or double tap the bar to set the new value
 
 <img src="../images/M-S-PS4f3.png" style="zoom:78%;" />
 
