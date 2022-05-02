@@ -52,13 +52,17 @@ If the external app doesn't exist on your phone or doesn't provide the informati
 
 <img src="../images/M-S-LCS15h.png" style="zoom:75%;" />
 
-*Deprecated* - For safety reasons you cannot calibrate OOP1 plugin values.
+##### OOP2
 
-<img src="../images/M-S-LCS15i.png" style="zoom:75%;" />
+<img src="../images/M-S-LCS15i.png" style="zoom:78%;" />
 
-OOP2 plugin allows calibration. If deselected, a vendor like BG value will be provided by the algorithm.
+You can use OOP2 in different ways:
 
-<img src="../images/M-S-LCS15i2.png" style="zoom:75%;" />
+- No calibration generates vendor like values (native mode) without the need of calibrating
+- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1
+- Calibrate based on glucose allows you to apply xDrip+ calibration on native values (usually when the sensor is inaccurate)
+
+<img src="../images/M-S-LCS15i2.png" style="zoom:78%;" />
 
 Smooth Libre data averages on 5 measurement. This will also delay readings.  
 If this option doesn't bring the improvement expected, also try [Smooth Sensor Noise](../display/#smooth-sensor-noise).
@@ -75,4 +79,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 2/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.02)

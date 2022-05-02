@@ -46,17 +46,17 @@ Filtered values can be seen with sensors supporting raw data.
 
 ##### Treatments and predictions curves
 
-1. Treatment color (treatment main curve) active insulin
-2. Treatment color dark (small dotted line) insulin on board
+1. Insulin on board (treatment main curve)
+2. Insulin activity (small dotted line)
 
-<img src="../images/M-S-DS2e.png" style="zoom:75%;" />
+<img src="../images/M-S-DS2e.png" style="zoom:78%;" />
 
 <img src="../images/M-S-DS2e2.png" style="zoom:75%;" />
 
-1. Predictive color (main prediction graph)
-2. Predictive color dark (small dotted line) carbs on board
+1. Glucose prediction (main prediction graph)
+2. Carbs on board (small dotted line)
 
-<img src="../images/M-S-DS2f.png" style="zoom:75%;" />
+<img src="../images/M-S-DS2f.png" style="zoom:78%;" />
 
 <img src="../images/M-S-DS2f2.png" style="zoom:75%;" />
 
@@ -129,7 +129,7 @@ SMBs are icons decluttering the graph for micro-bolus treatments.
 
 If you want to put some color on the top and bottom bars of your Android screen, enable flair colors.
 
-<img src="../images/M-S-DS2p.png" style="zoom:75%;" />
+<img src="../images/M-S-DS2p.png" style="zoom:78%;" />
 
 <img src="../images/M-S-DS2p2.png" style="zoom:75%;" />
 

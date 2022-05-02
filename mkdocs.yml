@@ -76,6 +76,7 @@ nav:
         - 'Bluetooth Settings': 'use/bluetooth.md'
         - 'Other Misc. Options': 'use/misc.md'
         - 'Out of Process Algorithm': 'use/OOP.md'
+        - 'Insulin Pens': 'use/pens.md'
     - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
         - 'Android Wear': 'smartwatch/wear.md'
@@ -90,3 +91,4 @@ nav:
         - 'Libre Bridge': 'troubleshoot/librebridge.md'
         - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
         - 'Android Debug Bridge': 'troubleshoot/ADB.md'
+    - Change Log: 'changelog.md'
