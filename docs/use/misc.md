@@ -60,7 +60,7 @@ You can use OOP2 in different ways:
 
 - No calibration generates vendor like values (native mode) without the need of calibrating
 - Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1
-- Calibrate based on glucose allows you to apply xDrip+ calibration on native values (usually when the sensor is inaccurate)
+- Calibrate based on glucose allows you to apply xDrip+ calibration to native values
 
 <img src="../images/M-S-LCS15i2.png" style="zoom:78%;" />
 

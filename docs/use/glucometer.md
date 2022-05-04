@@ -4,6 +4,10 @@
 
 </br>
 
+You can scan the Glucomen Aero meter with an NFC reader capable phone.
+
+<img src="../images/M-S-GMe.png" style="zoom:78%;" />
+
 In order to enable Use Bluetooth Meter you need to pair a meter first. If this is a new meter make sure you have measured BG at least once before trying to pair it.
 
 <img src="../images/M-S-GMa.png" style="zoom:75%;" />
@@ -23,4 +27,4 @@ When you enable the use of the Bluetooth meter, all blood tests will automatical
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 4/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)

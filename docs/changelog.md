@@ -1,3 +1,9 @@
+[4th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)	**Glucomen Aero** support
+
+[ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b)	b - Improvements: NovoPen, G6 start session 
+
+[ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03)	cont'd: fix calibration transition
+
 [ 2nd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.02)	[Libre 2 native calibration](../use/misc/#oop2)
 
 [ 1st May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.01b)	More profile import handling/sounds work
@@ -30,7 +36,7 @@
 
 [11th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)	**NovoPen support**, BG treatment to calibration leak fix
 
-[ 6th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06b)	B - Translation bug fix, BG treatment to calibration leak fix
+[ 6th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06b)	b - Translation bug fix, BG treatment to calibration leak fix
 
 [ 6th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06)	Translation bug fix, [treatments](../use/display/#treatments-and-predictions-curves) and [flair](../use/display/#flair-colors) names changes
 
