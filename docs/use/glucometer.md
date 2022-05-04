@@ -27,4 +27,4 @@ When you enable the use of the Bluetooth meter, all blood tests will automatical
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 4/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)
