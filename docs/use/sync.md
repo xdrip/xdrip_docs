@@ -8,14 +8,20 @@ It requires Google Play Services and the underlying security key can be customiz
 
 <img src="../images/M-S-SY1.png" style="zoom:75%;" />
 
+##### Handset group security sync key
+
 An unique key is created at xDrip+ install (it will be different if you reinstall xDrip+) and should match all devices using xDrip+ sync. Even if you can customize this key making it your own (letters and numbers) you will usualy leave it as generated.
 
 <img src="../images/M-S-SY2.png" style="zoom:75%;" />
+
+##### Be master for followers
 
 The device getting BG data from the sensor will be Master, all others will be Followers.  
 Only one master can use the same security key. If two masters are detected, the newly arrived one will be disabled and return to follower state.
 
 <img src="../images/M-S-SY3.png" style="zoom:75%;" />
+
+##### Accept followers actions
 
 You can setup the master phone to receive and accept followers treatments and calibrations. Be extremely careful when using this feature if you use automatic calibrations. Also remember sensor start and stop might be sent by followers and accepted by the master.
 

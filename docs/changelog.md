@@ -1,3 +1,17 @@
+[12th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)	Version detail in status
+
+[11th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11)	Time lock, prefs search fix
+
+[10th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.10)	System status and code cleanup
+
+[ 9th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.09)	New Crowdin updates, TBR cap
+
+[ 8th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.08)	Absolute basal preliminary
+
+[ 7th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.07)	[Visible alert notification](../../use/alarms/#visible-alert-notification) when bypassing silent mode
+
+[ 6th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06)	Fix "don't use for calibration"
+
 [4th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)	**Glucomen Aero** support
 
 [ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b)	b - Improvements: NovoPen, G6 start session 
