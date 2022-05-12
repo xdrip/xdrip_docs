@@ -104,6 +104,16 @@ Button silence alarms is a quick way to snooze alarms by just pressing volume up
 
 <img src="../images/M-S-AA-GAe.png" style="zoom:75%;" />
 
+##### Alert buttons
+
+Alert button will add an action button in the drop down view of the alert.
+
+<img src="../images/M-S-AA-GAm.png" style="zoom:78%;" />
+
+<img src="../images/M-S-AA-GAm2.png" style="zoom:75%;" />
+
+<img src="../images/M-S-AA-GAm3.png" style="zoom:75%;" />
+
 ##### Start snoozed
 
 Start snoozed applies the snooze delay before triggering the alarm. Make sure the `Default snooze` delay is appropriate in the alarm.
@@ -226,6 +236,8 @@ You will be proposed a default snooze period.
 
 If an alert triggers you will see the notification in your phone drop down panel, and eventually hear the sound.
 
+You can snooze the alert swiping the notification, you can customize it further tapping it.
+
 <img src="../images/M-SNOc.png" style="zoom:75%;" />  
 
 You can access the snooze menu by touching the notification or from xDrip+ main menu, snooze alert.
@@ -235,6 +247,43 @@ Touching snooze will snooze it for the period selected.
 
 <img src="../images/M-SNOd.png" style="zoom:75%;" />  
 
+##### ALL ALERTS CURRENTLY DISABLED
+
+If you pre-snooze (disable) all alerts, you will see this warning message.
+
+<img src="../images/M-SNOe.png" style="zoom:75%;" />  
+
+To remove it you need to re-enable alerts.
+
+<img src="../images/M-SNOf.png" style="zoom:75%;" />  
+
 </br>
 
-[*Last modified 21/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20)
+## Visible alert notification
+
+Available for Android 8 and above.
+
+When an alert triggers you will see it in the notifications drop down panel.
+
+<img src="../images/M-SNOg.png" style="zoom:75%;" />  
+
+Swiping it will snooze it, touching it will open a preferences menu.  
+Deliver quietly will remove [notifications channel](#notification-channel) sound and vibration.
+
+<img src="../images/M-SNOh.png" style="zoom:75%;" />
+
+You can restore it with allow sound and vibration with the [notifications channel](#notification-channel).
+
+<img src="../images/M-SNOi.png" style="zoom:75%;" />  
+
+Settings will drive you to your phone notifications setup settings.
+
+<img src="../images/M-SNOk.png" style="zoom:75%;" />  
+
+You can also completely turn off [notifications channel](#notification-channel) for xDrip+.
+
+<img src="../images/M-SNOj.png" style="zoom:75%;" />  
+
+
+
+[*Last modified 7/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.07)

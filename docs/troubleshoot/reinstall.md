@@ -23,8 +23,6 @@ Follow this sequence:
 
 ## Backup
 
-### [Backup settings](../../use/loadsavesettings)
-
 ### Backup the database
 
 The database contains all BG readings, treatments and notes. It is strongly recommended that you backup your database and keep a copy on another device if you want to keep your existing data and as a safety precaution against a phone loss, crash, ...  
@@ -131,6 +129,8 @@ On the old phone:
 
 1. [Backup settings and database](#backup)
 2. Send yourself both settings and database backups, or copy them to a computer.
+2. If this old phone is connected to a sensor or a bridge, make sure to [disable collection](../../install/datasource/#changing-data-source) so that it won't interfere when you start using your new phone.
+2. If this old phone was master for xDrip+ sync followers, [remove the master role](../../use/sync/#be-master-for-followers).
 
 On the new phone:
 
@@ -138,6 +138,7 @@ On the new phone:
 2. [Backup settings and database](#backup) (this is only needed to create the correct folders).
 3. Copy the files you sent yourself via mail, or from a computer to the right folders.
 4. [Restore settings and database](#restore).  
+4. If the new phone is connected to a sensor or a bridge, [connect it now](../../install/datasource/#sensor-selection). (Your data source will be correct but you'll need to recover connection).
 
 </br>
 

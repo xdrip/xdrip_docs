@@ -392,13 +392,43 @@ You can change the text and background color.
 
 <img src="../images/M-S-DS6z4.png" style="zoom:75%;" />
 
-And enable and disable the feature for a defined period of the day.
+Enable and disable the feature for a defined period of the day.
 
 <img src="../images/M-S-DS6z5.png" style="zoom:75%;" />
 
+### Number Icon in Notification Area
+
+xDrip+ can display your BG number as an icon in the top left notification area and in the drop down notifications.
+
+<img src="../images/M-S-DS6aa6.png" style="zoom:75%;" />
+
+<img src="../images/M-S-DS6aa1.png" style="zoom:75%;" />
+
+You should test the feature before using it as it might crash on some phones.
+
+<img src="../images/M-S-DS6aa2.png" style="zoom:75%;" />
+
+<img src="../images/M-S-DS6aa5.png" style="zoom:75%;" />
+
+You phone will vibrate a few times during the test and you should see the BG icon 123 top left.
+
+<img src="../images/M-S-DS6aa7.png" style="zoom:75%;" />
+
+If this doesn't work it means you shouldn't enable the feature.
+
+**Once functionality is confirmed** you can enable it.
+
+<img src="../images/M-S-DS6aa3.png" style="zoom:75%;" />
+
+You can also enable a large icon, with or without arrow in the notifications area.
+
+<img src="../images/M-S-DS6aa4.png" style="zoom:75%;" />
+
+<img src="../images/M-S-DS6aa8.png" style="zoom:75%;" />
+
 ### Show xDrip on Boot
 
-This will make xDrip+ open when your phone restarts.
+This will make xDrip+ open automatically when your phone restarts.
 
 <img src="../images/M-S-DS6y.png" style="zoom:75%;" />
 
