@@ -1,4 +1,4 @@
-[12th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)	Version detail in status
+[12th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)	[Version detail in status](../troubleshoot/systemstatus/)
 
 [11th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11)	Time lock, prefs search fix
 

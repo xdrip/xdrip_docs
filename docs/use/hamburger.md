@@ -3,33 +3,41 @@
 
 Many items can be added to this menu, by default you'll find the following ones:
 
-`Home Screen` just returns to the main view.
+**Home Screen** just returns to the main view.
 
-[`System Status`](../../troubleshoot/systemstatus/) shows internal information on your data source, sharing, smartwatch status.
+[**System Status**](../../troubleshoot/systemstatus/) shows internal information on your data source, sharing, smartwatch status.
 
-[`Snooze Alert`](../alarms/#snooze-alert) will give you options to snooze or disable alerts.
+[**Snooze Alert**](../alarms/#snooze-alert) will give you options to snooze or disable alerts.
 
-[`Statistics`](../statistics/) provide basic statistics.
+[**Statistics**](../statistics/) provide basic statistics.
 
-[`History`](#history) allows you to browse previous days data.
+[**History**](#history) allows you to browse previous days data.
 
-[`Settings`](../settings/) opens the settings menu.
+[**Settings**](../settings/) opens the settings menu.
 
 Additionally if can show more entries if you add items or when you use a sensor.
 
+<img src="../images/UI-HM-SSS.png" style="zoom:77%;" />
+
 You will see sensor actions if you use xDrip+ directly connected to a sensor, also on xDrip+ Sync follower if the master is.
 
-`Start Sensor` or `Stop Sensor` refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
+**Start Sensor** or **Stop Sensor** refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
 
 !!!warning  
     xDrip+ Sync follower can transmit Start or Stop sensor and calibrations remotely.  
     Be extremely careful when using these features on a follower.
 
-For Bluetooth bridges ([G4](../../install/G4/) and [Libre](../../install/libreBT/)) you will also see `Scan Bluetooth`.
+For Bluetooth bridges ([G4](../../install/G4/) and [Libre](../../install/libreBT/)) you will also see **Scan Bluetooth**.
 
-`Level Alerts` will show if enabled in [Alerts and Alarms](../alarms/#glucose-level-alert-list).
+<img src="../../images/M-BTS.png" style="zoom:75%;" />
 
-`BG Data Table`, `Calibration Graph` and `Calibration Data Table` should be [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
+**Level Alerts** will show if enabled in [Alerts and Alarms](../alarms/#glucose-level-alert-list).
+
+<img src="../images/M-LA.png" style="zoom:77%;" />
+
+**BG Data Table**, **Calibration Graph** and **Calibration Data Table** should be [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
+
+<img src="../images/M-DT.png" style="zoom:77%;" />
 
 ### History
 

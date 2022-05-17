@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistC.png" style="zoom:75%;" />
+
 !!!info "Only Libre 2 Europe sensor model is supported"
 
 Libre 2 reference documentation is here: [https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip)

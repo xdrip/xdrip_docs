@@ -135,7 +135,8 @@ You can also delete followers from the list.
 
 <img src="../images/M-S-CU-TP.png" style="zoom:75%;" />
 
-If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.
+If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.  
+If xDrip+ can display basal information from an external status, it will also be uploaded to Tidepool.
 
 <img src="../images/M-S-CU-TPa.png" style="zoom:75%;" />
 
@@ -162,4 +163,4 @@ If you also upload data manually from your pump, you might want to disable xDrip
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)

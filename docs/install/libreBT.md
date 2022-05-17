@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistC.png" style="zoom:75%;" />
+
 # Libre and bridge
 
 Many NFC to Bluetooth bridges are available on the market for Libre sensors.

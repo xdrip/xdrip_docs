@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
+
 This is the reference video: [https://www.youtube.com/watch?v=LcgjfbYcWkE](https://www.youtube.com/watch?v=LcgjfbYcWkE)
 
 </br>
