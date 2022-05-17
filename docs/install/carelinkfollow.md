@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
+
 CareLink follower is not a standard feature of xDrip+. You need to use a private version:
 
 [From Bence](https://github.com/benceszasz/xDripCareLinkFollower/releases)

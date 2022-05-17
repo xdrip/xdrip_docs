@@ -116,6 +116,13 @@ They will be added to the graph like this:
 
 By touching them you can edit or delete them.
 
+### Undo and Redo
+
+1. Undo will step backwards through treatments simulations, calibrations and notes. After 30 minutes it will hide again.
+2. Redo can step forwards through treatments simulations, calibrations and notes. After 30 minutes it will hide again.
+
+<img src="../images/UI-UndoRedo.png" style="zoom:77%;" />
+
 ### [Main menu](../hamburger)
 
 Also called hamburger or drawer menu, this is the main menu in which you'll be able to find or add the most common actions you need and also all settings and customizations.
@@ -128,27 +135,43 @@ With a long touch on the central area between main and three dots menu you can o
 
 <img src="../../images/UImenu.png" style="zoom:75%;" />
 
-`Source Wizard Button` shows the button driving you through the data source selection as described [here](../../install/datasource).
+##### Source Wizard Button
+
+Shows the button driving you through the data source selection as described [here](../../install/datasource).
 
 <img src="../../install/images/Install12.png" style="zoom:75%;" />
 
-`Show Time Buttons` adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.
+##### Show Time Buttons
+
+Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.
 
 <img src="../images/UI-TimeButtons.png" style="zoom:75%;" />
 
-`Show Chart Preview` enables or disables the 24 hours small chart in the lower screen area.
+##### Locked time period always used
+
+Sets the last modified display time period as default.
+
+##### Show Chart Preview
+
+Enables or disables the 24 hours small chart in the lower screen area.
 
 <img src="../images/UI-ChartPreview.png" style="zoom:75%;" />
 
-`Show Collector Status` shows information messages regarding the collector status below the main graph.
+##### Show Collector Status
+
+Shows information messages regarding the collector status below the main graph.
 
 <img src="../images/UI-CollStatus.png" style="zoom:75%;" />
 
-`Show Sensor Expiry` displays the remaining time before sensor expiry below the main graph.
+##### Show Sensor Expiry
+
+Displays the remaining time before sensor expiry below the main graph.
 
 <img src="../images/UI-SensorExpiry.png" style="zoom:75%;" />
 
-`Show Graphical Trend Arrow` adds an option allowing you to select other arrow styles.
+##### Show Graphical Trend Arrow
+
+Adds an option allowing you to select other arrow styles.
 
 Use the wrench and drop down menu to select them.  
 Color arrows include a hue cursor to change color. 
@@ -196,4 +219,4 @@ When you put your phone in charge it will display a small graph and the BG value
 
 </br>
 
-[*Last modified 4/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.04)
+[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)

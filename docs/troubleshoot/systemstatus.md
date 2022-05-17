@@ -3,6 +3,8 @@
 
 System status provides internal information on xDrip+ collector state (either from a sensor or as a follower) as well as sharing, followers and smartwatch connected directly.
 
+<img src="../images/M-SS-VerNew.png" style="zoom:75%;" />
+
 ### Classic Status Page
 
 This page shows information about currently installed version, and previously installed version.  
@@ -118,4 +120,4 @@ If it's never been working make sure you have [setup](../../install/nightscoutfo
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)

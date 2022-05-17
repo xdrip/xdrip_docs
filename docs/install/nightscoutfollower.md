@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistJ.png" style="zoom:75%;" />
+
 ### Nightscout
 
 For using xDrip+ with data coming from your [Nightscout](https://nightscout.github.io/) site, you only need to enter your site URL, you can also download compatible treatments from Nightscout (BG, calibrations, treatments).

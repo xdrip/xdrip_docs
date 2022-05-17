@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistF.png" style="zoom:75%;" />
+
 The Sony Smartwatch 3 (SWR50) was one of the very few smartwatches able to read the Libre sensor with its internal NFC reader, and gave birth to [early projects as a bridge](https://github.com/pimpimmi/LibreAlarm). This is now an archived project, some guidelines are still available [here](https://www.reddit.com/r/diabetes/comments/67jmkj/my_hombrew_android_cgm_build_so_far_sony/).
 
 Most required resources are not available anymore on the web.

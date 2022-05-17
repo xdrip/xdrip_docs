@@ -89,10 +89,60 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />
 
-<img src="../../images/M-S-HDSlist.png" style="zoom:75%;" />
+[G4 (with bridge) or G4 Platinum receiver](../G4)  
 
-If you want to disable xDrip+ just select Disable Collection.
+<img src="../images/M-S-HDSlistA.png" style="zoom:75%;" />
+
+[G5](../G5), [G6 and One](../G6) 
+
+<img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
+
+[Libre (with bridge)](../libreBT) 
+
+<img src="../images/M-S-HDSlistC.png" style="zoom:75%;" />
+
+[Libre whole house](https://github.com/tzachi-dar/LibreAllHouse)
+
+<img src="../images/M-S-HDSlistD.png" style="zoom:75%;" />
+
+[xDrip+ Sync](../xdripfollower)
+
+<img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
+
+[Libre with patched SWR50 smartwatch](../librealarm) 
+
+<img src="../images/M-S-HDSlistF.png" style="zoom:75%;" />
+
+[Libre 2 (only EU)](../libre2patch)
+
+<img src="../images/M-S-HDSlistG.png" style="zoom:75%;" />
+
+[640G/670G pumps](../640_670), [Eversense](../eversense) and [Build your own app (BYODA)](../byod)
+
+<img src="../images/M-S-HDSlistH.png" style="zoom:75%;" />
+
+[Medtrum A6/S7](../medtrum) 
+
+<img src="../images/M-S-HDSlistI.png" style="zoom:75%;" />
+
+[Nightscout and Diabox](../nightscoutfollower) 
+
+<img src="../images/M-S-HDSlistJ.png" style="zoom:75%;" />
+
+[Dex Share](../dexshare) 
+
+<img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
+
+##### Disable Collection
+
+If you want to disable xDrip+.
+
+<img src="../images/M-S-HDSlistL.png" style="zoom:75%;" />
+
+[CareLink](../carelinkfollow) (private version) 
+
+<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 
 </br>
 
-[*Last modified 4/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.04)
+[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)

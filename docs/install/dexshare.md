@@ -1,3 +1,8 @@
+<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+<img src="../../images/M-S.png" style="zoom:75%;" />  
+<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
+<img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
+
 For using xDrip+ with data coming from share servers, you must enter the credentials you use to authenticate with Clarity.
 
 !!!warning "Account lock"  
