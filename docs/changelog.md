@@ -1,3 +1,7 @@
+[19th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)	New Crowdin updates, G6v2 raw scaling fix
+
+[16th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.16)	New Crowdin updates, OOP1 fix
+
 [12th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)	[Version detail in status](../troubleshoot/systemstatus/)
 
 [11th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11)	Time lock, prefs search fix

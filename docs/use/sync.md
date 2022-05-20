@@ -27,27 +27,36 @@ You can setup the master phone to receive and accept followers treatments and ca
 
 <img src="../images/M-S-SY4.png" style="zoom:75%;" />
 
-Based on the Parakeet project, multiple master devices can create a whole house network.
+##### Whole house
+
+Based on the Parakeet project, multiple master devices can create a whole house network.  
+If you use Libre sensors you can also use this feature, see [here](https://github.com/tzachi-dar/LibreAllHouse) how to create your whole house network.
 
 <img src="../images/M-S-SY5.png" style="zoom:75%;" />
+
+##### Parakeet geolocalization
 
 And if you used a Parakeet you could send actual position to followers.
 
 <img src="../images/M-S-SY6.png" style="zoom:75%;" />
 
+##### Remote snoozing
+
 Remote snoozing allows the snooze request to propagate along the group. Master or followers can snooze alarms. Use with care.
 
 <img src="../images/M-S-SY7.png" style="zoom:75%;" />
+
+##### Disable sync
 
 Disable Sync completely disables sharing. You might need to restart your phone when you enable it back.
 
 <img src="../images/M-S-SY9.png" style="zoom:75%;" />
 
+### Desert Sync
+
 Desert Sync allows xDrip+ sync without internet or phone data coverage.
 
 <img src="../images/M-S-SY8.png" style="zoom:75%;" />
-
-### Desert Sync
 
 Desert Sync allows you to share data between your xDrip+ master and followers when internet is not available. This can happen when traveling out of phone coverage or on a local intranet (no internet access).
 
@@ -77,4 +86,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 10/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06)
+[*Last modified 20/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)
