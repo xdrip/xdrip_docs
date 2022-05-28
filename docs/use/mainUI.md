@@ -143,7 +143,8 @@ Shows the button driving you through the data source selection as described [her
 
 ##### Show Time Buttons
 
-Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.
+Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.  
+If you long press a time button you can lock the view to that time period.
 
 <img src="../images/UI-TimeButtons.png" style="zoom:75%;" />
 

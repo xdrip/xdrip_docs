@@ -224,16 +224,22 @@ Now raw data are mainly visible for Libre sensors.
 
 ##### Basal information
 
-If basal information is available from an external source ([AAPS](https://androidaps.readthedocs.io/en/latest/index.html)) it can be displayed by xDrip+.
+If basal information is available from an external source ([AAPS NSClient](https://androidaps.readthedocs.io/en/latest/index.html)) it can be displayed by xDrip+.
 
-!!!note "Basal display in xDrip+ is not a complete feature and might not work"  
-    In AAPS config builder: enable "xDrip status line", and inside its cog enable both options.  
-    In xDrip: go to settings - less common settings - extra status line and enable "external status"  
-    Settings - xDrip display settings - graph settings - enable "show basal TBR".
+In AAPS/NSClient config builder, xDrip+ Statusline, enable Show detailed IoB.
+
+<img src="../images/NSClient.png" style="zoom:75%;" />
+
+In xDrip+:  
+Settings - Less common settings - enable Extra status line, enable [External status](../lesscommon/#extra-status-line).  
+Settings - Inter-app - enable [Accept treatments](../interapp/#receiving-from-nsclient).  
+Enable Show basal TBR.
 
 <img src="../images/M-S-DS6g.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2n2.png" style="zoom:75%;" />
+
+Basal information will also be uploaded to [Tidepool](../cloud/#tidepool).
 
 ##### Target and average lines
 
@@ -434,4 +440,4 @@ This will make xDrip+ open automatically when your phone restarts.
 
 </br>
 
-[*Last modified 29/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.26)
+[*Last modified 26/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)
