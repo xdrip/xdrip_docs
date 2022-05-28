@@ -1,4 +1,4 @@
-[26th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)	**[NSClient absolute basal](../../use/display/#basal-information)**
+[26th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)	**[NSClient absolute basal](../use/display/#basal-information)**
 
 [19th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)	G6v2 raw scaling fix
 
