@@ -62,6 +62,8 @@ The following sensors and features are supported with a companion app:
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 - [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
+- Companion app for G6, G7, One and CamAPS  
+  See below.
 
 </br>
 
@@ -132,6 +134,10 @@ You can select another data source without using the wizard from the settings me
 [Dex Share](../dexshare) 
 
 <img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
+
+[Companion app](../companion) for G6, G7, One and CamAPS
+
+<img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
 
 ##### Disable Collection
 
