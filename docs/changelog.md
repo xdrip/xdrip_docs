@@ -1,3 +1,5 @@
+[ 9th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09)	G6 improvements (Android 12, expiry highlight, start and stop)
+
 [ 2nd Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02)	UI based [companion data source](../../install/companion) (testing)
 
 [ 1st Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01)	Reduce notifications, calibrations improvement
