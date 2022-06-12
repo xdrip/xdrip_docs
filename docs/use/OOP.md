@@ -1,17 +1,17 @@
-Out of process algorithms are external apps which function is to perform dataprocessing that is not directly provided by xDrip+.
+Out of process algorithms are external apps which function is to perform data processing that is not directly provided by xDrip+.
 
 They are only used for Libre sensors and bridges now.
 
 There are two different families of Out Of Process Algorithms (OOP):
 
-| OOP Version                    | Version date | Supported sensors            | File size |
-| ------------------------------ | ------------ | ---------------------------- | --------- |
-| OOP1 (2bb9458)                 | 2018-08-26   | Libre                        | 17.1MB    |
-| OOP1new (fa218ef)              | 2019-11-22   | Libre, Libre 2 EU            | 25.3MB    |
-| OOP1us (e901151)               | 2019-09-13   | Libre 14 days US             | 27.8MB    |
-| OOP2 (70129ac)                 | 2021-12-04   | Libre 2 EU                   | 2.63MB    |
-| OOP2new (93e5cac) - do not use | 2020-12-08   | Libre 14 days US, Libre 2 EU | 2.65MB    |
-| OOP2 1.2 (8a0ee8f)             | 2022-06-10   | Libre 14 days US, Libre 2 EU | 2.66MB    |
+| OOP Version                        | Version date | Supported sensors            | File size |
+| ---------------------------------- | ------------ | ---------------------------- | --------- |
+| OOP1 (2bb9458)                     | 2018-08-26   | Libre                        | 17.1MB    |
+| OOP1new (fa218ef)                  | 2019-11-22   | Libre, Libre 2 EU            | 25.3MB    |
+| OOP1us (e901151)                   | 2019-09-13   | Libre 14 days US             | 27.8MB    |
+| OOP2 (70129ac)                     | 2021-12-04   | Libre 2 EU                   | 2.63MB    |
+| OOP2new (93e5cac) - **do not use** | 2020-12-08   | Libre 14 days US, Libre 2 EU | 2.65MB    |
+| OOP2 1.2 (8a0ee8f)                 | 2022-06-10   | Libre 14 days US, Libre 2 EU | 2.66MB    |
 
 ### OOP1
 
@@ -19,9 +19,9 @@ There are two different families of Out Of Process Algorithms (OOP):
 
 !!!warning  "Old Android ONLY"  
     Maximum supported Android version is 9.  
-    Few Android 10 and above phones have been reported to be functioning with OOP1.
+    Few Android 10 and above phones have been reported to be functioning with OOP1new/OOP1us.
 
-OOP1 provides readings similar to the vendor reader without calibrating. It can also decode the Libre 2 EU data. You need a [compatible bridge](../../install/libreBT/#libre-and-bridge) if using any. OOP1 also applies to NFC scan results.
+OOP1 provides readings similar to the vendor reader without calibrating. You need a [compatible bridge](../../install/libreBT/#libre-and-bridge) if using any. OOP1 also applies to NFC scan results.
 
 !!!warning "No calibration possible"  
     Calibrations will be ignored when using OOP1.  
@@ -41,16 +41,16 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-The original version is available [here](https://drive.google.com/uc?id=1aeWvBiFCidOhreCMoW1S0ARa5HvNNf2m&export=download) but it is **recommended to use the [latest OOP2new](https://drive.google.com/file/d/17BlRT9aL58hikOIr-MsVs57Lr8seuu5f/view?usp=sharing)**.
+**Use only the [latest OOP2 app](https://drive.google.com/file/d/17BlRT9aL58hikOIr-MsVs57Lr8seuu5f/view?usp=sharing)**. Latest xDrip+ versions will not work with older OOP2 apps.
 
 !!!warning  
     Out Of process Libre Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
 
 ### Auto-detection
 
-Some xDrip+ versions will detect the presence or necessity of the out of process algorithm.
+Some older xDrip+ versions will detect the presence or necessity of the out of process algorithm.
 
-Make sure you enable it only for OOP1 and not for OOP2.
+Make sure you enable it only for OOP1 and **not for OOP2**.
 
 <img src="../images/OOP_AD.png" style="zoom:75%;" />
 
@@ -72,4 +72,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 2/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.02)
+[*Last modified 12/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12)
