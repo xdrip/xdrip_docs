@@ -1,6 +1,8 @@
+[12th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12)	OOP2 before 1.2 [not allowed](../use/OOP/#oop2), moved AAPS import message to log
+
 [ 9th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09)	G6 improvements (Android 12, expiry highlight, start and stop)
 
-[ 2nd Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02)	UI based [companion data source](../../install/companion) (testing)
+[ 2nd Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02)	UI based [companion data source](../install/companion) (testing)
 
 [ 1st Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01)	Reduce notifications, calibrations improvement
 
@@ -20,7 +22,7 @@
 
 [ 8th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.08)	Absolute basal preliminary
 
-[ 7th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.07)	[Visible alert notification](../../use/alarms/#visible-alert-notification) when bypassing silent mode
+[ 7th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.07)	[Visible alert notification](../use/alarms/#visible-alert-notification) when bypassing silent mode
 
 [ 6th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06)	Fix "don't use for calibration"
 
@@ -78,7 +80,7 @@
 
 [26th Mar 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.26)	Reminders improvements, Java 11 compilation
 
-[17th Mar 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.17)	[Reminders features improvements](../../use/3dotsmenu/#reminders)
+[17th Mar 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.17)	[Reminders features improvements](../use/3dotsmenu/#reminders)
 
 [11th Mar 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.11)	Libre code cleanup
 
@@ -110,7 +112,7 @@
 
 [ 3rd Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.03)	Translation improvements, update build Gradle, cleanup
 
-[24th Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.24)	[Time range lock](../../use/mainUI/#show-time-buttons), [default override silent mode and force speaker](../../use/alarms/#glucose-level-alerts-list), 
+[24th Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.24)	[Time range lock](../use/mainUI/#show-time-buttons), [default override silent mode and force speaker](../use/alarms/#glucose-level-alerts-list), 
 
 [ 8th Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.08)	[Update channel dependencies](https://github.com/NightscoutFoundation/xDrip/pull/1888), basic http authentication
 
