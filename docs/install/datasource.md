@@ -139,6 +139,10 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
 
+[Web Follower](../webfollower) for Libre 3
+
+<img src="../images/M-S-HDSlistO.png" style="zoom:75%;" />
+
 ##### Disable Collection
 
 If you want to disable xDrip+.
