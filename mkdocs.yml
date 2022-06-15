@@ -49,6 +49,7 @@ nav:
         - 'CareLink follower': 'install/carelinkfollow.md'
         - 'BYODA': 'install/byod.md'
         - 'Companion app': 'install/companion.md'
+        - 'Web Follower': 'install/webfollower.md'
     - Discover and use:
         - 'Main view': 'use/mainUI.md'
         - 'Main menu': 'use/hamburger.md'

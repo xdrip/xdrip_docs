@@ -1,3 +1,5 @@
+[13th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)	[**Web Follower**](../install/webfollower)
+
 [12th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12)	OOP2 before 1.2 [not allowed](../use/OOP/#oop2), moved AAPS import message to log
 
 [ 9th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09)	G6 improvements (Android 12, expiry highlight, start and stop)

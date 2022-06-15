@@ -3,7 +3,14 @@
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
 <img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
 
-For using xDrip+ with data coming from share servers, you must enter the credentials you use to authenticate with Clarity.
+### Prerequisites
+
+In order for xDrip+ to receive data from share servers, you need to have:
+
+1. sharing enabled on the Dex app that is connected to the sensor
+2. accepted the invitation on the Dex follower app (you can uninstall it afterwards)
+
+You must enter the credentials you use to authenticate with Clarity.
 
 !!!warning "Account lock"  
     Leaving xDrip+ with a wrong password will lock your account.  
