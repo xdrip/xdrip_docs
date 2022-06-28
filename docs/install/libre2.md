@@ -5,7 +5,7 @@
 
 !!!info "Only Libre 2 Europe sensor model is supported"
 
-Libre 2 reference documentation is here: [https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip)
+Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip).
 
 </br>
 
@@ -72,25 +72,11 @@ Confirm `START SENSOR`
 
 <img src="../images/M-StaSC.png" style="zoom:75%;" />
 
-If you inserted the sensor today (i.e. not started or recently started), answer `YES, TODAY`
+Continue to [Start Sensor](../../use/startsensor/#libre)
 
-<img src="../images/M-StaSToday.png" style="zoom:75%;" />
-
-If you answered today select the hour you physically started the sensor dragging the blue pointer to the correct time. With 12 hours display, tap `am` or`pm`. With 24 hours display drop the correct hour either on the inner or outer ring for the correct hour. Tap `OK`.
-
-<img src="../images/M-StaSHour.png" style="zoom:75%;" />
-
-Drag the minutes blue pointer to the correct time and tap `OK`.
-
-<img src="../images/M-StaSMin.png" style="zoom:75%;" />
-
-Scan the sensor with xDrip+ NFC and look for the toast message "NEW SENSOR STARTED".
-
-If you didn't enable [native algorithm](../../use/misc/#out-of-process-algorithm) deselecting the OOP2 check, you should see the calibration request within 20 minutes, else you should have readings within 5 minutes.
-
-If xDrip+ doesn't receive data, scan every 5 minutes until you get the calibration request.
+If you have trouble getting data directly from the sensor, scan it every 5 minutes with xDrip+ NFC until you reach the calibration request (applies if you selected the [calibration option](../../use/misc/#oop2) with OOP2).
 
 </br>
 
-[*Last modified 28/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.25)
+[*Last modified 13/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)
 

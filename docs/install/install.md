@@ -67,6 +67,10 @@ Current version will be displayed after `Version`. In the example below, January
 
 <img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
 
+On most recent versions, you will find it on all system status pages.
+
+<img src="../../images/M-SS-Ver2.png" style="zoom:76%;" />
+
 See [here](../../use/update/) for upgrade or downgrade.
 
 </br>
@@ -93,10 +97,17 @@ If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compl
 
 <img src="../../images/M-S-LCS-OMO1.png" style="zoom:75%;" />
 
+### Enable location
+
+For newer Android versions (6 and above), location is [mandatory](https://developer.android.com/training/location/permissions) to allow Bluetooth Low Energy connection.  
+If you will use xDrip+ with a Bluetooth sensor or bridge you **must** enable location (Android Settings -> [Location](https://support.google.com/android/answer/3467281)) and authorize xDrip+ to access it. Consult your phone manual as it will depend on Android version and manufacturer.
+
+<img src="../images/Install17.png" style="zoom:100%;" />
+
 </br>
 
 Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)

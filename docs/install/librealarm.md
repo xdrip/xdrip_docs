@@ -9,13 +9,9 @@ Most required resources are not available anymore on the web.
 
 xDrip+ supports this feature with the data source LibreAlarm.
 
-## Patch the watch to enable the NFC reader
+## [Patch the watch to enable the NFC reader](https://github.com/pimpimmi/LibreAlarm/wiki)
 
-[https://github.com/pimpimmi/LibreAlarm/wiki](https://github.com/pimpimmi/LibreAlarm/wiki)
-
-## Install LibreAlarm on your phone
-
-[https://github.com/jamorham/LibreAlarm/releases](https://github.com/jamorham/LibreAlarm/releases)
+## [Install LibreAlarm on your phone](https://github.com/jamorham/LibreAlarm/releases)
 
 <img src="../images/LibreAlarm.png" style="zoom:75%;"/>
 

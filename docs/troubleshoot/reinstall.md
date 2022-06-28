@@ -28,6 +28,8 @@ Follow this sequence:
 The database contains all BG readings, treatments and notes. It is strongly recommended that you backup your database and keep a copy on another device if you want to keep your existing data and as a safety precaution against a phone loss, crash, ...  
 Using upload to [Nightscout](https://nightscout.github.io/) is also strongly recommended.
 
+Exporting the database will also [save settings](../../use/loadsavesettings/#save-settings).
+
 From the main xDrip+ display select the upper right 3 dots menu.
 
 <img src="../../images/3dots_menu.png" style="zoom:75%;" />

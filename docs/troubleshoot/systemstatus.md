@@ -76,7 +76,7 @@ You might have connection issues when you can see either one or more of these in
 - Phone trying to connect
 - Items queued
 
-In this case you want to review your [G5](../../install/G5)/[G6](../../install/G6) parameters and delete queued items.
+In this case you want to review your [G5](../../install/G5)/[G6](../../install/G6) parameters and [delete queued items](../connection/#command-queue).
 
 <img src="../images/M-SS-CSG56d.png" style="zoom:75%;" />
 
@@ -100,7 +100,8 @@ See the dedicated page [here](../librebridge).
 
 #### xDrip+ Sync Follower
 
-xDrip+ follower is really simple to setup. If you have issues with it, most of the time it's either a network connection issue or Google Play services issues.
+xDrip+ follower is really simple to setup. If you have issues with it, most of the time it's either a network connection or Google Play services issues.  
+Having also [Nightscout](https://nightscout.github.io/) available as a backup follower solution is recommended when troubleshooting or following a child.
 
 <img src="../images/M-SS-xF.png" style="zoom:75%;" />
 
@@ -110,7 +111,7 @@ For initial setup problems check [here](../../install/xdripfollower/).
 
 #### Nightscout Follower
 
-This advances status page will show the activity when downloading from Nightscout. If no data is available, make sure you have current BG values in Nightscout.
+Advanced status page will show the activity when downloading from Nightscout. If no data is available, make sure you have current BG values in Nightscout.
 
 In case of download failure, if your Nightscout site is regularly updated by the master device and you see NS download errors this might be due to network problems. Disable Wi-Fi or SIM data and then try the other way round to exclude this problem.
 

@@ -21,6 +21,8 @@ You must enter the credentials you use to authenticate with Clarity.
 
 The same guidelines apply than those for the `bridge` plugin in Nightscout. [Please check here for more information](https://nightscout.github.io/troubleshoot/dexcom_bridge/).
 
+If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+
 </br>
 
 [*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)

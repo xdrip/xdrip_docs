@@ -21,6 +21,8 @@ In order to use this feature you need to authorize xDrip+ to access notification
 
 You will get data in xDrip+ when available in the app.
 
+If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+
 </br>
 
 [*Last modified 2/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02)

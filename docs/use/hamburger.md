@@ -21,7 +21,7 @@ Additionally if can show more entries if you add items or when you use a sensor.
 
 You will see sensor actions if you use xDrip+ directly connected to a sensor, also on xDrip+ Sync follower if the master is.
 
-**Start Sensor** or **Stop Sensor** refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
+**[Start Sensor](../startsensor)** or **[Stop Sensor](../stopsensor)** refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
 
 !!!warning  
     xDrip+ Sync follower can transmit Start or Stop sensor and calibrations remotely.  

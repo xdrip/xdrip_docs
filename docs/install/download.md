@@ -75,7 +75,7 @@ Sort them by last modified first and choose the variant to download.
 
 Once downloaded a variant, proceed like a normal xDrip+ install.
 
-Variants don't update automatically.
+**Variants don't update automatically.** You need to download and install updates on top of the current variant version (you don't need to uninstall it) just make sure you select the same variant (1 to 4).
 
 </br>
 

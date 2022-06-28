@@ -41,5 +41,7 @@ Sensor status and pump status are available in [Extra status line](../../use/les
 
 </br>
 
+If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+
 *Last modified 8/4/2022*
 

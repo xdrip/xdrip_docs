@@ -13,7 +13,11 @@ This option will make xDrip+ try to enable Bluetooth.
 
 <img src="../images/M-S-LCS4a.png" style="zoom:75%;" />
 
-In case of missing data you can make xDrip+ switch off then on your phone Bluetooth, default timing is 20 minutes without data. You can customize this value.  
+In case of missing data you can make xDrip+ switch off then on your phone Bluetooth, default timing is 20 minutes without data. You can customize this value.
+
+!!!info  
+    Mind the Bluetooth watchdog ang G5 Bluetooth watchdog activating will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't recover automatically Bluetooth connection.
+
 If you see the message that xDrip+ turned off Bluetooth this is probably because watchdog triggered and is trying to recover connection with the sensor.
 
 <img src="../images/M-S-LCS4b.png" style="zoom:75%;" />

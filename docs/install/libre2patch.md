@@ -5,7 +5,7 @@
 
 !!!info "Only Libre 2 Europe sensor model is supported"
 
-Follow these guidelines: [https://androidaps.readthedocs.io/en/latest/Hardware/Libre2.html](https://androidaps.readthedocs.io/en/latest/Hardware/Libre2.html)
+Follow [these](https://androidaps.readthedocs.io/en/latest/Hardware/Libre2.html) guidelines.
 
 </br>
 
@@ -15,19 +15,7 @@ If you use [Juggluco](https://play.google.com/store/apps/details?id=tk.glucodata
 
 <img src="../images/Juggluco.png" style="zoom:75%;" />
 
-If no data shows in xDrip+, "start" a sensor to allow BG display.
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../images/M-StaS.png" style="zoom:75%;" />
-
-Confirm `START SENSOR`
-
-<img src="../images/M-StaSC.png" style="zoom:75%;" />
-
-Answer `NOT TODAY`
-
-<img src="../images/M-StaSToday.png" style="zoom:75%;" />
+Continue to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 
