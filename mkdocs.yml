@@ -28,6 +28,7 @@ markdown_extensions:
         
 nav:
     - Getting started:
+        - 'How to use this documentation?': 'install/usethedoc.md'
         - 'Prerequisites': 'install/prerequisites.md'
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
@@ -53,6 +54,8 @@ nav:
     - Discover and use:
         - 'Main view': 'use/mainUI.md'
         - 'Main menu': 'use/hamburger.md'
+        - 'Start sensor': 'use/startsensor.md'
+        - 'Stop sensor': 'use/stopsensor.md'
         - 'Statistics': 'use/statistics.md'
         - 'Alarms and Alerts': 'use/alarms.md'
         - 'Speak Readings': 'use/speak.md'
@@ -92,5 +95,6 @@ nav:
         - 'System Status': 'troubleshoot/systemstatus.md'
         - 'Libre Bridge': 'troubleshoot/librebridge.md'
         - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
+        - 'G5/G6 Connection': 'troubleshoot/connection.md'
         - 'Android Debug Bridge': 'troubleshoot/ADB.md'
     - Change Log: 'changelog.md'

@@ -50,4 +50,8 @@ Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan 
 
 </br>
 
+Continue to [Start Sensor](../../use/startsensor/#libre), remembering that you will need to scan the sensor to get initial readings.
+
+</br>
+
 [*Last modified 27/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.27)

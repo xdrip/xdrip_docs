@@ -1,3 +1,7 @@
+You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+
+You can also use xDrip+ internal update mechanism.
+
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../images/M-S-US.png" style="zoom:75%;" />
@@ -59,6 +63,10 @@ Feedback in not used anymore. Only use it for compliments.
 <img src="../images/3DM-SF.png" style="zoom:75%;" /> 
 
 ### Update
+
+You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+
+You can also use xDrip+ internal update mechanism.
 
 Update available notifications will trigger based on your channel selection.  
 You can manually request a check if you disabled automatic update check using the [3 dots menu](../3dotsmenu/#check-for-updated-version).

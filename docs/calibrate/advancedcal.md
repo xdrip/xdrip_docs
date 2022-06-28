@@ -1,4 +1,4 @@
-This menu provides some important settings and mechanisms of calibrations.
+This menu provides some important settings and mechanisms for calibration.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
@@ -7,13 +7,17 @@ This menu provides some important settings and mechanisms of calibrations.
 
 You can decide to use [treatments](../../use/mainUI/#treatments) as calibrations.
 
+!!!warning  
+    Always use treatments as calibrations is **not recommended**.
+
 <img src="../images/M-S-LCS-AC1.png" style="zoom:75%;" />
 
 <img src="../images/M-S-LCS-AC1a.png" style="zoom:75%;" />
 
 Automatic mode will only suggest you to use the treatment as a calibration if xDrip+ detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
 
-It might also suggest to you enable automatic calibration.
+It might also suggest to you enable automatic calibration.  
+It is not recommended to use this feature with G6 sensors.
 
 <img src="../images/M-S-LCS-AC3b.png" style="zoom:75%;" />
 
@@ -23,7 +27,10 @@ Ask me every time will do exactly this every time you enter a BG treatment.
 
 Never use treatments will never use them to calibrate (and will prevent you from transforming a [treatment](../../use/mainUI/#treatments) into a calibration).
 
-Always use treatments as calibrations is not recommended. 
+##### Automatic Calibration
+
+
+It is recommended to **disable this for G6 sensors**.
 
 Automatic calibration will accept a treatment as a calibration if it satisfies the conditions of a flat trend for 20 minutes.
 

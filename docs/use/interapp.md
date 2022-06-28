@@ -198,4 +198,4 @@ This should be the current cumulative rate bpm on the device measuring. Not a hi
 
 
 
-[*Last modified 21/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)
+[*Last modified 1/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01)

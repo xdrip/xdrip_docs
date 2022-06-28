@@ -3,7 +3,7 @@
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
 <img src="../images/M-S-HDSlistH.png" style="zoom:75%;" />
 
-Follow these instruction [https://github.com/BernhardRo/Esel](https://github.com/BernhardRo/Esel)
+Follow [these](https://github.com/BernhardRo/Esel) instructions.
 
 </br>
 

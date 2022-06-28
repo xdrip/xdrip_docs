@@ -62,7 +62,7 @@ The following sensors and features are supported with a companion app:
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 - [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
-- Companion app for G6, G7, One and CamAPS  
+- [Companion app](../companion) for G6, G7, One and CamAPS  
   See below.
 
 </br>
@@ -155,4 +155,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)
+[*Last modified 13/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)
