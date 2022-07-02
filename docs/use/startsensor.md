@@ -12,7 +12,8 @@ Starting an already started sensor will just allow xDrip+ to continue the curren
 
 !!!warning  
     Starting a new sensor should be done only once [G5](../../install/g5/) or [G6](../../install/g5/) settings and [connection](../../troubleshoot/connection) have been verified.  
-    Never attempt to restart a G6 sensor when in trouble.
+    Never attempt to restart a G6 sensor when in trouble.  
+    You cannot start a sensor when the transmitter has exceeded its programmed lifetime (105 days for G5 and 99 for G6). You can only hard reset old versions of transmitters.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
@@ -137,4 +138,4 @@ xDrip+ should pick-up readings with the next measurement.
 
 <br>
 
-[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+[*Last modified 28/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)

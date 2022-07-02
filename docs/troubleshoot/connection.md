@@ -22,17 +22,67 @@ Once on this page (that does not refresh real time) swipe leftwards to display `
 
 <img src="../images/M-SS-CG61.png" style="zoom:90%;" />
 
+<img src="../images/M-SS-CSDex.png" style="zoom:75%;" />
+
 xDrip+ will first try try to find the transmitter. Keep it close to the phone and leave the app on this page.
 
 <img src="../images/M-SS-CG62.png" style="zoom:90%;" />
 
+Connection status showing Authenticated means the device has been found, it doesn't mean it's connected now as the transmitter is only active for a few seconds every 5 minutes.
+
+xDrip+ will try to connect to the transmitter, and for this it will wait for activity from it.  
+At this point you will see the scan starting time and the equivalent of time passed since you tried to connect. If the transmitter connects, scanning time shouldn't be more than 5 minutes but initial pairing might take up to 20 minutes.
+
+!!!note  
+    The sensor will communicate every 5 minutes, the rest of the time it will be sleeping.  
+    Last connected should **not** be more than 5 minutes. If it doesn't connect check your [G5](../../install/g5/#verify-your-settings) or [G6](../../install/g6/#verify-your-settings) settings.
+
+<img src="../images/M-SS-CSG56a.png" style="zoom:75%;" />
+
+For Android versions 10 and above, you will have to allow the pairing request for a new transmitter.
+
+<img src="../images/M-SS-CSG56h.png" style="zoom:75%;" />
+
+Once connected to the transmitter you will see data coming in. Last connected should remain a value less than 5 minutes ago and the brain state deep sleeping is normal. 
+
+<img src="../images/M-SS-CSG56b.png" style="zoom:75%;" />
+
+When running, a typical advanced status will look like this, with last connected value always less than 5 minutes.
+
+<img src="../images/M-SS-CSG56c.png" style="zoom:75%;" />
+
+**Do not consider all error messages contents when your transmitter is not correctly connected.**
+
+You might have connection issues when you can see either one or more of these information:
+
+- Bluetooth link is disconnected
+- Last connected a long time ago
+- Phone trying to connect
+- Items queued
+
+In this last case you want to review your [G5](../../install/G5)/[G6](../../install/G6) parameters and [delete queued items](../connection/#command-queue).
+
+<img src="../images/M-SS-CSG56d.png" style="zoom:75%;" />
+
+Note that preemptive restarts should be disabled for Firefly transmitters. Older transmitters starting by 80 or 81 will support it but make sure to know the impact on the measurement before enabling it.
+
+<img src="../images/M-SS-CSG56e.png" style="zoom:75%;" />
+
+When connected you can get battery information from the transmitter: touch the battery last queried line.  
+Battery level is retrieved automatically twice a day. [Monitor](https://navid200.github.io/xDrip/docs/Battery-condition.html) your battery regularly.  
+Only voltage B is important for G6, resistance (if visible) has no useful meaning.
+
+<img src="../images/M-SS-CSG56f.png" style="zoom:75%;" />
+
+Newer firmware will require you to update xDrip+, if the latest pre-release still shows the message, please [report](https://github.com/NightscoutFoundation/xDrip/discussions) the version.
+
+<img src="../images/M-SS-CSG56g.png" style="zoom:75%;" />
+
+Authentication errors might be a sign you missed the initial pairing request. You can force it changing the transmitter ID, confirm with `Ok`, then put the correct ID and confirm with `Ok`. A pairing request should appear in the next 5 minutes.
+
 Once found it will try to connect to it. If xDrip+ doesn't find it, check again the transmitter code, make sure no other device is connected or trying to connect to the transmitter.
 
 <img src="../images/M-SS-CG63.png" style="zoom:81%;" />
-
-!!!note  
-    The sensor will comunicate every 5 minutes, the rest of the time it will be sleeping.  
-    Last connected should **not** be more than 5 minutes. If it doesn't connect check your [G5](../../install/g5/#verify-your-settings) or [G6](../../install/g6/#verify-your-settings) settings.
 
 <img src="../images/M-SS-CG64.png" style="zoom:74%;" />
 
@@ -60,8 +110,31 @@ Write `clear transmitter queue` then `OK`.
 
 </br>
 
-Proceed [here](../../use/startsensor/#g4-with-bridge-g5-and-g6) to start your sensor.
+## Hard reset transmitter
 
-</br>
+You can reset the internal day counter of your G5 or G6 transmitter. Only old (80 and 81 starting transmitter ID) or rebatteried G6 allow this option. Only running your transmitter in **native mode** after it's expired requires hard reset.
 
-[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+!!!warning  
+    Hard resetting a non-rebatteried  Firefly transmitter will brick it without possible recovery.
+
+With recent xDrip+ versions **you don't need to be in engineering mode** to perform this operation.  
+Make sure you have a good connection and nothing in the queue before resetting the transmitter.
+
+!!!info  
+    Hard resetting will not improve a transmitter low battery condition.
+
+Touch the syringe icon on the main graph.
+
+<img src="../../use/images/UI-Treat.png" style="zoom:75%;" />
+
+Long touch the microphone icon. 
+
+<img src="../../images/T-Voice.png" style="zoom:75%;" />
+
+Write `hard reset transmitter` then `OK`.
+
+<img src="../images/M-SS-CSG56i.png" style="zoom:75%;" />
+
+Be patient, il will take up to 20 minutes.
+
+[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)

@@ -10,7 +10,9 @@ In order for xDrip+ to receive data from share servers, you need to have:
 1. sharing enabled on the Dex app that is connected to the sensor
 2. accepted the invitation on the Dex follower app (you can uninstall it afterwards)
 
-You must enter the credentials you use to authenticate with Clarity.
+<img src="../images/M-S-HDS-DexSh1.png" style="zoom:75%;" />
+
+Enter the credentials you use to authenticate with Clarity.
 
 !!!warning "Account lock"  
     Leaving xDrip+ with a wrong password will lock your account.  
@@ -18,8 +20,6 @@ You must enter the credentials you use to authenticate with Clarity.
     xDrip+ and any other third party app trying to connect with a bad password will maintain the locked state.
 
 <img src="../images/M-S-HDS-DexSh.png" style="zoom:75%;" />
-
-The same guidelines apply than those for the `bridge` plugin in Nightscout. [Please check here for more information](https://nightscout.github.io/troubleshoot/dexcom_bridge/).
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 

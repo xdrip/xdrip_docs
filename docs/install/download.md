@@ -5,7 +5,7 @@ You have two main choices when installing xDrip+, either install the Latest rele
 
 !!!note  
     If you already have xDrip+ installed on your phone you don't need to uninstall it before installing an update.  
-    If you use a private version and want to change xDrip+ to an official release, or vice versa, follow [this](../../troubleshoot/reinstall/).
+    If you use a forked version and want to change xDrip+ to an official release, or vice versa, follow [this](../../troubleshoot/reinstall/).
 
 !!!info "Multiple xDrip+ installation"  
     If you need to install more than one xDrip+ on the same phone you need a [variant](#variants).
@@ -37,20 +37,20 @@ Expand the assets and select the `.apk` file. You will find it in your phone's `
 
 </br>
 
-## Private versions
+## Forked versions
 
 Some developers add features and customizations that are not available in the official pre-releases until the author will create a Pull Request in xDrip+ and get it merged in the main project.
 
-!!!warning "Updating private versions"  
+!!!warning "Updating forked versions"  
     You can use these versions but need to understand they might be supported only by their creator.  
-    **xDrip+ automatic updates won't work with private versions.**  
-    Also keep in mind you cannot install a private version if you have an official version installed on your phone:  
+    **xDrip+ automatic updates won't work with forked versions.**  
+    Also keep in mind you cannot install a forked version if you have an official version installed on your phone:  
     you will need to uninstall it first.  
-    The same applies for the other way round (from private to official).
+    The same applies for the other way round (from forked to official).
 
-Artem's private versions supporting various smartbands are available [here](https://bigdigital.home.blog/category/xdrip/) to download.
+Artem's forks supporting various smartbands are available [here](https://bigdigital.home.blog/category/xdrip/) to download.
 
-Bence's private versions for CareLink follower is also available [here](https://github.com/benceszasz/xDripCareLinkFollower/releases).
+Bence's forks for CareLink follower are available [here](https://github.com/benceszasz/xDripCareLinkFollower/releases).
 
 </br>
 

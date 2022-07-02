@@ -3,19 +3,20 @@
 
 <img src="../images/M-S-SW-MB1.png" style="zoom:75%;" />
 
-You can use these guidelines for the official xDrip+ release and private versions.
+You can use these guidelines for the official xDrip+ release and forked versions.
 
-xDrip+ Official Release supports MiBand 3 and 4.
+xDrip+ Official Release supports MiBand 2, 3 and 4.
 
-Artem's private releases support more models (table below). If you want updates on future models read [here](https://www.patreon.com/posts/bad-news-63074742).
+Artem's forked releases support more models (table below). If you want updates on future models read [here](https://www.patreon.com/posts/67845754).
 
-| Private release                                              | Base xDrip+ version | MiBand | AmazFit                                                      |
-| ------------------------------------------------------------ | ------------------- | ------ | ------------------------------------------------------------ |
-| [0.7](https://www.dropbox.com/s/j3es4pzv0advssa/xdrip-miband_0.7.apk?dl=1) | 13.01.2022          | 5, 6   | Bip, Bip Lite, Bip S – **NO Bip S Lite!**<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42, GTS2 mini |
-| [0.6.3](https://www.dropbox.com/s/87le7l9y9xyqe6v/xdrip-miband_0.6.3.apk?dl=1) CareLink Follow | 24.04.2021          | 5, 6   | Bip, Bip Lite, Bip S – **NO Bip S Lite!**<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42 |
+| Forked release                                               | Base xDrip+ version | MiBand        | AmazFit                                                      |
+| ------------------------------------------------------------ | ------------------- | ------------- | ------------------------------------------------------------ |
+| [Broadcast 0.3](https://www.dropbox.com/s/8xtboyvlsd3wo14/xdrip_BroadcastAPI_0.3.apk?dl=0) | 02.06.2022          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S, Bip S Lite<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42, GTS2 mini |
+| [0.7](https://www.dropbox.com/s/j3es4pzv0advssa/xdrip-miband_0.7.apk?dl=1) | 13.01.2022          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42, GTS2 mini |
+| [0.6.3](https://www.dropbox.com/s/87le7l9y9xyqe6v/xdrip-miband_0.6.3.apk?dl=1) CareLink Follow | 24.04.2021          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42 |
 
-!!!warning "Private versions"  
-    If you want to change xDrip+ to a private version make sure to [backup](../../troubleshoot/reinstall/) your data before uninstalling xDrip+.  
+!!!warning "Forked versions"  
+    If you want to change xDrip+ to a forked version make sure to [backup](../../troubleshoot/reinstall/) your data before uninstalling xDrip+.  
     If you don't you'll most probably lose all your settings and data.
 
 !!!note "Prerequisite"  
@@ -54,6 +55,8 @@ Enable watch visibility. If you don't find this option make sure you have set yo
 Check a key file was created in the phone memory `freemyband` folder.
 
 You can uninstall the patched app. This is not mandatory. If you want to install the original app, use the same email account to login.
+
+## xDrip+ official and forked versions **not** using WatchDrip+
 
 ### Setup xDrip+
 
@@ -103,7 +106,7 @@ If you have trouble displaying the graph, try to disable high MTU values.
 
 <img src="../images/M-S-SW-MB4.png" style="zoom:75%;" />
 
-## Features
+### Features
 
 You can enable and disable MiBand integration with the main switch. When troubleshooting don't hesitate to turn it off then on to restart it.
 
@@ -146,12 +149,18 @@ Disable High MTU can be used when experiencing watchface display issues.
 
 <img src="../images/M-S-SW-MB4.png" style="zoom:75%;" />
 
-### More watches
+## Forked version with WatchDrip+
 
-In order to provide more flexibility in new watch integration, a companion app is being created to support more watches and xDrip+ will only have a generic Broadcast Service to send data. The companion app will handle all watch related communication.  
-This [feature](https://github.com/NightscoutFoundation/xDrip/pull/2004) is [pending development](https://www.patreon.com/posts/bad-news-63074742).
+This feature is pending merging with xDrip+ official repository.
+
+### Install [WatchDrip](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)+
+
+### Setup xDrip+
+
+Enable Broadcast Service API in Settings -> Inter-app Settings
+
+<img src="../../use/images/M-S-IASi.png" style="zoom:76%;" />
 
 </br>
 
-*Last modified 2/4/2022*
-
+[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)

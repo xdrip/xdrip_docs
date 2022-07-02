@@ -6,6 +6,10 @@ See at the bottom of each page the version at which it was written, if you have 
 
 </br>
 
+Engineering mode features are voluntarily not documented.
+
+</br>
+
 ### Original documentation
 
 This documentation is a collection of various sources, when applicable you will find links to the **original and reference documentation**.  

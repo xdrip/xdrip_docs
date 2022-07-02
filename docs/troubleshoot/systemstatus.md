@@ -14,7 +14,7 @@ For a new installation the downgradable version will show as 1603091400 by defau
 
 Version information allows you to quickly [find the matching release or pre-release](https://github.com/NightscoutFoundation/xDrip/releases). Before the version date you'll see the build version.
 
-Any version name that shows additional information, like debug, dev, a smartwatch name, carelink, is a [private release](../../install/download/#private-versions) of xDrip+ and might not contain all the latest functions of the released app (but probably some extra).
+Any version name that shows additional information, like debug, dev, a smartwatch name, carelink, is a [forked version release](../../install/download/#forked-versions) of xDrip+ and might not contain all the latest functions of the released app (but probably some extra).
 
 On this page you'll find the data source type (the one you selected to receive your BG values) and the sensor start date (as entered as sensor start date and time, or automatically detected, depending on the sensor type).
 
@@ -50,49 +50,7 @@ Slowest wake-up gives an information on when xDrip+ received data against the ex
 
 #### G5 and G6 
 
-Connection status showing Authenticated means the device has been found, it doesn't mean it's connected now as the transmitter is only active for a few seconds every 5 minutes.
-
-<img src="../images/M-SS-CSDex.png" style="zoom:75%;" />
-
-When you first start a G5 or G6 sensor, xDrip+ will try to connect to the transmitter, and for this it will wait for activity from it.  
-At this point you will see the scan starting time and the equivalent of time passed since you tried to connect. If the transmitter connects, scanning time shouldn't be more than 5 minutes but initial pairing might take up to 20 minutes.
-
-<img src="../images/M-SS-CSG56a.png" style="zoom:75%;" />
-
-Once connected to the transmitter you will see data coming in. Last connected should remain a value less than 5 minutes ago and the brain state deep sleeping is normal. 
-
-<img src="../images/M-SS-CSG56b.png" style="zoom:75%;" />
-
-Once running, a typical advanced status will look like this, with last connected value always less than 5 minutes.
-
-<img src="../images/M-SS-CSG56c.png" style="zoom:75%;" />
-
-**Do not consider all error messages contents when your transmitter is not correctly connected.**
-
-You might have connection issues when you can see either one or more of these information:
-
-- Bluetooth link is disconnected
-- Last connected a long time ago
-- Phone trying to connect
-- Items queued
-
-In this case you want to review your [G5](../../install/G5)/[G6](../../install/G6) parameters and [delete queued items](../connection/#command-queue).
-
-<img src="../images/M-SS-CSG56d.png" style="zoom:75%;" />
-
-Note that preemptive restarts should be disabled for Firefly transmitters. Older transmitters starting by 80 or 81 will support it but make sure to know the impact on the measurement before enabling it.
-
-<img src="../images/M-SS-CSG56e.png" style="zoom:75%;" />
-
-When connected you can get battery information from the transmitter: touch the battery last queried line.  
-Battery level is retrieved automatically twice a day. [Monitor](https://navid200.github.io/xDrip/docs/Battery-condition.html) your battery regularly.  
-Only voltage B is important for G6, resistance (if visible) has no useful meaning.
-
-<img src="../images/M-SS-CSG56f.png" style="zoom:75%;" />
-
-Newer firmware will require you to update xDrip+, if the latest pre-release still shows the message, please [report](https://github.com/NightscoutFoundation/xDrip/discussions) the version.
-
-<img src="../images/M-SS-CSG56g.png" style="zoom:75%;" />
+See the dedicated page [here](../connection).
 
 #### Libre Bluetooth
 
@@ -121,4 +79,4 @@ If it's never been working make sure you have [setup](../../install/nightscoutfo
 
 </br>
 
-[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)
+[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)

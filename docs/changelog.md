@@ -1,3 +1,9 @@
+[ 1st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)	Notify monthly engineering mode is on
+
+[28th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)	Multiple insulins treatment digits
+
+[20th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)	b - UI based arrow and slope calculation, age adjusted G6 raw values
+
 [13th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)	[**Web Follower**](../install/webfollower)
 
 [12th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12)	OOP2 before 1.2 [not allowed](../use/OOP/#oop2), moved AAPS import message to log

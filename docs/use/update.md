@@ -14,7 +14,7 @@ Update settings allows you to choose between various xDrip+ versions update.
 
 !!!warning  
     Only xDrip+ official versions can use this feature.  
-    If you installed a [private version](../../install/download/#private-versions), only the author can provide upgrades. 
+    If you installed a [forked version](../../install/download/#forked-versions), only the author can provide upgrades. 
 
 !!!note  
     Updating xDrip+ is completely transparent and will not require any specific actions on your current sensor.  
@@ -94,7 +94,7 @@ Once upgraded you can verify the current version in [system status](../../troubl
 
 ### Downgrade
 
-You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to private version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
+You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to forked version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
 
 </br>
 
