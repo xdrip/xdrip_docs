@@ -3,7 +3,7 @@
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
 <img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 
-CareLink follower is not a standard feature of xDrip+. You need to use a private version:
+CareLink follower is not yet a standard feature of xDrip+. You need to use a forked version:
 
 [From Bence](https://github.com/benceszasz/xDripCareLinkFollower/releases)
 

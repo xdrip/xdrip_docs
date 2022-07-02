@@ -7,11 +7,15 @@
 
 ### Prerequisites
 
-1. Install the Libre [vendor app](https://play.google.com/store/search?q=Librelink&c=apps) and have it display real time readings from the sensor
+1. Install the Libre 3 [app](https://play.google.com/store/search?q=libre%203&c=apps), authenticate or create an account (mandatory) and have it display real time readings from the sensor
 
-2. Invite a follower, accept the invitation and install the Libre [follower app](https://play.google.com/store/apps/details?id=org.nativescript.LibreLinkUp), make sure you have readings
+2. Invite a follower  
+   <img src="../images/M-S-HDS-WF3.png" style="zoom:76%;" />
 
-   *Note: once functional you can uninstall the follower app*
+3. In the invitation email touch the Play Store link to install the [follower app](https://play.google.com/store/apps/details?id=org.nativescript.LibreLinkUp)  
+   You can use the same account than above or create a new one  
+   Make sure you have readings  
+   You can then uninstall the follower app
 
 ### Configure xDrip+ web follower
 

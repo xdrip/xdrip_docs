@@ -7,7 +7,7 @@
 
 </br>
 
-This shouldn't usually be necessary but you might need to uninstall xDrip+ to troubleshoot, or if you need to change it to or from a private version. You can uninstall xDrip+ like any other Android app with a long press on the icon or from Android Settings -> Apps.
+This shouldn't usually be necessary but you might need to uninstall xDrip+ to troubleshoot, or if you need to change it to or from a forked version. You can uninstall xDrip+ like any other Android app with a long press on the icon or from Android Settings -> Apps.
 
 ## Reinstall xDrip+
 

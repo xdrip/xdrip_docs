@@ -74,7 +74,7 @@ The following sensors and features are supported with a companion app:
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
-- [CareLink](../carelinkfollow) (private version)  
+- [CareLink](../carelinkfollow) (forked version)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install42.png" style="zoom:53%;" />
 
 </br>
@@ -149,7 +149,7 @@ If you want to disable xDrip+.
 
 <img src="../images/M-S-HDSlistL.png" style="zoom:75%;" />
 
-[CareLink](../carelinkfollow) (private version) 
+[CareLink](../carelinkfollow) (forked version) 
 
 <img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 
