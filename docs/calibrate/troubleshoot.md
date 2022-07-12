@@ -4,7 +4,7 @@ If you use xDrip+ with a G5 or G6 and native algorithm, see [here](https://navid
 
 ### xDrip+ Algorithm
 
-Enable [datatables](../../use/lesscommon/#show-datatables) for more information.
+Enable [data tables](../../use/lesscommon/#show-data-tables) for more information.
 
 #### No data after initial calibration
 

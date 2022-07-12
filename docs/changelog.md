@@ -1,3 +1,14 @@
+!!!note  
+    Most releases contain new Crowdin translations, not mentioned in comments.
+
+</br>
+
+[11th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)	**Watch broadcast** ([WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration))
+
+[ 6th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.06)	Settings export toast message fix
+
+[ 5th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.05)	Add stats range, rename transmitter ID in system status, typo
+
 [ 1st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)	Notify monthly engineering mode is on
 
 [28th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)	Multiple insulins treatment digits
@@ -100,11 +111,11 @@
 
 [15th Feb 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15)	Gradle actions upgrade to V2, manual slot selection
 
-[ 9th Feb 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09)	Dex share authentication fix
+[ 9th Feb 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09)	Dex share authentication, wrong detection of Wear on Android watches
 
-[31st Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.31)	Gradle, date, external status fixed
+[31st Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.31)	Gradle, date, external status
 
-[28th Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.28)	Date parsing fix, G6 backfill fix for Wear
+[28th Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.28)	Date parsing fix, G6 backfill for Wear
 
 [27th Jan 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.27)	Make preferences translatable, add grams to carbs treatments
 
@@ -124,6 +135,16 @@
 
 [ 8th Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.08)	[Update channel dependencies](https://github.com/NightscoutFoundation/xDrip/pull/1888), basic http authentication
 
-[ 2nd Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02)	Enhance DexShareFollow service, 
+[ 2nd Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02)	Enhance DexShareFollow service, trend arrow
 
 [ 1st Dec 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.01)	[No delay for the ascending volume profile](https://github.com/NightscoutFoundation/xDrip/pull/1834)
+
+[23rd Nov 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.23)	
+
+[22nd Nov 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.22)	Libre trend
+
+[18th Nov 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.18)	NumberWall
+
+[17th Nov 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.17)	Libre
+
+[16th Nov 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.16)	

@@ -196,6 +196,12 @@ This should be the current cumulative rate bpm on the device measuring. Not a hi
 
 </br>
 
+### Broadcast Service API
 
+This service allows broadcast of xDrip+ values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration).
 
-[*Last modified 1/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01)
+<img src="../images/M-S-IASi.png" style="zoom:76%;" />
+
+</br>
+
+[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
