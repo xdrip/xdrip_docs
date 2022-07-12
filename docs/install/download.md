@@ -48,8 +48,6 @@ Some developers add features and customizations that are not available in the of
     you will need to uninstall it first.  
     The same applies for the other way round (from forked to official).
 
-Artem's forks supporting various smartbands are available [here](https://bigdigital.home.blog/category/xdrip/) to download.
-
 Bence's forks for CareLink follower are available [here](https://github.com/benceszasz/xDripCareLinkFollower/releases).
 
 </br>
@@ -79,4 +77,4 @@ Once downloaded a variant, proceed like a normal xDrip+ install.
 
 </br>
 
-[*Last modified 3/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.03)
+[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)

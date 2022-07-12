@@ -49,7 +49,9 @@ Unless you still own a LeFun W3, F3, F3S, F11 or F12 band this is not of any use
 #### [MiBand](../miband)
 
 MiBand integration is the result of the huge work of [Artem](https://bigdigital.home.blog/).  
-Only MiBand 3 and 4 are supported by the official xDrip+ version.
+Many smartwatches and smartbands are now supported using the companion app WatchDrip+.
+
+If you use WatchDrip+ you should disable MiBand.
 
 <img src="../images/M-S-SW7.png" style="zoom:75%;" />
 
@@ -130,4 +132,4 @@ By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)

@@ -5,19 +5,7 @@
 
 You can use these guidelines for the official xDrip+ release and forked versions.
 
-xDrip+ Official Release supports MiBand 2, 3 and 4.
-
-Artem's forked releases support more models (table below). If you want updates on future models read [here](https://www.patreon.com/posts/67845754).
-
-| Forked release                                               | Base xDrip+ version | MiBand        | AmazFit                                                      |
-| ------------------------------------------------------------ | ------------------- | ------------- | ------------------------------------------------------------ |
-| [Broadcast 0.3](https://www.dropbox.com/s/8xtboyvlsd3wo14/xdrip_BroadcastAPI_0.3.apk?dl=0) | 02.06.2022          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S, Bip S Lite<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42, GTS2 mini |
-| [0.7](https://www.dropbox.com/s/j3es4pzv0advssa/xdrip-miband_0.7.apk?dl=1) | 13.01.2022          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42, GTS2 mini |
-| [0.6.3](https://www.dropbox.com/s/87le7l9y9xyqe6v/xdrip-miband_0.6.3.apk?dl=1) CareLink Follow | 24.04.2021          | 2, 3, 4, 5, 6 | Bip, Bip Lite, Bip S<br/>GTR, GTR2, GTR2e, GTS2, GTS2e, GTR42 |
-
-!!!warning "Forked versions"  
-    If you want to change xDrip+ to a forked version make sure to [backup](../../troubleshoot/reinstall/) your data before uninstalling xDrip+.  
-    If you don't you'll most probably lose all your settings and data.
+xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration).
 
 !!!note "Prerequisite"  
     Make sure you have BG readings in xDrip+ before trying to have them on your watch.  
@@ -56,7 +44,9 @@ Check a key file was created in the phone memory `freemyband` folder.
 
 You can uninstall the patched app. This is not mandatory. If you want to install the original app, use the same email account to login.
 
-## xDrip+ official and forked versions **not** using WatchDrip+
+## Not using WatchDrip+
+
+!!!note "Only MiBand 2, 3 and 4"
 
 ### Setup xDrip+
 
@@ -149,11 +139,11 @@ Disable High MTU can be used when experiencing watchface display issues.
 
 <img src="../images/M-S-SW-MB4.png" style="zoom:75%;" />
 
-## Forked version with WatchDrip+
+## Using WatchDrip+
 
-This feature is pending merging with xDrip+ official repository.
+### Install [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)
 
-### Install [WatchDrip](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)+
+!!!note "Disable MiBand in xDrip+ if you use WatchDrip+"
 
 ### Setup xDrip+
 
@@ -163,4 +153,4 @@ Enable Broadcast Service API in Settings -> Inter-app Settings
 
 </br>
 
-[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)
+[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)

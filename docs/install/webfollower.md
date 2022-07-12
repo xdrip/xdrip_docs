@@ -13,7 +13,7 @@
    <img src="../images/M-S-HDS-WF3.png" style="zoom:76%;" />
 
 3. In the invitation email touch the Play Store link to install the [follower app](https://play.google.com/store/apps/details?id=org.nativescript.LibreLinkUp)  
-   You can use the same account than above or create a new one  
+   Create an account for the follower app (recommended)  
    Make sure you have readings  
    You can then uninstall the follower app
 
@@ -33,4 +33,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 28/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)

@@ -95,7 +95,7 @@ You need to know what you want to debug and set the correct level. Make sure to 
 
 <img src="../images/M-S-LCS9c.png" style="zoom:75%;" />
 
-### Show Datatables
+### Show Data tables
 
 This feature is extremely useful if you calibrate using the xDrip+ algorithm (non native).
 

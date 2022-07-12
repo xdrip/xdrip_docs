@@ -43,7 +43,7 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 
 Before calibrating check your [settings](../advancedcal).
 
-One thing you want to enable is [datatables](../../use/lesscommon/#show-datatables) in the main menu. This will really help understanding when things go wrong.
+One thing you want to enable is [data tables](../../use/lesscommon/#show-data-tables) in the main menu. This will really help understanding when things go wrong.
 
 ### First calibration
 
