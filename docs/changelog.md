@@ -3,6 +3,10 @@
 
 </br>
 
+[14th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)	Configurable BG [text and arrow colors](../use/display/#colors-of-bg-readings-and-trend-arrows) for high/low BG
+
+[13th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13)	OB1 special pairing workaround, virtual sensor auto-start
+
 [11th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)	**Watch broadcast** ([WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration))
 
 [ 6th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.06)	Settings export toast message fix
