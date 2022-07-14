@@ -36,6 +36,12 @@ High, In-range and Low Values color will change the graph and limit lines on you
 
 <img src="../images/M-S-DS2b2.png" style="zoom:75%;" />
 
+##### Colors of BG readings and Trend Arrows
+
+You can also customize the current BG value and trend arrow color in respect with range limits.
+
+<img src="../images/M-S-DS2b3.png" style="zoom:76%;" />
+
 <img src="../images/M-S-DS2c.png" style="zoom:75%;" />
 
 Filtered values can be seen with sensors supporting raw data.
@@ -440,4 +446,4 @@ This will make xDrip+ open automatically when your phone restarts.
 
 </br>
 
-[*Last modified 26/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)
+[*Last modified 14/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)
