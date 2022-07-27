@@ -33,13 +33,15 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 | Libre 2 EU patched app | Offset available*  | Mandatory              |
 | Libre 2 EU             | Mandatory          | In development OOP2new |
 
+##### Libre 2 patched app
+
 **When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]*
+
+### xDrip+ calibration settings
 
 !!!warning "xDrip+ calibration only"  
     The information below is relevant to xDrip+ calibration.  
     For G5 and G6 native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
-
-### xDrip+ calibration settings
 
 Before calibrating check your [settings](../advancedcal).
 
@@ -151,4 +153,4 @@ xDrip+ will bring you back to [initial calibration](#first-calibration). Make su
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)

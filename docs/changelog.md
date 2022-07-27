@@ -3,6 +3,12 @@
 
 </br>
 
+[26th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)	Web follow refresh on fail, Expand data limit (Wear, Pebble), 
+
+[23rd Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23)	Sensor expiry default on, ensure web follow off, Libre bock sync improvement, show aged raw only if set
+
+[21st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21)	Expand data limit for 1min readings
+
 [14th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)	Configurable BG [text and arrow colors](../use/display/#colors-of-bg-readings-and-trend-arrows) for high/low BG
 
 [13th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13)	OB1 special pairing workaround, virtual sensor auto-start
