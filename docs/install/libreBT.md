@@ -15,19 +15,21 @@ You can use Diabox in [Nightscout follower](../nightscoutfollower/#diabox) mode.
 
 Here below a compatibility table for supported bridge devices, for compatible sensors **minimum** firmware version is indicated.
 
-|   Bridge    | - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
-| :---------: | :---------------: | :------------: | :------------: |
-|   BluCon    |       `Yes`       |     `4.2*`     |     `4.2*`     |
-|  MiaoMiao   |       `Yes`       |     `39*`      |     `39*`      |
-| MiaoMiao 2  |       `Yes`       |      `7*`      |      `7*`      |
-| MiaoMiao 3  |       `Yes`       |     `3A*`      |     `3A*`      |
-|   Bubble    |       `Yes`       |     `2.6*`     |     `2.6*`     |
-| Bubble mini |       `Yes`       |     `2.6*`     |     `2.6*`     |
-|   Droplet   |       `Yes`       |      `No`      |     `2.2*`     |
-|    Atom     |       `Yes`       |                |                |
+|    Bridge     | - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
+| :-----------: | :---------------: | :------------: | :------------: |
+| BluCon ****** |       `Yes`       |     `4.2*`     |     `4.2*`     |
+|   MiaoMiao    |       `Yes`       |     `39*`      |     `39*`      |
+|  MiaoMiao 2   |       `Yes`       |      `7*`      |      `7*`      |
+|  MiaoMiao 3   |       `Yes`       |     `3A*`      |     `3A*`      |
+|    Bubble     |       `Yes`       |     `2.6*`     |     `2.6*`     |
+|  Bubble mini  |       `Yes`       |     `2.6*`     |     `2.6*`     |
+|    Droplet    |       `Yes`       |      `No`      |     `2.2*`     |
+|     Atom      |       `Yes`       |                |                |
 
 *Note:*  
 *`*` [external add-on required](../../use/OOP)*
+
+***`**` Firmware 8.6 and above do not support xDrip+ yet***
 
 </br>
 
@@ -133,4 +135,4 @@ This will reset all calibrations and allow xDrip+ to start a new sensor.
 
 </br>
 
-[*Last modified 27/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.27)
+[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)

@@ -1,11 +1,14 @@
 ### Blucon
 
-You cannot upgrade these devices firmware.  
+You cannot upgrade or downgrade these devices firmware.  
 In order to know the actual firmware version, you need to install the [vendor app](https://www.ambrosiasys.com/our-products/blucon/) and you'll find it in About...
 
 <img src="../images/BluKon_FW.png" style="zoom:75%;" />
 
-All firmware versions will support Libre 1, for Libre 14 days US and Libre 2 you'll need a recent device with minimum firmware version 4.2, and an Out Of Process Algorithm.
+Old firmware versions will support Libre 1.  
+For Libre 14 days US and Libre 2 you'll need a recent device with minimum firmware version 4.2, and an Out Of Process Algorithm.
+
+**Newer firmware like 8.6 and above do not support xDrip+ yet.**
 
 ### MiaoMiao
 
@@ -41,4 +44,4 @@ Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../ins
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)
