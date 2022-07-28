@@ -37,11 +37,11 @@ If your bridge paired to Android, unpair it before continuing.
 
 The following sensors are supported directly by xDrip+:
 
-- [G4 (with bridge) or G4 Platinum receiver](../G4)    
+- [G4 (with bridge) or G4 Platinum receiver](../g4)    
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install29.png" style="zoom:50%;" />
-- [G5](../G5)  
+- [G5](../g5)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install30.png" style="zoom:49%;" />
-- [G6 and One](../G6)  
+- [G6 and One](../g6)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
 - [Libre (with bridge)](../libreBT)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
