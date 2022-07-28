@@ -39,6 +39,10 @@ You can enable or disable the sound that plays after updating xDrip+ profile.
 
 Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/technical/Local_Web_Services.md).
 
+!!!warning  
+    If you have another app using port 17580 (like Diabox) you should disable this feature.  
+    Note the service is not available as secured http and recent [Fitbit](../../smartwatch/smartwatch/#fitbit) apps will not accept data from it.
+
 Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.  
 The web server will respond to requests on address `127.0.0.1` port `17580`
 
@@ -204,4 +208,4 @@ This service allows broadcast of xDrip+ values as an API and can be used by exte
 
 </br>
 
-[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
+[*Last modified 22/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.22)

@@ -86,7 +86,7 @@ More smartwatches and devices can receive data from xDrip+ even if they are not 
 #### Fitbit
 
 !!!warning  
-    The latest Fitbit app requires secure http that is not supported by xDrip+. You need to downgrade the app to a previous version like 3.62.  
+    The latest Fitbit app requires secure http that is not supported by xDrip+. You need to downgrade the app to a previous version like 3.58.  
     You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers. 
 
 ##### [Glance](https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c)
@@ -136,4 +136,4 @@ By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9
 
 </br>
 
-[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
+[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)
