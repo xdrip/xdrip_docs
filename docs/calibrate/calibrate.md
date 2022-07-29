@@ -18,24 +18,24 @@ xDrip+ can provide its own calibrations algorithms for sensors sending raw data.
 
 G5 and G6 native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
 
-Libre sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called out of process algorithms (short OOP).
+Libre sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
 
 Libre 2 patched app will use its own proprietary algorithm (an old version though).
 
-| Sensor                 | xDrip+ calibration | Native calibration     |
-| ---------------------- | ------------------ | ---------------------- |
-| G4                     | Mandatory          | Not available          |
-| G5                     | Available          | Available              |
-| G6 old (80/81 series)  | Available          | Available              |
-| G6 new (Firefly)       | Not avaiable       | Mandatory              |
-| Libre 1 (not US)       | Mandatory          | OOP1                   |
-| Libre 1 US             | Not available      | OOP1 US                |
-| Libre 2 EU patched app | Offset available*  | Mandatory              |
-| Libre 2 EU             | Mandatory          | In development OOP2new |
+| Sensor                       | xDrip+ calibration              | Native calibration |
+| ---------------------------- | ------------------------------- | ------------------ |
+| G4                           | Mandatory                       | Not available      |
+| G5                           | Available                       | Available          |
+| G6 old (80/81 series)        | Available                       | Available          |
+| G6 new (Firefly)             | Not available                   | Mandatory          |
+| Libre 1                      | Mandatory                       | OOP1               |
+| Libre 14 days US             | Not available                   | OOP1 US (obsolete) |
+| Libre 2 EU patched app       | Limited offset (see below)      | By design          |
+| Libre 2 EU, Libre 14 days US | [Optional](../../use/OOP/#oop2) | OOP2               |
 
 ##### Libre 2 patched app
 
-**When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]*
+When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]
 
 ### xDrip+ calibration settings
 
@@ -76,7 +76,7 @@ If your BG remained stable during this time you should see it go through the cal
 
 <img src="../images/CAL04.png" />
 
-Looking into your calibration datatable you will see new entries corresponding to raw BG measurements used to define define the calibration:
+Looking into your calibration data table you will see new entries corresponding to raw BG measurements used to define define the calibration:
 
 1. This is the value you entered (converted if necessary in mg/dl)
 2. Same value but in the unit you use with xDrip+ (here in mg/dl but will show also in mmol/l)
