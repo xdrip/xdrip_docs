@@ -7,7 +7,7 @@
 
 [ 2nd Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02)	Smoothing cont'd
 
-[ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b)	b - [Smoothing](../../use/display/#graph-smoothing) implementation start
+[ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b)	b - [Smoothing](../use/display/#graph-smoothing) implementation start
 
 [ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01)	De-duplicate preliminary
 
