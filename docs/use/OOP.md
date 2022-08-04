@@ -27,7 +27,8 @@ OOP1 provides readings similar to the vendor reader without calibrating. You nee
     Calibrations will be ignored when using OOP1.  
     This is a safety feature as xDrip+ cannot perform sanity checks on data provided by OOP1.
 
-Two versions are available: [Libre 1 and Libre 2 EU](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM) or [Libre 14 Days US](https://drive.google.com/open?id=172whZZYTyE_ZEuN0T-zhdMKhucy6jP-a).
+Two versions are available: [Libre 1 and Libre 2 EU](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM) or [Libre 14 Days US](https://drive.google.com/open?id=172whZZYTyE_ZEuN0T-zhdMKhucy6jP-a).  
+*Note: you need to be logged into your Google account to access the links above*
 
 Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) when using OOP1.
 
@@ -41,7 +42,8 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-**Use only the [latest OOP2 app](https://drive.google.com/file/d/17BlRT9aL58hikOIr-MsVs57Lr8seuu5f/view?usp=sharing)**. Latest xDrip+ versions will not work with older OOP2 apps.
+**Use only the [latest OOP2 app](https://drive.google.com/file/d/17BlRT9aL58hikOIr-MsVs57Lr8seuu5f/view?usp=sharing)**. Latest xDrip+ versions will not work with older OOP2 apps.  
+*Note: you need to be logged into your Google account to access the link above*
 
 !!!warning  
     Out Of process Libre Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
