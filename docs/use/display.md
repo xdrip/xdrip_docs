@@ -6,6 +6,8 @@ This menu allows you to customize many visual aspect settings of xDrip+.
 
 <img src="../images/M-S-DS1.png" style="zoom:75%;" />
 
+*Note: Check [Graph settings](#graph-settings) features before using Color settings.*
+
 ### Color Settings
 
 <img src="../images/M-S-DS2.png" style="zoom:75%;" />
@@ -170,6 +172,17 @@ After you first installed xDrip+ you will see hints during first opening of some
 You can customize most of the items that will display on the main graph.
 
 <img src="../images/M-S-DS6.png" style="zoom:75%;" />
+
+##### Graph smoothing
+
+Graph smoothing will apply a smoothing filter to the graph to make it easier to follow (less noise).  
+This is only a visual effect and doesn't impact readings.
+
+<img src="../images/M-S-DS6aa9.png" style="zoom:76%;" />
+
+<img src="../images/M-S-DS6aa9b.png" style="zoom:76%;" />  
+
+<img src="../images/M-S-DS6aa9c.png" style="zoom:76%;" />
 
 ##### Rewrite history
 
@@ -446,4 +459,4 @@ This will make xDrip+ open automatically when your phone restarts.
 
 </br>
 
-[*Last modified 14/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)

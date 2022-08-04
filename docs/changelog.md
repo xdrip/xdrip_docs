@@ -3,11 +3,19 @@
 
 </br>
 
+[ 3rd Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)	Cleanup (old NFC traces)
+
+[ 2nd Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02)	Smoothing cont'd
+
+[ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b)	b - [Smoothing](../../use/display/#graph-smoothing) implementation start
+
+[ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01)	De-duplicate preliminary
+
 [26th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)	Web follow refresh on fail, Expand data limit (Wear, Pebble), 
 
 [23rd Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23)	Sensor expiry default on, ensure web follow off, Libre bock sync improvement, show aged raw only if set
 
-[21st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21)	Expand data limit for 1min readings
+[21st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21)	Expand data limit for shorter readings period
 
 [14th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)	Configurable BG [text and arrow colors](../use/display/#colors-of-bg-readings-and-trend-arrows) for high/low BG
 
