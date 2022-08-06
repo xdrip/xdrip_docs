@@ -54,15 +54,15 @@ Filtered values can be seen with sensors supporting raw data.
 
 ##### Treatments and predictions curves
 
-1. Insulin on board (treatment main curve)
+1. Insulin on board ([treatment](../mainUI/#units-of-insulin) main curve)
 2. Insulin activity (small dotted line)
 
 <img src="../images/M-S-DS2e.png" style="zoom:78%;" />
 
 <img src="../images/M-S-DS2e2.png" style="zoom:75%;" />
 
-1. Glucose prediction (main prediction graph)
-2. Carbs on board (small dotted line)
+1. Glucose [prediction](../predictions) (main prediction graph)
+2. [Carbs](../mainUI/#grams-of-carbs) on board (small dotted line)
 
 <img src="../images/M-S-DS2f.png" style="zoom:78%;" />
 
@@ -80,7 +80,7 @@ Filtered values can be seen with sensors supporting raw data.
 
 ##### Annotations and dots
 
-Blood tests (also calibrations), and treatments.
+[Blood tests (also calibrations), and treatments.](../mainUI/#treatments)
 
 <img src="../images/M-S-DS2h.png" style="zoom:75%;" />
 
@@ -92,19 +92,19 @@ Graphs backgrounds, main
 
 <img src="../images/M-S-DS2i.png" style="zoom:75%;" />
 
-Notifications
+##### [Notifications](../misc/#run-collector-in-foreground)
 
 <img src="../images/M-S-DS2j.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2j2.png" style="zoom:75%;" />
 
-And widget
+##### [Widget](../mainUI/#widget)
 
 <img src="../images/M-S-DS2k.png" style="zoom:75%;" />
 
 ##### Plugins and features
 
-If you use a plugin you can also display the plugin glucose value as a secondary graph.   
+If you use a [plugin](../../calibrate/advancedcal/#plugins) you can also display the plugin glucose value as a secondary graph.   
 Plugin plot on graph must be enabled.
 
 <img src="../images/M-S-DS2l.png" style="zoom:75%;" />
@@ -121,13 +121,13 @@ In the example below 1. heart rate and 2. step counter.
 
 ##### Basal and SMB
 
-If you manage to display basal (from AAPS, scroll below for more information) you can also customize the color.
+If you manage to display basal ([from AAPS](#basal-information) or [manual setup](../predictions/#basal-profile-editor)) you can also customize the color.
 
 <img src="../images/M-S-DS2n.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2n2.png" style="zoom:75%;" />
 
-SMBs are icons decluttering the graph for micro-bolus treatments.
+[SMB](#smb)s are icons decluttering the graph for micro-bolus treatments.
 
 <img src="../images/M-S-DS2o.png" style="zoom:75%;" />
 
@@ -153,7 +153,8 @@ By default xDrip+ will use your phone language. You can select another language 
 
 ### Smooth sensor noise
 
-Smoothing displays the smoothed curve, useful for noisy measurements.
+Smoothing displays the smoothed curve, useful for noisy measurements.  
+You can also try [Graph smoothing](#graph-smoothing) to clean your graph.
 
 <img src="../images/M-S-DS4.png" style="zoom:75%;" />
 
@@ -300,7 +301,7 @@ Display the Medtrum secondary sensor values.
 
 ##### Noise workings
 
-Additional noise information (with raw data available), yellow line.
+Additional noise calculation information, yellow line.
 
 <img src="../images/M-S-DS6m.png" style="zoom:75%;" />
 
@@ -316,7 +317,7 @@ Backfilled data can be indicated with a different dot style.
 
 ##### Widget graph
 
-You can hide the graph on the widget and keep only the value.
+You can hide the graph on the [widget](../mainUI/#widget) and keep only the value.
 
 <img src="../images/M-S-DS6o.png" style="zoom:75%;" />
 
@@ -330,7 +331,8 @@ These two options are only available for developers.
 
 ### Glucose number from Filtered
 
-Filtering might delay readings and is not recommended.
+Filtering might delay readings and is not recommended.  
+Filtering of 20 minutes is hardware coded for [Patched Libre 2 app data source](../../install/libre2patch/).
 
 <img src="../images/M-S-DS6r.png" style="zoom:75%;" />
 
@@ -338,7 +340,7 @@ Filtering might delay readings and is not recommended.
 
 ### Bolus Wizard Preview
 
-BWP will show insulin on board (IoB) and suggest corrections based on the predictive parameters entered in xDrip+.  
+BWP will show insulin on board (IoB) and suggest corrections based on the [predictive](../predictions) parameters entered in xDrip+.  
 This is an indication. Make sure you understand the EULA before using it.  
 Never follow the suggestions when BG is fast changing.
 
@@ -352,7 +354,7 @@ If you force always show BWP it will always suggest a correction (insulin or car
 
 ### High Priority Notifications
 
-This will bring xDrip+ graph and notifications at the top of the list, disabling it brings it down.
+This will bring xDrip+ [graph and notifications](../misc/#run-collector-in-foreground) at the top of the list, disabling it brings it down.
 
 <img src="../images/M-S-DS6t.png" style="zoom:75%;" />
 

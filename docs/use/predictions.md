@@ -9,7 +9,7 @@ xDrip+ Predictive Simulation settings is an experimental, non medically approved
 
 <img src="../images/M-S-PS1.png" style="zoom:75%;" />
 
-Enabling predictions will add the prediction curve on the main graph.
+Enabling predictions will add the light purple prediction curve on the main graph. This curve is showing you how your BG should theoretically evolve using current insulin and carbs entered in xDrip+. More details on display [here](../display/#treatments-and-predictions-curves).
 
 <img src="../images/M-S-PS1a.png" style="zoom:75%;" />
 
@@ -83,6 +83,8 @@ To edit your basal profile:
 <img src="../images/M-S-PS4f3.png" style="zoom:78%;" />
 
 ### Use trend momentum
+
+Trend momentum is independent from predictions, it is just a mathematical extrapolation (i.e. if BG continues to evolve with his trend, not considering insulin and carbs, where will it go?) of your current BG trend (up/down/flat). It can be used for [Forecasted Low alarms](../alarms/#forecasted-low).
 
 Trend momentum can be integrated in predictions (recommended).
 
