@@ -6,14 +6,18 @@ If they are hidden here it's probably because you won't need to change them ever
 <img src="../../images/M-S-LCS.png" style="zoom:75%;" />  
 <img src="../images/M-S-LCS15.png" style="zoom:75%;" />
 
-Run collector in foreground is mandatory to keep xDrip+ from being put to sleep by Android.  
+##### Run collector in foreground
+
+Mandatory to keep xDrip+ from being put to sleep by Android.  
 This will force displaying a graph in the notifications area, **you shouldn't disable it**.
 
 <img src="../images/M-S-LCS15a.png" style="zoom:75%;" />
 
 <img src="../images/M-S-LCS15a2.png" style="zoom:75%;" />
 
-Engineering mode enables feature that are potentially dangerous or untested. You do not need it to be enabled for restarting a G5 or an old G6 transmitter (newer ones will be permanently damaged). It will automatically disable when restarting xDrip+ (rebooting your phone for example).
+##### Engineering mode
+
+Enables feature that are potentially dangerous or untested. You do not need it to be enabled for restarting a G5 or an old G6 transmitter (newer ones will be permanently damaged). It will automatically disable when restarting xDrip+ (rebooting your phone for example).
 
 <img src="../images/M-S-LCS15b.png" style="zoom:75%;" />
 
@@ -21,11 +25,15 @@ To enable engineering mode enter the following treatment.
 
 <img src="../images/M-S-LCS15b2.png" style="zoom:75%;" />
 
-Battery Optimization Prompt should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
+##### Battery Optimization Prompt 
+
+Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
 
 <img src="../images/M-S-LCS15c.png" style="zoom:75%;" />
 
-Samsung Workarounds fixes a non compliance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
+##### Samsung Workarounds
+
+Fixes a non compliance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
 
 <img src="../images/M-S-LCS15j.png" style="zoom:75%;" />
 

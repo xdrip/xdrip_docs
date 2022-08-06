@@ -206,7 +206,7 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 
 ##### Forecasted low
 
-You can set an alarm on forecasted low value. This feature will use the momentum (extrapolation of the current BG trend) and not the prediction set. Forecasted low (min) is the time in which a low will be forecasted (the one that usually displays in yellow on the graph screen).
+You can set an alarm on forecasted low value. This feature will use the momentum (extrapolation of the current BG trend) and **not** the [prediction](../predictions) settings. Forecasted low (min) is the time in which a low will be forecasted (the one that usually displays in yellow on the graph screen).
 
 <img src="../images/M-S-AA-EAb.png" style="zoom:75%;" />
 
