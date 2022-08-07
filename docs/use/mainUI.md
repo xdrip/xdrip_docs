@@ -23,13 +23,26 @@ You will see these default indications when xDrip+ receives data.
 2. What's the last measured BG value.
 3. What's the trend in respect with the previous measurement.
 
-!!!note "Trend arrow"  
-    Note that the arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
+##### Trend arrow
+
+!!!note  
+    The arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
     In case of missing readings, the arrow might indicate fast rise or drop, always correlate with the indication in `1`.
 
 You can customize the information shown in `1` with [Graph Settings](../display/#graph-settings).
 
-You can [customize the trend arrow aspect](#blood-drop-menu) but not behavior.
+You can [customize the trend arrow aspect](#blood-drop-menu) but not behavior (i.e. it will always use the difference with the previous reading).
+
+This is how the classic trend arrow will appear, it takes into account the difference between previous and current BG readings.
+
+| BG difference (previous and current)                         |                                                           |
+| ------------------------------------------------------------ | --------------------------------------------------------- |
+| Changed at most +/- 5mg/dl (0.28 mmol/l)                     | <img src="../images/ArrowFlat.png" style="zoom:75%;" />   |
+| Changed more than above and less than +/- 9mg/dl (0.5 mmol/l) | <img src="../images/ArrowUpDn.png" style="zoom:75%;" />   |
+| Changed more than above and less than +/- 19mg/dl (1.06 mmol/l) | <img src="../images/ArrowUpDn+.png" style="zoom:75%;" />  |
+| Changed more than above                                      | <img src="../images/ArrowUpDn++.png" style="zoom:75%;" /> |
+
+
 
 ### Treatments
 
