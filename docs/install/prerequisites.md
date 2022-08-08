@@ -6,6 +6,11 @@ You need an Android phone.
 - In order to use NFC scanning features for Libre 1 and 2 (EU only) sensors, or to connect directly to a Libre 2 (EU) sensor your phone needs a compatible NFC reader.
 - If using Android 10 and above make sure you use a recent version of xDrip+ (at least the [latest release](../download/#latest-release), we'll talk about it later: continue reading).
 
+### Google Play Services
+
+If your phone doesn't have Google Play Services (some Huawei and Chinese phones don't) you still can use xDrip+ but not the xDrip+ Sync function that relies on them as stated above.  
+In this case make sure you [disable Sync functions](../../use/sync/#disable-sync).
+
 ### Family Link
 
 To install xDrip+ on a phone monitored by [Google Family Link](https://families.google.com/families) you must disable it until you've installed the app.  
@@ -44,4 +49,4 @@ You will find Google Play Protect in your phone Play Store app's settings.
 
 </br>
 
-[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
