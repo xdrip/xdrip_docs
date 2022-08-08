@@ -2,9 +2,12 @@
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../images/M-S-SY.png" style="zoom:75%;" />
 
+!!!warning  
+    [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
+
 xDrip+ provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
 
-It requires Google Play Services and the underlying security key can be customized instead of using the Google account key (not editable).
+The underlying security key can be customized instead of using the Google account key (not editable).
 
 <img src="../images/M-S-SY1.png" style="zoom:75%;" />
 
@@ -86,4 +89,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 20/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)

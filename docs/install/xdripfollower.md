@@ -9,6 +9,9 @@
 
 ### Prerequisites
 
+!!!warning  
+    [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
+
 xDrip+ master phone is the device that is actually getting directly glucose readings from a sensor, a bridge, an app.  
 Having a follower device being xDrip+ sync master adds little value unless the follower device can't use the same data source.
 
@@ -84,4 +87,4 @@ You might need to reboot the follower phone to validate everything and get data.
 
 </br>
 
-[*Last modified 29/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.28)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
