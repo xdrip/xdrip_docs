@@ -60,6 +60,7 @@ nav:
         - 'Alarms and Alerts': 'use/alarms.md'
         - 'Speak Readings': 'use/speak.md'
         - 'Glucose Meter': 'use/glucometer.md'
+        - 'Sync Follower setup': 'use/syncsetup.md'
     - Calibrations:
         - 'Calibration basics': 'calibrate/101.md'
         - 'Calibrate': 'calibrate/calibrate.md'

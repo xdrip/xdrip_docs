@@ -35,6 +35,9 @@ This is the 4 digits number indicated on your sensor sticker protection. Take a 
 
 <img src="../../install/images/M-StaSCode.png" style="zoom:75%;" />
 
+!!!note "No code start"  
+    If you use the sensor code 0000 (4 zeroes) you will start the G6 sensor in G5 mode: two calibrations at 12 hours distance then once every 24 hours will be required.
+
 If you're using a G5 you will need to calibrate.
 
 </br>
