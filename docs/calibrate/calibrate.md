@@ -22,16 +22,16 @@ Libre sensors only send raw data, and will need either xDrip+ calibration or an 
 
 Libre 2 patched app will use its own proprietary algorithm (an old version though).
 
-| Sensor                       | xDrip+ calibration              | Native calibration |
-| ---------------------------- | ------------------------------- | ------------------ |
-| G4                           | Mandatory                       | Not available      |
-| G5                           | Available                       | Available          |
-| G6 old (80/81 series)        | Available                       | Available          |
-| G6 new (Firefly)             | Not available                   | Mandatory          |
-| Libre 1                      | Mandatory                       | OOP1               |
-| Libre 14 days US             | Not available                   | OOP1 US (obsolete) |
-| Libre 2 EU patched app       | Limited offset (see below)      | By design          |
-| Libre 2 EU, Libre 14 days US | [Optional](../../use/OOP/#oop2) | OOP2               |
+| Sensor                                                       | xDrip+ calibration              | Native calibration |
+| ------------------------------------------------------------ | ------------------------------- | ------------------ |
+| G4                                                           | Mandatory                       | Not available      |
+| G5                                                           | Available                       | Available          |
+| G6 old (80/81 series)                                        | Available                       | Available          |
+| G6 new ([Firefly](../../troubleshoot/connection/#firefly-transmitters)) | Not available                   | Mandatory          |
+| Libre 1                                                      | Mandatory                       | OOP1               |
+| Libre 14 days US                                             | Not available                   | OOP1 US (obsolete) |
+| Libre 2 EU patched app                                       | Limited offset (see below)      | By design          |
+| Libre 2 EU, Libre 14 days US                                 | [Optional](../../use/OOP/#oop2) | OOP2               |
 
 ##### Libre 2 patched app
 

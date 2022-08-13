@@ -4,6 +4,10 @@
 
 </br>
 
+xDrip+ provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
+
+</br>
+
 [**Here the reference video**](https://www.youtube.com/watch?v=LcgjfbYcWkE).
 
 ### Prerequisites
