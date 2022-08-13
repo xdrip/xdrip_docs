@@ -4,11 +4,16 @@
 
 </br>
 
-You can scan the Glucomen Aero meter with an NFC reader capable phone.
+##### NFC meter
+
+If you use a  Glucomen Aero meter with an NFC reader capable phone you can scan it to get last reading.
 
 <img src="../images/M-S-GMe.png" style="zoom:78%;" />
 
-In order to enable Use Bluetooth Meter you need to pair a meter first. If this is a new meter make sure you have measured BG at least once before trying to pair it.
+##### If you use a compatible Bluetooth meter
+
+In order to enable Use Bluetooth Meter you need to pair a Bluetooth meter first.  
+If this is a new meter **make sure you have measured BG at least once before trying to pair it**.
 
 <img src="../images/M-S-GMa.png" style="zoom:75%;" />
 

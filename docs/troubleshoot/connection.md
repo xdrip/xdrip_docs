@@ -137,4 +137,28 @@ Write `hard reset transmitter` then `OK`.
 
 Be patient, il will take up to 20 minutes.
 
+</br>
+
+## Firefly transmitters
+
+Newer G6 transmitters have a very different firmware than the original ones.
+
+You can recognize an **old G6 transmitter** by its serial code starting by 80 or 81.  
+Its firmware is version 1.6.5.25 or below.
+
+Old transmitters will allow you to:
+
+- Replace the battery and [reset the transmitter days counter](#hard-reset-transmitter)
+- Receive [raw data](../../use/display/#raw-data) from your sensor
+- Use the [xDrip+ calibration algorithm](../../calibrate/101/#xdrip-calibration-algorithm)
+- [Restart](../../use/g56debug/#restart-sensor) the sensor using xDrip+
+
+**New transmitters** called Firefly have a letter in the serial code after the 8: like 8G, 8P,... 8Y and so on.
+
+- You cannot replace the battery or reset the transmitter days
+- They do not send raw data
+- In order to restart the sensor you need to physically extract the transmitter from the sensor
+
+</br>
+
 [*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)

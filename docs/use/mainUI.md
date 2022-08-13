@@ -8,10 +8,12 @@ If you've just setup xDrip+ you want to start with basic customizations:
 
 1. [Setup the unit you want to display your blood glucose with](../settings)
 2. [Add alarms](../alarms)
-3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](../../install/xdripfollower/) or to the [cloud](../cloud)
+3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](../syncsetup)
 4. Display xDrip+ on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
 5. Add a [widget](#widget) to your phone home screen
 6. Add a [smartwatch](../../smartwatch/smartwatch)
+7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip+](../cloud/#tidepool)
+8. Upload your data to [Nightscout](https://nightscout.github.io/) (recommended)
 
 ### Basic indications
 

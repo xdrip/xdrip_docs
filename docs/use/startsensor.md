@@ -1,6 +1,6 @@
 Starting a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G4 with bridge, G5 and G6
+### G4 with bridge, G5, G6 and ONE
 
 Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
 
@@ -11,7 +11,7 @@ If xDrip+ already has a started sensor, you will need to [stop](../stopsensor) i
 Starting an already started sensor will just allow xDrip+ to continue the current session without interfering.
 
 !!!warning  
-    Starting a new sensor should be done only once [G5](../../install/g5/) or [G6](../../install/g5/) settings and [connection](../../troubleshoot/connection) have been verified.  
+    Starting a new sensor should be done only once [G5](../../install/g5/) or [G6/ONE](../../install/g6/) settings and [connection](../../troubleshoot/connection) have been verified.  
     Never attempt to restart a G6 sensor when in trouble.  
     You cannot start a sensor when the transmitter has exceeded its programmed lifetime (105 days for G5 and 99 for G6). You can only hard reset old versions of transmitters.
 
@@ -30,13 +30,13 @@ Check system status from time to time to make sure the transmitter is connected.
 
 <img src="../../install/images/M-SS-Warmup.png" style="zoom:66%;" />
 
-Once warm-up is complete, if you're using a G6, you will be asked to enter the sensor calibration code.  
+Once warm-up is complete, if you're using a G6 or ONE, you will be asked to enter the sensor calibration code.  
 This is the 4 digits number indicated on your sensor sticker protection. Take a picture of it to avoid losing it.
 
 <img src="../../install/images/M-StaSCode.png" style="zoom:75%;" />
 
 !!!note "No code start"  
-    If you use the sensor code 0000 (4 zeroes) you will start the G6 sensor in G5 mode: two calibrations at 12 hours distance then once every 24 hours will be required.
+    If you use the sensor code 0000 (4 zeroes) you will start the G6 or ONE sensor in G5 mode: two calibrations at 12 hours distance then once every 24 hours will be required.
 
 If you're using a G5 you will need to calibrate.
 
