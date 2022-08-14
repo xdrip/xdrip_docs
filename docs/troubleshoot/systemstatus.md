@@ -39,12 +39,15 @@ Most data sources will have an advanced status tab. Swipe your finger on the scr
 
 <img src="../images/M-SS.png" style="zoom:75%;" />
 
-General information:  
-Buggy Samsung is not an error, but just the fact xDrip+ is [correcting](https://github.com/NightscoutFoundation/xDrip/issues/435) a non-compliance of Samsung devices.
+##### Buggy Samsung
+
+This is not an error, but just the fact xDrip+ is [correcting](https://github.com/NightscoutFoundation/xDrip/issues/435) a non-compliance of Samsung devices.
 
 <img src="../images/M-SS-CSBSsg.png" style="zoom:75%;" />
 
-Slowest wake-up gives an information on when xDrip+ received data against the expected time. Seconds are acceptable but minutes might be the sign of a connectivity issue.
+##### Slowest wake-up
+
+It is an information on when xDrip+ received data against the expected time. Seconds are acceptable but minutes might be the sign of a connectivity issue.
 
 <img src="../images/M-SS-CSWU.png" style="zoom:75%;" />
 
@@ -58,7 +61,7 @@ See the dedicated page [here](../librebridge).
 
 #### xDrip+ Sync Follower
 
-xDrip+ follower is really simple to setup. If you have issues with it, most of the time it's either a network connection or Google Play services issues.  
+xDrip+ follower is really simple to [setup](../../use/syncsetup). If you have issues with it, most of the time it's either a network connection or Google Play services issues.  
 Having also [Nightscout](https://nightscout.github.io/) available as a backup follower solution is recommended when troubleshooting or following a child.
 
 <img src="../images/M-SS-xF.png" style="zoom:75%;" />
