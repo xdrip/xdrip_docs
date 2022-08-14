@@ -47,7 +47,7 @@ Verify xDrip+ [Bluetooth settings](../libreBT/#bridge-settings) are correct.
 
 ## Connect to the sensor
 
-If you have a previous sensor connected to xDrip+, stop the old sensor.
+If you have a previous sensor connected to xDrip+, [stop](../../use/stopsensor) the old sensor.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
@@ -79,5 +79,5 @@ If you have trouble getting data directly from the sensor, scan it every 5 minut
 
 </br>
 
-[*Last modified 13/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
 
