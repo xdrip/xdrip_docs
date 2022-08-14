@@ -1,7 +1,7 @@
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../use/images/M-S-SW.png" style="zoom:75%;" />
 
-<img src="../images/M-S-SW-MB1.png" style="zoom:75%;" />
+<img src="../images/M-S-SW-MB.png" style="zoom:76%;" />
 
 You can use these guidelines for the official xDrip+ release and forked versions.
 

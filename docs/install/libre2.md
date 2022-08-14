@@ -10,6 +10,7 @@ Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how
 </br>
 
 !!!warning  
+    **Uninstall any app connected to the sensor and shield the reader before attempting to connect to xDrip+.**  
     If you connect your sensor directly to xDrip+ you will permanently lose alarms on the vendor app or reader without possibility to recover.  
     If you're not sure this will work, use a sensor at end of life to test the system.  
     Like Libre bridges, success and reliability will vary depending on your phone.  

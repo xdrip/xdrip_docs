@@ -11,9 +11,10 @@ If xDrip+ already has a started sensor, you will need to [stop](../stopsensor) i
 Starting an already started sensor will just allow xDrip+ to continue the current session without interfering.
 
 !!!warning  
+    **If you use the receiver or a connected pump, let them start and stop sensors: don't do that with xDrip+.**  
     Starting a new sensor should be done only once [G5](../../install/g5/) or [G6/ONE](../../install/g6/) settings and [connection](../../troubleshoot/connection) have been verified.  
     Never attempt to restart a G6 sensor when in trouble.  
-    You cannot start a sensor when the transmitter has exceeded its programmed lifetime (105 days for G5 and 99 for G6). You can only hard reset old versions of transmitters.
+    You cannot start a sensor when the transmitter has exceeded its programmed lifetime (105 days for G5 and 99 for G6). You can only hard reset [old versions](../../troubleshoot/connection/#firefly-transmitters) of transmitters.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 

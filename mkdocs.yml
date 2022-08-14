@@ -91,6 +91,7 @@ nav:
         - 'Use Wear Extension': 'smartwatch/usewear.md'
         - 'Pebble': 'smartwatch/pebble.md'
         - 'MiBand': 'smartwatch/miband.md'
+        - 'BlueJay Watch': 'smartwatch/bluejay.md'
     - Troubleshooting:
         - 'Installation': 'troubleshoot/install.md'
         - 'Reinstallation': 'troubleshoot/reinstall.md'
