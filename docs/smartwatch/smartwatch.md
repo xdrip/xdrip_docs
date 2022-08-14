@@ -33,7 +33,7 @@ You cannot use this feature for other AmazFit watches.
 
 <img src="../images/M-S-SW4.png" style="zoom:75%;" />
 
-#### [BlueJay Watch](https://bluejay.website/)
+#### [BlueJay Watch](../bluejay)
 
 BlueJay is an incredible companion of your Dexcom sensor, with or without xDrip+, with or without phone.
 
