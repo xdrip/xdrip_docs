@@ -48,7 +48,7 @@ xDrip+ will not break the sensor, it will only prevent the vendor app or the rea
 
 #### Prerequisites
 
-The device you used o start the sensor must be shielded (microwave oven - switched off) to avoid it interacting with xDrip+ pairing process. It will show the connection lost icon.
+The device you used to start the sensor must be shielded (microwave oven - switched off) to avoid it interacting with xDrip+ pairing process. It will show the connection lost icon.
 
 <img src="../images/FLnotconnected.png" style="zoom:75%;" />
 

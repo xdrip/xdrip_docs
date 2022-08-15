@@ -25,13 +25,13 @@ G6 transmitters have two Bluetooth slots: phone and non-phone.
 You can configure your slots as per the table below. Only two devices can be connected simultaneously to the transmitter, each one using a unique slot.  
 By default BlueJay uses the non-phone slot. See [here](#run-collector) how to change this setting.
 
-| Vendor app          | Receiver                | Connected pump                               | BlueJay Watch                             |
-| ------------------- | ----------------------- | -------------------------------------------- | ----------------------------------------- |
-| Cannot be used      | Cannot be used          | Cannot be used                               | Non-phone slot **xDrip+ uses phone slot** |
-| **Uses phone slot** | Cannot be used          | Cannot be used                               | Non-phone slot                            |
-| Cannot be used      | **Uses non-phone slot** | Cannot be used                               | Phone slot                                |
-| Cannot be used      | Cannot be used          | t:slim, Omnipod 5 **use non-phone slotslot** | Phone slot                                |
-| Cannot be used      | Cannot be used          | CamAPS, DBLG1 **use phone slot**             | Non-phone slot                            |
+| Vendor app          | Receiver                | Connected pump                            | BlueJay Watch                             |
+| ------------------- | ----------------------- | ----------------------------------------- | ----------------------------------------- |
+| Cannot be used      | Cannot be used          | Cannot be used                            | Non-phone slot **xDrip+ uses phone slot** |
+| **Uses phone slot** | Cannot be used          | Cannot be used                            | Non-phone slot                            |
+| Cannot be used      | **Uses non-phone slot** | Cannot be used                            | Phone slot                                |
+| Cannot be used      | Cannot be used          | t:slim, Omnipod 5 **use non-phone slots** | Phone slot                                |
+| Cannot be used      | Cannot be used          | CamAPS, DBLG1 **use phone slot**          | Non-phone slot                            |
 
 *Note: xDrip+ uses the phone slot by default, non-phone slot requires engineering mode*
 
