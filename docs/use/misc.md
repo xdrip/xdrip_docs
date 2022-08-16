@@ -35,7 +35,7 @@ Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#
 
 Fixes a non compliance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
 
-<img src="../images/M-S-LCS15j.png" style="zoom:75%;" />
+<img src="../images/M-S-LCS15d.png" style="zoom:75%;" />
 
 Use Excessive Wakelocks is not required. They are additional "wake-up" messages sent by xDrip+ to your Android device to prevent it to go in sleep mode. 
 
@@ -43,7 +43,7 @@ Use Excessive Wakelocks is not required. They are additional "wake-up" messages 
 
 Display Predictive Values (old method) is deprecated. Use [Predictive Simulation](../predictions/).
 
-<img src="../images/M-S-LCS15e.png" style="zoom:75%;" />
+<img src="../images/M-S-LCS15f.png" style="zoom:75%;" />
 
 Proper Ongoing is mandatory for devices with Android 8 and above.
 
