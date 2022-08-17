@@ -14,14 +14,14 @@ You need to setup X2 with xDrip+, then you can make it standalone.
 
 BlueJay watches are powerful companions for your G5, G6 and ONE sensors. They both connect directly to the transmitter but you need to be aware of the limitations.
 
-##### G5 and ONE
+##### G5
 
 These transmitters only have one Bluetooth slot.  
 If you want to connect BlueJay you need to disconnect the transmitter from any other app or receiver.
 
-##### G6
+##### G6 and ONE
 
-G6 transmitters have two Bluetooth slots: phone and non-phone.  
+G6 and ONE transmitters have two Bluetooth slots: phone and non-phone.  
 You can configure your slots as per the table below. Only two devices can be connected simultaneously to the transmitter, each one using a unique slot.  
 By default BlueJay uses the non-phone slot. See [here](#run-collector) how to change this setting.
 
