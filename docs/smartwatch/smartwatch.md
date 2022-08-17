@@ -86,8 +86,9 @@ More smartwatches and devices can receive data from xDrip+ even if they are not 
 #### Fitbit
 
 !!!warning  
-    The latest Fitbit app has a secure http bug preventing it to receive data from xDrip+. You need to downgrade the app to a previous version like 3.58 and disable automatic updates.  
-    You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers. 
+    Some Fitbit apps have a secure http bug preventing them to receive data from xDrip+.  
+    If you run an Android version below 10 you need to downgrade the app to a previous version like 3.58 and disable automatic updates. You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers.  
+    If you run an Android version of 10 and above, update the Fitbit app to 3.65 (minimum) and upgrade the watch firmware to latest.
 
 ##### [Glance](https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c)
 
@@ -136,4 +137,4 @@ By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9
 
 </br>
 
-[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)
+[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
