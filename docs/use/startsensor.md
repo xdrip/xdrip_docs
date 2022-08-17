@@ -31,8 +31,11 @@ Check system status from time to time to make sure the transmitter is connected.
 
 <img src="../../install/images/M-SS-Warmup.png" style="zoom:66%;" />
 
+##### Sensor code
+
 Once warm-up is complete, if you're using a G6 or ONE, you will be asked to enter the sensor calibration code.  
-This is the 4 digits number indicated on your sensor sticker protection. Take a picture of it to avoid losing it.
+This is the 4 digits number indicated on your sensor sticker protection. Take a picture of it to avoid losing it.  
+Do not start a sensor with a code different from the one received with it. If you lost the sensor code, see below: No code start.
 
 <img src="../../install/images/M-StaSCode.png" style="zoom:75%;" />
 
