@@ -1,6 +1,4 @@
-If your phone has an NFC reader you can use it to scan your Libre sensor. Compatible phones will allow you to install LibreLink (if you can find it in your region Google Play store). There were doubts on some smartphones "breaking" the sensor but recent models should be safe. If your phone is not compatible with the vendor app, you should try the feature on a sensor close to expiration date.
-
-<img src="../images/M-S-HDS-NFC1.png" style="zoom:87%;" />
+If your phone has an NFC reader you can use it to scan your Libre sensor. Compatible phones will allow you to install LibreLink (if you can find it in your region Google Play store).
 
 ## Supported data sources
 
@@ -54,4 +52,4 @@ Continue to [Start Sensor](../../use/startsensor/#libre), remembering that you w
 
 </br>
 
-[*Last modified 27/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.27)
+[*Last modified 18/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18)
