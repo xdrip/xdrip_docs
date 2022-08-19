@@ -1,7 +1,12 @@
 !!!note  
-    Most releases contain new Crowdin translations, not mentioned in comments.
+    Most releases contain new Crowdin translations, not mentioned in comments.  
+    Important changes with links to features.
 
 </br>
+
+[19th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19)	Filtering test
+
+[18th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18)	Removed [NFC](../install/libreNFC/#enabling-nfc) warning, don't send Libre blocks in Sync, de-dupe cont'd, do not loop audio
 
 [ 3rd Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)	Cleanup (old NFC traces)
 
@@ -19,7 +24,7 @@
 
 [14th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14)	Configurable BG [text and arrow colors](../use/display/#colors-of-bg-readings-and-trend-arrows) for high/low BG
 
-[13th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13)	OB1 special pairing workaround, virtual sensor auto-start
+[13th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13)	OB1 [special pairing workaround](../use/g56debug/#special-pairing-workaround), virtual sensor auto-start
 
 [11th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)	**Watch broadcast** ([WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration))
 
@@ -27,7 +32,7 @@
 
 [ 5th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.05)	Add stats range, rename transmitter ID in system status, typo
 
-[ 1st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)	Notify monthly engineering mode is on
+[ 1st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)	Notify monthly [engineering mode](../use/misc/#engineering-mode) is on
 
 [28th Jun 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)	Multiple insulins treatment digits
 
@@ -45,7 +50,7 @@
 
 [26th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)	**[NSClient absolute basal](../use/display/#basal-information)**
 
-[19th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)	G6v2 raw scaling fix
+**Latest Release** [19th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19)	G6v2 raw scaling fix
 
 [16th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.16)	OOP1 fix
 
@@ -63,9 +68,9 @@
 
 [ 6th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06)	Fix "don't use for calibration"
 
-[4th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)	**Glucomen Aero** support
+[4th May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04)	**[Glucomen Aero](../use/glucometer/#nfc-meter)** support
 
-[ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b)	b - Improvements: NovoPen, G6 start session 
+[ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b)	b - Improvements: [NovoPen](../use/pens/#novopen-insulin-pen), G6 start session 
 
 [ 3rd May 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03)	cont'd: fix calibration transition
 
@@ -77,7 +82,7 @@
 
 [30th Apr 2022 ](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.30)	[Enable/disable AAPS import profile sounds](../use/interapp/#receiving-from-nsclient)
 
-[29th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.29)	Cleanup, Basal upload to Tidepool
+[29th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.29)	Cleanup, Basal upload to [Tidepool](../use/cloud/#tidepool)
 
 [28th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.28)	[Import profile from AAPS](../use/predictions/#carb-ratio-and-insulin-sensitivity)
 
@@ -99,7 +104,7 @@
 
 [12th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.12)	Alert sound player improvement
 
-[11th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)	**NovoPen support**, BG treatment to calibration leak fix
+[11th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)	**[NovoPen support](../use/pens/#novopen-insulin-pen)**, BG treatment to calibration leak fix
 
 [ 6th Apr 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.06b)	b - Translation bug fix, BG treatment to calibration leak fix
 

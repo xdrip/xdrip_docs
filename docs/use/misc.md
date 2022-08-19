@@ -25,6 +25,10 @@ To enable engineering mode enter the following treatment.
 
 <img src="../images/M-S-LCS15b2.png" style="zoom:75%;" />
 
+You will be reminded monthly engineering mode is on. Make sure you really need it, else keep it disabled.
+
+<img src="../images/M-S-LCS15b3.png" style="zoom:52%;" />
+
 ##### Battery Optimization Prompt 
 
 Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
@@ -87,4 +91,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 2/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.02)
+[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)
