@@ -208,4 +208,16 @@ This service allows broadcast of xDrip+ values as an API and can be used by exte
 
 </br>
 
-[*Last modified 22/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.22)
+### Google Health connect
+
+You can share information with Google Health.
+
+<img src="../images/M-S-IASj.png" style="zoom:76%;" />
+
+You need [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&hl=en&gl=US) installed on your device, which is available for Android 8 and above.
+
+<img src="../images/M-S-IASj1.png" style="zoom:76%;" />
+
+xDrip+ can share steps, heart rate and BG with Google Health.
+
+[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)

@@ -45,14 +45,8 @@ Some developers add features and customizations that are not available in the of
     You can use these versions but need to understand they might be supported only by their creator.  
     **xDrip+ automatic updates won't work with forked versions.**  
     Also keep in mind you cannot install a forked version if you have an official version installed on your phone:  
-    you will need to uninstall it first.  
+    you will need to [uninstall](../../troubleshoot/reinstall/) it first.  
     The same applies for the other way round (from forked to official).
-
-Bence's forks for CareLink follower are available [here](https://github.com/benceszasz/xDripCareLinkFollower/releases).
-
-</br>
-
-Once downloaded proceed to [installation](../install)
 
 </br>
 
@@ -77,4 +71,4 @@ Once downloaded a variant, proceed like a normal xDrip+ install.
 
 </br>
 
-[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
+[*Last modified 5/11/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05)

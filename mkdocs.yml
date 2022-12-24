@@ -50,6 +50,7 @@ nav:
         - 'CareLink follower': 'install/carelinkfollow.md'
         - 'BYODA': 'install/byod.md'
         - 'Companion app': 'install/companion.md'
+        - 'GlucoRx/Aidex': 'install/aidex.md'
         - 'Web Follower': 'install/webfollower.md'
     - Discover and use:
         - 'Main view': 'use/mainUI.md'

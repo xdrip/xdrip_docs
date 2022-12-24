@@ -62,6 +62,8 @@ The following sensors and features are supported with a companion app:
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 - [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
+- [Aidex](../aidex)  
+  See below.
 - [Companion app](../companion) for G6, G7, One and CamAPS  
   See below.
 
@@ -74,8 +76,8 @@ The following sensors and features are supported with a companion app:
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
-- [CareLink](../carelinkfollow) (forked version)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install42.png" style="zoom:53%;" />
+- [CareLink](../carelinkfollow)  
+  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install42.png" style="zoom:60%;" />
 
 </br>
 
@@ -139,19 +141,23 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
 
+[GlucoRx/Aidex](../aidex)
+
+<img src="../images/M-S-HDSlistP.png" style="zoom:75%;" />
+
 [Web Follower](../webfollower) for Libre 3
 
 <img src="../images/M-S-HDSlistO.png" style="zoom:75%;" />
+
+[CareLink](../carelinkfollow)
+
+<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 
 ##### Disable Collection
 
 If you want to disable xDrip+.
 
 <img src="../images/M-S-HDSlistL.png" style="zoom:75%;" />
-
-[CareLink](../carelinkfollow) (forked version) 
-
-<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 
 </br>
 

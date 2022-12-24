@@ -1,13 +1,7 @@
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
-
-CareLink follower is not yet a standard feature of xDrip+. You need to use a forked version:
-
-[From Bence](https://github.com/benceszasz/xDripCareLinkFollower/releases)
-
-[From Artem](https://bigdigital.home.blog/) (smartband support)
+<img src="../images/M-S-HDSlistM.png" style="zoom:76%;" />
 
 </br>
 
@@ -43,5 +37,5 @@ Sensor status and pump status are available in [Extra status line](../../use/les
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
-*Last modified 8/4/2022*
+[*Last modified 5/11/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05)
 
