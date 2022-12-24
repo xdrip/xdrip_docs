@@ -1,6 +1,6 @@
 !!!info "Libre 2 EU"  
     Only the European version of Libre 2 is supported by xDrip+.  
-    If you want to use Libre 2 from another geographical area, you can have data sent to xDrip+ from [Diabox](../../install/nightscoutfollower/#diabox) or [Juggluco](../../install/libre2patch/#juggluco).
+    If you want to use Libre 2 from another geographical area, you can have data sent to xDrip+ from [Diabox](../../install/libre2patch/#diabox) or [Juggluco](../../install/libre2patch/#juggluco).
 
 </br>
 
@@ -87,5 +87,5 @@ If you don't see values after scanning:
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
 

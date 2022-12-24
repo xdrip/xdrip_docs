@@ -2,13 +2,14 @@ You need an Android phone.
 
 - Minimum supported Android version is 4.4 but 6 and above is recommended.
 - If you will connect xDrip+ to a sensor your phone must support Bluetooth Low Energy (BLE): you can use utilities [like this one](https://play.google.com/store/apps/details?id=com.treeteam.blechecker) to check.
-- If you want to use the embedded master - follower function of xDrip+ (called xDrip+ Sync) both phones must have the [Google Play Services](https://play.google.com/store/apps/details?id=com.google.android.gms) installed.
+- If you want to use the embedded master - follower function of xDrip+ (called xDrip+ Sync) both phones must have [Google Play Services](https://play.google.com/store/apps/details?id=com.google.android.gms) installed.
 - In order to use NFC scanning features for Libre 1 and 2 (EU only) sensors, or to connect directly to a Libre 2 (EU) sensor your phone needs a compatible NFC reader.
 - If using Android 10 and above make sure you use a recent version of xDrip+ (at least the [latest release](../download/#latest-release), we'll talk about it later: continue reading).
 
 ### Google Play Services
 
 If your phone doesn't have Google Play Services (some Huawei and Chinese phones don't) you still can use xDrip+ but not the xDrip+ Sync function that relies on them as stated above.  
+You can experience unexpected issues with alternative OS based on Android.  
 In this case make sure you [disable Sync functions](../../use/sync/#disable-sync).
 
 ### Family Link
@@ -49,4 +50,4 @@ You will find Google Play Protect in your phone Play Store app's settings.
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 12/23/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)

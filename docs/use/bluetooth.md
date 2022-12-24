@@ -42,6 +42,10 @@ Use Background scan is a feature of newer Android versions. If you regularly los
 
 <img src="../images/M-S-LCS4g.png" style="zoom:75%;" />
 
+Companion Bluetooth allows the app to work connected together with the Dex master app connected to the sensor.
+
+<img src="../images/M-S-LCS4o.png" style="zoom:76%;" />
+
 Bluetooth wakelocks are not recommended and should be left **disabled**.
 
 <img src="../images/M-S-LCS4h.png" style="zoom:75%;" />
@@ -72,4 +76,4 @@ Allow BluCon unbonding is only useful if you use a BluCon bridge as others don't
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)

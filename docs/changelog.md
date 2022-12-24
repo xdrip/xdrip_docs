@@ -4,6 +4,62 @@
 
 </br>
 
+[ 9th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)	Iob display fix
+
+[ 5th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05)	Minimed mobile [companion app](../../install/companion/)
+
+[27th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27)	[Google Health Connect](../../use/interapp/#google-health-connect)
+
+[16th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16)	Aidex fix
+
+[15th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15)	Disable engineering mode sound and vibration warning
+
+[ 8th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.08)	Guardian [companion app](../../install/companion/)
+
+[ 5th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b)	b - Basal improvements
+
+[ 5th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05)	
+
+[ 4th Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.04)	Companion app backfilling
+
+[ 3rd Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.03)	Added Dex1 for ONE in menus
+
+[ 2nd Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.02)	**[CareLink follower](../../install/carelinkfollow)**
+
+[ 1st Nov 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.01)	Aidex improvements
+
+[31st Oct 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.31)	720min (12h) snooze value
+
+[25th Oct 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.25)	Gradle update
+
+[15th Oct 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.15)	EGlucose added to companion app
+
+[13th Oct 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.13)	Companion app [Bluetooth](../../use/bluetooth/) support
+
+[ 5th Oct 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.05)	CareLink and Aidex fixes, allow scan in Libre receiver
+
+[21st Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.21)	Transmitter EOL handling
+
+[14th Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.14)	CareLink fixes
+
+[ 8th Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08)	b - [Cloud backup](../../troubleshoot/reinstall/#cloud-backup)
+
+[ 8th Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08)	CareLink treatments, **[Aidex receiver](../../install/aidex)**
+
+[ 6th Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.06)	CareLink follower integration
+
+[ 2nd Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.02)	UI based limit raised to 405 mg/dl
+
+[  1st Sep 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.01)	Alerts sounds picking fix
+
+[31st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.31)	Libre trend fix
+
+[25th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.25)	Decommission low fuzzer, custom sounds fix, UI based filtering 
+
+[24th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.24)	Custom audio files fix
+
+[20th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20)	WatchDrip+ fix
+
 [19th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19)	Filtering test
 
 [18th Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18)	Removed [NFC](../install/libreNFC/#enabling-nfc) warning, don't send Libre blocks in Sync, de-dupe cont'd, do not loop audio

@@ -27,7 +27,7 @@ xDrip+ performs limited (24 hours) data backfilling from Nightscout.
 
 ### Diabox
 
-You can receive data from Diabox by enabling http broadcast in the app and making xDrip+ a local follower.
+You can receive data from [Diabox](https://sirius.thetaphi.de/diabox/) by enabling http broadcast in the app and making xDrip+ a local follower.
 
 !!!warning  
     You cannot use this feature with xDrip+ running a [web service](../../use/interapp/#web-service).
@@ -44,4 +44,4 @@ Once done set xDrip+ in Nightscout follower (see above) with the address:
 
 </br>
 
-[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)

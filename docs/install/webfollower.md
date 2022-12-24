@@ -14,10 +14,10 @@
    Create another account for the follower app.
 
 !!!warning  "Account lock risk"  
-    Do **not** use your main account credentials! 
+    Do **not** use your main account credentials!
 
-Make sure you have readings   
-You can then uninstall the follower app
+Make sure you have readings.   
+You can then uninstall the follower app. You might need to reinstall it to authenticate your follower if data stops displaying in xDrip+.
 
 ### Configure xDrip+ web follower
 
@@ -35,4 +35,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
+[*Last modified 21/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
