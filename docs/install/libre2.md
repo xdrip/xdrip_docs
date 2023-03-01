@@ -57,7 +57,7 @@ Confirm you really want to stop the sensor.
 
 <img src="../images/M-StoSC.png" style="zoom:75%;" />
 
-Scan the sensor with xDrip+ NFC feature and make sure you see the toast message "Scanned OK!".
+Scan the sensor with xDrip+ [NFC](../libreNFC) feature and make sure you see the toast message "Scanned OK!".
 
 !!!note  
     Hold the phone steady when scanning the sensor and don't move it: it's taking longer than reading the sensor as you usually do with the vendor app.  
@@ -79,5 +79,5 @@ If you have trouble getting data directly from the sensor, scan it every 5 minut
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 2/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)
 

@@ -31,7 +31,11 @@ You can decide how xDrip+ will inform you that the scan completed. When scanning
 
 <img src="../images/M-S-HDS-NFC4.png" style="zoom:75%;" />
 
-The options below should remain disabled.
+Faster scan should remain disabled.
+
+<img src="../images/M-S-HDS-NFC5.png" style="zoom:75%;" />
+
+If you have trouble with your phone NFC, try to enable Any tag method.
 
 <img src="../images/M-S-HDS-NFC5.png" style="zoom:75%;" />
 
@@ -52,4 +56,4 @@ Continue to [Start Sensor](../../use/startsensor/#libre), remembering that you w
 
 </br>
 
-[*Last modified 18/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18)
+[*Last modified 2/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)

@@ -4,6 +4,26 @@
 
 </br>
 
+[ 2nd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)	Newer Libre 14 days US support (need new OOP2)
+
+[ 1st Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.01)	
+
+[28th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.28)	Add support for kotlin
+
+[27th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.27)	
+
+[26th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.26)	Tidepool new authentication
+
+[18th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.18)	Database import fix
+
+[17th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.17)	Companion app extra info
+
+[16th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.16)	
+
+[12th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12)	Plugin for new [One](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/KEKS_Plugin.md)
+
+[24th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24)	Fix for devices without Google Play services
+
 [ 9th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)	Iob display fix
 
 [ 5th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05)	Minimed mobile [companion app](../install/companion/)

@@ -1,6 +1,6 @@
 ### NovoPen Insulin Pen
 
-xDrip+ can download dosage to NovePen 6 and Echo Plus.  
+xDrip+ can download dosage to NovoPen 6 and Echo Plus.  
 This cannot be used if you also want to scan a Libre sensor with NFC.
 
 <img src="../images/M-S-NP.png" style="zoom:75%;" />
