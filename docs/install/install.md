@@ -1,21 +1,21 @@
 Once downloaded, install the xDrip+ apk.
 
-<img src="../../images/Install02.png" style="zoom:75%;" />
+<img src="../images/Install02.png" style="zoom:75%;" />
 
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
 The official versions of xDrip+ are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
 
-<img src="../../images/Install04.png" style="zoom:75%;" />
+<img src="../images/Install04.png" style="zoom:75%;" />
 
 Once installed, open xDrip+.
 
-<img src="../../images/Install03.png" style="zoom:75%;" />
+<img src="../images/Install03.png" style="zoom:75%;" />
 
 ### Understand what is xDrip+
 
 **Read** the important Warning.  
 
-<img src="../../images/Install05.png" style="zoom:75%;" />
+<img src="../images/Install05.png" style="zoom:75%;" />
 
 !!!warning "Make sure you fully understand the conditions before selecting `I Agree`."  
     Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
@@ -31,7 +31,7 @@ Once installed, open xDrip+.
     This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
     By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
 
-<img src="../../images/Install06.png" style="zoom:75%;" />
+<img src="../images/Install06.png" style="zoom:75%;" />
 
 </br>
 
@@ -43,7 +43,7 @@ Once installed, open xDrip+.
     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
     SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
-<img src="../../images/Install06a.png" style="zoom:75%;" />
+<img src="../images/Install06a.png" style="zoom:75%;" />
 
 </br>
 
@@ -51,7 +51,7 @@ Once installed, open xDrip+.
 
 xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
 
-<img src="../../images/Install07.png" style="zoom:75%;" />
+<img src="../images/Install07.png" style="zoom:75%;" />
 
 </br>
 
@@ -59,7 +59,7 @@ xDrip+ must have the right to run in background: it must be whitelisted to batte
 
 xDrip+ needs to access phone notifications to perform as expected.
 
-<img src="../../images/Install47.png" style="zoom:75%;" />
+<img src="../images/Install47.png" style="zoom:75%;" />
 
 </br>
 
