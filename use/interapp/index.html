@@ -1,0 +1,2011 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../xDrip+logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Inter-apps - xDrip+</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/admonitions.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#local-broadcast" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="xDrip+" class="md-header__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            xDrip+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inter-apps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../install/usethedoc/" class="md-tabs__link">
+        Getting started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mainUI/" class="md-tabs__link">
+        Discover and use
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../calibrate/101/" class="md-tabs__link">
+        Calibrations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../settings/" class="md-tabs__link md-tabs__link--active">
+        Settings
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../smartwatch/smartwatch/" class="md-tabs__link">
+        Smartwatch
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../troubleshoot/install/" class="md-tabs__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../changelog/" class="md-tabs__link">
+      Change Log
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="xDrip+" class="md-nav__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    xDrip+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/usethedoc/" class="md-nav__link">
+        How to use this documentation?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/prerequisites/" class="md-nav__link">
+        Prerequisites
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/install/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/datasource/" class="md-nav__link">
+        Data source
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g4/" class="md-nav__link">
+        G4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g5/" class="md-nav__link">
+        G5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g6/" class="md-nav__link">
+        G6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreNFC/" class="md-nav__link">
+        Libre NFC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/librealarm/" class="md-nav__link">
+        LibreAlarm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreBT/" class="md-nav__link">
+        Libre bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2/" class="md-nav__link">
+        Libre 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2patch/" class="md-nav__link">
+        Libre 2 patch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/eversense/" class="md-nav__link">
+        Eversense
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/medtrum/" class="md-nav__link">
+        Medtrum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/640_670/" class="md-nav__link">
+        640G/670G
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/xdripfollower/" class="md-nav__link">
+        xDrip+ follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/nightscoutfollower/" class="md-nav__link">
+        Nightscout follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/dexshare/" class="md-nav__link">
+        Dex Share follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/carelinkfollow/" class="md-nav__link">
+        CareLink follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/byod/" class="md-nav__link">
+        BYODA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/companion/" class="md-nav__link">
+        Companion app
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/aidex/" class="md-nav__link">
+        GlucoRx/Aidex
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/webfollower/" class="md-nav__link">
+        Web Follower
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Discover and use
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Discover and use" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Discover and use
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mainUI/" class="md-nav__link">
+        Main view
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hamburger/" class="md-nav__link">
+        Main menu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startsensor/" class="md-nav__link">
+        Start sensor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stopsensor/" class="md-nav__link">
+        Stop sensor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../statistics/" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alarms/" class="md-nav__link">
+        Alarms and Alerts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speak/" class="md-nav__link">
+        Speak Readings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glucometer/" class="md-nav__link">
+        Glucose Meter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syncsetup/" class="md-nav__link">
+        Sync Follower setup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Calibrations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Calibrations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Calibrations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/101/" class="md-nav__link">
+        Calibration basics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/calibrate/" class="md-nav__link">
+        Calibrate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/troubleshoot/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Settings" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Settings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../display/" class="md-nav__link">
+        Display
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3dotsmenu/" class="md-nav__link">
+        3 Dots menu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copysettings/" class="md-nav__link">
+        Copy settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loadsavesettings/" class="md-nav__link">
+        Load / Save Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sync/" class="md-nav__link">
+        xDrip+ Sync
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/" class="md-nav__link">
+        Cloud Upload
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../predictions/" class="md-nav__link">
+        Predictive Simulation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motion/" class="md-nav__link">
+        Motion Tracking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../update/" class="md-nav__link">
+        Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Inter-apps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Inter-apps
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#local-broadcast" class="md-nav__link">
+    Local Broadcast
+  </a>
+  
+    <nav class="md-nav" aria-label="Local Broadcast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#receiving-from-nsclient" class="md-nav__link">
+    Receiving from NSClient.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-service" class="md-nav__link">
+    Web Service
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-option" class="md-nav__link">
+    Open option
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nightscout-pebble-endpoint" class="md-nav__link">
+    Nightscout Pebble endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sgvjson-endpoint" class="md-nav__link">
+    sgv.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#treatmentsjson-endpoint" class="md-nav__link">
+    treatments.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statusjson-endpoint" class="md-nav__link">
+    status.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libre-2-endpoint" class="md-nav__link">
+    Libre 2 endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasker-endpoint" class="md-nav__link">
+    Tasker endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-endpoint" class="md-nav__link">
+    Steps endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heart-endpoint" class="md-nav__link">
+    Heart endpoint
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-service-api" class="md-nav__link">
+    Broadcast Service API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#google-health-connect" class="md-nav__link">
+    Google Health connect
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesscommon/" class="md-nav__link">
+        Less Common Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/advancedcal/" class="md-nav__link">
+        Advanced Calibration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bluetooth/" class="md-nav__link">
+        Bluetooth Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc/" class="md-nav__link">
+        Other Misc. Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OOP/" class="md-nav__link">
+        Out of Process Algorithm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pens/" class="md-nav__link">
+        Insulin Pens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../g56debug/" class="md-nav__link">
+        G5/G6 Debug Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spokencommands/" class="md-nav__link">
+        Spoken Commands
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Smartwatch
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Smartwatch" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Smartwatch
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/smartwatch/" class="md-nav__link">
+        Smartwatches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wear/" class="md-nav__link">
+        Android Wear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wearinstall/" class="md-nav__link">
+        Install on Android Wear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/usewear/" class="md-nav__link">
+        Use Wear Extension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/pebble/" class="md-nav__link">
+        Pebble
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/miband/" class="md-nav__link">
+        MiBand
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/bluejay/" class="md-nav__link">
+        BlueJay Watch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/install/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/reinstall/" class="md-nav__link">
+        Reinstallation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/systemstatus/" class="md-nav__link">
+        System Status
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/librebridge/" class="md-nav__link">
+        Libre Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2/" class="md-nav__link">
+        Libre 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/bridgeFW/" class="md-nav__link">
+        Bridge Firmware
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/connection/" class="md-nav__link">
+        G5/G6 Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/ADB/" class="md-nav__link">
+        Android Debug Bridge
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        Change Log
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#local-broadcast" class="md-nav__link">
+    Local Broadcast
+  </a>
+  
+    <nav class="md-nav" aria-label="Local Broadcast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#receiving-from-nsclient" class="md-nav__link">
+    Receiving from NSClient.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-service" class="md-nav__link">
+    Web Service
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-option" class="md-nav__link">
+    Open option
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nightscout-pebble-endpoint" class="md-nav__link">
+    Nightscout Pebble endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sgvjson-endpoint" class="md-nav__link">
+    sgv.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#treatmentsjson-endpoint" class="md-nav__link">
+    treatments.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statusjson-endpoint" class="md-nav__link">
+    status.json endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libre-2-endpoint" class="md-nav__link">
+    Libre 2 endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasker-endpoint" class="md-nav__link">
+    Tasker endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-endpoint" class="md-nav__link">
+    Steps endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heart-endpoint" class="md-nav__link">
+    Heart endpoint
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broadcast-service-api" class="md-nav__link">
+    Broadcast Service API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#google-health-connect" class="md-nav__link">
+    Google Health connect
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Inter-apps</h1>
+                
+                <p><img src="../../images/hamburger_menu.png" style="zoom:75%;" /><br />
+<img src="../../images/M-S.png" style="zoom:75%;" /><br />
+<img src="../../use/images/M-S-IA.png" style="zoom:75%;" /></p>
+<p>Inter-app settings offers two ways to interface xDrip+ with other apps: local broadcast (internal to this phone) and web service (internal and external).</p>
+<p><img src="../images/M-S-IASa.png" style="zoom:75%;" /></p>
+<h3 id="local-broadcast">Local Broadcast<a class="headerlink" href="#local-broadcast" title="Permanent link">⌁</a></h3>
+<p>Broadcast locally will make xDrip+ send internal messages that can be used by other apps like Nightwatch or AAPS.</p>
+<p><img src="../images/M-S-IASb.png" style="zoom:75%;" /></p>
+<p>If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.<br />
+You can also block noisy data broadcast for safety.</p>
+<p><img src="../images/M-S-IASc.png" style="zoom:75%;" /></p>
+<p>Recent apps/phones should accept compatible broadcast. Do not uncheck.</p>
+<p><img src="../images/M-S-IASd.png" style="zoom:75%;" /></p>
+<p>You specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is <a href="https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver">AAPS</a> data source.</p>
+<p><img src="../images/M-S-IASe.png" style="zoom:75%;" /></p>
+<h5 id="receiving-from-nsclient">Receiving from NSClient.<a class="headerlink" href="#receiving-from-nsclient" title="Permanent link">⌁</a></h5>
+<p>xDrip+ can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.</p>
+<p><img src="../images/M-S-IASf.png" style="zoom:75%;" /></p>
+<p>You can enable or disable the sound that plays after updating xDrip+ profile.</p>
+<p><img src="../images/M-S-IASf2.png" style="zoom:78%;" /></p>
+<h3 id="web-service">Web Service<a class="headerlink" href="#web-service" title="Permanent link">⌁</a></h3>
+<p>Original documentation <a href="https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/technical/Local_Web_Services.md">here</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you have another app using port 17580 (like Diabox) you should disable this feature.<br />
+Note the service is not available as secured http and recent <a href="../../smartwatch/smartwatch/#fitbit">Fitbit</a> apps will not accept data from it.</p>
+</div>
+<p>Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.<br />
+The web server will respond to requests on address <code>127.0.0.1</code> port <code>17580</code></p>
+<p><img src="../images/M-S-IASg.png" style="zoom:75%;" /></p>
+<p>By default the web service is only available to your device, you can open it so that other devices on the network can access it.</p>
+<p><img src="../images/M-S-IASh.png" style="zoom:75%;" /></p>
+<h4 id="open-option">Open option<a class="headerlink" href="#open-option" title="Permanent link">⌁</a></h4>
+<p>The service has an <code>Open Web Service</code> option. If this is enabled then connections can be made through any network interface instead of being restricted to the loopback on-device network only. Typically enabling this option exposes the wifi / lan / bluetooth pan connection of the device although it is possible that it could be exposed via cellular as well if the carrier supports public ip addressing.</p>
+<p>Be very careful enabling this option as there are powerful features accessible, for example the tasker interface. It is best used in conjunction with the Authentication option described below.</p>
+<h4 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">⌁</a></h4>
+<p>For safety reason (anybody on the network can access this service) you should protect it with a password, if you have a Nightscout site use your API_SECRET.</p>
+<p>If the <code>xDrip Web Service Secret</code> is set to anything other than an empty string (the default) then requests coming in via the open non-loopback networks will have to supply a http header <code>api-secret</code> which contains the SHA1 hash of the same secret password or their connection will be rejected. Rejection information is stored in the Event Log and returned via the http response. The result code 403 (forbidden) is set when a connection is rejected.</p>
+<p>Additionally, if a client supplies the <code>api-secret</code> header, then even if the xDrip secret is not set then the request will be rejected. This feature is so that client devices can be assured they are connecting to the correct xDrip instance (by using different secrets). This could be significant when looping for example.</p>
+<p>Authentication is not required on the loopback local network interface (127.0.0.1)</p>
+<pre><code>api-secret: 915858afa2278f25527f192038108346164b47f2
+</code></pre>
+<p>Above shows http header for password <code>Abc</code></p>
+<h4 id="nightscout-pebble-endpoint">Nightscout Pebble endpoint<a class="headerlink" href="#nightscout-pebble-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/pebble</code> emulates the same URL on Nightscout, with a watchface which supporting this, you can enter the address on the watchface, for example, Set the data endpoint on Pebble Nightscout watchface to:</p>
+<pre><code>http://127.0.0.1:17580/pebble
+</code></pre>
+<h4 id="sgvjson-endpoint">sgv.json endpoint<a class="headerlink" href="#sgvjson-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/sgv.json</code> emulates <code>/api/v1/entries/sgv.json?count=24</code> on Nightscout</p>
+<pre><code>http://127.0.0.1:17580/sgv.json
+</code></pre>
+<p>The first record will contain a hint as to the units being used, <code>units_hint</code> will be <code>mgdl</code> or <code>mmol</code> to indicate the user's preference but the values will always be sent as mgdl</p>
+<p>You can also access the steps endpoint by appending a query parameter</p>
+<pre><code>http://127.0.0.1:17580/sgv.json?steps=1234
+</code></pre>
+<p>When doing this look for <code>steps_result</code> number in the first record of the json reply, 200 indicates success, anything else failure to set the steps value. Steps value should be the current cummulative step counter from the device.</p>
+<p>You can also access the heart endpoint by appending a query parameter</p>
+<pre><code>http://127.0.0.1:17580/sgv.json?heart=123
+</code></pre>
+<p>When doing this look for <code>heart_result</code> number in the first record of the json reply, 200 indicates success, anything else failure to set the heart bpm value. Heart value should be the current bpm now from the device.</p>
+<p>You can combine both like a normal query string:</p>
+<pre><code>http://127.0.0.1:17580/sgv.json?steps=1234&amp;heart=123
+</code></pre>
+<p>There is another option <code>brief_mode=Y</code> which you can use to exclude some of the data fields from the results to reduce response size.</p>
+<p>There is another option <code>no_empty=Y</code> which you can use so that an empty data set returns <code>""</code> instead of <code>"[]"</code></p>
+<p>There is another option <code>all_data=Y</code> which you can use to get data additionally from the previous sensor session.</p>
+<p>There is another option <code>sensor=Y</code> which you can use to get data about sensor age</p>
+<p>There is another option <code>collector=Y</code> which you can use to get alert messages from the collector. Nothing will be returned if the message is empty.</p>
+<p>You can also access the tasker endpoint by appending a query parameter</p>
+<pre><code>http://127.0.0.1:17580/sgv.json?tasker=osnooze
+</code></pre>
+<p>look for <code>tasker_result</code> in the first line of the json reply to indicate success or failure.</p>
+<p><code>OSNOOZE</code> is opportunistic snooze which you can call even when there is no alert playing</p>
+<p><code>SNOOZE</code> is the traditional tasker snooze which will send snooze to followers and uses more cpu</p>
+<h4 id="treatmentsjson-endpoint">treatments.json endpoint<a class="headerlink" href="#treatmentsjson-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/treatments.json</code> emulates <code>/api/v1/treatments.json?count=24</code> on Nightscout</p>
+<pre><code>http://127.0.0.1:17580/treatments.json
+</code></pre>
+<h4 id="statusjson-endpoint">status.json endpoint<a class="headerlink" href="#statusjson-endpoint" title="Permanent link">⌁</a></h4>
+<p>This implements a small subset of the data you might receive from Nightscouts status.json</p>
+<pre><code>http://127.0.0.1:17580/status.json
+</code></pre>
+<p>Results look like:</p>
+<pre><code>{&quot;thresholds&quot;:{&quot;bgHigh&quot;:9.4,&quot;bgLow&quot;:3.9}}
+</code></pre>
+<p>High and low marks set within the app represented in the local units.</p>
+<h4 id="libre-2-endpoint">Libre 2 endpoint<a class="headerlink" href="#libre-2-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/Libre2ConnectCode.json</code> returns Bluetooth unlock buffer and device Mac address.</p>
+<p>This is used by <a href="../sync/#whole-house">whole house</a>.</p>
+<pre><code>http://127.0.0.1:17580/Libre2ConnectCode.json
+</code></pre>
+<h4 id="tasker-endpoint">Tasker endpoint<a class="headerlink" href="#tasker-endpoint" title="Permanent link">⌁</a></h4>
+<p>The <code>/tasker</code> endpoint lets you push requests to the tasker interface via http. So a watch face which can only support web based endpoints (eg FitBit) could send a snooze request as below:</p>
+<pre><code>http://127.0.0.1:17580/tasker/SNOOZE
+</code></pre>
+<h4 id="steps-endpoint">Steps endpoint<a class="headerlink" href="#steps-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/steps</code> allows for setting the current step counter data</p>
+<pre><code>http://127.0.0.1:17580/steps/set/1234
+</code></pre>
+<p>This should be the current cumulative step counter on the device measuring steps. Not a historical record.</p>
+<h4 id="heart-endpoint">Heart endpoint<a class="headerlink" href="#heart-endpoint" title="Permanent link">⌁</a></h4>
+<p><code>/heart</code> allows for setting the current heart rate bpm data</p>
+<pre><code>http://127.0.0.1:17580/heart/set/123/1
+</code></pre>
+<p>This should be the current cumulative rate bpm on the device measuring. Not a historical record. The first parameter is BPM and the second is accuracy. If unsure of accuracy parameter just set to 1.</p>
+<p></br></p>
+<h3 id="broadcast-service-api">Broadcast Service API<a class="headerlink" href="#broadcast-service-api" title="Permanent link">⌁</a></h3>
+<p>This service allows broadcast of xDrip+ values as an API and can be used by external apps like <a href="https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration">WatchDrip+</a>.</p>
+<p><img src="../images/M-S-IASi.png" style="zoom:76%;" /></p>
+<p></br></p>
+<h3 id="google-health-connect">Google Health connect<a class="headerlink" href="#google-health-connect" title="Permanent link">⌁</a></h3>
+<p>You can share information with Google Health.</p>
+<p><img src="../images/M-S-IASj.png" style="zoom:76%;" /></p>
+<p>You need <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&amp;hl=en&amp;gl=US">Health Connect</a> installed on your device, which is available for Android 8 and above.</p>
+<p><img src="../images/M-S-IASj1.png" style="zoom:76%;" /></p>
+<p>xDrip+ can share steps, heart rate and BG with Google Health.</p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09"><em>Last modified 24/12/2022</em></a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../update/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Update" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Update
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../lesscommon/" class="md-footer__link md-footer__link--next" aria-label="Next: Less Common Settings" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Less Common Settings
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>

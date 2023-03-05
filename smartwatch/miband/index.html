@@ -1,0 +1,1945 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../xDrip+logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>MiBand - xDrip+</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/admonitions.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#install" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="xDrip+" class="md-header__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            xDrip+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MiBand
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../install/usethedoc/" class="md-tabs__link">
+        Getting started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../use/mainUI/" class="md-tabs__link">
+        Discover and use
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../calibrate/101/" class="md-tabs__link">
+        Calibrations
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../use/settings/" class="md-tabs__link">
+        Settings
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../smartwatch/" class="md-tabs__link md-tabs__link--active">
+        Smartwatch
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../troubleshoot/install/" class="md-tabs__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../changelog/" class="md-tabs__link">
+      Change Log
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="xDrip+" class="md-nav__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    xDrip+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/usethedoc/" class="md-nav__link">
+        How to use this documentation?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/prerequisites/" class="md-nav__link">
+        Prerequisites
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/install/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/datasource/" class="md-nav__link">
+        Data source
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g4/" class="md-nav__link">
+        G4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g5/" class="md-nav__link">
+        G5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g6/" class="md-nav__link">
+        G6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreNFC/" class="md-nav__link">
+        Libre NFC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/librealarm/" class="md-nav__link">
+        LibreAlarm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreBT/" class="md-nav__link">
+        Libre bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2/" class="md-nav__link">
+        Libre 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2patch/" class="md-nav__link">
+        Libre 2 patch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/eversense/" class="md-nav__link">
+        Eversense
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/medtrum/" class="md-nav__link">
+        Medtrum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/640_670/" class="md-nav__link">
+        640G/670G
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/xdripfollower/" class="md-nav__link">
+        xDrip+ follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/nightscoutfollower/" class="md-nav__link">
+        Nightscout follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/dexshare/" class="md-nav__link">
+        Dex Share follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/carelinkfollow/" class="md-nav__link">
+        CareLink follower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/byod/" class="md-nav__link">
+        BYODA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/companion/" class="md-nav__link">
+        Companion app
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/aidex/" class="md-nav__link">
+        GlucoRx/Aidex
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/webfollower/" class="md-nav__link">
+        Web Follower
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Discover and use
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Discover and use" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Discover and use
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/mainUI/" class="md-nav__link">
+        Main view
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/hamburger/" class="md-nav__link">
+        Main menu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/startsensor/" class="md-nav__link">
+        Start sensor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/stopsensor/" class="md-nav__link">
+        Stop sensor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/statistics/" class="md-nav__link">
+        Statistics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/alarms/" class="md-nav__link">
+        Alarms and Alerts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/speak/" class="md-nav__link">
+        Speak Readings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/glucometer/" class="md-nav__link">
+        Glucose Meter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/syncsetup/" class="md-nav__link">
+        Sync Follower setup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Calibrations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Calibrations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Calibrations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/101/" class="md-nav__link">
+        Calibration basics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/calibrate/" class="md-nav__link">
+        Calibrate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/troubleshoot/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Settings" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Settings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/display/" class="md-nav__link">
+        Display
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/3dotsmenu/" class="md-nav__link">
+        3 Dots menu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/copysettings/" class="md-nav__link">
+        Copy settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/loadsavesettings/" class="md-nav__link">
+        Load / Save Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/sync/" class="md-nav__link">
+        xDrip+ Sync
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/cloud/" class="md-nav__link">
+        Cloud Upload
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/predictions/" class="md-nav__link">
+        Predictive Simulation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/motion/" class="md-nav__link">
+        Motion Tracking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/update/" class="md-nav__link">
+        Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/interapp/" class="md-nav__link">
+        Inter-apps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/lesscommon/" class="md-nav__link">
+        Less Common Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/advancedcal/" class="md-nav__link">
+        Advanced Calibration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/bluetooth/" class="md-nav__link">
+        Bluetooth Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/misc/" class="md-nav__link">
+        Other Misc. Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/OOP/" class="md-nav__link">
+        Out of Process Algorithm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/pens/" class="md-nav__link">
+        Insulin Pens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/g56debug/" class="md-nav__link">
+        G5/G6 Debug Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/spokencommands/" class="md-nav__link">
+        Spoken Commands
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Smartwatch
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Smartwatch" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Smartwatch
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smartwatch/" class="md-nav__link">
+        Smartwatches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wear/" class="md-nav__link">
+        Android Wear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wearinstall/" class="md-nav__link">
+        Install on Android Wear
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usewear/" class="md-nav__link">
+        Use Wear Extension
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pebble/" class="md-nav__link">
+        Pebble
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          MiBand
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        MiBand
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    Install
+  </a>
+  
+    <nav class="md-nav" aria-label="Install">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obtain-an-authentication-key" class="md-nav__link">
+    Obtain an authentication key
+  </a>
+  
+    <nav class="md-nav" aria-label="Obtain an authentication key">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-you-already-paired-your-watch-with-the-vendor-app" class="md-nav__link">
+    If you already paired your watch with the vendor app
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-the-patched-app-matching-your-watch" class="md-nav__link">
+    Install the patched app matching your watch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-using-watchdrip" class="md-nav__link">
+    Not using WatchDrip+
+  </a>
+  
+    <nav class="md-nav" aria-label="Not using WatchDrip+">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-xdrip" class="md-nav__link">
+    Setup xDrip+
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-watchdrip" class="md-nav__link">
+    Using WatchDrip+
+  </a>
+  
+    <nav class="md-nav" aria-label="Using WatchDrip+">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-watchdrip" class="md-nav__link">
+    Install WatchDrip+
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-xdrip_1" class="md-nav__link">
+    Setup xDrip+
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bluejay/" class="md-nav__link">
+        BlueJay Watch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/install/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/reinstall/" class="md-nav__link">
+        Reinstallation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/systemstatus/" class="md-nav__link">
+        System Status
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/librebridge/" class="md-nav__link">
+        Libre Bridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2/" class="md-nav__link">
+        Libre 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/bridgeFW/" class="md-nav__link">
+        Bridge Firmware
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/connection/" class="md-nav__link">
+        G5/G6 Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/ADB/" class="md-nav__link">
+        Android Debug Bridge
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        Change Log
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    Install
+  </a>
+  
+    <nav class="md-nav" aria-label="Install">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obtain-an-authentication-key" class="md-nav__link">
+    Obtain an authentication key
+  </a>
+  
+    <nav class="md-nav" aria-label="Obtain an authentication key">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-you-already-paired-your-watch-with-the-vendor-app" class="md-nav__link">
+    If you already paired your watch with the vendor app
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-the-patched-app-matching-your-watch" class="md-nav__link">
+    Install the patched app matching your watch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-using-watchdrip" class="md-nav__link">
+    Not using WatchDrip+
+  </a>
+  
+    <nav class="md-nav" aria-label="Not using WatchDrip+">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-xdrip" class="md-nav__link">
+    Setup xDrip+
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-watchdrip" class="md-nav__link">
+    Using WatchDrip+
+  </a>
+  
+    <nav class="md-nav" aria-label="Using WatchDrip+">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-watchdrip" class="md-nav__link">
+    Install WatchDrip+
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-xdrip_1" class="md-nav__link">
+    Setup xDrip+
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>MiBand</h1>
+                
+                <p><img src="../../images/hamburger_menu.png" style="zoom:75%;" /><br />
+<img src="../../use/images/M-S-SW.png" style="zoom:75%;" /></p>
+<p><img src="../images/M-S-SW-MB.png" style="zoom:76%;" /></p>
+<p>You can use these guidelines for the official xDrip+ release and forked versions.</p>
+<p>xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to <a href="https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration">WatchDrip+</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Prerequisite</p>
+<p>Make sure you have BG readings in xDrip+ before trying to have them on your watch.<br />
+If xDrip+ doesn't receive readings on your phone, they won't be displayed on the watch.</p>
+</div>
+<h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">⌁</a></h2>
+<h3 id="obtain-an-authentication-key">Obtain an authentication key<a class="headerlink" href="#obtain-an-authentication-key" title="Permanent link">⌁</a></h3>
+<h4 id="if-you-already-paired-your-watch-with-the-vendor-app">If you already paired your watch with the vendor app<a class="headerlink" href="#if-you-already-paired-your-watch-with-the-vendor-app" title="Permanent link">⌁</a></h4>
+<ul>
+<li>Unpair the watch.</li>
+<li>
+<p>Uninstall MiFit or Zepp, or whatever app you used to connect your watch.</p>
+</li>
+<li>
+<p><strong>Delete the old key files</strong> (use a file browser on your phone) in the phone memory <code>freemyband</code> folder.<br />
+  Recommended if you can't get xDrip+ to connect to the watch.<br />
+<em>Note: the name below is an example</em></p>
+</li>
+</ul>
+<p><img src="../images/MiBand1.png" style="zoom:75%;" /></p>
+<h4 id="install-the-patched-app-matching-your-watch">Install the patched app matching your watch<a class="headerlink" href="#install-the-patched-app-matching-your-watch" title="Permanent link">⌁</a></h4>
+<p>Go to <a href="https://www.freemyband.com/">https://www.freemyband.com/</a></p>
+<p>Download and install <a href="https://www.freemyband.com/2019/08/amazfit-gtr-auth-key.html">Zepp</a> for Amazfit watches.<br />
+(or)<br />
+Download and install <a href="https://www.freemyband.com/2019/08/mi-band-4-auth-key.html">MiFit</a> for Xiaomi smartbands.</p>
+<p>Authenticate with mail and password. Create an account if necessary.</p>
+<p>Pair your smartband.</p>
+<p>Enable watch visibility. If you don't find this option make sure you have set your age to 18 and above.</p>
+<p>Check a key file was created in the phone memory <code>freemyband</code> folder.</p>
+<p>You can uninstall the patched app. This is not mandatory. If you want to install the original app, use the same email account to login.</p>
+<h2 id="not-using-watchdrip">Not using WatchDrip+<a class="headerlink" href="#not-using-watchdrip" title="Permanent link">⌁</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Only MiBand 2, 3 and 4</p>
+</div>
+<h3 id="setup-xdrip">Setup xDrip+<a class="headerlink" href="#setup-xdrip" title="Permanent link">⌁</a></h3>
+<p>Switch the MiBand feature on. Keep your watch close to your phone until it gets detected.</p>
+<p><img src="../images/M-S-SW-MB-I1.png" style="zoom:75%;" /></p>
+<p>Mac Address should populate automatically.</p>
+<p><img src="../images/M-S-SW-MB2a.png" style="zoom:75%;" /></p>
+<p><strong>If it doesn't</strong> (unexpected)<strong>:</strong> <br />
+Delete the file(s) in the  <code>freemyband</code> folder.<br />
+Open the patched watch app.<br />
+Retry: switch off then on the MiBand feature.</p>
+<p>You can also try to enter the watch mac address manually. You will find it in the filename in the <code>freemyband</code> folder.<br />
+For example if the name is <code>mibandFFEEDDCCBBAA.txt</code> the corresponding mac address will be <code>FF:EE:DD:CC:BB:AA</code>.</p>
+<p><img src="../images/M-S-SW-MB-I2.png" style="zoom:75%;" /></p>
+<p>Keep an eye on toast messages: during smartwatch authentication you should see the following:</p>
+<p><img src="../images/M-S-SW-MB-I3.png" style="zoom:75%;" /></p>
+<p>If authorization fails, delete the file(s) in the <code>freemyband</code> folder and open the patched app to regenerate it.</p>
+<p><img src="../images/M-S-SW-MB-I4.png" style="zoom:75%;" /></p>
+<p>If xDrip+ can't get the authentication key automatically, you can try to insert it manually. You will find it editing the file.</p>
+<p><img src="../images/M-S-SW-MB-I5.png" style="zoom:75%;" /></p>
+<p>Make sure the watch is connected and matches the mac address before manually entering the key.</p>
+<p><img src="../images/M-S-SW-MB-I6.png" style="zoom:75%;" /></p>
+<p>Once connected and authenticated, enable Send Readings. Wait for the next value in xDrip+, the watchface should update.</p>
+<p><img src="../images/M-S-SW-MB3.png" style="zoom:75%;" /></p>
+<p>To force the watch to update, you can manually send a reading. Look carefully at toast messages.</p>
+<p><img src="../images/M-S-SW-MB5.png" style="zoom:75%;" /></p>
+<p>If you have trouble displaying the graph, try to disable high MTU values.</p>
+<p><img src="../images/M-S-SW-MB4.png" style="zoom:75%;" /></p>
+<h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">⌁</a></h3>
+<p>You can enable and disable MiBand integration with the main switch. When troubleshooting don't hesitate to turn it off then on to restart it.</p>
+<p><img src="../images/M-S-SW-MB1.png" style="zoom:75%;" /></p>
+<p>The watch mac address should be detected automatically when the field is left empty. You can manually edit it and write the 6 two-digits hex values, colon separated, of your watch.</p>
+<p><img src="../images/M-S-SW-MB2.png" style="zoom:75%;" /></p>
+<p>When a valid mac address is found you will also see the key field. If it's not filled automatically you can manually enter the 32 characters authentication key.</p>
+<p><img src="../images/M-S-SW-MB-I6.png" style="zoom:75%;" /></p>
+<p>You must enable this to have readings sent to the watch.</p>
+<p><img src="../images/M-S-SW-MB3.png" style="zoom:75%;" /></p>
+<p>You can enable various options to have the watch vibrate on readings, receive alarms or receive notifications as phone calls.</p>
+<p><img src="../images/M-S-SW-MB6.png" style="zoom:75%;" /></p>
+<p>You can force watchface refresh using Update BG manually.</p>
+<p><img src="../images/M-S-SW-MB5.png" style="zoom:75%;" /></p>
+<p>More customizations are available in this menu.</p>
+<p><img src="../images/M-S-SW-MB7.png" style="zoom:75%;" /></p>
+<p><img src="../images/M-S-SW-MB8.png" style="zoom:75%;" /></p>
+<p>You can create your own watchface and modify the background image using these features.<br />
+Keep them disabled unless you have correctly set the files required in the phone xdrip folder.</p>
+<p>For tips an example look <a href="https://github.com/twinko">here</a>.</p>
+<p><img src="../images/M-S-SW-MB9.png" style="zoom:75%;" /></p>
+<p>Disable High MTU can be used when experiencing watchface display issues.</p>
+<p><img src="../images/M-S-SW-MB4.png" style="zoom:75%;" /></p>
+<h2 id="using-watchdrip">Using WatchDrip+<a class="headerlink" href="#using-watchdrip" title="Permanent link">⌁</a></h2>
+<h3 id="install-watchdrip">Install <a href="https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/">WatchDrip+</a><a class="headerlink" href="#install-watchdrip" title="Permanent link">⌁</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Disable MiBand in xDrip+ if you use WatchDrip+</p>
+</div>
+<h3 id="setup-xdrip_1">Setup xDrip+<a class="headerlink" href="#setup-xdrip_1" title="Permanent link">⌁</a></h3>
+<p>Enable Broadcast Service API in Settings -&gt; Inter-app Settings</p>
+<p><img src="../../use/images/M-S-IASi.png" style="zoom:76%;" /></p>
+<p></br></p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11"><em>Last modified 11/7/2022</em></a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../pebble/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pebble" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Pebble
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../bluejay/" class="md-footer__link md-footer__link--next" aria-label="Next: BlueJay Watch" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              BlueJay Watch
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>
