@@ -5,7 +5,7 @@
 
 </br>
 
-The vendor app will broadcast glucose readings to xDrip+.
+xDrip+ will receive data from the GlugoRX/aidex app.
 
 <img src="../images/DS-AGRX.png" style="zoom:50%;" />
 
