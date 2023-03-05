@@ -5,8 +5,7 @@
 </br>
 
 |                         Release link                         | Notes, Added Feature etc...                                  |
-| :----------------------------------------------------------: | :----------------------------------------------------------- |
-|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [26th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26) | Add support for MM using [OOP2 on wear app](../smartwatch/wear/#standalone-collector-mode) |
 | [23rd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.23) | Samsung workaround renamed                                   |
 | [20th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.20) | Added NS SDK                                                 |
