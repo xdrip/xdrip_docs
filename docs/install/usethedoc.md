@@ -1,8 +1,14 @@
 This documentation is based on the [latest Nightly Build](https://github.com/NightscoutFoundation/xDrip/releases) (allow a few days latency after release).  
-**If you're already using xDrip+** and don't find a feature documented here and want it, you might need to [update](../../use/update) your xDrip+ app.  
-See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
 
-**If you're completely new to xDrip+** and you want to install it for the first time continue to [prerequisites](../prerequisites) and follow the flow.
+
+## **If you're completely new to xDrip+**
+
+If you want to install it for the first time continue to ⇒ [prerequisites](../prerequisites) and follow the flow.
+
+## **If you're already using xDrip+** 
+
+If you don't find a feature documented here and want it, you might need to [update](../../use/update) your xDrip+ app.  
+See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
 
 </br>
 
