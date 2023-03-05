@@ -29,7 +29,7 @@ Here below a compatibility table for supported bridge devices, for compatible se
 *Note:*  
 *`*` [external add-on required](../../use/OOP)*
 
-***`**` Firmware 8.6 and above do not support xDrip+ yet***
+***`**` Firmware 8.6 and above not supported***
 
 </br>
 
@@ -135,4 +135,4 @@ This will reset all calibrations and allow xDrip+ to start a new sensor.
 
 </br>
 
-[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

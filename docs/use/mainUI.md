@@ -111,9 +111,11 @@ Note that if you touch a blood test and edit it you can also convert it to a cal
 
 <img src="../images/UI-Treat11.png" style="zoom:75%;" />
 
+##### Spoken treatments
+
 You can use the microphone icon to verbally enter treatments or advanced commands.
 
-A long touch on the microphone icon will allow you to write advanced commands.
+A long touch on the microphone icon will allow you to write [advanced commands](../../use/spokencommands/).
 
 ### Treatment notes
 
@@ -235,4 +237,4 @@ When you put your phone in charge it will display a small graph and the BG value
 
 </br>
 
-[*Last modified 15/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

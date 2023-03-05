@@ -12,7 +12,7 @@ You have two main choices when installing xDrip+, either install the Latest rele
 
 ### Latest release
 
-Latest release is a stable version of xDrip+. It doesn't have all the newest features but has proven stability and doesn't suffer severe bugs. It's a safe version to start with.
+Latest release is a stable version of xDrip+. It doesn't have all the newest features but has proven stability and doesn't suffer severe bugs. It's a safe version to start with unless you need a specific feature (see the [change log](../../changelog) to check).
 
 You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk) or follow this QR code:
 
@@ -34,6 +34,14 @@ Expand the assets and select the `.apk` file. You will find it in your phone's `
 
 !!!note  
     Do **not** use Facebook links to download xDrip+ but **copy and paste the link** into a browser (like Chrome).
+
+</br>
+
+#### Download warning
+
+xDrip+ downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](https://github.com/NightscoutFoundation/xDrip/releases) is safe.
+
+<img src="../images/Install46.png" style="zoom:75%;" />
 
 </br>
 
@@ -71,4 +79,4 @@ Once downloaded a variant, proceed like a normal xDrip+ install.
 
 </br>
 
-[*Last modified 5/11/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05)
+[*Last modified 3/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

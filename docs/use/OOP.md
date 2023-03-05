@@ -4,20 +4,21 @@ They are only used for Libre sensors and bridges now.
 
 There are two different families of Out Of Process Algorithms (OOP):
 
-| OOP Version                        | Version date | Supported sensors            | File size |
-| ---------------------------------- | ------------ | ---------------------------- | --------- |
-| OOP1 (2bb9458)                     | 2018-08-26   | Libre                        | 17.1MB    |
-| OOP1new (fa218ef)                  | 2019-11-22   | Libre, Libre 2 EU            | 25.3MB    |
-| OOP1us (e901151)                   | 2019-09-13   | Libre 14 days US             | 27.8MB    |
-| OOP2 (70129ac)                     | 2021-12-04   | Libre 2 EU                   | 2.63MB    |
-| OOP2new (93e5cac) - **do not use** | 2020-12-08   | Libre 14 days US, Libre 2 EU | 2.65MB    |
-| OOP2 1.2 (8a0ee8f)                 | 2022-06-10   | Libre 14 days US, Libre 2 EU | 2.66MB    |
+| OOP Version                        | Version date | Supported sensors                  | File size |
+| ---------------------------------- | ------------ | ---------------------------------- | --------- |
+| OOP1 (2bb9458)                     | 2018-08-26   | Libre                              | 17.1MB    |
+| OOP1new (fa218ef)                  | 2019-11-22   | Libre, Libre 2 EU                  | 25.3MB    |
+| OOP1us (e901151)                   | 2019-09-13   | Libre 14 days US (old)             | 27.8MB    |
+| OOP2 (70129ac)                     | 2021-12-04   | Libre 2 EU                         | 2.63MB    |
+| OOP2new (93e5cac) - **do not use** | 2020-12-08   | Libre 14 days US, Libre 2 EU       | 2.65MB    |
+| OOP2 1.2 (8a0ee8f)                 | 2022-06-10   | Libre 14 days US (old), Libre 2 EU | 2.66MB    |
+| OOP2_e6 (6de6678)                  | 2023-01-10   | Libre 14 days US (new), Libre 2 EU | 2.66MB    |
 
 ### OOP1
 
 <img src="../images/OOP_1.png" style="zoom:75%;" />
 
-!!!warning  "Old Android ONLY"  
+!!!warning  "Old Android versions ONLY"  
     Maximum supported Android version is 9.  
     Few Android 10 and above phones have been reported to be functioning with OOP1new/OOP1us.
 
@@ -42,7 +43,7 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-**Use only the [latest OOP2 app](https://drive.google.com/file/d/17BlRT9aL58hikOIr-MsVs57Lr8seuu5f/view?usp=sharing)**. Latest xDrip+ versions will not work with older OOP2 apps.  
+**Use only the [latest OOP2 app](https://drive.google.com/file/d/1vu3x4rvggb2k2rVlTc0kb1t4Yk_ULin5/view)**. Latest xDrip+ versions will not work with older OOP2 apps.  
 *Note: you need to be logged into your Google account to access the link above*
 
 !!!warning  
@@ -63,9 +64,13 @@ Use service corresponds to switching ON or OFF the OOP app. If you want to use i
 <img src="../images/OOP_UI1.png" style="zoom:75%;" />
 
 Foreground service is an addition that makes it less probable the app will be put to sleep by the phone.  
-Enable it if you have data loss.
+Enable it if you have data loss (recommended).
 
 <img src="../images/OOP_UI2.png" style="zoom:75%;" />
+
+Direct intent can be enabled if your standalone Wear OS smartwatch requires it (bridge necessary).
+
+<img src="../images/OOP_UI4.png" style="zoom:75%;" />
 
 You can select the period at which OOP will make sure it's available.  
 When having data loss you can reduce the interval. The less the interval, the more battery use it will require.
@@ -74,4 +79,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 12/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

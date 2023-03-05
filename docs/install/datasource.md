@@ -1,20 +1,68 @@
-You should now see the the data source selection wizard.
+Scroll down until you see your sensor or usecase.
 
-<img src="../images/Install08.png" style="zoom:75%;" />
+## G5, G6, ONE and G7
 
-If you don't, touching this button will display the wizard.
+If you connect xDrip+ to your sensor (G5, G6 and ONE), you will not be able to upload to Clarity (use Nightscout or Tidepool). You might be able to use sharing through Dexcom share servers but it needs to be setup with the vendor apps first.
 
-<img src="../images/Install12.png" style="zoom:75%;" />
+<img src="../images/DS-DxDrip.png" style="zoom:50%;" />
 
-If the button is not visible you can display it using a long touch on the xDrip+ icon and enabling the `Source Wizard Button`.
+If you use the vendor apps (G5, G6, G7), you can connect xDrip+ through Dexcom Share as long as a follower has been setup.
 
-<img src="../../images/UImenu.png" style="zoom:75%;" />
+<img src="../images/DS-DShare.png" style="zoom:50%;" />
 
-</br>
+When using BYODA (G6) if you've enabled Broadcast to xDrip+ you don't need a network connection to have data in xDrip+.
+
+<img src="../images/DS-BYOD.png" style="zoom:45%;" />
+
+You can add xDrip+ to your current setup and select Companion app to have xDrip+ read BG from the vendor app notifications (G5, G6, G7, ONE).
+
+<img src="../images/DS-DComp.png" style="zoom:50%;" />
+
+And this is also possible if you use CamAPS.
+
+<img src="../images/DS-GCAPS.png" style="zoom:50%;" />
+
+## Libre
+
+xDrip+ connects directly to Libre 2 EU, you can use Libre 1, Pro and 14 days US with a bridge device. Other Libre 2 and 3 sensors are not directly supported.
+
+You can connect Libre 2 EU to xDrip+, adding OOP2. You cannot upload data to the vendor servers (use Nightscout or Tidepool).
+
+<img src="../images/DS-L2EU.png" style="zoom:50%;" />
+
+Since Libre 1 don't have bluetooth, you need to add a bridge device. Some of these bridges also work with Libre 2 EU. Check your sensor doesn't require an OOP.
+
+<img src="../images/DS-LBT.png" style="zoom:50%;" />
+
+The patched app can send data to xDrip+.
+
+<img src="../images/DS-L2Patch.png" style="zoom:50%;" />
+
+For non-supported sensors you can also use Diabox or Juggluco, then broadcast data to xDrip+.
+
+<img src="../images/DS-LOther.png" style="zoom:50%;" />
+
+You can follow a Libre 3 with xDrip+.
+
+<img src="../images/DS-L3Web.png" style="zoom:50%;" />
+
+## Guardian and Minimed
+
+With a 640G/670G pump you need to get BG data from the pump using a glucometer connected to your phone with an OTG cable.
+
+<img src="../images/DS-M6xx.png" style="zoom:50%;" />
+
+You can add xDrip+ to your current setup and select Companion app to have xDrip+ read BG from the vendor app notifications.
+
+<img src="../images/DS-MComp.png" style="zoom:50%;" />
+
+You can follow sensor data when shared through Carelink.
+
+<img src="../images/DS-MFoll.png" style="zoom:50%;" />
 
 ## Bluetooth connection to a sensor or a bridge
 
-xDrip+ will take care of the Bluetooth connection to your sensor or to the Bluetooth device sending data from your device (called a bridge). 
+When connecting xDrip+ directly to a sensor, it will take care of the Bluetooth connection or to the Bluetooth device sending data from your device (called a bridge). 
 
 !!!warning    
     Do **NOT** try to use Android Settings -> Connections -> Bluetooth to connect! 
@@ -29,13 +77,27 @@ If your bridge paired to Android, unpair it before continuing.
     Sensors and bridges can only connect to one smartphone (or tablet) at a time, and only to one app at a time.  
     You should uninstall the vendor app in order to connect xDrip+ to your sensor or bridge.  
     If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.  
-    **You cannot connect to two phones or applications. With an exception for G6: the second device can only be a receiver/connected pump or BlueJay watch.**
+    **You cannot connect to two phones or applications. With an exception for G6: the second device can only be a receiver/connected pump or a BlueJay watch.**
+
+</br>
+
+You should now see the the data source selection wizard.
+
+<img src="../images/Install08.png" style="zoom:75%;" />
+
+If you don't, touching this button will display the wizard.
+
+<img src="../images/Install12.png" style="zoom:75%;" />
+
+If the button is not visible you can display it using a long touch on the xDrip+ icon and enabling the `Source Wizard Button`.
+
+<img src="../../images/UImenu.png" style="zoom:75%;" />
 
 </br>
 
 ## Sensor selection
 
-The following sensors are supported directly by xDrip+:
+### The following sensors are supported directly by xDrip+:
 
 - [G4 (with bridge) or G4 Platinum receiver](../g4)    
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install29.png" style="zoom:50%;" />
@@ -52,7 +114,7 @@ The following sensors are supported directly by xDrip+:
 - [Medtrum A6/S7](../medtrum)  
   <img src="../images/Install36.png" style="zoom:54%;" />    <img src="../images/Install37.png" style="zoom:53%;" />
 
-The following sensors and features are supported with a companion app:
+### The following sensors and features are supported with a companion app:
 
 - [Libre 2 (only EU)](../libre2patch)  
   <img src="../images/Install32.png" style="zoom:51%;" />    <img src="../images/Install35.png" style="zoom:53%;" />
@@ -63,7 +125,7 @@ The following sensors and features are supported with a companion app:
 - [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 - [Aidex](../aidex)  
-  See below.
+  See below GlucoRx/Aidex.
 - [Companion app](../companion) for G6, G7, One and CamAPS  
   See below.
 
@@ -161,4 +223,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 13/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

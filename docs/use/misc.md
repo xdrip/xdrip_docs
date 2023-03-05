@@ -37,7 +37,12 @@ Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#
 
 ##### Samsung Workarounds
 
-Fixes a non compliance in respect to Android of devices of this brand. It can be useful to enable it on other devices too. If you have connection issues you should try to **enable** it.
+Renamed to Wake Workarounds as other devices are not compliant.
+
+##### Wake Workarounds
+
+Fixes a non compliance in respect to Android of devices.   
+If you have connection issues you should **enable** it.
 
 <img src="../images/M-S-LCS15d.png" style="zoom:75%;" />
 
@@ -91,4 +96,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

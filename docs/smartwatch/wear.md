@@ -54,18 +54,18 @@ The xDrip+ wear extension also contains the part of xDrip+ that connects to some
 
 This feature is not available for all sensors, see the table below:
 
-| Sensor                       | Wear 1.x  | Wear 2.x  |
-| ---------------------------- | --------- | --------- |
-| G5                           | Yes       | Limited*  |
-| G6                           | Yes       | Limited*  |
-| Libre 1 with bridge          | Yes       | Yes       |
-| Libre 14 days US with bridge | Limited** | Limited** |
-| Libre 2 EU without bridge    | No        | No        |
-| Libre 2 EU with bridge       | Limited** | Limited** |
+| Sensor                       | Wear 1.x | Wear 2.x |
+| ---------------------------- | -------- | -------- |
+| G5                           | Yes      | Limited* |
+| G6                           | Yes      | Limited* |
+| Libre 1 with bridge          | Yes      | Yes      |
+| Libre 14 days US with bridge | Yes**    | Yes**    |
+| Libre 2 EU without bridge    | No       | No       |
+| Libre 2 EU with bridge       | Yes**    | Yes**    |
 
 ***Limited\*:*** There are some bugs present on most Android Wear smartwatches which prevent them working correctly with the G5/G6. In the best case scenario you will have a reading every 10 minutes. Some watches could be [patched](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) to achieve 5 minutes readings.
 
-***Limited\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) (**not OOP2**) and also need OOP1 installed on your watch.
+***Yes\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) or [OOP2](../../use/OOP2/) and also need that same OOP app sideloaded to your watch. Some bridges might not be compatible.
 
 ### Prerequisites
 
@@ -106,4 +106,4 @@ This doesn't mean they need to be in the same place but the watch itself will no
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

@@ -4,7 +4,23 @@
 
 </br>
 
-[ 2nd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)	Newer Libre 14 days US support (need new OOP2)
+[26th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)	Add support for MM using [OOP2 on wear app](../smartwatch/wear/#standalone-collector-mode)
+
+[23rd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.23)	Samsung workaround renamed
+
+[20th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.20)	Added NS SDK
+
+[15th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.15)	1 minute readings in engineering mode
+
+[11th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.11)	Add [sensor expiry notification](../use/alarms/#sensor-expiry-alerts) and limit BG to 400
+
+[ 8th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.08)	Oneplus as below
+
+[ 7th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.07)	MIUI 13+ android non-compatibility workaround
+
+[ 6th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.06)	[Wake screen](../use/alarms/#wake-screen) and [flashlight](../use/alarms/#use-camera-light) alerts
+
+[ 2nd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)	Newer Libre 14 days US support (need new [OOP2](../use/OOP/#oop2))
 
 [ 1st Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.01)	
 

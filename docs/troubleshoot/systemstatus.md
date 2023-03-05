@@ -41,7 +41,12 @@ Most data sources will have an advanced status tab. Swipe your finger on the scr
 
 ##### Buggy Samsung
 
-This is not an error, but just the fact xDrip+ is [correcting](https://github.com/NightscoutFoundation/xDrip/issues/435) a non-compliance of Samsung devices.
+Renamed to Buggy Handset since other devices present this non-compliance.
+
+##### Buggy Handset
+
+This is not an error, but just the fact xDrip+ is [correcting](https://github.com/NightscoutFoundation/xDrip/issues/435) an Android non-compliance of some devices.  
+It is recommended to [enable it](../../use/misc/#wake-workarounds) when experiencing data loss.
 
 <img src="../images/M-SS-CSBSsg.png" style="zoom:75%;" />
 
@@ -82,4 +87,4 @@ If it's never been working make sure you have [setup](../../install/nightscoutfo
 
 </br>
 
-[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

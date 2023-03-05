@@ -85,6 +85,7 @@ nav:
         - 'Out of Process Algorithm': 'use/OOP.md'
         - 'Insulin Pens': 'use/pens.md'
         - 'G5/G6 Debug Settings': 'use/g56debug.md'
+        - 'Spoken Commands': 'use/spokencommands.md'
     - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'
         - 'Android Wear': 'smartwatch/wear.md'

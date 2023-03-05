@@ -120,6 +120,18 @@ Start snoozed applies the snooze delay before triggering the alarm. Make sure th
 
 <img src="../images/M-S-AA-GAf.png" style="zoom:75%;" />
 
+##### Wake Screen
+
+Wake up screen during alerts.
+
+<img src="../images/M-S-AA-GAn.png" style="zoom:75%;" />
+
+##### Use Camera Light
+
+Flash the back camera light during alerts (when the phone is in charge).
+
+<img src="../images/M-S-AA-GAo.png" style="zoom:75%;" />
+
 ##### Glucose Level Alert List
 
 You can add a additional line to `Glucose Level Alert List` in the main menu.
@@ -221,6 +233,12 @@ Battery alerts are available if your bridge sends this information to xDrip+.
 
 <img src="../images/M-S-AA-EAc.png" style="zoom:75%;" />
 
+##### Sensor expiry alerts
+
+Enable a notification when the sensor is close to expiry time.
+
+<img src="../images/M-S-AA-EAd.png" style="zoom:75%;" />
+
 ## Snooze Alert
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
@@ -286,4 +304,4 @@ You can also completely turn off [notifications channel](#notification-channel) 
 
 
 
-[*Last modified 7/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.07)
+[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

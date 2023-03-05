@@ -55,6 +55,14 @@ xDrip+ must have the right to run in background: it must be whitelisted to batte
 
 </br>
 
+### Authorize notifications
+
+xDrip+ needs to access phone notifications to perform as expected.
+
+<img src="../../images/Install47.png" style="zoom:75%;" />
+
+</br>
+
 ## Verify which version is installed
 
 Touch the back button on your phone until you're back to the main screen. Select the hamburger menu top left then `System Status`.
@@ -102,7 +110,7 @@ If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compl
 For newer Android versions (6 and above), location is [mandatory](https://developer.android.com/training/location/permissions) to allow Bluetooth Low Energy connection.  
 If you will use xDrip+ with a Bluetooth sensor or bridge you **must** enable location (Android Settings -> [Location](https://support.google.com/android/answer/3467281)) and authorize xDrip+ to access it. Consult your phone manual as it will depend on Android version and manufacturer.
 
-<img src="../images/Install17.png" style="zoom:100%;" />
+<img src="../images/Install17.png" style="zoom:75%;" />
 
 </br>
 
@@ -110,4 +118,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 20/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b)
+[*Last modified 3/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
