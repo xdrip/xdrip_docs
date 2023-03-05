@@ -65,7 +65,7 @@ This feature is not available for all sensors, see the table below:
 
 ***Limited\*:*** There are some bugs present on most Android Wear smartwatches which prevent them working correctly with the G5/G6. In the best case scenario you will have a reading every 10 minutes. Some watches could be [patched](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) to achieve 5 minutes readings.
 
-***Yes\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) or [OOP2](../../use/OOP2/) and also need that same OOP app sideloaded to your watch. Some bridges might not be compatible.
+***Yes\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) or [OOP2](../../use/OOP/#oop2) and also need that same OOP app [sideloaded](../../troubleshoot/ADB/#smartwatch) to your watch. Some bridges might not be compatible.
 
 ### Prerequisites
 
