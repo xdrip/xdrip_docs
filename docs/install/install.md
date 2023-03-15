@@ -53,6 +53,10 @@ xDrip+ must have the right to run in background: it must be whitelisted to batte
 
 <img src="../images/Install07.png" style="zoom:75%;" />
 
+*Note: With Android 12 and above you won't see **whitelisting** anymore.*
+
+More information [here](../../troubleshoot/savings/#apps-battery-savings).
+
 </br>
 
 ### Authorize notifications
@@ -110,6 +114,10 @@ If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compl
 For newer Android versions (6 and above), location is [mandatory](https://developer.android.com/training/location/permissions) to allow Bluetooth Low Energy connection.  
 If you will use xDrip+ with a Bluetooth sensor or bridge you **must** enable location (Android Settings -> [Location](https://support.google.com/android/answer/3467281)) and authorize xDrip+ to access it. Consult your phone manual as it will depend on Android version and manufacturer.
 
+Make sure to select All the time from settings.
+
+<img src="../images/Install17a.png" style="zoom:75%;" />
+
 <img src="../images/Install17.png" style="zoom:75%;" />
 
 </br>
@@ -118,4 +126,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 3/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 3/14/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06)

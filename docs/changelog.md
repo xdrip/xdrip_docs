@@ -4,8 +4,10 @@
 
 </br>
 
-|                         Release link                         | Notes, Added Feature etc...                                  |
+| Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [15th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.15) | Plugin interface and keks library                            |
+| [ 6th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06) | [Y axis manual scale](../use/display/#customize-y-axis-range) |
 | [26th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26) | Add support for MM using [OOP2 on wear app](../smartwatch/wear/#standalone-collector-mode) |
 | [23rd Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.23) | Samsung workaround renamed                                   |
 | [20th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.20) | Added NS SDK                                                 |
@@ -59,7 +61,7 @@
 | [ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | b - [Smoothing](../use/display/#graph-smoothing) implementation start |
 | [ 1st Aug 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01) | De-duplicate preliminary                                     |
 | [26th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | Web follow refresh on fail, Expand data limit (Wear, Pebble), |
-| [23rd Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23) | Sensor expiry default on, ensure web follow off, Libre bock sync improvement, show aged raw only if set |
+| [23rd Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23) | Sensor expiry default on, ensure web follow off, Libre block sync improvement  <br />show aged raw only if set |
 | [21st Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21) | Expand data limit for shorter readings period                |
 | [14th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14) | Configurable BG [text and arrow colors](../use/display/#colors-of-bg-readings-and-trend-arrows) for high/low BG |
 | [13th Jul 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13) | OB1 [special pairing workaround](../use/g56debug/#special-pairing-workaround), virtual sensor auto-start |

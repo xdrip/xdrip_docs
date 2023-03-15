@@ -329,6 +329,14 @@ These two options are only available for developers.
 
 <img src="../images/M-S-DS6q.png" style="zoom:75%;" />
 
+##### Customize Y axis range
+
+You can arbitrarily fix lower and upper value for the Y axis. Whenever readings will be out of this range, the graph will extend the range to make them visible. Y scale will then return to these settings when out of fixed range values are not displayed anymore.
+
+<img src="../images/M-S-DS7.png" style="zoom:75%;" />
+
+<img src="../images/M-S-DS7a.png" style="zoom:75%;" />
+
 ### Glucose number from Filtered
 
 Filtering might delay readings and is not recommended.  
@@ -461,4 +469,4 @@ This will make xDrip+ open automatically when your phone restarts.
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 3/15/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.15.03)

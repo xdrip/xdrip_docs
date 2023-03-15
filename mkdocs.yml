@@ -104,4 +104,5 @@ nav:
         - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
         - 'G5/G6 Connection': 'troubleshoot/connection.md'
         - 'Android Debug Bridge': 'troubleshoot/ADB.md'
+        - 'Android Settings': 'troubleshoot/savings.md'
     - Change Log: 'changelog.md'
