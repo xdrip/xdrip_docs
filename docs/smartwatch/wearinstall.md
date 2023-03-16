@@ -71,17 +71,17 @@ This might not be always possible to complete this procedure, if it fails try Me
 
 #### Method 2 (best)
 
-**Recommended:** follow [this video](https://www.youtube.com/watch?v=8HsfWPTFGQI) that details the process.
+**Recommended:** follow [this video](https://www.youtube.com/watch?v=ejrmH-JEeE0) that details the process.
 
 You need to be connected to Wi-Fi. So should your watch.
 
 1. Install [Wear OS](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) and pair your watch.
-2. Install and open [Wear Installer](https://play.google.com/store/apps/details?id=org.freepoc.wearinstaller) on your phone.  
+2. Install and open [Wear Installer 2](https://play.google.com/apps/testing/org.freepoc.wearinstaller2) on your phone.  
    <img src="../images/M-S-SW-AW9.png" style="zoom:75%;" />
 3. Enable Developer mode on the watch (Instructions [here](../../troubleshoot/ADB/#smartwatch). Only on the watch, then come back)
 4. Enable ADB Debug over Wi-Fi on the Watch.  
    <img src="../images/M-S-SW-AW8.png" style="zoom:65%;" />
-5. Install Wear Installer on your watch.  
+5. Write down the watch IP address.  
    <img src="../images/M-S-SW-AW10.png" style="zoom:65%;" />
 6. Open the app on the watch and copy the IP address to the app on the phone.  
    Tape `Done`  
@@ -99,6 +99,10 @@ You need to be connected to Wi-Fi. So should your watch.
 10. When complete, select `FINISH`.  
     <img src="../images/M-S-SW-AW17.png" style="zoom:75%;" />
 11. If xDrip+ failed to install on the watch, try again.
+
+##### Method 2 alternatives
+
+Use [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=com.geminiman.wearosmanager) or [Easy Fire Tools](https://play.google.com/store/apps/details?id=de.agondev.easyfiretools) (similar to above).
 
 #### Method 3 (with a computer)
 
@@ -132,7 +136,7 @@ For the updated version the [instructions](https://github.com/NightscoutFoundati
 - This time it should say ADB looks good and then ask xDrip phone app to send the latest version
 - This should download and then xDrip will install itself.
 
-When the versions are identical this wont really do much, but this process can be used to force xDrip to send the latest version in future but it should also automatically detect version changes and update in the background. For fun you could install the latest nightly on the watch then downgrade your phone and check that the update process then downgrades your watch app version. The version information should be displayed next to the `Force Update` text.
+When the versions are identical this won't really do much, but this process can be used to force xDrip to send the latest version in future but it should also automatically detect version changes and update in the background. For fun you could install the latest nightly on the watch then downgrade your phone and check that the update process then downgrades your watch app version. The version information should be displayed next to the `Force Update` text.
 
 The idea is that you no longer need to use Wear Installer or whatever method you used to install the first time around (eg PC based adb or downgrading play store) as xDrip can update itself.
 
