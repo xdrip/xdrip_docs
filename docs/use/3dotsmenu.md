@@ -98,8 +98,6 @@ When sharing screenshots of the error log make sure to enable all and manually h
 
 <img src="../images/3DM-EL4.png" style="zoom:75%;" /> 
 
-An additional 3 dots menu will allow you to select the old log viewer style that doesn't include color codes.
-
 ### Libre trend
 
 If you use a Libre sensor `Show Libre Trend` will display the last 45 minutes sensor information, minute by minute.
@@ -127,4 +125,4 @@ For other enquiries prefer [xDrip+ GitHub discussions](https://github.com/Nights
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)

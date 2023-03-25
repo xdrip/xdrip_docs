@@ -41,8 +41,8 @@ Renamed to Wake Workarounds as other devices are not compliant.
 
 ##### Wake Workarounds
 
-Fixes a non compliance in respect to Android of devices.   
-If you have connection issues you should **enable** it.
+Fixed a non compliance in respect to some Android of devices, now default.   
+Should be kept **enabled**.
 
 <img src="../images/M-S-LCS15d.png" style="zoom:75%;" />
 
@@ -96,4 +96,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 3/25/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)

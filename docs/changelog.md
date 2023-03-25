@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [23rd Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23) | Removed old logs, set wake workaround for all brands         |
 | [15th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.15) | Plugin interface and keks library                            |
 | [ 6th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06) | [Y axis manual scale](../use/display/#customize-y-axis-range) |
 | [26th Feb 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26) | Add support for MM using [OOP2 on wear app](../smartwatch/wear/#standalone-collector-mode) |

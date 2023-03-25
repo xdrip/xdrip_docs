@@ -7,10 +7,6 @@ If you can't find the setting you're looking for, keep in mind you can use the s
 
 <img src="../images/M-S-LCS.png" style="zoom:75%;" />
 
-Obsolete. Drives to the old view of the [events log](../3dotsmenu/#events-log).
-
-<img src="../images/M-S-LCS1.png" style="zoom:75%;" />
-
 ### Extra Status Line
 
 Top left of your main graph you can see the standard status line.  
@@ -146,4 +142,4 @@ Not used anymore.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
