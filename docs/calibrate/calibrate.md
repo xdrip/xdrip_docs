@@ -26,7 +26,7 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 | ------------------------------------------------------------ | ------------------------------- | ------------------ |
 | G4                                                           | Mandatory                       | Not available      |
 | G5                                                           | Available                       | Available          |
-| G6 old (80/81 series)                                        | Available                       | Available          |
+| G6 old (rebatteried)                                         | Available                       | Available          |
 | G6 new ([Firefly](../../troubleshoot/connection/#firefly-transmitters)) | Not available                   | Mandatory          |
 | Libre 1                                                      | Mandatory                       | OOP1               |
 | Libre 14 days US                                             | Not available                   | OOP1 US (obsolete) |
@@ -153,4 +153,4 @@ xDrip+ will bring you back to [initial calibration](#first-calibration). Make su
 
 </br>
 
-[*Last modified 26/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26)
+[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)

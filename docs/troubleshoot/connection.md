@@ -112,10 +112,10 @@ Write `clear transmitter queue` then `OK`.
 
 ## Hard reset transmitter
 
-You can reset the internal day counter of your G5 or G6 transmitter. Only old (80 and 81 starting transmitter ID) or rebatteried G6 allow this option. Only running your transmitter in **native mode** after it's expired requires hard reset.
+You can reset the internal day counter of your G5 or G6 transmitter. Only rebatteried G6 transmitters allow this option. Only running your transmitter in **native mode** after it's expired requires hard reset.
 
 !!!warning  
-    Hard resetting a non-rebatteried  Firefly transmitter will brick it without possible recovery.
+    Hard resetting a non-rebatteried Firefly transmitter will brick it without possible recovery.
 
 With recent xDrip+ versions **you don't need to be in engineering mode** to perform this operation.  
 Make sure you have a good connection and nothing in the queue before resetting the transmitter.
@@ -141,9 +141,12 @@ Be patient, il will take up to 20 minutes.
 
 ## Firefly transmitters
 
-Newer G6 transmitters have a very different firmware than the original ones.
+!!!note  
+    Anubis transmitters can be considered as old G6 transmitters.
 
-You can recognize an **old G6 transmitter** by its serial code starting by 80 or 81.  
+Modern G6 transmitters have a very different firmware than the original ones.
+
+You can recognize an **old G6 transmitter** by the fact it's rebatteried.  
 Its firmware is version 1.6.5.25 or below.
 
 Old transmitters will allow you to:
@@ -153,7 +156,7 @@ Old transmitters will allow you to:
 - Use the [xDrip+ calibration algorithm](../../calibrate/101/#xdrip-calibration-algorithm)
 - [Restart](../../use/g56debug/#restart-sensor) the sensor using xDrip+
 
-**New transmitters** called Firefly have a letter in the serial code after the 8: like 8G, 8P,... 8Y and so on.
+**For new transmitters**:
 
 - You cannot replace the battery or reset the transmitter days
 - They do not send raw data
@@ -161,4 +164,4 @@ Old transmitters will allow you to:
 
 </br>
 
-[*Last modified 1/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01)
+[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
