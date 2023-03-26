@@ -88,7 +88,7 @@ You can automatically lower the volume, pause the other apps playing sounds (lik
 
 ##### Smart alerting
 
-Smart snoozing and alerting avoid the alert to trigger or re-raise if BG is going in the right direction (upwards for low alerts and downwards for highs)
+Smart snoozing and alerting avoid the alert to trigger or re-raise if BG is going in the right direction (upwards for low alerts and downwards for highs). The threshold for acknowledging a sufficient change in the right direction is 4mg/dl in 5 minutes.
 
 <img src="../images/M-S-AA-GAc.png" style="zoom:75%;" />
 
@@ -304,4 +304,4 @@ You can also completely turn off [notifications channel](#notification-channel) 
 
 
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 3/26/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
