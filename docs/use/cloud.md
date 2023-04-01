@@ -78,9 +78,20 @@ Depending on the amount of data and network speed, upload can take a very long t
 
 ### MongoDB
 
+You can directly upload BG and device status in a Mongo Database.
+
 <img src="../images/M-S-CU-MD.png" style="zoom:75%;" />
 
-MongoDB upload has been deprecated since mLab was acquired by MongoDB. Use this feature only if you run your own [Mongo](https://github.com/mongodb/mongo) database.
+MongoDB upload has been deprecated since mLab was acquired by MongoDB and many migrated to Atlas: you **cannot** use a DNS seed URI `mongodb+srv`.  
+Use this feature only if you run your own [Mongo](https://github.com/mongodb/mongo) database, default port is 27017.
+
+The [connection string URI](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-string-uri-format) structure is:
+
+```
+mongodb://databaseusername:databasepassword@your.mongo.url/databasename
+```
+
+In order to keep the database compatible with Nightscout, do not change Collection name or Device status collection name from default (if you do change them you'll also have to modify the corresponding variables in Nightscout `MONGODB_COLLECTION` and `MONGO_DEVICESTATUS_COLLECTION`).
 
 <img src="../images/M-S-CU-MDa.png" style="zoom:75%;" />
 
@@ -163,4 +174,4 @@ If you also upload data manually from your pump, you might want to disable xDrip
 
 </br>
 
-[*Last modified 26/5/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26)
+[*Last modified 1/4/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b)
