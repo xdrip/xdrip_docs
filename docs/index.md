@@ -20,7 +20,7 @@ Customization allows for different options to configure alarms, vocalize reading
 
 Your data is yours and can be exported in many different ways. xDrip also intercommunicates with other apps, for example sending and receiving live data with AndroidAPS.
 
-## [Ready to start? Continue here!](../install/usethedoc/)
+## [Ready to start? Continue here!](./install/usethedoc/)
 
 ## History
 

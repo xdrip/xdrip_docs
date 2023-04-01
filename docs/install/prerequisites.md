@@ -40,7 +40,7 @@ Make sure you are on the correct time zone and daylight settings are correct.
 
 ### Energy savings
 
-**Disable** all phone energy savings/battery Android settings before installing xDrip+.  
+**[Disable](../../troubleshoot/savings/)** all phone energy savings/battery Android settings before installing xDrip+.  
 You can try to restore some after verifying xDrip+ is working correctly, never optimize xDrip+.
 
 </br>

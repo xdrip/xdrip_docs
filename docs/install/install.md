@@ -24,7 +24,7 @@ Once installed, open xDrip+.
     All software and materials have been provided for informational purposes only as a proof of concept to assist possibilities for further research.  
     No claims at all are made about fitness for any purpose and everything is provided **AS IS**. Any part of the system can fail at any time.  
     Always seek the advice of a qualified healthcare professional for any medical questions.  
-    Always follow your glucose-sensor or other device manufacturers\' instructions when using any equipment; do not discontinue use of accompanying reader or receiver, other than as advised by your doctor.  
+    Always follow your glucose-sensor or other device manufacturers' instructions when using any equipment; do not discontinue use of accompanying reader or receiver, other than as advised by your doctor.  
     This software is not associated with or endorsed by any equipment manufacturer and all trademarks are those of their respective owners.  
     Your use of this software is entirely at your own risk.  
     No charge has been made by the developers for the use of this software.  
