@@ -112,10 +112,8 @@ Write `clear transmitter queue` then `OK`.
 
 ## Hard reset transmitter
 
-You can reset the internal day counter of your G5 or G6 transmitter. Only rebatteried G6 transmitters allow this option. Only running your transmitter in **native mode** after it's expired requires hard reset.
-
-!!!warning  
-    Hard resetting a non-rebatteried Firefly transmitter will brick it without possible recovery.
+You can reset the internal day counter of your G5 or G6 transmitter. **Only rebatteried transmitters** allow this option.  
+Hard reset is necessary only if you use your transmitter in **native mode** after it's expired.
 
 With recent xDrip+ versions **you don't need to be in engineering mode** to perform this operation.  
 Make sure you have a good connection and nothing in the queue before resetting the transmitter.
