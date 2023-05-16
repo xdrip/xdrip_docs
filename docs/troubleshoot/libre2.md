@@ -46,6 +46,8 @@ Opening the menu might give you information on missing prerequisites for the app
 When you want to try xDrip+ connecting directly to a Libre 2 sensor for the first time and you're not sure you will be able to get the system working, it is strongly recommended that you do this on the last day of your current sensor.  
 xDrip+ will not break the sensor, it will only prevent the vendor app or the reader to receive alarms, and if you rely on these, you might be left with a sensor behaving like a Libre 1.
 
+More information about Libre 2 direct is [here](../libre2direct)
+
 #### Prerequisites
 
 The device you used to start the sensor must be shielded (microwave oven - switched off) to avoid it interacting with xDrip+ pairing process. It will show the connection lost icon.
