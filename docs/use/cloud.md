@@ -78,6 +78,9 @@ Depending on the amount of data and network speed, upload can take a very long t
 
 ### MongoDB
 
+!!!warning  
+    This method has been deprecated.
+
 You can directly upload BG and device status in a Mongo Database.
 
 <img src="../images/M-S-CU-MD.png" style="zoom:75%;" />
@@ -92,6 +95,9 @@ mongodb://databaseusername:databasepassword@your.mongo.url/databasename
 ```
 
 In order to keep the database compatible with Nightscout, do not change Collection name or Device status collection name from default (if you do change them you'll also have to modify the corresponding variables in Nightscout `MONGODB_COLLECTION` and `MONGO_DEVICESTATUS_COLLECTION`).
+
+!!!info  
+    Uploaded data might not show in the Nightscout web page but only in Nightscout reports.
 
 <img src="../images/M-S-CU-MDa.png" style="zoom:75%;" />
 

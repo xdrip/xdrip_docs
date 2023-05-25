@@ -4,15 +4,16 @@ They are only used for Libre sensors and bridges now.
 
 There are two different families of Out Of Process Algorithms (OOP):
 
-| OOP Version                        | Version date | Supported sensors                  | File size |
-| ---------------------------------- | ------------ | ---------------------------------- | --------- |
-| OOP1 (2bb9458)                     | 2018-08-26   | Libre                              | 17.1MB    |
-| OOP1new (fa218ef)                  | 2019-11-22   | Libre, Libre 2 EU                  | 25.3MB    |
-| OOP1us (e901151)                   | 2019-09-13   | Libre 14 days US (old)             | 27.8MB    |
-| OOP2 (70129ac)                     | 2021-12-04   | Libre 2 EU                         | 2.63MB    |
-| OOP2new (93e5cac) - **do not use** | 2020-12-08   | Libre 14 days US, Libre 2 EU       | 2.65MB    |
-| OOP2 1.2 (8a0ee8f)                 | 2022-06-10   | Libre 14 days US (old), Libre 2 EU | 2.66MB    |
-| OOP2_e6 (6de6678)                  | 2023-01-10   | Libre 14 days US (new), Libre 2 EU | 2.66MB    |
+| OOP Version                         | Version date | Supported sensors                        | File size |
+| ----------------------------------- | ------------ | ---------------------------------------- | --------- |
+| OOP1 (2bb9458)                      | 2018-08-26   | Libre                                    | 17.1MB    |
+| OOP1new (fa218ef)                   | 2019-11-22   | Libre, Libre 2 EU                        | 25.3MB    |
+| OOP1us (e901151) - **do not use**   | 2019-09-13   | Libre 14 days US (old)                   | 27.8MB    |
+| OOP2 (70129ac) - **do not use**     | 2021-12-04   | Libre 2 EU                               | 2.63MB    |
+| OOP2new (93e5cac) - **do not use**  | 2020-12-08   | Libre 14 days US, Libre 2 EU             | 2.65MB    |
+| OOP2 1.2 (8a0ee8f) - **do not use** | 2022-06-10   | Libre 14 days US (old), Libre 2 EU       | 2.66MB    |
+| OOP2_e6 (6de6678) - **do not use**  | 2023-01-10   | Libre 14 days US (new), Libre 2 EU       | 2.66MB    |
+| OOP2_more (27da3f5)                 | 2023-05-25   | Libre 14 days US (new), Libre 2 EU (new) | 2.66MB    |
 
 ### OOP1
 
@@ -43,7 +44,7 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-**Use only the [latest OOP2 app](https://drive.google.com/file/d/1vu3x4rvggb2k2rVlTc0kb1t4Yk_ULin5/view)**. Latest xDrip+ versions will not work with older OOP2 apps.  
+**Use only the [latest OOP2 app](https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view) with the latest xDrip+ version**.  
 *Note: you need to be logged into your Google account to access the link above*
 
 !!!warning  
@@ -79,4 +80,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 25/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25)
