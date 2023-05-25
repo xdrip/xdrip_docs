@@ -4,9 +4,6 @@ Libre2 (EU only) can connect directly to xDrip+ without a bridge. This page give
 
 See here to [learn how to set it up...](../../install/libre2/#prerequisites)
 
-A quick method to set the xDrip settings correctly is to scan this QR Code (placeholder)
-<img src="../images/QR-placeholder.png" style="zoom:75%;" />
-
 ## What it should look like
 
 When it has been set up correctly, and a new sensor is running, the xDrip status pages & logs should appear as is
