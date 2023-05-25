@@ -1547,6 +1547,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../savings/" class="md-nav__link">
+        Android Settings
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1708,11 +1722,8 @@ Only voltage B is important for G6, resistance (if visible) has no useful meanin
 <p><img src="../../images/T-V-Clear.png" style="zoom:75%;" /></p>
 <p></br></p>
 <h2 id="hard-reset-transmitter">Hard reset transmitter<a class="headerlink" href="#hard-reset-transmitter" title="Permanent link">⌁</a></h2>
-<p>You can reset the internal day counter of your G5 or G6 transmitter. Only old (80 and 81 starting transmitter ID) or rebatteried G6 allow this option. Only running your transmitter in <strong>native mode</strong> after it's expired requires hard reset.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Hard resetting a non-rebatteried  Firefly transmitter will brick it without possible recovery.</p>
-</div>
+<p>You can reset the internal day counter of your G5 or G6 transmitter. <strong>Only rebatteried transmitters</strong> allow this option.<br />
+Hard reset is necessary only if you use your transmitter in <strong>native mode</strong> after it's expired.</p>
 <p>With recent xDrip+ versions <strong>you don't need to be in engineering mode</strong> to perform this operation.<br />
 Make sure you have a good connection and nothing in the queue before resetting the transmitter.</p>
 <div class="admonition info">
@@ -1728,8 +1739,12 @@ Make sure you have a good connection and nothing in the queue before resetting t
 <p>Be patient, il will take up to 20 minutes.</p>
 <p></br></p>
 <h2 id="firefly-transmitters">Firefly transmitters<a class="headerlink" href="#firefly-transmitters" title="Permanent link">⌁</a></h2>
-<p>Newer G6 transmitters have a very different firmware than the original ones.</p>
-<p>You can recognize an <strong>old G6 transmitter</strong> by its serial code starting by 80 or 81.<br />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Anubis transmitters can be considered as old G6 transmitters.</p>
+</div>
+<p>Modern G6 transmitters have a very different firmware than the original ones.</p>
+<p>You can recognize an <strong>old G6 transmitter</strong> by the fact it's rebatteried.<br />
 Its firmware is version 1.6.5.25 or below.</p>
 <p>Old transmitters will allow you to:</p>
 <ul>
@@ -1738,14 +1753,14 @@ Its firmware is version 1.6.5.25 or below.</p>
 <li>Use the <a href="../../calibrate/101/#xdrip-calibration-algorithm">xDrip+ calibration algorithm</a></li>
 <li><a href="../../use/g56debug/#restart-sensor">Restart</a> the sensor using xDrip+</li>
 </ul>
-<p><strong>New transmitters</strong> called Firefly have a letter in the serial code after the 8: like 8G, 8P,... 8Y and so on.</p>
+<p><strong>For new transmitters</strong>:</p>
 <ul>
 <li>You cannot replace the battery or reset the transmitter days</li>
 <li>They do not send raw data</li>
 <li>In order to restart the sensor you need to physically extract the transmitter from the sensor</li>
 </ul>
 <p></br></p>
-<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01"><em>Last modified 1/7/2022</em></a></p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23"><em>Last modified 25/3/2023</em></a></p>
                 
               
               

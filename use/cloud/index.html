@@ -1547,6 +1547,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/savings/" class="md-nav__link">
+        Android Settings
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1688,8 +1702,22 @@ The URL format should be like this:</p>
 Depending on the amount of data and network speed, upload can take a very long time (hours).</p>
 <p><img src="../images/M-S-CU-NSn2.png" style="zoom:75%;" /></p>
 <h3 id="mongodb">MongoDB<a class="headerlink" href="#mongodb" title="Permanent link">⌁</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This method has been deprecated.</p>
+</div>
+<p>You can directly upload BG and device status in a Mongo Database.</p>
 <p><img src="../images/M-S-CU-MD.png" style="zoom:75%;" /></p>
-<p>MongoDB upload has been deprecated since mLab was acquired by MongoDB. Use this feature only if you run your own <a href="https://github.com/mongodb/mongo">Mongo</a> database.</p>
+<p>MongoDB upload has been deprecated since mLab was acquired by MongoDB and many migrated to Atlas: you <strong>cannot</strong> use a DNS seed URI <code>mongodb+srv</code>.<br />
+Use this feature only if you run your own <a href="https://github.com/mongodb/mongo">Mongo</a> database, default port is 27017.</p>
+<p>The <a href="https://www.mongodb.com/docs/manual/reference/connection-string/#connection-string-uri-format">connection string URI</a> structure is:</p>
+<pre><code>mongodb://databaseusername:databasepassword@your.mongo.url/databasename
+</code></pre>
+<p>In order to keep the database compatible with Nightscout, do not change Collection name or Device status collection name from default (if you do change them you'll also have to modify the corresponding variables in Nightscout <code>MONGODB_COLLECTION</code> and <code>MONGO_DEVICESTATUS_COLLECTION</code>).</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Uploaded data might not show in the Nightscout web page but only in Nightscout reports.</p>
+</div>
 <p><img src="../images/M-S-CU-MDa.png" style="zoom:75%;" /></p>
 <h3 id="influxdb">InfluxDB<a class="headerlink" href="#influxdb" title="Permanent link">⌁</a></h3>
 <p>You can also upload to an InfluxDB and use Grafana to present your data.</p>
@@ -1734,7 +1762,7 @@ Once done, test the connection.</p>
 <p>If you also upload data manually from your pump, you might want to disable xDrip+ treatments upload to avoid duplicates.</p>
 <p><img src="../images/M-S-CU-TPf.png" style="zoom:75%;" /></p>
 <p></br></p>
-<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.26"><em>Last modified 26/5/2022</em></a></p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b"><em>Last modified 1/4/2023</em></a></p>
                 
               
               
