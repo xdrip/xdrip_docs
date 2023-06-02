@@ -62,7 +62,9 @@ See the dedicated page [here](../connection).
 
 #### Libre Bluetooth
 
-See the dedicated page [here](../librebridge).
+If using a bridge, see the dedicated page [here](../librebridge).
+
+If using a Libre 2 directly (ie without a bridge), see the dedicated page [here](../libre2direct).
 
 #### xDrip+ Sync Follower
 
