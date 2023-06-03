@@ -10,7 +10,7 @@ Many NFC to Bluetooth bridges are available on the market for Libre sensors.
 The original project was developed by Joern: [LimiTTer](https://github.com/JoernL/LimiTTer). You need to remember this name as it will appear as the default bridge name when the actual device is not identified. Unless you actually have a LimiTTer (or connect directly a Libre 2), seeing this name means your bridge is not connected to xDrip+.
 
 xDrip+ supports some of them for some sensors.  
-**Libre H, Libre 2 US/CA/AUS are not supported.**  
+**Libre H, Libre 2 US/CA/AUS and Libre 3 are not supported.**  
 You can use Diabox in [Nightscout follower](../nightscoutfollower/#diabox) mode.
 
 Here below a compatibility table for supported bridge devices, for compatible sensors **minimum** firmware version is indicated.

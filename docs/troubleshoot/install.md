@@ -1,4 +1,4 @@
-## My phone says this app is dangerous
+## My phone says this app is very dangerous
 
 GitHub releases from the [official repository](https://github.com/NightscoutFoundation/xDrip/releases) are safe. Ignore this message.
 

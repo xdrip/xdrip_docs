@@ -48,6 +48,8 @@ If you're using a G5 you will need to calibrate.
 
 ### Libre
 
+Note - this section does NOT apply to Libre 2 connecting to xDrip without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
+
 xDrip+ is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
 
 In order to start your sensor you need to use the vendor reader or app, some other third party apps like Glimp-S and eDropletNFC can start the Libre sensor.

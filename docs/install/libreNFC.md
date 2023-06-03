@@ -1,4 +1,4 @@
-If your phone has an NFC reader you can use it to scan your Libre sensor. Compatible phones will allow you to install LibreLink (if you can find it in your region Google Play store).
+These days almost all phones support NFC scanning. If yours does, you can scan your Libre sensor with xdrip+ in addition to the vendor supplied LibreLink. Please note, xDrip+ NFC scan **cannot** start a sensor - only LibreLink - (or the reader) can do this. 
 
 ## Supported data sources
 
@@ -45,7 +45,7 @@ Only Libre 1 is natively supported by xDrip+ for NFC readings. In order to scan 
 
 | - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
 | :---------------: | :------------: | :------------: |
-|       `Yes`       |     `OOP`      |     `OOP`      |
+|       `Yes`       |     `OOP2`      |     `OOP2`      |
 
 !!!note "Minimum scanning interval"  
     You should wait at least 60 seconds between two NFC scans.
