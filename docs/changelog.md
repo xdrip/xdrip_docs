@@ -6,6 +6,25 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [26th May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26) | Carelink follow updates                                      |
+| [25th May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25) | Add newer Libre 2 EU (requires new OOP2)                     |
+| [23rd May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.23) |                                                              |
+| [ 14th May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.14) | Carelink follower update, large values filtering,            |
+| [ 3rd May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) |                                                              |
+| [ 2nd May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Import sounds default to off                                 |
+| [24th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | Fix glucose meter broken scanning                            |
+| [23rd Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.23) | Remove G4                                                    |
+| [22nd Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.22) | New G6 firmware, add G7                                      |
+| [20th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.20) |                                                              |
+| [17th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.17) |                                                              |
+| [16th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.16) |                                                              |
+| [13th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Filtering is default,                                        |
+| [11th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Add insulin types                                            |
+| [10th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.10) |                                                              |
+| [ 8th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.08) | OB1 is default, linear ascending volume                      |
+| [ 7th Apr 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.07) | Add Carelink pump status, Samsung workaround detection for more vendors |
+| [28th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b) | b - Fix G6 Tx connected logic                                |
+| [28th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28) | IoB to WatchDrip+, don't start G6 if Tx not connected, QR codes handling update |
 | [23rd Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23) | Removed old logs, set wake workaround for all brands         |
 | [15th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.15) | Plugin interface and keks library                            |
 | [ 6th Mar 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06) | [Y axis manual scale](../use/display/#customize-y-axis-range) |
@@ -25,7 +44,7 @@
 | [18th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.18) | Database import fix                                          |
 | [17th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.17) | Companion app extra info                                     |
 | [16th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.16) |                                                              |
-| [12th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Plugin for new [One](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/KEKS_Plugin.md) |
+| [12th Jan 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Plugin for new One                                           |
 | [24th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24) | Fix for devices without Google Play services                 |
 | [ 9th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Iob display fix                                              |
 | [ 5th Dec 2022](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | Minimed mobile [companion app](../install/companion/)        |
