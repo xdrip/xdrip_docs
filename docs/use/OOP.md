@@ -80,4 +80,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 25/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25)
+[*Last modified 26/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26)

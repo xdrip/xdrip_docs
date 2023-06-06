@@ -4,7 +4,7 @@ This describes how to enable direct Bluetooth connection between the sensor & xD
 
 ## Setting Up for the first time
 
-Click [Start Sensor](#starting-libre-2-sensors) for subsequent sensors
+(Click [Start Sensor](#starting-libre-2-sensors) for subsequent sensors).
 
 !!!info "Only Libre 2 Europe sensor model is supported"
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
@@ -91,11 +91,11 @@ Confirm `START SENSOR`.
 
 <img src="../images/M-StaSC.png" style="zoom:75%;" />
 
-At the prompt **Did you insert it today?** you must press **NOT TODAY**
+At the prompt **Did you insert it today?** You must press **NOT TODAY**
 
-<img src="../images/not-today-popup.png" style="zoom:150%;" />
- 
-Wait 60 seconds & NFC scan again with xDrip+. This adds the sensor as the BT device that xDrip+ will take the readings from. Exect to see NEW SENSOR STARTED notification, and you should then be in the "Collecting Initial Readings" screen.
+<img src="../images/M-StaSNotToday.png" style="zoom:75%;" />
+
+Wait 60 seconds & NFC scan again with xDrip+. This adds the sensor as the BT device that xDrip+ will take the readings from. Expect to see NEW SENSOR STARTED notification, and you should then be in the "Collecting Initial Readings" screen.
 You will now need to wait between 3 and 15 minutes for 3 readings to be received, and then you will be taken to the **Calibrate Sensor?** prompt.
 After entering the calibration data, the Libre 2 sensor should be bonded to xDrip+, and should deliver readings every 5 minutes.
 
@@ -105,5 +105,5 @@ If you have trouble getting data directly from the sensor, scan it every 5 minut
 
 </br>
 
-[*Last modified 2/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02)
+[*Last modified 6/6/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26)
 
