@@ -4,12 +4,16 @@
 <img src="../images/M-S-HDSlistG.png" style="zoom:75%;" />
 
 !!!info "Patched app"  
-    The patched app is only available for the European version of Libre 2.  
-    If you use another model, see below for alternative solutions using another app as a companion.
+    The patched app itself is only available for the European version of Libre 2.  
+    Being an old version, it is rarely compatible with Android versions above 12.
 
-For Libre 2 Europe, follow [these](https://androidaps.readthedocs.io/en/latest/Hardware/Libre2.html) guidelines.
+</br>
 
-See [here](../../troubleshoot/libre2) for more.
+Other apps listed below use the same protocol to send data to xDrip+:
+
+***Note:*** *external apps readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).* 
+
+It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 
@@ -19,10 +23,6 @@ If you use [Juggluco](https://play.google.com/store/apps/details?id=tk.glucodata
 
 <img src="../images/Juggluco.png" style="zoom:50%;" />
 
-***Note:*** *Juggluco readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).* 
-
-Continue to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
-
 </br>
 
 #### Diabox
@@ -31,10 +31,16 @@ If you use a recent [Diabox](https://sirius.thetaphi.de/diabox/) version, you ca
 
 <img src="../images/Diabox4.png" style="zoom:75%;" />
 
-***Note:*** *Diabox readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).* 
+</br>
 
-Continue to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+#### LinkUpConnect
+
+LinkUpConnect is a vendor server follower, you need a Libre 3 to have CGM data in the app.  
+Data should be available in the vendor follower app.  
+Enable the `Forward to xDrip` flag.
+
+<img src="../images/LinkUpConnect.png" style="zoom:75%;" />
 
 </br>
 
-[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
+[*Last modified 16/06/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15)

@@ -1,6 +1,6 @@
 !!!info "Libre 2 EU"  
     Only the European version of Libre 2 is supported by xDrip+.  
-    If you want to use Libre 2 from another geographical area, you can have data sent to xDrip+ from [Diabox](../../install/libre2patch/#diabox) or [Juggluco](../../install/libre2patch/#juggluco).
+    If you want to use Libre 2 from another geographical area, you can have data sent to xDrip+ from [another app](../../install/libre2patch).
 
 </br>
 
