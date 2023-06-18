@@ -89,5 +89,9 @@ If you don't see values after scanning:
 
 </br>
 
-[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
+Check the [troubleshooting](../../troubleshoot/librebridge) page if necessary.
+
+</br>
+
+[*Last modified 18/06/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15)
 

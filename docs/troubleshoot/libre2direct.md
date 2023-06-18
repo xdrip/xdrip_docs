@@ -1,4 +1,4 @@
-#Libre2 Direct
+# Libre2 Direct
 
 Libre2 (EU only) can connect directly to xDrip+ without a bridge. This page gives information on what a working system should look like.
 

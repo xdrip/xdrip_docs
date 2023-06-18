@@ -102,6 +102,7 @@ nav:
         - 'Libre Bridge': 'troubleshoot/librebridge.md'
         - 'Libre 2': 'troubleshoot/libre2.md'
         - 'Libre 2 Direct': 'troubleshoot/libre2direct.md'
+        - 'Libre Web Follower': 'troubleshoot/webfollow.md'
         - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
         - 'G5/G6 Connection': 'troubleshoot/connection.md'
         - 'Android Debug Bridge': 'troubleshoot/ADB.md'
