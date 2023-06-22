@@ -41,6 +41,7 @@ nav:
         - 'LibreAlarm': 'install/librealarm.md'
         - 'Libre bridge': 'install/libreBT.md'
         - 'Libre 2 Direct': 'install/libre2.md'
+        - 'Libre 2 Direct QR Settings': 'install/libre2direct-qr-settings.md'
         - 'Libre 2 patch': 'install/libre2patch.md'
         - 'Eversense': 'install/eversense.md'
         - 'Medtrum': 'install/medtrum.md'
