@@ -31,8 +31,12 @@ Enter the credentials you used on the follower app.
 
 Do not enable a proxy server unless you know why you want to do it.
 
+</br>
+
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+
+Check the [troubleshooting](../../troubleshoot/webfollow) page if necessary.
 
 </br>
 
-[*Last modified 21/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
+[*Last modified 18/06/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15)

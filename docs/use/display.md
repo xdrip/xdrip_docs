@@ -238,7 +238,8 @@ G4, G5 and [old G6](../../troubleshoot/connection/#firefly-transmitters) provide
 
 <img src="../images/M-S-DS6f2.png" style="zoom:75%;" />
 
-Now raw data are mainly visible for Libre sensors.
+Now raw data are mainly visible for Libre sensors but not with this option.  
+For Libre sensor raw data use [Advanced Settings for Libre 2](../lesscommon/#advanced-settings-for-libre-2).
 
 <img src="../images/M-S-DS6f3.png" style="zoom:75%;" />
 
