@@ -36,10 +36,12 @@ If it is installed on another phone or you're using the Bluetooth reader, you've
 
 ## Setup xDrip+
 
-<img src="../images/libre2direct-qr.png" style="zoom:50%;" />
+<img src="../images/qr_libre2direct-nocalib.png" style="zoom:50%;" />
 
-As a short-cut, you can scan the QR code shown here to load the settings needed for Libre 2 direct. Under Settings in the left hans"hamburger" menu, select "Auto configure" and capture the QR code. You will need to press the Yes button to confirm that you want to import these settings. The full list of these imported settings are shown [here](../libre2direct-qr-settings) Now skip to [Starting Libre 2 Sensors](#starting-libre-2-sensors)
+As a short-cut, you can scan the QR code shown here to load the settings needed for Libre 2 direct. (This has calibration turned off - recommended for beginners. If instead you want calibration, [follow this](../libre2direct-calib)). Under Settings in the left hand "hamburger" menu, select "Auto configure" and capture the QR code. You will need to press the Yes button to confirm that you want to import these settings. The full list of these imported settings are shown [here](../libre2direct-qr-settings).
+Now skip to [Starting Libre 2 Sensors](#starting-libre-2-sensors)
 
+## Manually changing settings..
 Configure NFC exactly [like this](../libreNFC/#enabling-nfc).
 
 <img src="../images/M-S-HDS-NFC-L2.png" style="zoom:75%;" />

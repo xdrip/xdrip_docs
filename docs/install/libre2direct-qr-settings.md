@@ -23,7 +23,7 @@ Less common/other misc options/Run collector in foreground = true
      
 Less common/other misc options/Out Of Process Libre Algorithm = false
      
-Less common/other misc options/OOP2 algorith calib/calibrate based on raw 
+Less common/other misc options/OOP2 algorith calib/NO CALIBRATION
     
 Less common/other misc options/Smooth Libre data = true
      
