@@ -87,5 +87,12 @@ The reading should be every minute, although some might have skipped, as has hap
 
 </br>
 
+## Losing Bluetooth Connection with Samsung Phone?
+A number of people who have a Samsung phone have reported that they sometimes lose connection with the sensor. If this is the case with you, you can try changing some Bluetooth settings.Click on the QR code and then scan as directed.
+
+
+[<img src="../images/qr_libre2direct_samsung_30.png" style="zoom:50%;" />](../libre2direct-qr-samsung)
+
+
 [*Last modified 4/6/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26)
 

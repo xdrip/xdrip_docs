@@ -36,16 +36,11 @@ If it is installed on another phone or you're using the Bluetooth reader, you've
 
 ## Setup xDrip+
 
-### QR Codes - Patrick - option 1 - goes to page with QR embedded
+### QR Codes - Click image to expand
 No Calibration             |  With Calibration
 :-------------------------:|:-------------------------:
 [<img src="../images/qr_libre2direct-nocalib-30.png" style="zoom:50%;" />](../libre2direct-qr-settings) | [<img src="../images/qr_libre2direct-calib-30.png" style="zoom:50%;" />](../libre2direct-calib)
 
-
-### QR Codes - Patrick - option 2 - goes to image only - but full screen
-No Calibration             |  With Calibration
-:-------------------------:|:-------------------------:
-[<img src="../images/qr_libre2direct-nocalib-30.png" style="zoom:50%;" />](../images/qr_libre2direct-nocalib.png) | [<img src="../images/qr_libre2direct-calib-30.png" style="zoom:50%;" />](../images/qr_libre2direct-calib.png)
 
 As a short-cut, you can scan the QR code shown here to load the settings needed for Libre 2 direct. (This has calibration turned off - recommended for beginners. If instead you want calibration, [follow this](../libre2direct-calib)). Under Settings in the left hand "hamburger" menu, select "Auto configure" and capture the QR code. You will need to press the Yes button to confirm that you want to import these settings. The full list of these imported settings are shown [here](../libre2direct-qr-settings).
 Now skip to [Starting Libre 2 Sensors](#starting-libre-2-sensors)

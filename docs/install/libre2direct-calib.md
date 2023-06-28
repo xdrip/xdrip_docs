@@ -1,4 +1,4 @@
-# Importing Settings for Librate 2 Direct WITH calibration
+# Importing Settings for Libre 2 Direct WITH calibration
 
 <img src="../images/qr_libre2direct-calib.png" style="zoom:60%;" />
 
