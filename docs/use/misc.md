@@ -75,9 +75,9 @@ If the external app doesn't exist on your phone or doesn't provide the informati
 
 You can use OOP2 in different ways:
 
-- No calibration generates vendor like values (native mode) without the need of calibrating
-- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1
-- Calibrate based on glucose allows you to apply xDrip+ calibration to native values
+- No calibration generates vendor like values (native mode) without the need of calibrating. It doesn't mean that results are not calibrated (raw) but a vendor-like algorithm is applied (like the Libre 1 reader).
+- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1. You will use the xDrip+ calibration algorithm.
+- Calibrate based on glucose allows you to apply xDrip+ calibration to native values. Raw data are transformed using the vendor-like algorithm, then fed to the xDrip+ calibration algorithm.
 
 <img src="../images/M-S-LCS15i2.png" style="zoom:78%;" />
 
@@ -96,4 +96,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 3/25/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
+[*Last modified 6/26/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.24)

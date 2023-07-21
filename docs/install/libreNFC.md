@@ -37,7 +37,7 @@ Faster scan should remain disabled.
 
 If you have trouble with your phone NFC, try to enable Any tag method.
 
-<img src="../images/M-S-HDS-NFC5.png" style="zoom:75%;" />
+<img src="../images/M-S-HDS-NFC6.png" style="zoom:75%;" />
 
 ## Supported sensors
 
