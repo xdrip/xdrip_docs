@@ -96,6 +96,15 @@ First time attempt or failure recovery:
    <img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />
 8. If things went smooth you should now have the watch in standalone mode.
 
+##### If the watch doesn't connect to the bridge:
+
+- In the watch xDrip Prefs menu, check Force Collector.
+  <img src="../images/M-S-SW-AW-ST3b.png" style="zoom:75%;" />
+- From the xDrip+ watchface 3 dots menu, Restart Collector.
+  <img src="../images/M-S-SW-AW-3DM.png" style="zoom:75%;" />
+- In the watch Bluetooth settings, find your bridge device and pretend to pair it (you can't pair Miaomiao/Bubble with the device but it will try to establish a link to it). After pairing fails, wait 10 minutes for readings to show-up.
+- If readings don't appear, disable Force collector and retry the sequence.
+
 ## Sharing data in standalone mode
 
 If you want the watch to share data (xDrip+ Sync, Nightscout, ...) it needs to be connected to your phone and your phone needs to be connected to the internet.
