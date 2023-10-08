@@ -1,48 +1,8 @@
 Starting a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G4 with bridge, G5, G6 and ONE
+### G5, G6, ONE and G7
 
 Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
-
-xDrip+ will actually send a sensor start command to the transmitter, the same way it would be done by the receiver or the vendor master app.
-
-If xDrip+ already has a started sensor, you will need to [stop](../stopsensor) it before starting the new one.
-
-Starting an already started sensor will just allow xDrip+ to continue the current session without interfering.
-
-!!!warning  
-    **If you use the receiver or a connected pump, let them start and stop sensors: don't do that with xDrip+.**  
-    Starting a new sensor should be done only once [G5](../../install/g5/) or [G6/ONE](../../install/g6/) settings and [connection](../../troubleshoot/connection) have been verified.  
-    Never attempt to restart a G6 sensor when in trouble.  
-    You cannot start a sensor when the transmitter has exceeded its programmed lifetime (105 days for G5 and 99 for G6). You can only hard reset [old versions](../../troubleshoot/connection/#firefly-transmitters) of transmitters.
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../install/images/M-StaS.png" style="zoom:75%;" />
-
-Confirm `START SENSOR`
-
-<img src="../../install/images/M-StaSC.png" style="zoom:75%;" />
-
-xDrip+ will drive you to the [system status](../../troubleshoot/systemstatus/#g5-and-g6) page, do not exit until the transmitter is [connected](../../troubleshoot/connection/#check-connection).
-
-During warm-up phase xDrip+ will not display data, you will see an indication on the main graph of the time necessary until then.  
-Check system status from time to time to make sure the transmitter is connected. If connection drops, check your [G5](../../install/g5/) or [G6](../../install/g5/) settings and [connection](../../troubleshoot/connection).
-
-<img src="../../install/images/M-SS-Warmup.png" style="zoom:66%;" />
-
-##### Sensor code
-
-Once warm-up is complete, if you're using a G6 or ONE, you will be asked to enter the sensor calibration code.  
-This is the 4 digits number indicated on your sensor sticker protection. Take a picture of it to avoid losing it.  
-Do not start a sensor with a code different from the one received with it. If you lost the sensor code, see below: No code start.
-
-<img src="../../install/images/M-StaSCode.png" style="zoom:75%;" />
-
-!!!note "No code start"  
-    If you use the sensor code 0000 (4 zeroes) you will start the G6 or ONE sensor in G5 mode: two calibrations at 12 hours distance then once every 24 hours will be required.
-
-If you're using a G5 you will need to calibrate.
 
 </br>
 
@@ -147,4 +107,4 @@ xDrip+ should pick-up readings with the next measurement.
 
 <br>
 
-[*Last modified 28/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)
+[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)

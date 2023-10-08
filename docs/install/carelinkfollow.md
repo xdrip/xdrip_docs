@@ -5,6 +5,12 @@
 
 </br>
 
+!!!warning  
+    Carelink server are subject to frequent modifications that might break the feature.  
+    Consider using [Companion app](../companion) on the master phone and xDrip+ [Sync](../xdripfollower) or Nightscout to share data.
+
+</br>
+
 **Check [requirements](https://github.com/benceszasz/xDripCareLinkFollower#requirements).**
 
 </br>
@@ -37,5 +43,5 @@ Sensor status and pump status are available in [Extra status line](../../use/les
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
-[*Last modified 5/11/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05)
+[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06)
 

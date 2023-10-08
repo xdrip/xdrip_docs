@@ -75,6 +75,9 @@ It will display in the unit selected in xDrip+.
 
 And eventually the time of the treatment (if not now) expressed in 24 hours format, with or without a separator.
 
+!!!note  
+    You can select a treatment time from 23 hours in the past, up to 1 hour in the future.
+
 <img src="../images/UI-Treat4.png" style="zoom:75%;" />
 
 Treatments are valid when the green check mark appears in the upper right corner. Touch it to confirm the entries.
@@ -237,4 +240,4 @@ When you put your phone in charge it will display a small graph and the BG value
 
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 10/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24)

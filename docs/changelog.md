@@ -6,6 +6,30 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [24th Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24) | Remove G5 setting, update toast message                      |
+| [23rd Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.23) | Companion app fixes, new Tidepool authentication             |
+| [ 8th Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.08) | Aidex broadcast fix                                          |
+| [27th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.27) | Companion app filter improvement                             |
+| [26th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.26) | Repeating values check                                       |
+| [23rd Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.23) | Companion app filter improvement                             |
+| [19th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.19) | Carelink login error                                         |
+| [18th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.18b) | b - Companion app filter improvement                         |
+| [18th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.18) | Companion app additional packages                            |
+| [10th Aug 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.10) | Emergency assist on lower value                              |
+| [30th Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.30) | Code cleanup                                                 |
+| [16th Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | OB1 always enabled                                           |
+| [13th Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | Omnipod companion app, Carelink follower new countries       |
+| [ 8th Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | WebService http, mock data source                            |
+| [ 6th Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.06) | Companion Omnipod app support                                |
+| [ 2nd Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.02) | OB1 fix                                                      |
+| [ 1st Jul 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.01) | OB1 fix, IoB in Pebble, TX days for mod TX                   |
+| [29th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.29) | CareLink server authentication change                        |
+| [28th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.28) | CareLink follow server change                                |
+| [24th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.24) | Don't start G6 without connectivity                          |
+| [17th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.17) | Silent NS upload notification, device status improvements    |
+| [15th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15) | Min SDK version 23                                           |
+| [ 9th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.09) | Libre patched data source [smoothing options](../install/libre2patch#smoothing) |
+| [ 8th Jun 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.08) | Libre filtering, NS upload error message clear               |
 | [26th May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26) | Carelink follow updates                                      |
 | [25th May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25) | Add newer Libre 2 EU (requires new OOP2)                     |
 | [23rd May 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.23) |                                                              |

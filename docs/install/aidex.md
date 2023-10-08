@@ -5,7 +5,7 @@
 
 </br>
 
-xDrip+ will receive data from the GlugoRX/aidex app.
+xDrip+ will receive data from the GlugoRX/Aidex app.
 
 <img src="../images/DS-AGRX.png" style="zoom:50%;" />
 

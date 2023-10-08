@@ -1,26 +1,10 @@
 Stopping a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G4 with bridge, G5 and G6
+### G5, G6, ONE and G7
 
-G5 and G6 reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
+Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
 
-xDrip+ will actually send a sensor stop command to the transmitter, the same way it would be done by the receiver or the vendor master app.
-
-!!!warning  
-    Never stop a G6 sensor unless you actually want to remove it.  
-    If you want to restart your sensor, make sure the transmitter supports this option: recent G6 transmitters require to be physically removed for this operation.
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../install/images/M-StoS.png" style="zoom:75%;" />
-
-Confirm `STOP SENSOR`.
-
-Go to the [system status](../../troubleshoot/systemstatus/#g5-and-g6) G5/G6 page and wait until you see the sensor status is stopped.
-
-You can now remove the transmitter and discard the sensor.
-
-If you need to change transmitter, make sure you have [connection](../../troubleshoot/connection/) before actually starting a new sensor.
+</br>
 
 ### Libre
 
@@ -56,4 +40,4 @@ There is no interest in stopping a sensor when using a follower app.
 
 <br>
 
-[*Last modified 28/6/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28)
+[*Last modified 8/10/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)

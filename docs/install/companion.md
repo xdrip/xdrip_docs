@@ -8,11 +8,12 @@ If you're using the vendor app, you can have xDrip+ get sensor data from it.
 This feature is available for:
 
 - G6 (master only)
-- One 
+- One (only if the app shows BG notifications)
 - G7 (master only)
 - CamAPS
 - Guardian
 - MiniMed
+- Omnipod 5 app
 
 In order to use this feature you need to authorize xDrip+ to access notifications.
 
@@ -46,4 +47,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 25/03/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.23)
+[*Last modified 6/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)

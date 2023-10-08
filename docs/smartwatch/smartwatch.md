@@ -92,7 +92,7 @@ More smartwatches and devices can receive data from xDrip+ even if they are not 
 
 ##### [Glance](https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c)
 
-Ionic/Sense/Versa/Versa 2/Versa 3/Versa Lite
+Ionic/Sense/Versa/Versa 2/Versa 3/Versa 4/Versa Lite
 
 [Web site](https://glancewatchface.com/)
 
@@ -137,4 +137,4 @@ By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 8/10/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)
