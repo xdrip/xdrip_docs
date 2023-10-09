@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 8th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08) | CareLink follow reCaptcha and token refresh                  |
+| [ 6th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06) | Mod TX hard reset                                            |
 | [24th Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24) | Remove G5 setting, update toast message                      |
 | [23rd Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.23) | Companion app fixes, new Tidepool authentication             |
 | [ 8th Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.08) | Aidex broadcast fix                                          |

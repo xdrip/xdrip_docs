@@ -7,7 +7,9 @@
 
 !!!warning  
     Carelink server are subject to frequent modifications that might break the feature.  
-    Consider using [Companion app](../companion) on the master phone and xDrip+ [Sync](../xdripfollower) or Nightscout to share data.
+    Consider using [Companion app](../companion) on the master phone and xDrip+ [Sync](../xdripfollower) or Nightscout to share data.  
+    **DO NOT USE THE SAME CARELINK ACCOUNT IN MORE THAN ONE XDRIP APPLICATION!**  
+    When the same account is logged in from another xDrip+ application (like a variant) the previous login on the other xDrip+ application will be closed.
 
 </br>
 
@@ -15,9 +17,9 @@
 
 </br>
 
-Enter correctly your credentials and select the same country of your account.
+Select your country, eventually a patient name (optinal) and click Login to perform login in a browser.
 
-<img src="../images/M-S-HDS-CF1.png" style="zoom:75%;" />
+<img src="../images/M-S-HDS-CF1.png" style="zoom:71%;" />
 
 Grace period is an additional waiting time after receiving last reading + 5 minutes.
 
@@ -27,11 +29,17 @@ Missed data polling interval is an additional waiting time after received last r
 
 <img src="../images/M-S-HDS-CF3.png" style="zoom:75%;" />
 
+</br>
+
+#### Treatments
+
 You can download treatments and receive notifications.
 
 <img src="../images/M-S-HDS-CF4.png" style="zoom:75%;" />
 
 </br>
+
+#### Status line
 
 <img src="../images/M-S-HDS-CF6.png" style="zoom:75%;" />
 
@@ -43,5 +51,5 @@ Sensor status and pump status are available in [Extra status line](../../use/les
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
-[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06)
+[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)
 

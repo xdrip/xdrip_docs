@@ -127,8 +127,8 @@ You can then setup an alarm to inform you when the battery goes below this level
 
 ##### Preemptive restarts
 
-!!!warning "Don't use restart with recent G6/ONE"  
-    Restart sensor will not work with [Firefly](../../troubleshoot/connection/#firefly-transmitters) transmitters for G6 and ONE.  
+!!!warning "Don't use restart with G6/ONE"  
+    Restart sensor will only work with G5 or re-batteried/modified G6 transmitters.  
     You need to extract the transmitter for 20 minutes before you restart a sensor, do not use preemptive restarts.
 
 Restarting a sensor is not necessary if you don't use native algorithm.
@@ -146,6 +146,10 @@ Time travel will restart the sensor at day 3 to avoid jumps linked to the trauma
 
 <img src="../images/M-S-G56Dd3.png" style="zoom:76%;" />
 
-If your transmitter supports restart you can enable this feature. Most re-batteried transmitters firmware are supported.
+If your transmitter supports restart you can enable this feature. Most re-batteried transmitters firmware are supported, so are mod transmitters.
 
 <img src="../images/M-S-G56Dd4.png" style="zoom:76%;" />
+
+</br>
+
+[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)

@@ -145,12 +145,10 @@ If the button is not visible you can display it using a long touch on the xDrip+
 ## Follower mode
 
 - [xDrip+ Sync](../xdripfollower) (requires Google Play Services)
-- [Nightscout and Diabox](../nightscoutfollower)  
+- [Nightscout](../nightscoutfollower)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
-- [CareLink](../carelinkfollow)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install42.png" style="zoom:60%;" />
 
 </br>
 
@@ -234,4 +232,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06)
+[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)

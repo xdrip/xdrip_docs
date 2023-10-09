@@ -112,7 +112,7 @@ Write `clear transmitter queue` then `OK`.
 
 ## Hard reset transmitter
 
-You can reset the internal day counter of your G5 or G6 transmitter. **Only rebatteried transmitters** allow this option.  
+You can reset the internal day counter of your G5 or G6 transmitter. **Only re-batteried and mod transmitters** allow this option.  
 Hard reset is necessary only if you use your transmitter in **native mode** after it's expired.
 
 With recent xDrip+ versions **you don't need to be in engineering mode** to perform this operation.  
@@ -140,14 +140,14 @@ Be patient, il will take up to 20 minutes.
 ## Firefly transmitters
 
 !!!note  
-    Anubis transmitters can be considered as old G6 transmitters.
+    Mod transmitters can be considered as old G6 transmitters.
 
 Modern G6 transmitters have a very different firmware than the original ones.
 
 You can recognize an **old G6 transmitter** by the fact it's rebatteried.  
 Its firmware is version 1.6.5.25 or below.
 
-Old transmitters will allow you to:
+Old and mod transmitters will allow you to:
 
 - Replace the battery and [reset the transmitter days counter](#hard-reset-transmitter)
 - Receive [raw data](../../use/display/#raw-data) from your sensor
@@ -162,4 +162,4 @@ Old transmitters will allow you to:
 
 </br>
 
-[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
+[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)
