@@ -6,8 +6,7 @@ See here to [learn how to set it up...](../../install/libre2/#prerequisites)
 
 ## What it should look like
 
-When it has been set up correctly, and a new sensor is running, the xDrip status pages & logs should appear as is
-shown below.
+When it has been set up correctly, and a new sensor is running, the xDrip status pages & logs should appear as is shown below. Note - there is nothing different on the Uploaders tab for Libre 2 direct operation.
 
 
 Go to xDrip+ System Status and also BT device. If you don't know how, look [here](../systemstatus) first.
@@ -31,6 +30,16 @@ This should be "connected".
 ### Sensor Start
 The time the sensor is started.
 
+### Restart Collector button
+This stops the collector function in xDrip+ and then starts it from scratch (includes Bluetooth connection
+ to the device that was stopped)
+
+### Forget Device button
+This removes the Bluetooth device from known devices: you need to scan Bluetooth to find it and pair
+ it, or NFC scan again.
+
+### Refresh button
+The status is not real time unlike the BT device tab, refresh checks connection state.
 </br>
 
 
