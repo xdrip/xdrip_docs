@@ -17,7 +17,8 @@
 
 </br>
 
-Select your country, eventually a patient name (optinal) and click Login to perform login in a browser.
+Select your country, eventually a patient name (optional) and click Login to perform login in a browser.  
+*Note: set patient username if using a care partner account with multiple patients.*
 
 <img src="../images/M-S-HDS-CF1.png" style="zoom:71%;" />
 
