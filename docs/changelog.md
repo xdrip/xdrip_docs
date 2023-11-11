@@ -6,6 +6,10 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 7th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware                                              |
+| [ 4th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.04) | New insulin types                                            |
+| [24th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.24) | Companion app delay, backup options Wi-Fi only               |
+| [17th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.17) | G6 raw timestamp block, Oppo in wake workaround list         |
 | [ 8th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08) | CareLink follow reCaptcha and token refresh                  |
 | [ 6th Oct 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06) | Mod TX hard reset                                            |
 | [24th Sep 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24) | Remove G5 setting, update toast message                      |

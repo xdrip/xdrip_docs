@@ -6,7 +6,9 @@ This describes how to enable direct Bluetooth connection between the sensor & xD
 
 (Click [Start Sensor](#starting-libre-2-sensors) for subsequent sensors).
 
-!!!info "Only Libre 2 Europe sensor model is supported"
+!!!info "Only Libre 2 Europe sensor model is supported"  
+    You need to install the [latest OOP2 app](../../use/OOP/#oop2).
+
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
@@ -15,7 +17,7 @@ This describes how to enable direct Bluetooth connection between the sensor & xD
 
 
 
-Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip).
+Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip) but is not up to date anymore.
 
 </br>
 

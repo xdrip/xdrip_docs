@@ -2,6 +2,10 @@ Once downloaded, install the xDrip+ apk.
 
 <img src="../images/Install02.png" style="zoom:75%;" />
 
+On recent Android versions you will see a Google Play Protect warning that the app is unsafe, was built for older Android versions. Ignore it with More details then, Install anyway.
+
+<img src="../images/Install01a.png" style="zoom:75%;" />
+
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
 The official versions of xDrip+ are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
 
@@ -126,4 +130,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 3/14/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06)
+[*Last modified 11/11/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07)
