@@ -24,7 +24,7 @@ It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sen
 
 #### Juggluco
 
-If you use [Juggluco](https://play.google.com/store/apps/details?id=tk.glucodata) you can broadcast to xDrip+ enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip+.
+If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broadcast to xDrip+ enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip+.
 
 <img src="../images/Juggluco.png" style="zoom:50%;" />
 
