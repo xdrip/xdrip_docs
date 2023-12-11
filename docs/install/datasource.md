@@ -67,7 +67,7 @@ You can receive data from the vendor app into xDrip+.
 
 ## Sibionics
 
-Both the vendor app and the patched app will allow you to use xDrip+ with the [640G/Eversense](../640_670) data source.
+The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip+ with the [640G/Eversense](../640_670) data source.
 
 </br>
 
