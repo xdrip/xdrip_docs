@@ -96,6 +96,14 @@ The reading should be every minute, although some might have skipped, as has hap
 
 </br>
 
+## Cannot NFC Scan new sensor - NFC Timeout
+There is an emerging problem, especially in Europe, where you cannot start the sensor with an NFC scan. Instead of the "Scanned OK" message after "Scanning", you will see "NFC TimeOut" or "NFC failsafe". Look in the debug logs. If you see a message "Sensor type unknown, returning libre1 as failsafe", or "Libre sensor of type Libre1 detected", then you need to update both OOP2 & xDrip+.
+
+<img src="../images/libre2direct-failsafe-to-libre1.png" style="zoom:40%;" />
+
+You will need to download a version of OOP2 from the end of May 2023, and also
+upgrade xDrip-plus so that is is 2023-05-27 or later. A newer version of the sensors, "C5" with updated firmware require these updated versions.
+
 ## Losing Bluetooth Connection with Samsung Phone?
 A number of people who have a Samsung phone have reported that they sometimes lose connection with the sensor. If this is the case with you, you can try changing some Bluetooth settings.Click on the QR code and then scan as directed.
 
