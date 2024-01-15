@@ -44,7 +44,7 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-**Use only the [latest OOP2 app](https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view) with the latest xDrip+ version**.  
+**Use only the latest OOP2 app [(LINK HERE)](https://drive.google.com/file/d/1f1VHW2I8w7Xe3kSQqdaY3kihPLs47ILS/view) with the latest xDrip+ version**.  
 *Note: you need to be logged into your Google account to access the link above*
 
 !!!warning  
