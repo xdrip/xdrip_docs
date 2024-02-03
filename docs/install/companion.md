@@ -14,6 +14,7 @@ This feature is available for:
 - Guardian
 - MiniMed
 - Omnipod 5 app
+- Eversense app
 
 In order to use this feature you need to authorize xDrip+ to access notifications.
 
@@ -47,4 +48,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 6/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)
+[*Last modified 16/1/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16)

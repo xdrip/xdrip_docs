@@ -8,7 +8,7 @@
 
 xDrip+ is an unofficial and independent Android app which works as data hub and processor between many different devices.
 
-It supports wireless connections to G4, G5, G6, One, G7, Libre via NFC and Bluetooth, Aidex, Guardian, Medtronic pumps, Eversense CGM, Libre 2 and 3, Sibionics via companion apps. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen.
+It supports wireless connections to G4, G5, G6, One, G7, CareSens Air, Libre via NFC and Bluetooth, Aidex, Guardian, Medtronic pumps, Eversense CGM, Libre 2 and 3, Sibionics via companion apps. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen.
 
 Heart-rate and step counter data is processed from Android Wear, Garmin, Fitbit and Pebble smart-watches and watch-faces for those that show glucose values and graphs.
 
@@ -18,7 +18,7 @@ Instant two-way synchronization is possible by linking follower handsets, data c
 
 Customization allows for different options to configure alarms, vocalize readings, change the display preferences etc. International users can update translations from within the app too.
 
-Your data is yours and can be exported in many different ways. xDrip also intercommunicates with other apps, for example sending and receiving live data with AndroidAPS.
+Your data is yours and can be exported in many different ways. xDrip also intercommunicates with other apps, for example sending and receiving live data with [AndroidAPS](https://androidaps.readthedocs.io/en/latest/index.html).
 
 </br>
 
@@ -42,7 +42,7 @@ This project was then modified by @jamorham to become [xDrip+](https://jamorham.
 
 - **Use xDrip+ at your own risk, and do not use the information or code to make medical decisions.**
 - Use of [code from github.com](https://github.com/NightscoutFoundation/xDrip) is without warranty or formal support of any kind. Please review the repository’s [LICENSE](https://github.com/NightscoutFoundation/xDrip/blob/master/LICENSE) for details.
-- All product and company names, trademarks, servicemarks, registered trademarks, and registered servicemarks are the property of their respective holders.
+- All product and company names, trademarks, service marks, registered trademarks, and registered service marks are the property of their respective holders.
 
-**Please note:** this project has no association with and is not endorsed by: Abbott Laboratories, Aidex, Ascenia, Companion Medical, Dexcom, Medtronic, Lifescan, Medtrum, Pendiq, Roche, Senseonics, Sibionics, GlucoRx.
+**Please note:** this project has no association with and is not endorsed by: Abbott Laboratories, Aidex, Ascenia, i-Sens, Companion Medical, Dexcom, Medtronic, Lifescan, Medtrum, Pendiq, Roche, Senseonics, Sibionics, GlucoRx.
 

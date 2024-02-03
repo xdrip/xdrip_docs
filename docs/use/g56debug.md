@@ -108,10 +108,6 @@ This feature is available in engineering mode only for G6 transmitters.
 
 <img src="../images/M-S-G56Dl.png" style="zoom:76%;" />
 
-##### Authenticate G5 before each read
-
-<img src="../images/M-S-G56Dm.png" style="zoom:76%;" />
-
 ##### Unbond G5 before each read
 
 <img src="../images/M-S-G56Dn.png" style="zoom:76%;" />
@@ -152,4 +148,4 @@ If your transmitter supports restart you can enable this feature. Most re-batter
 
 </br>
 
-[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)
+[*Last modified 11/12/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11)
