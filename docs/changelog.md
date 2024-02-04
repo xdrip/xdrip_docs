@@ -6,14 +6,14 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [16th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | Eversense. Broadcast compatibility for older AAPS versions.  |
+| [16th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **Eversense**. Broadcast compatibility for older AAPS versions. |
 | [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13b) | b - Eversense                                                |
 | [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Add Eversense to Companion app. Improve broadcast compatibility. |
 | [ 10th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.10) | Plugin fix get intercept.                                    |
 | [ 5th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.05) | Keep BT on for airplane mode.                                |
 | [ 2nd Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.02) | Fix cal for native sensors stop.                             |
 | [23rd Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.23) | Update status pages.                                         |
-| [16th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.16) | [Quick start guide](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md). Adding CareSens Air |
+| [16th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.16) | [Quick start guide](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md). Adding **CareSens Air** |
 | [15th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.15) | G7 fixes. Insulin list.                                      |
 | [11th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | IPv6. Sync with upstream AndroidX.                           |
 | [ 7th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | G7 data table, expiry. AndroidX migration.                   |
