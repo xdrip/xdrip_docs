@@ -8,8 +8,7 @@
 !!!warning  
     Carelink server are subject to frequent modifications that might break the feature.  
     Consider using [Companion app](../companion) on the master phone and xDrip+ [Sync](../xdripfollower) or Nightscout to share data.  
-    **DO NOT USE THE SAME CARELINK ACCOUNT IN MORE THAN ONE XDRIP APPLICATION!**  
-    When the same account is logged in from another xDrip+ application (like a variant) the previous login on the other xDrip+ application will be closed.
+    The CarePartner app authentication is valid for 1 week, thus even if xDrip+ is unable to connect to CareLink for a few days (for example due to the lack of internet connection), it will be able to renew the login (refresh the token) automatically in the background after it can connect to CareLink again without needing to login again manually using the browser. The user account restriction applies to this authentication process as well: **a different dedicated follower account must be used for every app, otherwise the authentication token (login) will be revoked.**
 
 </br>
 
@@ -52,5 +51,5 @@ Sensor status and pump status are available in [Extra status line](../../use/les
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
-[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)
+[*Last modified 1/4/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.27)
 

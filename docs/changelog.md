@@ -6,6 +6,16 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [27th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | Cleanup G7 status                                            |
+| [10th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | OB1 backfill beyond start, remove battery for G7             |
+| [ 6th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | **Simplera** as companion app, dot size                      |
+| [ 5th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.05) | Download treatments only NSFollow, fix G7 identification     |
+| [24th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.24) | No need to start G7, download NS treatments from xDrip       |
+| [20th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.20) | Increase AAPS status line length                             |
+| [17th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.17) | Stop G7 only in eng mode                                     |
+| [15th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.15) | NFC scan fix Android 14                                      |
+| [14th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.14) | Add ONE+                                                     |
+| [ 7th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.07) | AOD improvements, no stop G7                                 |
 | [16th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **Eversense**. Broadcast compatibility for older AAPS versions. |
 | [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13b) | b - Eversense                                                |
 | [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Add Eversense to Companion app. Improve broadcast compatibility. |
