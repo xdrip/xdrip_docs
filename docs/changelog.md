@@ -6,6 +6,15 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 1st Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) |                                                              |
+| [29th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) |                                                              |
+| [28th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) |                                                              |
+| [22nd May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) |                                                              |
+| [15th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) |                                                              |
+| [12th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) |                                                              |
+| [19th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) |                                                              |
+| [ 9th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) |                                                              |
+| [ 7th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) |                                                              |
 | [27th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | Cleanup G7 status                                            |
 | [10th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | OB1 backfill beyond start, remove battery for G7             |
 | [ 6th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | **Simplera** as companion app, dot size                      |
