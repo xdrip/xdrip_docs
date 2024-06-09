@@ -40,6 +40,32 @@ Some Android phones don't show the Bluetooth app.
 
 Bluetooth should run unrestricted if xDrip+ connects directly to a sensor.
 
+## Xiaomi MIUI Optimizations
+
+The MIUI Optimizations can have a massive impact (in a negative sense) on the stability of the system and the reliability of xDrip+.
+If you experience an increased number of "missed readings" in MIUI 14 (or possibly earlier MIUI versions), you should try to deactivate the MIUI Optimizations.
+This setting can be found in the \<Developer Options\>, which are hidden by default. The following describes how to display the \<Developer Options\> and deactivate the MIUI Optimizations afterwards.
+
+### Enable Developer Options
+
+To show the **\<Developer Options\>**, follow these steps:
+
+1. Open the **\<Settings\>** of your smartphone.
+2. Select **\<About phone\>**.
+3. Click 7 times on **\<MIUI version\>** (first entry of the list).
+4. A message **\<Now you are a developer.\>** is shown.
+5. Now the entry **\<Settings\>** \-\> **\<Additional settings\>** \-\> **\<Developer options\>** is visible.
+
+### Disable Xiaomi MIUI Optimizations
+
+To disable the MIUI Optimizations, you have to **Enable Developer Options** first. Then follow these steps:
+
+1. Open the **\<Settings\>** of your smartphone.
+2. Select **\<Additional settings\>** \-\> **\<Developer options\>**.
+3. **Only for MIUI 14:** On MIUI 14, the **\<Turn on MIUI optimisation\>** option is **NOT** visible by default. To see the missing option, scroll down to **\<AUTO-FILL\>** and tap **\<Reset to default values\>** multiple times. Then the required option will appear.
+4. **Disable** the option **\<Turn on MIUI optimisation\>**!
+5. Restart your smartphone.
+
 </br>
 
-*Last modified 3/13/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+*Last modified 6/03/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
