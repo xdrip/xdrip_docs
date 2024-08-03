@@ -1,12 +1,12 @@
 Scroll down until you see your sensor or usecase.
 
-## G5, G6, ONE and G7
+## G6, ONE, ONE+ and G7
 
-If you connect xDrip+ directly to your sensor ([G5, G6, ONE and G7](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
+If you connect xDrip+ directly to your sensor ([G6, ONE, ONE+ and G7](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
 
 <img src="../images/DS-DxDrip.png" style="zoom:50%;" />
 
-If you use the vendor apps (G5, G6, G7), you can connect xDrip+ as a [Share follower](../dexshare) as long as a follower has been setup with the vendor apps.
+If you use the vendor apps (G6, G7), you can connect xDrip+ as a [Share follower](../dexshare) as long as a follower has been setup with the vendor apps.
 
 <img src="../images/DS-DShare.png" style="zoom:50%;" />
 
@@ -14,7 +14,7 @@ When using [BYODA](../byod) (G6) if you've enabled Broadcast to xDrip+ you don't
 
 <img src="../images/DS-BYOD.png" style="zoom:45%;" />
 
-You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications (G5, G6, G7, ONE).
+You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications (G6, G7, ONE).
 
 <img src="../images/DS-DComp.png" style="zoom:50%;" />
 
@@ -168,7 +168,7 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../images/M-S-HDSlistA.png" style="zoom:75%;" />
 
-[G5, G6, One and G7](../g6) 
+[G5, G6, One, One+ and G7](../g6) 
 
 <img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
 
