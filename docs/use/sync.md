@@ -4,8 +4,7 @@
 
 !!!warning "Work in progress"  
     In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
-    A workaround solution was implemented in [July 23rd pre-release](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) but outstanding issues make the follower app lose connection after few minutes.  
-    If you need to use xDrip+ Sync, the master device must be of a minimum version [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) but the followers should be of a maximum version [June 28th 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28).
+    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23).
 
 !!!warning  
     [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
@@ -94,4 +93,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 3/8/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
