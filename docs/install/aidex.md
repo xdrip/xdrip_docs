@@ -6,10 +6,12 @@
 
 </br>
 
+!!!info "Aidex is also supported through [Companion App](../companion) data source" 
+
 xDrip+ will receive data from the GlugoRX/Aidex app.
 
 <img src="../images/DS-AGRX.png" style="zoom:50%;" />
 
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

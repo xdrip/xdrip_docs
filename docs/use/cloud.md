@@ -115,6 +115,10 @@ Mind your InfluxDB URI will be expressed like:
 
 ### Dexcom Share Server Upload
 
+!!!warning "Your username cannot be an email address or a phone number"  
+    You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
+    Once created the new dependent account, make sure you're logged with this account in your Dex apps and recreate all followers.
+
 Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to manage your followers.
 
 <img src="../images/M-S-CU-DX.png" style="zoom:75%;" />
@@ -132,7 +136,7 @@ Enter the credentials you use to log into Clarity.
 
 <img src="../images/M-S-CU-DXc.png" style="zoom:75%;" />
 
-If you don't own a physical receiver you can use `sm00000000`
+If you don't own a physical receiver there should be no need to enter anything here.
 
 <img src="../images/M-S-CU-DXd.png" style="zoom:75%;" />
 
@@ -180,4 +184,4 @@ If you also upload data manually from your pump, you might want to disable xDrip
 
 </br>
 
-[*Last modified 1/4/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

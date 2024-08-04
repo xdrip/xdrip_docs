@@ -16,6 +16,7 @@ This feature is available for:
 - MiniMed
 - Omnipod 5 app
 - Eversense app
+- Micro tech LinX Aidex app
 
 In order to use this feature you need to authorize xDrip+ to access notifications.
 
@@ -49,4 +50,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 16/1/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

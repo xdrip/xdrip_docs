@@ -8,8 +8,9 @@
 
 In order for xDrip+ to receive data from share servers, you need to have:
 
-1. sharing enabled on the Dex app that is connected to the sensor
-2. accepted the invitation on the Dex follower app (you can uninstall it afterwards)
+1. a username that is **not an email address or a phone number**, create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to obtain one. Once created the new dependent account, make sure you're logged with this account in your Dex apps and recreate all followers
+2. sharing enabled on the Dex app that is connected to the sensor
+3. accepted the invitation on the Dex follower app (you can uninstall it afterwards)
 
 <img src="../images/M-S-HDS-DexSh1.png" style="zoom:75%;" />
 
@@ -35,4 +36,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

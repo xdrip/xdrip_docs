@@ -65,6 +65,8 @@ You can follow sensor data when shared through [Carelink](../carelinkfollow), bu
 
 You can receive data from the vendor app into xDrip+.
 
+You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications.
+
 ## Sibionics
 
 The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip+ with the [640G/Eversense](../640_670) data source.
@@ -233,4 +235,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

@@ -6,15 +6,21 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [ 1st Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) |                                                              |
-| [29th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) |                                                              |
-| [28th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) |                                                              |
-| [22nd May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) |                                                              |
-| [15th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) |                                                              |
-| [12th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) |                                                              |
-| [19th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) |                                                              |
-| [ 9th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) |                                                              |
-| [ 7th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) |                                                              |
+| [2nd Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) | QR code from file, save logs                                 |
+| [23rd Jul 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | **xDrip Sync rework** for GCM API shutdown                   |
+| [17th Jul 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.17) | G7 backfill                                                  |
+| [28th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28) | Cleanup retired settings, Nightscout calibrations backfill   |
+| [25th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Microtech **Aidex** companion app, Wear OS complications     |
+| [11th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.11) | Add more Libre SN, remove stop G7,                           |
+| [ 1st Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) | Removed G5, Cleanup                                          |
+| [29th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) | Android 15 compatibility                                     |
+| [28th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) | New G7 FW                                                    |
+| [22nd May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Wake workaround list update, BlueJay U updates               |
+| [15th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) | Ascending volume fix, X axis scale with predictions          |
+| [12th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Cleanup, BT disconnection detection fix, delete alert confirmation |
+| [19th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | Ascending volume limit to medium                             |
+| [ 9th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) | Companion app for Dexcom One+                                |
+| [ 7th Apr 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart alerting thresholds, Dex start time                    |
 | [27th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | Cleanup G7 status                                            |
 | [10th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | OB1 backfill beyond start, remove battery for G7             |
 | [ 6th Mar 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | **Simplera** as companion app, dot size                      |
