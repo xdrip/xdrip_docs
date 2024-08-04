@@ -41,7 +41,7 @@ Renamed to Wake Workarounds as other devices are not compliant.
 
 ##### Wake Workarounds
 
-Fixed a non compliance in respect to some Android of devices, now default.   
+Fixed a non compliance in respect to some Android of devices, now default for Samsung, Xiaomi, OnePlus, Oppo and Huawei.   
 Should be kept **enabled**.
 
 <img src="../images/M-S-LCS15d.png" style="zoom:75%;" />
