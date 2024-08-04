@@ -15,7 +15,8 @@ All Wear OS smartwatches are directly compatible with xDrip+ but [Google changes
 ### Wear OS versions
 
 Legacy Wear OS like 1.5 and 1.6 are now more complex to use with modern phones.  
-Wear OS 2 and 3 are fully supported.
+Wear OS 2 and 3 are fully supported.  
+Wear OS 4 and 5 might present challenges.
 
 ### Wear OS 1.x
 

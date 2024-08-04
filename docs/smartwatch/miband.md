@@ -1,11 +1,9 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../use/images/M-S-SW.png" style="zoom:75%;" />
+!!!xdrip "`MiBand`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Smart Watch Features  
+    &emsp;  MiBand
 
-<img src="../images/M-S-SW-MB.png" style="zoom:76%;" />
-
-You can use these guidelines for the official xDrip+ release and forked versions.
-
-xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration).
+xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) for other smartbands.
 
 !!!note "Prerequisite"  
     Make sure you have BG readings in xDrip+ before trying to have them on your watch.  
@@ -52,11 +50,14 @@ You can uninstall the patched app. This is not mandatory. If you want to install
 
 Switch the MiBand feature on. Keep your watch close to your phone until it gets detected.
 
-<img src="../images/M-S-SW-MB-I1.png" style="zoom:75%;" />
+!!!xdripitem "Use MiBand&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
+
+<img src="../images/M-S-SW-MB-I1.png" style="zoom:80%;" />
 
 Mac Address should populate automatically.
 
-<img src="../images/M-S-SW-MB2a.png" style="zoom:75%;" />
+!!!xdripitem "Mac address (FF:EE:DD:CC:BB:AA)"  
+    &ensp;Leave empty for auto search
 
 **If it doesn't** (unexpected)**:**   
 Delete the file(s) in the  `freemyband` folder.  
@@ -82,62 +83,72 @@ If xDrip+ can't get the authentication key automatically, you can try to insert 
 
 Make sure the watch is connected and matches the mac address before manually entering the key.
 
-<img src="../images/M-S-SW-MB-I6.png" style="zoom:75%;" />
+!!!xdripitem "Auth Key"  
+    &ensp;Set the auth key for MiBand 4 (To get auth key, follow the instructions on [https://www.freemyband.com](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html))
 
 Once connected and authenticated, enable Send Readings. Wait for the next value in xDrip+, the watchface should update.
 
-<img src="../images/M-S-SW-MB3.png" style="zoom:75%;" />
+!!!xdripitem "Send readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+    &ensp;Appropriate the watch date to show glucose values. Better with mmol/l - see documentation 
 
 To force the watch to update, you can manually send a reading. Look carefully at toast messages.
 
-<img src="../images/M-S-SW-MB5.png" style="zoom:75%;" />
+!!!xdripitem "Update BG manually"  
 
 If you have trouble displaying the graph, try to disable high MTU values.
 
-<img src="../images/M-S-SW-MB4.png" style="zoom:75%;" />
+!!!xdripitem "Disable high MTU values&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"   
 
 ### Features
 
+!!!xdripitem "Use MiBand Band →`ON`"   
+    &ensp;Sync data with MiBand fitness bands
+
 You can enable and disable MiBand integration with the main switch. When troubleshooting don't hesitate to turn it off then on to restart it.
 
-<img src="../images/M-S-SW-MB1.png" style="zoom:75%;" />
+!!!xdripitem "Mac address"  
+    &ensp;Leave empty for auto search
 
 The watch mac address should be detected automatically when the field is left empty. You can manually edit it and write the 6 two-digits hex values, colon separated, of your watch.
 
-<img src="../images/M-S-SW-MB2.png" style="zoom:75%;" />
+!!!xdripitem "Auth Key"  
+    &ensp;Set the auth key for MiBand 4 (To get auth key, follow the instructions on [https://www.freemyband.com](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html))
 
  When a valid mac address is found you will also see the key field. If it's not filled automatically you can manually enter the 32 characters authentication key.
 
-<img src="../images/M-S-SW-MB-I6.png" style="zoom:75%;" />
+!!!xdripitem "Send readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+    &ensp;Appropriate the watch date to show glucose values. Better with mmol/l - see documentation 
 
 You must enable this to have readings sent to the watch.
 
-<img src="../images/M-S-SW-MB3.png" style="zoom:75%;" />
+!!!xdripitem "Vibrate on readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+
+!!!xdripitem "Send Alarms&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+    &ensp;Send notifications to the band for glucose alarms
+
+!!!xdripitem "Send Calls&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"   
+    &ensp;Send call notifications to the band (Android 6+)
 
 You can enable various options to have the watch vibrate on readings, receive alarms or receive notifications as phone calls.
 
-<img src="../images/M-S-SW-MB6.png" style="zoom:75%;" />
+!!!xdripitem "Update BG manually"  
 
 You can force watchface refresh using Update BG manually.
 
-<img src="../images/M-S-SW-MB5.png" style="zoom:75%;" />
+!!!xdripitem "MiBand Screens / Features"  
 
 More customizations are available in this menu.
 
-<img src="../images/M-S-SW-MB7.png" style="zoom:75%;" />
-
-<img src="../images/M-S-SW-MB8.png" style="zoom:75%;" />
+!!!xdripitem "Allow to use custom watchface&emsp;&emsp; `OFF`←"   
 
 You can create your own watchface and modify the background image using these features.  
 Keep them disabled unless you have correctly set the files required in the phone xdrip folder.
 
-For tips an example look [here](https://github.com/twinko).
+For tips and examples look [here](https://github.com/twinko).
 
-<img src="../images/M-S-SW-MB9.png" style="zoom:75%;" />
+!!!xdripitem "Disable high MTU values&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"   
 
 Disable High MTU can be used when experiencing watchface display issues.
-
-<img src="../images/M-S-SW-MB4.png" style="zoom:75%;" />
 
 ## Using WatchDrip+
 
@@ -153,4 +164,4 @@ Enable Broadcast Service API in Settings -> Inter-app Settings
 
 </br>
 
-[*Last modified 11/7/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.11)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

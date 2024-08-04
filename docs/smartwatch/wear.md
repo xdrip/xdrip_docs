@@ -1,52 +1,59 @@
 You will find the reference documentation [here](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/WatchGuide.md).
 
-## Android Wear extension in xDrip+
+!!!xdrip "`Android Wear extension in xDrip+`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Smart Watch Features  
+    &emsp;  Android Wear Integration
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../use/images/M-S-SW.png" style="zoom:75%;" />  
-<img src="../images/M-S-SW2.png" style="zoom:75%;" />
+!!!xdripitem "Android Wear Integration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Send data to Android Wear Watchface
 
 Once you have installed xDrip+ on the watch paired with your phone, you can enable Wear.  
 xDrip+ will then communicate with a reduced version of itself on the watch.
 
-<img src="../images/M-S-SW-AW18.png" style="zoom:75%;" />
+!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    &ensp;Connect Wear to BT Collector when phone is out-of-range
 
-For certain combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See below for more information.
+For few combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See below for more information.
 
 Enable wear allows the watch to take over from the phone when the phone xDrip+ is losing connection to the sensor/bridge.
 
- <img src="../images/M-S-SW-AW19.png" style="zoom:75%;" />
+!!!xdripitem "Force Wear Collection Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+    &ensp;Force phone to use Wear Collection Service
 
 Force wear is forcing the watch to act as the main device connected to the sensor/bridge even if the phone is nearby (recommended).
 
-<img src="../images/M-S-SW-AW20.png" style="zoom:75%;" />
+!!!xdripitem "Disable Force on Low Battery&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+    Disable Force Wear Collection Service on Wear low battery alert
 
 Disable force on low battery will make the watch drop sensor/bridge connection to give it back to the phone when its battery level is too low.
 
-<img src="../images/M-S-SW-AW21.png" style="zoom:75%;" />
+!!!xdripitem "Disable Force on Missed Readings&emsp;&emsp;`OFF`←"  
+    Disable Force Wear Collection Service on minutes since last reading from Wear  
 
 Disable force on missed readings will make the watch drop sensor/bridge connection to give it back to the phone after a certain time of missed readings, defined in the menu below.
 
-<img src="../images/M-S-SW-AW22.png" style="zoom:75%;" />
+!!!xdripitem "Use only Wear&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+    If you plan to use a Wear Collector and never your phone
 
 Only use wear can be enabled if you have setup the watch once but will not use your phone to connect to the sensor/bridge.
 
-<img src="../images/M-S-SW-AW23.png" style="zoom:75%;" />
+!!!xdripitem "Device Running Collection Service"  
 
 If you have several Android Wear smartwatch with xDrip+, you can select which one will be the collector. The other will only display xDrip+ data.
 
 !!!note "Switching watch"  
     When switching between watches, xDrip+ might not be able to communicate its intention to both watches if one is switched off. If you want to change the collecting watch, force collector in xDrip+ and also force collector in the watch xDrip Prefs menu.
 
-<img src="../images/M-S-SW-AW24.png" style="zoom:75%;" />
+!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    Send Wear logs to Event Viewer
 
 Sync wear logs is a very useful feature when troubleshooting: it will add the watch logs in xDrip+ [events log](../../use/3dotsmenu/#events-log) with a prefix to identify the activity is on the watch. By default the prefix is `wear` but you can customize it. It is recommended to keep it enabled.
 
-<img src="../images/M-S-SW-AW25.png" style="zoom:75%;" />
+!!!xdripitem "Show Treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    Show Treatment points on graph
 
 Show treatments add treatments symbols on the watch graph.
-
-<img src="../images/M-S-SW-AW26.png" style="zoom:75%;" />
 
 ## Standalone collector mode
 
@@ -54,14 +61,14 @@ The xDrip+ wear extension also contains the part of xDrip+ that connects to some
 
 This feature is not available for all sensors, see the table below:
 
-| Sensor                       | Wear 1.x | Wear 2.x |
-| ---------------------------- | -------- | -------- |
-| G5                           | Yes      | Limited* |
-| G6                           | Yes      | Limited* |
-| Libre 1 with bridge          | Yes      | Yes      |
-| Libre 14 days US with bridge | Yes**    | Yes**    |
-| Libre 2 EU without bridge    | No       | No       |
-| Libre 2 EU with bridge       | Yes**    | Yes**    |
+| Sensor                       | Wear 1.x | Wear 2.x | Wear 3+ |
+| ---------------------------- | -------- | -------- | ------- |
+| G5/G6/1                      | Yes      | Limited* | No      |
+| G7/1+                        | No       | No       | No      |
+| Libre 1 with bridge          | Yes      | Yes      |         |
+| Libre 14 days US with bridge | Yes**    | Yes**    |         |
+| Libre 2 EU without bridge    | No       | No       |         |
+| Libre 2 EU with bridge       | Yes**    | Yes**    |         |
 
 ***Limited\*:*** There are some bugs present on most Android Wear smartwatches which prevent them working correctly with the G5/G6. In the best case scenario you will have a reading every 10 minutes. Some watches could be [patched](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) to achieve 5 minutes readings.
 
@@ -82,19 +89,34 @@ xDrip+ on the watch must be authorized to access location.
 
 First time attempt or failure recovery:
 
-1. On your phone xDrip+: disable force collector, then disable collection, then disable Wear.  
-   <img src="../images/M-S-SW-AW27.png" style="zoom:75%;" />
-2. Enable wear logs.  
-   <img src="../images/M-S-SW-AW30.png" style="zoom:75%;" />
-3. Restart your smartwatch. Wait until it's fully running.
-4. On you phone enable only Wear.  
-   <img src="../images/M-S-SW-AW28.png" style="zoom:75%;" />
-5. Wait until the xDrip+ graph is fully displayed on the watch (waiting for a new measurement doesn't hurt).
-6. Make sure you keep phone, watch and sensor close together and enable first collection then force collector.  
-   <img src="../images/M-S-SW-AW29.png" style="zoom:75%;" />
-7. Pairing process will take typically 10 minutes, open the phone xDrip+ event logs and wait for events starting by `wear`.  
-   <img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />
-8. If things went smooth you should now have the watch in standalone mode.
+1 - On your phone xDrip+: disable force collector, then disable collection, then disable Wear in this order.  
+!!!xdripitem "Force Wear Collection Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;☐ `1`"
+
+!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;☐ `2`"
+
+!!!xdripitem "Android Wear Integration&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`← `3`"
+
+2 - Enable wear logs.  
+!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    Send Wear logs to Event Viewer
+
+3 - Restart your smartwatch. Wait until it's fully running.
+
+4 - On you phone enable only Wear.  
+!!!xdripitem "Android Wear Integration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+
+5 - Wait until the xDrip+ graph is fully displayed on the watch (waiting for a new measurement doesn't hurt).
+
+6 - Make sure you keep phone, watch and sensor close together and enable first collection then force collector.  
+
+!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;🗹 `1`"
+
+!!!xdripitem "Force Wear Collection Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹 `2`"
+
+7 - Pairing process will take typically 10 minutes, open the phone xDrip+ event logs and wait for events starting by `wear`.  
+<img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />
+
+8 - If things went smooth you should now have the watch in standalone mode.
 
 ##### If the watch doesn't connect to the bridge:
 
@@ -115,4 +137,4 @@ This doesn't mean they need to be in the same place but the watch itself will no
 
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

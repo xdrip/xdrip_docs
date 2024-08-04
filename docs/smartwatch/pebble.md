@@ -1,10 +1,12 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../use/images/M-S-SW.png" style="zoom:75%;" />  
-<img src="../images/M-S-SW3.png" style="zoom:75%;" />
+!!!xdrip "`Pebble`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Smart Watch Features  
+    &emsp;  Pebble integration
 
-After you've paired your Pebble with your phone, you can enable it in xDrip+.
+After you've paired your Pebble with your phone, you can enable it in xDrip+.  
+With recent Android versions, using this legacy watch is [challenging](https://www.reddit.com/r/pebble/comments/1776bbx/installing_pebble_apk_on_fresh_android_14_setup/). Use [Rebble](https://rebble.io/) resources.
 
-<img src="../images/M-S-SW3a.png" style="zoom:75%;" />
+!!!xdripitem "Pebble watch integration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
 
 xDrip+ will then install itself the watchface (no need to download it).
 
@@ -14,26 +16,12 @@ It will also propose you to install the snooze button app, if you skipped it you
 
 <img src="../images/M-S-SW3c.png" style="zoom:75%;" />
 
-You can select different watchface.
+You can select different watchfaces.
 
-<img src="../images/M-S-SW3d.png" style="zoom:75%;" />
+!!!xdripitem "Choose Pebble watchface" 
 
 <img src="../images/M-S-SW3e.png" style="zoom:75%;" />
 
-You can enable vibration.
-
-<img src="../images/M-S-SW3f.png" style="zoom:75%;" />
-
-On a special value (typically 100 mg/dl or 5.5 mmol/l) you can display a text message (traditionally BAZINGA!).
-
-<img src="../images/M-S-SW3g.png" style="zoom:75%;" />
-
-<img src="../images/M-S-SW3h.png" style="zoom:75%;" />
-
-If you didn't install the snooze button app you can force install it here:
-
-<img src="../images/M-S-SW3i.png" style="zoom:75%;" />
-
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
