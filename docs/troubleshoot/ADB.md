@@ -1,6 +1,8 @@
 ### Prepare your device for Debug
 
-This step is mandatory to connect it through ADB.
+This step is mandatory to connect it through ADB with a physical connection. If your device doesn't have a physical USB connector you need to use ADB over Wi-Fi (documentation pending).
+
+If you want to debug a smartphone skip to [here](#smartphone).
 
 #### Smartwatch
 
