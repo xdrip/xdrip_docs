@@ -31,7 +31,7 @@ Opening the menu might give you information on missing prerequisites for the app
 #### Prerequisites to connection
 
 - Android location service must be allowed, **Always**. Make the patched app always allowed (example below for xDrip+)  
-  <img src="../../install/images/Install17.png" style="zoom:100%;" />
+  <img src="../../install/images/Install17.png" style="zoom:80%;" />
 - Phone must be on [automatic time and time zone](../../install/prerequisites/#phone-time-accuracy)
 - At least one of the three alarms **must be activated** in the patched app
 - Bluetooth must be **switched on**
@@ -59,8 +59,6 @@ If you installed xDrip+ on the same phone you used to start and scan the sensor 
 If you don't want to remove the vendor app, you must disable its localization authorization from Android settings.  
 **xDrip+ must be authorized, always.  
 The vendor app must NOT be authorized, never.**
-
-<img src="../../install/images/Install17.png" style="zoom:100%;" />
 
 Note that if you keep the vendor app on your phone, you will be required to select between it and xDrip+ every time you scan the sensor with NFC. This might generate reading errors in xDrip+.
 

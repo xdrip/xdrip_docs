@@ -1,5 +1,6 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-SS.png" style="zoom:75%;" />  
+!!!xdrip "`System Status`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;System Status
 
 System status provides internal information on xDrip+ collector state (either from a sensor or as a follower) as well as sharing, followers and smartwatch connected directly.
 

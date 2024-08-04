@@ -48,7 +48,7 @@ If you want xDrip+ to connect to a Bluetooth device it needs to have permanent [
 
 For newer Android versions go to Android Settings -> Location -> Apps -> xDrip+ or Android Settings -> Apps -> xDrip+ -> Location and check Allow all the time is enabled.
 
-<img src="../images/Install21b.png" style="zoom:100%;" />
+<img src="../../install/images/Install17.png" style="zoom:80%;" />
 
 </br>
 

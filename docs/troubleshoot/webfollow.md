@@ -4,7 +4,7 @@
 
 When using this data source you need to make sure your system, is configured correctly with the vendor apps.
 
-#### The [master](https://play.google.com/store/search?q=freestyle+libre+3&c=apps) app (connected to the Libre 3 sensor) should upload data in the vendor [server](https://www.libreview.com/).  
+#### The master app (connected to the Libre sensor) should upload data in the vendor [server](https://www.libreview.com/).  
 
 Log out and in to the server to verify you are using the right credentials.
 
@@ -33,18 +33,18 @@ Once the system is running on the vendor apps, you can troubleshoot xDrip+.
 
 ## Vendor servers updates
 
-Server updates might break the mechanism. Once xDrip+ has been fixed, you need to reset it following this sequence:
+Server updates might break the mechanism. Once xDrip+ has been fixed, you might need to reset it following this sequence:
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" /> 
-
-**Web follower settings**
-
-<img src="../../install/images/M-S-HDS-WF1.png" style="zoom:76%;" />
+!!!xdrip "`Web Follower`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;Web Follower
 
 Edit the `Configuration script`
 
-<img src="../../install/images/M-S-HDS-WF2.png" style="zoom:76%;" />
+!!!xdripitem "Configuration Script"  
+    &ensp;This is the community helper address or keyword
 
 Add a space after `beonlabs`, select `Ok`
 
@@ -53,6 +53,10 @@ Add a space after `beonlabs`, select `Ok`
 Edit again the `Configuration script`, **remove the space** after `beonlabs`, and select `Ok`.
 
 Wait up to a minute for data to display again.
+
+</br>
+
+If the issue persist, install the vendor follower app on the same phone and check it can receive data with the same credentials.
 
 </br>
 
