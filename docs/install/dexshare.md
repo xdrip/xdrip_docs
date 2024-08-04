@@ -8,7 +8,7 @@
 
 In order for xDrip+ to receive data from share servers, you need to have:
 
-1. a username that is **not an email address or a phone number**, create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to obtain one. Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers
+1. a username that is **not a phone number**, create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to obtain one. Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers
 2. sharing enabled on the Dex app that is connected to the sensor
 3. accepted the invitation on the Dex follower app (you can uninstall it afterwards)
 

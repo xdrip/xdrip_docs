@@ -115,7 +115,7 @@ Mind your InfluxDB URI will be expressed like:
 
 ### Dexcom Share Server Upload
 
-!!!warning "Your username cannot be an email address or a phone number"  
+!!!warning "Your username cannot be a phone number"  
     You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
     Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers.
 
