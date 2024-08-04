@@ -27,7 +27,13 @@ markdown_extensions:
     - pymdownx.details
     - toc:
         permalink: ⌁
-        
+
+plugins:
+  - search:
+      lang: en
+      foo: bar
+  - unused_files
+
 nav:
     - Getting started:
         - 'How to use this documentation?': 'install/usethedoc.md'

@@ -117,7 +117,7 @@ Mind your InfluxDB URI will be expressed like:
 
 !!!warning "Your username cannot be an email address or a phone number"  
     You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
-    Once created the new dependent account, make sure you're logged with this account in your Dex apps and recreate all followers.
+    Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers.
 
 Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to manage your followers.
 
@@ -140,17 +140,9 @@ If you don't own a physical receiver there should be no need to enter anything h
 
 <img src="../images/M-S-CU-DXd.png" style="zoom:75%;" />
 
-Invite followers and fill all the information.
+Manage followers is **not functional** anymore. You should do this from the Dexcom app.
 
 <img src="../images/M-S-CU-DXe.png" style="zoom:75%;" />
-
-<img src="../images/M-S-CU-DXf.png" style="zoom:75%;" />
-
-<img src="../images/M-S-CU-DXg.png" style="zoom:75%;" />
-
-You will receive the invitation email, accept it and you'll have a new follower.
-
-You can also delete followers from the list.
 
 ### Tidepool
 

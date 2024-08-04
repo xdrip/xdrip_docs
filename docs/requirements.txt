@@ -1,3 +1,4 @@
 mkdocs
 mkdocs-bootswatch
 mkdocs-material
+mkdocs-unused-files
