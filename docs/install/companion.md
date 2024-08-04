@@ -1,7 +1,8 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
+!!!xdrip "`Companion App`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;Companion App
 
 If you're using the vendor app, you can have xDrip+ get sensor data from it.
 

@@ -1,13 +1,14 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDSlistO.png" style="zoom:76%;" />
+!!!xdrip "`Web Follower`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;Web Follower
 
 </br>
 
 ### Prerequisites
 
-1. Install the Libre 3 [app](https://play.google.com/store/search?q=libre%203&c=apps), authenticate or create an account (mandatory) and have it display real time readings from the sensor
+1. Install the LibreLink or Libre 3 app, authenticate or create an account (mandatory) and have it display real time readings from the sensor
 2. Invite a follower  
    <img src="../images/M-S-HDS-WF3.png" style="zoom:76%;" />
 3. In the invitation email touch the Play Store link to install the [follower app](https://play.google.com/store/apps/details?id=org.nativescript.LibreLinkUp)  
@@ -21,13 +22,23 @@ You can then uninstall the follower app. You might need to reinstall it to authe
 
 ### Configure xDrip+ web follower
 
-<img src="../images/M-S-HDS-WF1.png" style="zoom:76%;" />
+!!!xdripitem "Web Follower Settings"  
+    &ensp;Configuration options for web follower data source
+
+!!!xdripitem "Configuration Script"  
+    &ensp;This is the community helper address or keyword
 
 Do not change the configuration script name. It is `beonlabs`
 
+!!!xdripitem "Service logon user name"  
+    &ensp;This is your registered user name or email address with the service
+
+!!!xdripitem "Service logon password"  
+    &ensp;This is your registered password with the service
+
 Enter the credentials you used on the follower app.
 
-<img src="../images/M-S-HDS-WF2.png" style="zoom:76%;" />
+!!!xdripitem "Use proxy server (advanced)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
 
 Do not enable a proxy server unless you know why you want to do it.
 

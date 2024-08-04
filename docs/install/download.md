@@ -1,7 +1,7 @@
 ## Which one to install?
 
 xDrip+ is not available in the Google Play store. You will find all releases in [Github](https://github.com/NightscoutFoundation/xDrip/releases).  
-You have two main choices when installing xDrip+, either install the Latest release or a Pre-release.
+You have two main choices when installing xDrip+, either install the **Latest release** or a **Pre-release**.
 
 !!!note  
     If you already have xDrip+ installed on your phone you don't need to uninstall it before installing an update.  

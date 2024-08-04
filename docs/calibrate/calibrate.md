@@ -35,13 +35,13 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 
 ##### Libre 2 patched app
 
-When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]
+When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]. Calibrations failing this criteria will be **ignored**.
 
 ### xDrip+ calibration settings
 
 !!!warning "xDrip+ calibration only"  
     The information below is relevant to xDrip+ calibration.  
-    For G5 and G6 native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
+    For G6/G7/ONE/ONE+ native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
 Before calibrating check your [settings](../advancedcal).
 
@@ -141,7 +141,9 @@ The fastest way to restart calibration from scratch (Initial Calibration) when i
 
 From the main menu, Stop Sensor.
 
-<img src="../images/CAL12.png" style="zoom:75%;"  />
+!!!xdrip "`Stop Sensor`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Stop Sensor  
 
 **Do not stop sensor** reset all calibrations.
 
@@ -153,4 +155,4 @@ xDrip+ will bring you back to [initial calibration](#first-calibration). Make su
 
 </br>
 
-[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
+[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

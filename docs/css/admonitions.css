@@ -1,4 +1,5 @@
 /* Common styles for all types */
+
 .admonition {
   padding: 10px;
   margin: 20px 0;
@@ -6,6 +7,7 @@
   border-left-width: 8px;
   border-radius: 3px;
   background-color: #fCfCfc;
+  font-size: 0.9em !important;
 }
 .admonition .admonition-title {
   margin-top: 0;
@@ -62,10 +64,69 @@
   border-bottom-color: #BAEAF8;
 }
 
+/* xDrip+ menu-like admonitions */
+
+/*.admonition.xdrip {
+  max-width: 450px;
+}*/
+
+.admonition.xdrip {
+  border-left-color: #8B0000;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+  color: #FFFFFF !important;
+  font-size: 1.1em !important;
+}
+
+.admonition.xdrip .admonition-title {
+  color: #FFFFFF;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+}
+
+.admonition.xdrip .admonition-title::before {
+  content: none;
+/*  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url('../../xDrip+logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;*/
+}
+
+.admonition.xdripitem {
+  border-left-color: #8B0000;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+  color: #FFFFFF !important;
+  font-size: 0.9em !important;
+  max-width: 500px;
+}
+
+.admonition.xdripitem .admonition-title {
+  font-weight: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+    font-size: 1.4em !important;
+}
+
+.admonition.xdripitem .admonition-title::before {
+  content: none;
+}
+
 /* Title */
 .admonition-title {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: inherit;
   font-weight: 500;
   /*line-height: 1.1;*/
 }
+

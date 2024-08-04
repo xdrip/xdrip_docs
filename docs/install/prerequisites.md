@@ -34,14 +34,14 @@ You can try to sideload the app with [Android Debug](../../troubleshoot/ADB/#sma
 ### Phone time accuracy
 
 Synchronize your phone clock to the network (Android Settings -> [Date & Time](https://support.google.com/android/answer/2841106)).  
-Make sure you are on the correct time zone and daylight settings are correct.
+Make sure you are on the correct time zone and daylight settings are matching it.
 
 <img src="../images/Install16.png" style="zoom:65%;" />
 
 ### Energy savings
 
 **[Disable](../../troubleshoot/savings/)** all phone energy savings/battery Android settings before installing xDrip+.  
-You can try to restore some after verifying xDrip+ is working correctly, never optimize xDrip+.
+You can try to restore some after verifying xDrip+ is working correctly, **never** optimize xDrip+.
 
 </br>
 

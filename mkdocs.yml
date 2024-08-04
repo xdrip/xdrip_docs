@@ -24,6 +24,7 @@ extra_css:
 markdown_extensions:
     - admonition
     - tables
+    - pymdownx.details
     - toc:
         permalink: ⌁
         
@@ -34,11 +35,11 @@ nav:
         - 'Download': 'install/download.md'
         - 'Installation': 'install/install.md'
         - 'Data source': 'install/datasource.md'
-        - 'G5,G6, One, G7': 'install/g6.md'
+        - 'G6, 1, 1+, G7': 'install/g6.md'
         - 'Libre NFC': 'install/libreNFC.md'
         - 'Libre bridge': 'install/libreBT.md'
         - 'Libre 2 Direct': 'install/libre2.md'
-        - 'Libre 2 patch': 'install/libre2patch.md'
+        - 'Libre patched app': 'install/libre2patch.md'
         - 'Eversense': 'install/eversense.md'
         - '640G/670G': 'install/640_670.md'
         - 'xDrip+ follower': 'install/xdripfollower.md'
@@ -100,7 +101,6 @@ nav:
         - 'Libre 2 Direct': 'troubleshoot/libre2direct.md'
         - 'Libre Web Follower': 'troubleshoot/webfollow.md'
         - 'Bridge Firmware': 'troubleshoot/bridgeFW.md'
-        - 'G5/G6 Connection': 'troubleshoot/connection.md'
         - 'Android Debug Bridge': 'troubleshoot/ADB.md'
         - 'Android Settings': 'troubleshoot/savings.md'
     - Change Log: 'changelog.md'

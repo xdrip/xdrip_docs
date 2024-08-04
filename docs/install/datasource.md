@@ -110,15 +110,15 @@ If the button is not visible you can display it using a long touch on the xDrip+
 
 ### The following sensors are supported directly by xDrip+:
 
-- [G4 (with bridge) or G4 Platinum receiver](../g4)    
+- G4 (with bridge) or G4 Platinum receiver    
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install29.png" style="zoom:50%;" />
-- [G5](../g6)  
+- G5  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install30.png" style="zoom:49%;" />
-- [G6, One and G7](../g6)  
+- [G6, G7, 1 and 1+](../g6)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
 - [Libre (with bridge)](../libreBT)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
-- [Libre with patched SWR50 smartwatch](../librealarm)  
+- Libre with patched SWR50 smartwatch  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install34.png" style="zoom:51%;" />
 - [Libre 2 (only EU)](../libre2)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
@@ -137,7 +137,7 @@ If the button is not visible you can display it using a long touch on the xDrip+
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
 - [Aidex](../aidex)  
   See below GlucoRx/Aidex.
-- [Companion app](../companion) for G6, G7, One and CamAPS  
+- [Companion app](../companion) for G6, G7, 1, 1+, CamAPS and Eversense  
   See below.
 
 </br>
@@ -149,6 +149,10 @@ If the button is not visible you can display it using a long touch on the xDrip+
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
+- [Libre Web Follower](../webfollower)  
+  See below.
+- [CareLink Follower](../carelinkfollow)  
+  See below.
 
 </br>
 
@@ -156,19 +160,16 @@ If the button is not visible you can display it using a long touch on the xDrip+
 
 You can select another data source without using the wizard from the settings menu:
 
-`Menu` / `Settings` / `Hardware data source`
+!!!xdrip "`Hardware data source`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../images/M-S.png" style="zoom:75%;" />
-
-<img src="../../images/M-S-HDS.png" style="zoom:75%;" />
-
-[G4 (with bridge) or G4 Platinum receiver](../g4)  
+G4 (with bridge) or G4 Platinum receiver  
 
 <img src="../images/M-S-HDSlistA.png" style="zoom:75%;" />
 
-[G5, G6, One, One+ and G7](../g6) 
+[G5, G6, 1, 1+ and G7](../g6) 
 
 <img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
 
@@ -184,7 +185,7 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
 
-[Libre with patched SWR50 smartwatch](../librealarm) 
+Libre with patched SWR50 smartwatch 
 
 <img src="../images/M-S-HDSlistF.png" style="zoom:75%;" />
 
@@ -232,4 +233,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 9/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08)
+[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

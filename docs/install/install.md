@@ -75,9 +75,9 @@ xDrip+ needs to access phone notifications to perform as expected.
 
 Touch the back button on your phone until you're back to the main screen. Select the hamburger menu top left then `System Status`.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../../images/M-SS.png" style="zoom:75%;" />
+!!!xdrip "`System Status`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;  System Status
 
 Current version will be displayed after `Version`. In the example below, January 28th 2022.
 
@@ -95,23 +95,26 @@ See [here](../../use/update/) for upgrade or downgrade.
 
 These settings are default, but still make sure they are exactly like shown below. Any time your phone will update, come back and check again: disable and enable checkboxes that should be enabled to enforce the settings.
 
-`Menu` / `Settings` / `Less Common Settings` / `Other misc options`
+!!!xdrip "`Other misc. options`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Less Common Settings  
+    &ensp;&emsp;Other misc. Options  
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+!!!xdripitem "Run Collector in foreground&emsp;&emsp;&emsp;🗹"  
+    &ensp;Shows a persistent notification graph, visible on lock-screen and prevents Android from killing the service.
 
-<img src="../../images/M-S.png" style="zoom:75%;" />
+`Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive. It **must be enabled**.
 
-<img src="../../images/M-S-LCS.png" style="zoom:75%;" />
+!!!xdripitem "Battery Optimization prompt&emsp;&emsp;&emsp;☐"  
+    &ensp;On Android 6+ ensure battery optimization is switched off (recommended).
 
-<img src="../../images/M-S-LCS-OMO.png" style="zoom:75%;" />
+`Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install. If not, whitelist xDrip+ from battery optimization in Android settings.
 
-`Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive.
+!!!xdripitem "Wake workarounds&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
 
-`Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install.
-
-If you have a Samsung phone allow Samsung workarounds to fix a Samsung non compliance to Android specifications. This should enable automatically. You can also enable this option on other brands.
-
-<img src="../../images/M-S-LCS-OMO1.png" style="zoom:75%;" />
+Previously "Samsung workaround", this option is a fix to non compliance from some vendors to Android specifications. This option should enable automatically with some smartphones. Recommended.
 
 ### Enable location
 
@@ -130,4 +133,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 11/11/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07)
+[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

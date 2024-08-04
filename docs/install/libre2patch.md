@@ -1,7 +1,8 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDSlistG.png" style="zoom:75%;" />
+!!!xdrip "Other app → `Libre (patched app)`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;Libre (patched app)
 
 **This is a generic data source for various apps, not only the vendor patched app.**
 
@@ -53,13 +54,15 @@ Enable the `Forward to xDrip` flag.
 !!!note  
     Smoothing will apply to any external data source app using the `Libre2 (patched app)` data source.
 
-The original implementation included a 25 minutes smoothing algorithm to remove noise and make DIY close looping safer with Libre sensors. You can now reduce the smoothing period to 10, 15 or 25 minutes with the menu `Smooth Libre 3 data when using xxx method`.
+The original implementation included a 25 minutes smoothing algorithm to remove noise and make DIY close looping safer with Libre sensors. You can now reduce the smoothing period to 10, 15 or 25 minutes with the menu `Smooth Libre 3 data when using xxx method` in the NFC scan features menu.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDS-NFC.png" style="zoom:75%;" />
+!!!xdrip "`NFC Scan Features`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;NFC Scan Features
 
-<img src="../images/M-S-HDS-NFC7.png" style="zoom:75%;" />
+!!!xdripitem "Smooth Libre 3 data when using xxx method"  
+    &ensp;Number of minutes to take in consideration when using librex data
 
 Smoothing adds a delay in xDrip+ BG from raw data. The delay is about half the smoothing period. Set the delay accordingly to the sensor behavior for your safety. If you don't use a DIY closed loop system with xDrip+ providing glucose values, set it to 10 minutes.
 
@@ -67,4 +70,4 @@ Smoothing adds a delay in xDrip+ BG from raw data. The delay is about half the s
 
 </br>
 
-[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06)
+[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

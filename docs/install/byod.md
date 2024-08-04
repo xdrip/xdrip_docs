@@ -1,7 +1,8 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="../images/M-S-HDSlistH.png" style="zoom:75%;" />
+!!!xdrip "BYODA → `640G / Eversense`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;640G / Eversense
 
 ### Build your own app
 
@@ -11,20 +12,8 @@ Broadcast to xDrip+ is only possible for G6 sensors.
 
 <img src="../images/byoda.png" style="zoom:75%;" />
 
-If no data shows in xDrip+, "start" a sensor to allow BG display.
-
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
-
-<img src="../images/M-StaS.png" style="zoom:75%;" />
-
-Confirm `START SENSOR`
-
-<img src="../images/M-StaSC.png" style="zoom:75%;" />
-
-Answer `NOT TODAY`
-
-<img src="../images/M-StaSToday.png" style="zoom:75%;" />
+If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
