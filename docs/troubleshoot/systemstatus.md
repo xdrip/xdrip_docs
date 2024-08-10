@@ -57,9 +57,9 @@ It is an information on when xDrip+ received data against the expected time. Sec
 
 <img src="../images/M-SS-CSWU.png" style="zoom:75%;" />
 
-#### G5 and G6 
+#### G5,G6, 1 and 1+ 
 
-See the dedicated page [here](../connection).
+See [here](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
 
 #### Libre Bluetooth
 
@@ -68,6 +68,10 @@ If using a bridge, see the dedicated page [here](../librebridge).
 If using a Libre 2 directly (ie without a bridge), see the dedicated page [here](../libre2direct).
 
 #### xDrip+ Sync Follower
+
+!!!warning "Work in progress"  
+    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
+    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23).
 
 xDrip+ follower is really simple to [setup](../../use/syncsetup). If you have issues with it, most of the time it's either a network connection or Google Play services issues.  
 Having also [Nightscout](https://nightscout.github.io/) available as a backup follower solution is recommended when troubleshooting or following a child.

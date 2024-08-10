@@ -84,5 +84,11 @@ If you have trouble getting data directly from the sensor, scan it every 5 minut
 
 </br>
 
+#### **Problems?**
+
+Try the [troubleshooting](../../troubleshoot/libre2direct/) page.
+
+</br>
+
 [*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
 

@@ -40,6 +40,14 @@ Make sure you don't have a different version of xDrip+ installed: you can update
 
 </br>
 
+## **My phone says this app is unsafe and has been built for an older Android version**
+
+Ignore it with More details then, Install anyway.
+
+<img src="/install/images/Install01a.png" style="zoom:75%;" /> 
+
+</br>
+
 ## xDrip+ needs background location
 
 <img src="../images/Install21.png" style="zoom:60%;" />

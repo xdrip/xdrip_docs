@@ -103,7 +103,7 @@ If you have connection losses you can **enable** polling mode. It will not do an
 !!!xdripitem "Allow BluCon unbonding&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
     &ensp;Only suitable for phones which support automatic pairing. 
 
-If your bridge is an old compatible BluCon you can enable this.  
+If your bridge is an old compatible BluCon you can enable this, if you have multiple daily pairing requests, keep it ***\*disabled\****.   
 *Note: only BluCon bonds to Android, other bridges don't.*
 
 </br>
@@ -160,4 +160,4 @@ This will reset all calibrations and allow xDrip+ to start a new sensor.
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 10/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.07)

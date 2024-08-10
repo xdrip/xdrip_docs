@@ -22,6 +22,20 @@ You will also find it in the [main repository](https://github.com/NightscoutFoun
 
 <img src="../images/GitHubLatest.png" style="zoom:75%;" />
 
+</br>
+
+#### Download warning
+
+xDrip+ downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](https://github.com/NightscoutFoundation/xDrip/releases) is safe.
+
+<img src="../images/Install46.png" style="zoom:75%;" />
+
+</br>
+
+Once downloaded, [Proceed to installing xDrip+](/install/install)
+
+</br>
+
 ### Pre-release
 
 Pre-release include most recent xDrip+ developments like translations, new features and bug fixes. And it might also contain some bugs... Still, it is the version you want to use to benefit most recent improvements.
@@ -42,6 +56,10 @@ Expand the assets and select the `.apk` file. You will find it in your phone's `
 xDrip+ downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](https://github.com/NightscoutFoundation/xDrip/releases) is safe.
 
 <img src="../images/Install46.png" style="zoom:75%;" />
+
+</br>
+
+Once downloaded, [Proceed to installing xDrip+](/install/install)
 
 </br>
 

@@ -112,7 +112,7 @@ For GTS you can do it directly through the watch [menu](https://bluejay.website/
 
 In order to use the watch with xDrip+ you must have a transmitter directly connected to xDrip+ with BG data currently displaying in xDrip+.
 
-Define which slot will connect to the transmitter. Refer to the table [above](#g6) to setup your slots.
+Define which slot will connect to the transmitter. Refer to the table [above](#g6g7-and-11) to setup your slots.
 
 !!!xdripitem "BlueJay Advanced Settings" 
 
