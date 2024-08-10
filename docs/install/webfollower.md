@@ -44,9 +44,9 @@ Do not enable a proxy server unless you know why you want to do it.
 
 </br>
 
-If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+If no data is visible and no error message pops-up you might need to [Start sensor](/use/startsensor#followers-and-companion-apps).
 
-Check the [troubleshooting](../../troubleshoot/webfollow) page if necessary.
+Check the [troubleshooting](/troubleshoot/webfollow) page if necessary.
 
 </br>
 

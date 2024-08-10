@@ -20,7 +20,7 @@ If it is installed on another phone or you're using the Bluetooth reader, you've
 (Click [Start Sensor](#starting-libre-2-sensors) for subsequent sensors).
 
 !!!info "Only Libre 2 Europe sensor model is supported"  
-    You need to install the [latest OOP2 app](../../use/OOP/#oop2).
+    You need to install the [latest OOP2 app](/use/OOP#oop2).
 
 
 Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how-to-setup-freestyle-libre-2-and-oop2-to-use-a-native-bluetooth-connection-in-xdrip) but is not up to date anymore.
@@ -36,19 +36,19 @@ Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how
 
 #### Setup xDrip+
 
-As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2 direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. (They set calibration to off - recommended for first use. If instead you want calibration, [follow this](../libre2direct-calib)). The full list of imported settings is shown [here](../libre2direct-qr-settings).
+As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2 direct using xDrip+ [Auto Configure](/use/copysettings#auto-configure) feature. (They set calibration to off - recommended for first use. If instead you want calibration, [follow this](/install/libre2direct-calib)). The full list of imported settings is shown [here](/install/libre2direct-qr-settings).
 
 QR Codes - Click image to expand
 
 No Calibration             |  With Calibration
 :-------------------------:|:-------------------------:
-[<img src="../images/qr_libre2direct-nocalib-30.png" style="zoom:50%;" />](../libre2direct-qr-settings) | [<img src="../images/qr_libre2direct-calib-30.png" style="zoom:50%;" />](../libre2direct-calib)
+[<img src="../images/qr_libre2direct-nocalib-30.png" style="zoom:50%;" />](/install/libre2direct-qr-settings) | [<img src="../images/qr_libre2direct-calib-30.png" style="zoom:50%;" />](/install/libre2direct-calib)
 
 If you used the QR codes, you can skip to [Starting Libre 2 Sensors](#starting-libre-2-sensors)
 
 #### Configure NFC
 
-Configure NFC exactly [like this](../libreNFC/#enabling-nfc).
+Configure NFC exactly [like this](/install/libreNFC#enabling-nfc).
 
 #### Starting Libre 2 Sensors
 
@@ -78,9 +78,13 @@ Wait 60 seconds and scan again with xDrip+. This adds the sensor as the BT devic
 You will now need to wait between 3 and 15 minutes for 3 readings to be received, and then you will be taken to the **Calibrate Sensor?** prompt.
 After entering the calibration data, the Libre 2 sensor should be bonded to xDrip+, and should deliver readings every 5 minutes.
 
-You can confirm that all is working by comparing to "How it should look" [here](../../troubleshoot/libre2direct/## What it should look like)
+You can confirm that all is working by comparing to "How it should look" [here](/troubleshoot/libre2direct## What it should look like)
 
-If you have trouble getting data directly from the sensor, scan it every 5 minutes with xDrip+ NFC until you reach the calibration request (applies if you selected the [calibration option](../../use/misc/#oop2) with OOP2).
+If you have trouble getting data directly from the sensor, scan it every 5 minutes with xDrip+ NFC until you reach the calibration request (applies if you selected the [calibration option](/use/misc#oop2) with OOP2).
+
+#### Problems?
+
+Try the [troubleshooting](/troubleshoot/libre2direct/) page.
 
 </br>
 

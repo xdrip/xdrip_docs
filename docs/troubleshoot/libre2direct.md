@@ -2,14 +2,14 @@
 
 Libre2 (EU only) can connect directly to xDrip+ without a bridge. This page gives information on what a working system should look like.
 
-See here to [learn how to set it up...](../../install/libre2/#prerequisites)
+See here to [learn how to set it up...](/install/libre2#prerequisites)
 
 ## What it should look like
 
 When it has been set up correctly, and a new sensor is running, the xDrip status pages & logs should appear as is shown below. Note - there is nothing different on the Uploaders tab for Libre 2 direct operation.
 
 
-Go to xDrip+ System Status and also BT device. If you don't know how, look [here](../systemstatus) first.
+Go to xDrip+ System Status and also BT device. If you don't know how, look [here](/troubleshoot/systemstatus) first.
 
 ## Classic Status Page
 
@@ -108,7 +108,7 @@ upgrade xDrip-plus so that is is 2023-05-27 or later. A newer version of the sen
 A number of people who have a Samsung phone have reported that they sometimes lose connection with the sensor. If this is the case with you, you can try changing some Bluetooth settings.Click on the QR code and then scan as directed.
 
 
-[<img src="../images/qr_libre2direct_samsung_30.png" style="zoom:50%;" />](../libre2direct-qr-samsung)
+[<img src="../images/qr_libre2direct_samsung_30.png" style="zoom:50%;" />](/install/libre2direct-qr-samsung)
 
 
 [*Last modified 4/6/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26)

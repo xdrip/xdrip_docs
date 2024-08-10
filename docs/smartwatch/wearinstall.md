@@ -50,7 +50,7 @@ Usually it's the Sony Smartwatch 3 ([SWR50](https://www.sony.com/electronics/sup
    If it is, you're done: see above how to select an xDrip+ watchface.  
    Else continue below.
 3. [Download](https://www.apkmirror.com/apk/google-inc/google-play-services-android-wear/google-play-services-android-wear-9-8-41-release/google-play-services-9-8-41-534-130237018-android-apk-download/download/) a more recent version of Google Play services. Rename the file to a shorter name, like `GPS.apk`.
-4. [Install ADB and sideload it to the watch](../../troubleshoot/ADB).
+4. [Install ADB and sideload it to the watch](/troubleshoot/ADB).
 
 ### Wear OS 2.x and 3.x
 
@@ -79,7 +79,7 @@ You need to be connected to Wi-Fi. So should your watch.
 1. Install [Wear OS](https://play.google.com/store/apps/details?id=com.google.android.wearable.app) and pair your watch.
 2. Install and open [Wear Installer 2](https://play.google.com/apps/testing/org.freepoc.wearinstaller2) on your phone.  
    <img src="../images/M-S-SW-AW9.png" style="zoom:75%;" />
-3. Enable Developer mode on the watch (Instructions [here](../../troubleshoot/ADB/#smartwatch). Only on the watch, then come back)
+3. Enable Developer mode on the watch (Instructions [here](/troubleshoot/ADB#smartwatch). Only on the watch, then come back)
 4. Enable ADB Debug over Wi-Fi on the Watch.  
    <img src="../images/M-S-SW-AW8.png" style="zoom:65%;" />
 5. Write down the watch IP address.  
@@ -107,7 +107,7 @@ Use [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=co
 
 #### Method 3 (with a computer)
 
-1. Install [ADB](../../troubleshoot/ADB).
+1. Install [ADB](/troubleshoot/ADB).
 2. Download xDrip+ on a computer and extract the APK (it's a zipped file).  
    **It must be exactly the same version you have on your phone.**
 3. Browse the the `/res/raw` folder of the xDrip+ package and copy the file `android_wear_micro_apk.apk` into your ADB folder.
@@ -122,7 +122,7 @@ To force the watch app to update, just synchronize all apps.
 
 #### Wear OS 2.0 and above
 
-You will need to uninstall and reinstall the wear app every time you want to [update](../../use/update) your phone xDrip+ in order to maintain the apps sync'ed.
+You will need to uninstall and reinstall the wear app every time you want to [update](/use/update) your phone xDrip+ in order to maintain the apps sync'ed.
 
 Starting with April 13th 2021, xDrip+ can automatically update your wear version if you already have a compatible version installed (which is minimum [Nightly build 13th Apr 2021](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.04.13)).
 

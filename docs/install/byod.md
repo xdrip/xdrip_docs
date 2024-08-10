@@ -12,7 +12,7 @@ Broadcast to xDrip+ is only possible for G6 sensors.
 
 <img src="../images/byoda.png" style="zoom:75%;" />
 
-If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+If no data is visible and no error message pops-up you might need to [Start sensor](/use/startsensor#followers-and-companion-apps).
 
 </br>
 

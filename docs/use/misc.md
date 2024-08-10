@@ -31,7 +31,7 @@ You will be reminded monthly engineering mode is on. Make sure you really need i
 
 ##### Battery Optimization Prompt 
 
-Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
+Should be left **disabled**. xDrip+ needs [whitelisting](/install/install#authorize-background-activity) and shouldn't be subject to optimization. 
 
 <img src="../images/M-S-LCS15c.png" style="zoom:75%;" />
 
@@ -50,7 +50,7 @@ Use Excessive Wakelocks is not required. They are additional "wake-up" messages 
 
 <img src="../images/M-S-LCS15e.png" style="zoom:75%;" />
 
-Display Predictive Values (old method) is deprecated. Use [Predictive Simulation](../predictions/).
+Display Predictive Values (old method) is deprecated. Use [Predictive Simulation](/use/predictions/).
 
 <img src="../images/M-S-LCS15f.png" style="zoom:75%;" />
 
@@ -60,7 +60,7 @@ Proper Ongoing is mandatory for devices with Android 8 and above.
 
 ##### Out of Process Algorithm
 
-[Out Of Process Algorithm](../OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors or provide decoding of the Libre 2 EU sensor information.  
+[Out Of Process Algorithm](/use/OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors or provide decoding of the Libre 2 EU sensor information.  
 If the external app doesn't exist on your phone or doesn't provide the information, xDrip+ will not display BG.
 
 !!!warning  
@@ -82,7 +82,7 @@ You can use OOP2 in different ways:
 <img src="../images/M-S-LCS15i2.png" style="zoom:78%;" />
 
 Smooth Libre data averages on 5 measurement. This will also delay readings.  
-If this option doesn't bring the improvement expected, also try [Smooth Sensor Noise](../display/#smooth-sensor-noise).
+If this option doesn't bring the improvement expected, also try [Smooth Sensor Noise](/use/display#smooth-sensor-noise).
 
 <img src="../images/M-S-LCS15j.png" style="zoom:75%;" />
 

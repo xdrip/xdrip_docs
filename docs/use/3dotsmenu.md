@@ -59,7 +59,7 @@ In this menu you can find various options to import (only the entire xDrip+ data
 
 <img src="../../images/3DM-IE.png" style="zoom:75%;" />
 
-See [here](../../troubleshoot/reinstall/#backup) for database and settings import/export.
+See [here](/troubleshoot/reinstall.md#backup) for database and settings import/export.
 
 You can export data starting from a certain date to now, in SiDiary format. The file will be saved in `/storage/emulated/0/xDrip` as a zip file containing the coma separated values list of data.
 
@@ -106,11 +106,11 @@ If you use a Libre sensor `Show Libre Trend` will display the last 45 minutes se
 
 ### Share Settings via QR code
 
-This is a shortcut to `Menu` / `Settings` / [`Show Settings QR Code`](../copysettings) 
+This is a shortcut to `Menu` / `Settings` / [`Show Settings QR Code`](/use/copysettings) 
 
 ### Check for Updated Version
 
-This entry triggers a version check as defined in `Menu` / `Settings` / [`xDrip+ Update Settings`](../update)  
+This entry triggers a version check as defined in `Menu` / `Settings` / [`xDrip+ Update Settings`](/use/update)  
 If a new version is available it will open the download screen.
 
 <img src="../images/3DM-CU.png" style="zoom:75%;" /> 

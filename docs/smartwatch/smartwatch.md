@@ -8,7 +8,7 @@
 
 xDrip+ offers a wide range of smartwatch support.
 
-#### [Android Wear Integration](../wear)
+#### [Android Wear Integration](/smartwatch/wear)
 
 !!!xdripitem "Android Wear Integration" 
 
@@ -18,7 +18,7 @@ The wear extension of xDrip+ is not under development anymore.
 
 If you need more watchfaces or customizations you can use [Tasker](https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md) (but not as a standalone collector).
 
-#### [Pebble Integration](../pebble)
+#### [Pebble Integration](/smartwatch/pebble)
 
 !!!xdripitem "Pebble Integration" 
 
@@ -33,7 +33,7 @@ You need to download the watch app from [APKMirror](https://www.apkmirror.com/ap
 AmazFit was used only for Pace and Stratos models.  
 **You cannot use this feature for other AmazFit watches.**
 
-#### [BlueJay Watch](../bluejay)
+#### [BlueJay Watch](/smartwatch/bluejay)
 
 !!!xdripitem "BlueJay Watch" 
 
@@ -46,7 +46,7 @@ BlueJay is an incredible companion of your Dexcom sensor, with or without xDrip+
 LeFun band integration was an early implementation for smartbands, best if used in mmol/l.  
 Unless you still own a LeFun W3, F3, F3S, F11 or F12 band this is not of any use now.
 
-#### [MiBand](../miband)
+#### [MiBand](/smartwatch/miband)
 
 !!!xdripitem "MiBand" 
 
@@ -79,7 +79,7 @@ Two additional icons will appear on the main view, and if enabled, graphic repre
 More smartwatches and devices can receive data from xDrip+ even if they are not directly integrated in the app.
 
 !!!info  
-    In order to have xDrip+ send data you need to enable xDrip+ [web service](../../use/interapp#web-service).
+    In order to have xDrip+ send data you need to enable xDrip+ [web service](/use/interapp#web-service).
 
 #### Fitbit
 

@@ -20,21 +20,21 @@ Recommended firmware is:
 | MiaoMiao 2 | 7        |
 | MiaoMiao 3 | latest   |
 
-In order to upgrade your firmware, you first need to [Forget Device](../systemstatus/#restart-collector-forget-device) from xDrip+ System Status.
+In order to upgrade your firmware, you first need to [Forget Device](/troubleshoot/systemstatus#restart-collector-forget-device) from xDrip+ System Status.
 
 Install the [vendor app](http://tomato.cool/) that will automatically upgrade your miaomiao firmware.
 
-Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) in xDrip+ to reconnect.
+Once updated, uninstall the app, reset the device and [Scan Bluetooth](/install/libreBT#connect-bluetooth-bridge) in xDrip+ to reconnect.
 
 ### Bubble
 
 All firmware are compatible with xDrip+. Always keep the device updated to the latest version.
 
-In order to upgrade your firmware, you first need to [Forget Device](../systemstatus/#restart-collector-forget-device) from xDrip+ System Status.
+In order to upgrade your firmware, you first need to [Forget Device](/troubleshoot/systemstatus#restart-collector-forget-device) from xDrip+ System Status.
 
 Install the [vendor app](https://sirius.thetaphi.de/diabox/) that will automatically upgrade your Bubble firmware.
 
-Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) in xDrip+ to reconnect.
+Once updated, uninstall the app, reset the device and [Scan Bluetooth](/install/libreBT#connect-bluetooth-bridge) in xDrip+ to reconnect.
 
 </br>
 

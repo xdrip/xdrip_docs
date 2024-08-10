@@ -1,6 +1,6 @@
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../use/images/M-S-IA.png" style="zoom:75%;" />
+<img src="/use/images/M-S-IA.png" style="zoom:75%;" />
 
 Inter-app settings offers two ways to interface xDrip+ with other apps: local broadcast (internal to this phone) and web service (internal and external).
 
@@ -41,7 +41,7 @@ Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob
 
 !!!warning  
     If you have another app using port 17580 (like Diabox) you should disable this feature.  
-    Note the service is not available as secured http and recent [Fitbit](../../smartwatch/smartwatch/#fitbit) apps will not accept data from it.
+    Note the service is not available as secured http and recent [Fitbit](/smartwatch/smartwatch#fitbit) apps will not accept data from it.
 
 Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.  
 The web server will respond to requests on address `127.0.0.1` port `17580`
@@ -164,7 +164,7 @@ High and low marks set within the app represented in the local units.
 
 `/Libre2ConnectCode.json` returns Bluetooth unlock buffer and device Mac address.
 
-This is used by [whole house](../sync/#whole-house).
+This is used by [whole house](/use/sync#whole-house).
 
 ```
 http://127.0.0.1:17580/Libre2ConnectCode.json

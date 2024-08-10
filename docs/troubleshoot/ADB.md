@@ -9,10 +9,10 @@ If you want to debug a smartphone skip to [here](#smartphone).
 1. Enable Developer Options  
    Settings -> About -> Versions -> Build Number  
    Tap 7 times on the build number version until the watch will display "you're a developer".   
-   <img src="../../smartwatch/images/M-S-SW-AW4.png" style="zoom:75%;" />  
+   <img src="/smartwatch/images/M-S-SW-AW4.png" style="zoom:75%;" />  
 2. Settings -> Developer Options -> ADB Debugging  
    Enable ADB Debugging  
-   <img src="../../smartwatch/images/M-S-SW-AW5.png" style="zoom:75%;" />
+   <img src="/smartwatch/images/M-S-SW-AW5.png" style="zoom:75%;" />
 
 #### Smartphone
 

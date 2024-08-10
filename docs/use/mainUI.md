@@ -7,12 +7,12 @@ Welcome to xDrip+!
 If you've just setup xDrip+ you want to start with basic customizations:
 
 1. [Setup the unit you want to display your blood glucose with](../settings)
-2. [Add alarms](../alarms)
-3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](../syncsetup)
-4. Display xDrip+ on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
+2. [Add alarms](/use/alarms)
+3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](/use/syncsetup)
+4. Display xDrip+ on the phone when [screen is locked](/use/display#numbered-wall-on-locked-screen)
 5. Add a [widget](#widget) to your phone home screen
-6. Add a [smartwatch](../../smartwatch/smartwatch)
-7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip+](../cloud/#tidepool)
+6. Add a [smartwatch](/smartwatch/smartwatch)
+7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip+](/use/cloud#tidepool)
 8. Upload your data to [Nightscout](https://nightscout.github.io/) (recommended)
 
 ### Basic indications
@@ -31,7 +31,7 @@ You will see these default indications when xDrip+ receives data.
     The arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
     In case of missing readings, the arrow might indicate fast rise or drop, always correlate with the indication in `1`.
 
-You can customize the information shown in `1` with [Graph Settings](../display/#graph-settings).
+You can customize the information shown in `1` with [Graph Settings](/use/display#graph-settings).
 
 You can [customize the trend arrow aspect](#blood-drop-menu) but not behavior (i.e. it will always use the difference with the previous reading).
 
@@ -67,7 +67,7 @@ It will display in the unit selected in xDrip+.
 #### Units of insulin
 
 !!!note  
-    If you enabled [multiple insulin types](../predictions/#multiple-insulin-types), you should also select the insulin type for this treatment.
+    If you enabled [multiple insulin types](/use/predictions#multiple-insulin-types), you should also select the insulin type for this treatment.
 
 <img src="../images/UI-Treat3.png" style="zoom:75%;" />
 
@@ -110,7 +110,7 @@ When visible, you can delete treatments like this:
 
 <img src="../images/UI-Treat10.png" style="zoom:75%;" />
 
-Note that if you touch a blood test and edit it you can also convert it to a calibration using Calibrate. This is possible if you didn't select `Never use them` in [Advanced Calibrations](../../calibrate/advancedcal).
+Note that if you touch a blood test and edit it you can also convert it to a calibration using Calibrate. This is possible if you didn't select `Never use them` in [Advanced Calibrations](/calibrate/advancedcal).
 
 <img src="../images/UI-Treat11.png" style="zoom:75%;" />
 
@@ -118,7 +118,7 @@ Note that if you touch a blood test and edit it you can also convert it to a cal
 
 You can use the microphone icon to verbally enter treatments or advanced commands.
 
-A long touch on the microphone icon will allow you to write [advanced commands](../../use/spokencommands/).
+A long touch on the microphone icon will allow you to write [advanced commands](/use/spokencommands/).
 
 ### Treatment notes
 
@@ -143,7 +143,7 @@ By touching them you can edit or delete them.
 
 <img src="../images/UI-UndoRedo.png" style="zoom:77%;" />
 
-### [Main menu](../hamburger)
+### [Main menu](/use/hamburger)
 
 Also called hamburger or drawer menu, this is the main menu in which you'll be able to find or add the most common actions you need and also all settings and customizations.
 
@@ -157,9 +157,9 @@ With a long touch on the central area between main and three dots menu you can o
 
 ##### Source Wizard Button
 
-Shows the button driving you through the data source selection as described [here](../../install/datasource).
+Shows the button driving you through the data source selection as described [here](/install/datasource).
 
-<img src="../../install/images/Install12.png" style="zoom:75%;" />
+<img src="/install/images/Install12.png" style="zoom:75%;" />
 
 ##### Show Time Buttons
 
@@ -201,7 +201,7 @@ Graphical trend arrows angle depends on the reading difference with the previous
 
 <img src="../images/UI-GraphicArrow.png" style="zoom:90%;" />
 
-### [Three dots menu](../3dotsmenu)
+### [Three dots menu](/use/3dotsmenu)
 
 This menu contains some shortcuts to settings and other unique functions.
 
@@ -224,7 +224,7 @@ You can resize it using the blue dots.
 
 <img src="../images/Widget3.png" style="zoom:75%;" />
 
-And make it the size you like. Then you can customize colors and contents aspect in [display settings](../display).
+And make it the size you like. Then you can customize colors and contents aspect in [display settings](/use/display).
 
 <img src="../images/Widget4.png" style="zoom:75%;" />
 

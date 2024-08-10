@@ -160,7 +160,7 @@ Disable High MTU can be used when experiencing watchface display issues.
 
 Enable Broadcast Service API in Settings -> Inter-app Settings
 
-<img src="../../use/images/M-S-IASi.png" style="zoom:76%;" />
+<img src="/use/images/M-S-IASi.png" style="zoom:76%;" />
 
 </br>
 

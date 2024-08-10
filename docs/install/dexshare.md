@@ -29,10 +29,10 @@ Only enable US servers if your account is in the USA.
 
 !!!warning "Account lock"  
     Leaving xDrip+ with a wrong password will lock your account.  
-    In order to recover from an account lock, delete your credentials, [disable xDrip+ collection](../datasource/#changing-data-source) and wait for 15/20 minutes.  
+    In order to recover from an account lock, delete your credentials, [disable xDrip+ collection](/install/datasource#changing-data-source) and wait for 15/20 minutes.  
     xDrip+ and any other third party app trying to connect with a bad password will maintain the locked state.
 
-If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+If no data is visible and no error message pops-up you might need to [Start sensor](/use/startsensor#followers-and-companion-apps).
 
 </br>
 

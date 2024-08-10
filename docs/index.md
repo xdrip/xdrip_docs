@@ -22,7 +22,7 @@ Your data is yours and can be exported in many different ways. xDrip also interc
 
 </br>
 
-## [Ready to start? Continue here!](./install/usethedoc/)
+## [Ready to start? Continue here!](./install/usethedoc.md)
 
 </br>
 
@@ -30,7 +30,7 @@ Your data is yours and can be exported in many different ways. xDrip also interc
 
 [DexDrip](https://github.com/StephenBlackWasAlreadyTaken/DexDrip)  was created by Emma Black in 2014 and then became [xDrip](http://stephenblackwasalreadytaken.github.io/xDrip/), an app collecting CGM data from a G4 receiver or a bridge device and sending them to [Nightscout](https://nightscout.github.io/).  It also came with the follower app [Nightwatch](http://stephenblackwasalreadytaken.github.io/NightWatch/) (obsolete).
 
-This project was then modified by @jamorham to become [xDrip+](https://jamorham.github.io/#xdrip-plus).
+This project was then modified by @jamorham to become [xDrip+](https://jamorham.github.io#xdrip-plus).
 
 > *Personal research version of xDrip*
 

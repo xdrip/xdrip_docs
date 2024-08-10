@@ -30,7 +30,7 @@ You can revert the color to default or save it.
 
 ##### Glucose values and lines
 
-You can customize the main BG plot. High and Low limits are defined in [Glucose Units settings.](../settings/#glucose-units)
+You can customize the main BG plot. High and Low limits are defined in [Glucose Units settings.](../settings#glucose-units)
 
 High, In-range and Low Values color will change the graph and limit lines on your main view, notification and widget charts.
 
@@ -54,15 +54,15 @@ Filtered values can be seen with sensors supporting raw data.
 
 ##### Treatments and predictions curves
 
-1. Insulin on board ([treatment](../mainUI/#units-of-insulin) main curve)
+1. Insulin on board ([treatment](/use/mainUI#units-of-insulin) main curve)
 2. Insulin activity (small dotted line)
 
 <img src="../images/M-S-DS2e.png" style="zoom:78%;" />
 
 <img src="../images/M-S-DS2e2.png" style="zoom:75%;" />
 
-1. Glucose [prediction](../predictions) (main prediction graph)
-2. [Carbs](../mainUI/#grams-of-carbs) on board (small dotted line)
+1. Glucose [prediction](/use/predictions) (main prediction graph)
+2. [Carbs](/use/mainUI#grams-of-carbs) on board (small dotted line)
 
 <img src="../images/M-S-DS2f.png" style="zoom:78%;" />
 
@@ -80,7 +80,7 @@ Filtered values can be seen with sensors supporting raw data.
 
 ##### Annotations and dots
 
-[Blood tests (also calibrations), and treatments.](../mainUI/#treatments)
+[Blood tests (also calibrations), and treatments.](/use/mainUI#treatments)
 
 <img src="../images/M-S-DS2h.png" style="zoom:75%;" />
 
@@ -92,36 +92,36 @@ Graphs backgrounds, main
 
 <img src="../images/M-S-DS2i.png" style="zoom:75%;" />
 
-##### [Notifications](../misc/#run-collector-in-foreground)
+##### [Notifications](/use/misc#run-collector-in-foreground)
 
 <img src="../images/M-S-DS2j.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2j2.png" style="zoom:75%;" />
 
-##### [Widget](../mainUI/#widget)
+##### [Widget](/use/mainUI#widget)
 
 <img src="../images/M-S-DS2k.png" style="zoom:75%;" />
 
 ##### Plugins and features
 
-If you use a [plugin](../../calibrate/advancedcal/#plugins) you can also display the plugin glucose value as a secondary graph.   
+If you use a [plugin](/calibrate/advancedcal#plugins) you can also display the plugin glucose value as a secondary graph.   
 Plugin plot on graph must be enabled.
 
 <img src="../images/M-S-DS2l.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2l2.png" style="zoom:75%;" />
 
-If you have steps and heart rate from a [wearable device](../../smartwatch/smartwatch/#smartwatch-sensors) you can customize graphs colors. 
+If you have steps and heart rate from a [wearable device](/smartwatch/smartwatch#smartwatch-sensors) you can customize graphs colors. 
 
 <img src="../images/M-S-DS2m.png" style="zoom:75%;" />
 
 In the example below 1. heart rate and 2. step counter.
 
-<img src="../../smartwatch/images/M-S-SW8c.png" style="zoom:75%;" />
+<img src="/smartwatch/images/M-S-SW8c.png" style="zoom:75%;" />
 
 ##### Basal and SMB
 
-If you manage to display basal ([from AAPS](#basal-information) or [manual setup](../predictions/#basal-profile-editor)) you can also customize the color.
+If you manage to display basal ([from AAPS](#basal-information) or [manual setup](/use/predictions#basal-profile-editor)) you can also customize the color.
 
 <img src="../images/M-S-DS2n.png" style="zoom:75%;" />
 
@@ -234,12 +234,12 @@ Raw data that can be displayed by xDrip+ if available.
 
 <img src="../images/M-S-DS6f.png" style="zoom:75%;" />
 
-G4, G5 and [old G6](../../troubleshoot/connection/#firefly-transmitters) provide raw data.
+G4, G5 and [old G6](/troubleshoot/connection#firefly-transmitters) provide raw data.
 
 <img src="../images/M-S-DS6f2.png" style="zoom:75%;" />
 
 Now raw data are mainly visible for Libre sensors but not with this option.  
-For Libre sensor raw data use [Advanced Settings for Libre 2](../lesscommon/#advanced-settings-for-libre-2).
+For Libre sensor raw data use [Advanced Settings for Libre 2](../lesscommon#advanced-settings-for-libre-2).
 
 <img src="../images/M-S-DS6f3.png" style="zoom:75%;" />
 
@@ -252,15 +252,15 @@ In AAPS/NSClient config builder, xDrip+ Statusline, enable Show detailed IoB.
 <img src="../images/NSClient.png" style="zoom:75%;" />
 
 In xDrip+:  
-Settings - Less common settings - enable Extra status line, enable [External status](../lesscommon/#extra-status-line).  
-Settings - Inter-app - enable [Accept treatments](../interapp/#receiving-from-nsclient).  
+Settings - Less common settings - enable Extra status line, enable [External status](../lesscommon#extra-status-line).  
+Settings - Inter-app - enable [Accept treatments](/use/interapp#receiving-from-nsclient).  
 Enable Show basal TBR.
 
 <img src="../images/M-S-DS6g.png" style="zoom:75%;" />
 
 <img src="../images/M-S-DS2n2.png" style="zoom:75%;" />
 
-Basal information will also be uploaded to [Tidepool](../cloud/#tidepool).
+Basal information will also be uploaded to [Tidepool](/use/cloud#tidepool).
 
 ##### Target and average lines
 
@@ -276,7 +276,7 @@ You can visualize various reference lines on the graph:
 
 ##### Libre trend
 
-[Libre trend](../3dotsmenu/#libre-trend) enables a small graph available in the three dots menu on the main view.
+[Libre trend](/use/3dotsmenu#libre-trend) enables a small graph available in the three dots menu on the main view.
 
 <img src="../images/M-S-DS6i.png" style="zoom:75%;" />
 
@@ -318,7 +318,7 @@ Backfilled data can be indicated with a different dot style.
 
 ##### Widget graph
 
-You can hide the graph on the [widget](../mainUI/#widget) and keep only the value.
+You can hide the graph on the [widget](/use/mainUI#widget) and keep only the value.
 
 <img src="../images/M-S-DS6o.png" style="zoom:75%;" />
 
@@ -341,7 +341,7 @@ You can arbitrarily fix lower and upper value for the Y axis. Whenever readings 
 ### Glucose number from Filtered
 
 Filtering might delay readings and is not recommended.  
-Filtering of 20 minutes is hardware coded for [Patched Libre 2 app data source](../../install/libre2patch/).
+Filtering of 20 minutes is hardware coded for [Patched Libre 2 app data source](/install/libre2patch/).
 
 <img src="../images/M-S-DS6r.png" style="zoom:75%;" />
 
@@ -349,7 +349,7 @@ Filtering of 20 minutes is hardware coded for [Patched Libre 2 app data source](
 
 ### Bolus Wizard Preview
 
-BWP will show insulin on board (IoB) and suggest corrections based on the [predictive](../predictions) parameters entered in xDrip+.  
+BWP will show insulin on board (IoB) and suggest corrections based on the [predictive](/use/predictions) parameters entered in xDrip+.  
 This is an indication. Make sure you understand the EULA before using it.  
 Never follow the suggestions when BG is fast changing.
 
@@ -363,7 +363,7 @@ If you force always show BWP it will always suggest a correction (insulin or car
 
 ### High Priority Notifications
 
-This will bring xDrip+ [graph and notifications](../misc/#run-collector-in-foreground) at the top of the list, disabling it brings it down.
+This will bring xDrip+ [graph and notifications](/use/misc#run-collector-in-foreground) at the top of the list, disabling it brings it down.
 
 <img src="../images/M-S-DS6t.png" style="zoom:75%;" />
 
@@ -383,7 +383,7 @@ You might have wanted to use these settings with a [Parakeet](https://github.com
 
 ### Enable Reminder Features
 
-Enabled by default, you'll find reminders in the [three dots menu](../3dotsmenu) top right on the main view.
+Enabled by default, you'll find reminders in the [three dots menu](/use/3dotsmenu) top right on the main view.
 
 <img src="../images/M-S-DS6w.png" style="zoom:75%;" />
 

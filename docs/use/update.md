@@ -1,4 +1,4 @@
-You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](/install/download.md) it.
 
 You can also use xDrip+ internal update mechanism.
 
@@ -10,11 +10,11 @@ Update settings allows you to choose between various xDrip+ versions update.
 
 !!!warning "DO NOT UNINSTALL xDRIP+"  
     You can upgrade and downgrade xDrip+ just installing a newer or an older version on top of the current one.  
-    Uninstalling xDrip+ might lead to complete and unrecoverable data loss if you don't [backup](../../troubleshoot/reinstall/#reinstall-xdrip).
+    Uninstalling xDrip+ might lead to complete and unrecoverable data loss if you don't [backup](/troubleshoot/reinstall.md#reinstall-xdrip).
 
 !!!warning  
     Only xDrip+ official versions can use this feature.  
-    If you installed a [forked version](../../install/download/#forked-versions), only the author can provide upgrades. 
+    If you installed a [forked version](/install/download.md#forked-versions), only the author can provide upgrades. 
 
 !!!note  
     Updating xDrip+ is completely transparent and will not require any specific actions on your current sensor.  
@@ -64,12 +64,12 @@ Feedback in not used anymore. Only use it for compliments.
 
 ### Update
 
-You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](/install/download.md) it.
 
 You can also use xDrip+ internal update mechanism.
 
 Update available notifications will trigger based on your channel selection.  
-You can manually request a check if you disabled automatic update check using the [3 dots menu](../3dotsmenu/#check-for-updated-version).
+You can manually request a check if you disabled automatic update check using the [3 dots menu](/use/3dotsmenu#check-for-updated-version).
 
 1. The currently update channel will be displayed
 2. Current and newer (available) versions
@@ -90,11 +90,11 @@ No new permissions should be required.
 
  <img src="../images/M-S-US6a.png" style="zoom:75%;" />
 
-Once upgraded you can verify the current version in [system status](../../troubleshoot/systemstatus).
+Once upgraded you can verify the current version in [system status](/troubleshoot/systemstatus).
 
 ### Downgrade
 
-You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to forked version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
+You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to forked version](/troubleshoot/reinstall.md) and the other way round): just install the version you want on top of the current one [like you did at first install](/install/download.md).
 
 </br>
 

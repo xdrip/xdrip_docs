@@ -14,7 +14,7 @@ A follower replicates readings from the master device real time (network latency
 
 There is virtually no limit in the amount of xDrip+ follower devices.
 
-See [here](../../use/syncsetup) how to setup xDrip+ Sync follower. 
+See [here](/use/syncsetup) how to setup xDrip+ Sync follower. 
 
 </br>
 
