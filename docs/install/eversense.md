@@ -4,7 +4,7 @@
     &emsp;Hardware Data Source  
     &ensp;&emsp;640G / Eversense
 
-!!!info "Eversense is also supported through [Companion App](/install/companion) data source" 
+!!!info "Eversense is also supported through [Companion App](../companion) data source" 
 
 If you want to receive data from the Eversense app directly to xDrip+, you need the [modified](https://cr4ck3d3v3r53n53.club/) vendor app and [ESEL](https://github.com/BernhardRo/Esel/blob/master/apk/debug/app-debug.apk).
 

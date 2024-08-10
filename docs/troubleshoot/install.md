@@ -36,15 +36,7 @@ Below the example for Chrome, you might be using another app to open the xDrip+ 
 
 <img src="../images/Install23.png" style="zoom:75%;" />
 
-Make sure you don't have a different version of xDrip+ installed: you can update or downgrade only apps from the same developer. If necessary [reinstall](/troubleshoot/reinstall) xDrip+ to switch from the official version to a forked version (and vice versa).
-
-</br>
-
-## My phone says this app is unsafe and has been built for an older Android version
-
-Ignore it with More details then, Install anyway.
-
-<img src="/install/images/Install01a.png" style="zoom:75%;" /> 
+Make sure you don't have a different version of xDrip+ installed: you can update or downgrade only apps from the same developer. If necessary [reinstall](../reinstall) xDrip+ to switch from the official version to a forked version (and vice versa).
 
 </br>
 
@@ -52,11 +44,11 @@ Ignore it with More details then, Install anyway.
 
 <img src="../images/Install21.png" style="zoom:60%;" />
 
-If you want xDrip+ to connect to a Bluetooth device it needs to have permanent [access to location](/install/prerequisites#enable-location).
+If you want xDrip+ to connect to a Bluetooth device it needs to have permanent [access to location](../../install/prerequisites/#enable-location).
 
 For newer Android versions go to Android Settings -> Location -> Apps -> xDrip+ or Android Settings -> Apps -> xDrip+ -> Location and check Allow all the time is enabled.
 
-<img src="/install/images/Install17.png" style="zoom:80%;" />
+<img src="../../install/images/Install17.png" style="zoom:80%;" />
 
 </br>
 

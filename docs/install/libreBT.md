@@ -26,13 +26,13 @@ Here below a compatibility table for supported bridge devices, for compatible se
 |    Atom     |       `Yes`       |                |                |
 
 *Note:*  
-*`*` [external OOP add-on required](/use/OOP)*
+*`*` [external OOP add-on required](../../use/OOP)*
 
 </br>
 
 ## Bridge settings
 
-If you haven't yet, [check xDrip+ will not be put to sleep](/install/install#make-sure-xdrip-will-not-be-put-to-sleep).
+If you haven't yet, [check xDrip+ will not be put to sleep](../install/#make-sure-xdrip-will-not-be-put-to-sleep).
 
 Before trying to connect your bridge verify your settings are correct to avoid frequent disconnections.
 
@@ -103,7 +103,7 @@ If you have connection losses you can **enable** polling mode. It will not do an
 !!!xdripitem "Allow BluCon unbonding&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
     &ensp;Only suitable for phones which support automatic pairing. 
 
-If your bridge is an old compatible BluCon you can enable this, if you have multiple daily pairing requests, keep it **disabled**.  
+If your bridge is an old compatible BluCon you can enable this.  
 *Note: only BluCon bonds to Android, other bridges don't.*
 
 </br>
@@ -136,11 +136,11 @@ If your bridge is a Blucon enter the code written on the side.
 Position it correctly on your sensor. Some bridges have very little tolerance in respect with angle and distances to the sensor.
 
 !!!info "External Add-on"  
-    If your sensor requires an [out of process algorithm](/use/OOP), make sure it is installed now.
+    If your sensor requires an [out of process algorithm](../../use/OOP), make sure it is installed now.
 
 </br>
 
-Continue to [Start Sensor](/use/startsensor#libre)
+Continue to [Start Sensor](../../use/startsensor/#libre)
 
 ## Stop Libre sensor
 

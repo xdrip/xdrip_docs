@@ -3,7 +3,7 @@
 <img src="../../images/M-S-G56D.png" style="zoom:90%;" />  
 <img src="../../images/M-S-G56D2.png" style="zoom:90%;" />
 
-These settings are only available if you select a G5/G6 [hardware data source](/install/datasource#changing-data-source) and will not have any effect on other data sources.
+These settings are only available if you select a G5/G6 [hardware data source](../../install/datasource/#changing-data-source) and will not have any effect on other data sources.
 
 ##### OB1 Collector
 
@@ -14,7 +14,7 @@ The Observer 1 collector is a rewrite of the original xDrip collector code and *
 ##### Native Algorithm
 
 Using native Algorithm makes the transmitter itself handle calibrations like with the vendor app, xDrip+ only forwards calibration requests to the transmitter and doesn't use its own calibration algorithm.  
-Native mode is automatically enabled if you select [G6 sensor](#g6-support) as only old (non-[Firefly](/troubleshoot/connection#firefly-transmitters)) transmitters will send raw data.
+Native mode is automatically enabled if you select [G6 sensor](#g6-support) as only old (non-[Firefly](../../troubleshoot/connection/#firefly-transmitters)) transmitters will send raw data.
 
 It is recommended to use Native calibration with G6/One as these sensors are factory calibrated and delivered with a specific calibration code used at sensor start.
 
@@ -25,7 +25,7 @@ If you use a re-batteried G5 or G6 transmitter you can opt for the xDrip+ algori
 ##### Restart sensor
 
 !!!warning "Don't use restart with recent G6/ONE"  
-    Restart sensor will not work with [Firefly](/troubleshoot/connection#firefly-transmitters) transmitters for G6 and ONE.  
+    Restart sensor will not work with [Firefly](../../troubleshoot/connection/#firefly-transmitters) transmitters for G6 and ONE.  
     You need to extract the transmitter for 20 minutes before you restart a sensor, do not use this option.
 
 If you don't use native algorithm you don't need to restart your sensor.  
@@ -67,7 +67,7 @@ Disable this if your phone runs an Android version below 10.
 This option enables specific features dedicated to G6/ONE sensors in xDrip+.  
 Only select if you use a G6 or ONE sensor.
 
-<img src="/install/images/M-S-G56D-G62.png" style="zoom:76%;" />
+<img src="../../install/images/M-S-G56D-G62.png" style="zoom:76%;" />
 
 ##### Allow OB1 unbonding
 
@@ -86,13 +86,13 @@ Leave this setting **disabled**: if you lose connection unbonding might force a 
 If you experience intermittent connection issues, enable this feature.  
 It's been tested on Samsung phones with Android 11.
 
-<img src="/install/images/M-S-G56D-G57.png" style="zoom:76%;" />
+<img src="../../install/images/M-S-G56D-G57.png" style="zoom:76%;" />
 
 ##### Manual slot number
 
 This feature is available in engineering mode only for G6 transmitters.
 
-<img src="/install/images/M-S-G56D-G55.png" style="zoom:76%;" />
+<img src="../../install/images/M-S-G56D-G55.png" style="zoom:76%;" />
 
 ##### Old G5 collector settings
 

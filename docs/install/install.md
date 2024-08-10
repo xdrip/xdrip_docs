@@ -59,7 +59,7 @@ xDrip+ must have the right to run in background: it must be whitelisted to batte
 
 *Note: With Android 12 and above you won't see **whitelisting** anymore.*
 
-More information [here](/troubleshoot/savings#apps-battery-savings).
+More information [here](../../troubleshoot/savings/#apps-battery-savings).
 
 </br>
 
@@ -87,7 +87,7 @@ On most recent versions, you will find it on all system status pages.
 
 <img src="../../images/M-SS-Ver2.png" style="zoom:76%;" />
 
-See [here](/use/update/) for upgrade or downgrade.
+See [here](../../use/update/) for upgrade or downgrade.
 
 </br>
 
@@ -129,7 +129,7 @@ Make sure to select All the time from settings.
 
 </br>
 
-Proceed to [data source selection](/install/datasource)
+Proceed to [data source selection](../datasource)
 
 </br>
 

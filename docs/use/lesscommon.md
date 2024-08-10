@@ -31,11 +31,11 @@ Only select those you really need to see every 5 minutes.
 
 <img src="../images/M-S-LCS2f.png" style="zoom:75%;" />
 
-You can also add this extra information on your [widget](/use/mainUI#widget).
+You can also add this extra information on your [widget](../mainUI/#widget).
 
 <img src="../images/M-S-LCS2e.png" style="zoom:75%;" />
 
-### [Advanced Calibration](/calibrate/advancedcal)
+### [Advanced Calibration](../../calibrate/advancedcal)
 
 <img src="../images/M-S-LCS3.png" style="zoom:75%;" />
 
@@ -55,7 +55,7 @@ Show additional information for Libre 2 sensors
 
 <img src="../images/M-S-LCS6.png" style="zoom:75%;" />
 
-Display raw values on the [main graph](/use/display#graph-settings)
+Display raw values on the [main graph](../display/#graph-settings)
 
 <img src="../images/M-S-LCS6a.png" style="zoom:75%;" />
 
@@ -65,7 +65,7 @@ Show more information in status
 
 ### Aggressive Service Restarts
 
-Enabling this provokes a [collector restart](/troubleshoot/systemstatus#restart-collector-forget-device) when detecting missing data. This can be useful if you have connection problems.
+Enabling this provokes a [collector restart](../../troubleshoot/systemstatus/#restart-collector-forget-device) when detecting missing data. This can be useful if you have connection problems.
 
 <img src="../images/M-S-LCS7.png" style="zoom:75%;" />
 
@@ -130,7 +130,7 @@ Zero means don't delete anything (recommended). You can use 90 days if you use a
 
 <img src="../images/M-S-LCS14a.png" style="zoom:75%;" />
 
-### [Other Miscellaneous Options](/use/misc)
+### [Other Miscellaneous Options](../misc)
 
 <img src="../images/M-S-LCS15.png" style="zoom:75%;" />
 

@@ -30,8 +30,8 @@ Make the primary data source phone master (enable checkbox):
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-SY.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-SY3.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-SY.png" style="zoom:75%;" />  
+<img src="../../use/images/M-S-SY3.png" style="zoom:75%;" />
 
 </br>
 
@@ -43,14 +43,14 @@ On the master phone display the Sync Key QR code:
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-QR.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-QR.png" style="zoom:75%;" />
 
-<img src="/use/images/M-S-QRa.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-QRb.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-QRa.png" style="zoom:75%;" />  
+<img src="../../use/images/M-S-QRb.png" style="zoom:75%;" />
 
 Leave the master phone on this picture for the moment.
 
-<img src="/use/images/M-S-QRe.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-QRe.png" style="zoom:75%;" />
 
 #### Option 2 (complicated)
 
@@ -58,8 +58,8 @@ Write down the master key.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-SY.png" style="zoom:75%;" />   
-<img src="/use/images/M-S-SY2.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-SY.png" style="zoom:75%;" />   
+<img src="../../use/images/M-S-SY2.png" style="zoom:75%;" />
 
 </br>
 
@@ -70,18 +70,18 @@ Write down the master key.
 #### Option 1 (recommended)
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="/use/images/M-S-AC.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-AC.png" style="zoom:75%;" />
 
 You need to authorize xDrip+ to access the phone camera.  
 Scan the QR code displayed on your master phone.
 
-<img src="/use/images/M-S-ACS.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-ACS.png" style="zoom:75%;" />
 
 #### Option 2 (complicated)
 
 Edit the key field and type **exactly** the same key than the master.
 
-<img src="/use/images/M-S-SY2.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-SY2.png" style="zoom:75%;" />
 
 </br>
 
@@ -89,14 +89,14 @@ Edit the key field and type **exactly** the same key than the master.
 
 Make sure the follower phone is not master (disable checkbox).
 
-<img src="/use/images/M-S-SY3b.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-SY3b.png" style="zoom:75%;" />
 
 Set the follower to xDrip+ Sync follower data source.
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../../images/M-S-HDS.png" style="zoom:75%;" />  
-<img src="/install/images/M-S-HDS-SF.png" style="zoom:75%;" /> 
+<img src="../../install/images/M-S-HDS-SF.png" style="zoom:75%;" /> 
 
 You might need to reboot the follower phone to validate everything and get data.
 

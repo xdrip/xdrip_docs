@@ -6,7 +6,7 @@
 
 </br>
 
-!!!info "Aidex is also supported through [Companion App](/install/companion) data source" 
+!!!info "Aidex is also supported through [Companion App](../companion) data source" 
 
 xDrip+ will receive data from the GlugoRX/Aidex app.
 

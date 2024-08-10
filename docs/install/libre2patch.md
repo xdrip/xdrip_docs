@@ -9,13 +9,13 @@
 The apps listed below use the same protocol to send data to xDrip+.
 
 !!!note  
-    External apps readings will be treated like sensor data in all effects, this includes [calibration limitations](/calibrate/calibrate#libre-2-patched-app).
+    External apps readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).
 
-It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sensor](/use/startsensor#followers-and-companion-apps).
+It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 
-#### Libre 2 EU [Patched App](/troubleshoot/libre2#patched-app)
+#### Libre 2 EU [Patched App](../../troubleshoot/libre2/#patched-app)
 
 !!!info "Patched app"  
     The patched app itself is only available for the European version of Libre 2.  

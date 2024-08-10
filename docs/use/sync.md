@@ -76,7 +76,7 @@ You will usually find the master IP in the phone Android settings - About phone.
 
 <img src="../images/M-S-SY8b.png" style="zoom:75%;" />
 
-Now display the master settings QR code and scan it on your followers using [auto configure](/use/copysettings#auto-configure).
+Now display the master settings QR code and scan it on your followers using [auto configure](../copysettings/#auto-configure).
 
 <img src="../images/M-S-SY8c.png" style="zoom:75%;" />
 
@@ -85,7 +85,7 @@ If you want to secure your connection (local intranets and public wifi) you can 
 <img src="../images/M-S-SY8d.png" style="zoom:75%;" />
 
 If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weight heavily on the master battery, make sure you have a backup power bank available.  
-When using tethering you will need to enable a [web service](/use/interapp#web-service) on the master. Make sure the secret is identical on master and followers.
+When using tethering you will need to enable a [web service](../interapp/#web-service) on the master. Make sure the secret is identical on master and followers.
 
 Look in system status to check everything is connecting correctly.
 

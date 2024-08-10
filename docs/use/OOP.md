@@ -24,7 +24,7 @@ There are two different families of Out Of Process Algorithms (OOP):
     Maximum supported Android version is 9.  
     Few Android 10 and above phones have been reported to be functioning with OOP1new/OOP1us.
 
-OOP1 provides readings similar to the vendor reader without calibrating. You need a [compatible bridge](/install/libreBT#libre-and-bridge) if using any. OOP1 also applies to NFC scan results.
+OOP1 provides readings similar to the vendor reader without calibrating. You need a [compatible bridge](../../install/libreBT/#libre-and-bridge) if using any. OOP1 also applies to NFC scan results.
 
 !!!warning "No calibration possible"  
     Calibrations will be ignored when using OOP1.  
@@ -33,23 +33,23 @@ OOP1 provides readings similar to the vendor reader without calibrating. You nee
 Two versions are available: [Libre 1 and Libre 2 EU](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM) or [Libre 14 Days US](https://drive.google.com/open?id=172whZZYTyE_ZEuN0T-zhdMKhucy6jP-a).  
 *Note: you need to be logged into your Google account to access the links above*
 
-Out Of process Algorithm must be [enabled](/use/misc#out-of-process-algorithm) when using OOP1.
+Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) when using OOP1.
 
 ### OOP2
 
 <img src="../images/OOP_2.png" style="zoom:75%;" />
 
-OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](/install/libreBT#libre-and-bridge).
+OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
 
 !!!info "Calibration is optional"  
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
-    Check the [OOP2 settings](/use/misc#oop2).
+    Check the [OOP2 settings](../misc/#oop2).
 
 **Use only the latest OOP2 app [(LINK HERE)](https://drive.google.com/file/d/15W6L3w3dwCNzESoBO2mjfsWmZafw9s73/view) with the latest xDrip+ version**.  
 *Note: you need to be logged into your Google account to access the link above.* 
 
 !!!warning  
-    Out Of process Libre Algorithm must be [disabled](/use/misc#out-of-process-algorithm) when using OOP2.
+    Out Of process Libre Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
 
 ### Auto-detection
 

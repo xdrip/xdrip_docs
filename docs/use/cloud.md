@@ -34,7 +34,7 @@ If you use a classic DIY Nightscout, it will be like:
 
 **`https://API_SECRET@sitename.herokuapp.com/api/v1/`**
 
-and you'll find the API_SECRET variable in [Heroku](https://nightscout.github.io/nightscout/new_user#editing-config-vars-in-heroku).
+and you'll find the API_SECRET variable in [Heroku](https://nightscout.github.io/nightscout/new_user/#editing-config-vars-in-heroku).
 
 <img src="../images/M-S-CU-NSe.png" style="zoom:75%;" />
 
@@ -45,7 +45,7 @@ In the case you have several devices uploading to Nightscout (not recommended) y
 In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.
 
 !!!warning "Automatic Calibration"  
-    This is the same [Automatic Calibration](/calibrate/advancedcal) setup in calibrations. Use with care.
+    This is the same [Automatic Calibration](../../calibrate/advancedcal) setup in calibrations. Use with care.
 
 <img src="../images/M-S-CU-NSh.png" style="zoom:75%;" />
 
@@ -59,7 +59,7 @@ You can upload your bridge or sensor battery level (if supported).
 
 <img src="../images/M-S-CU-NSk.png" style="zoom:75%;" />
 
-Your can upload locally entered [treatments](/use/mainUI#treatments) to Nightscout [Care Portal](https://nightscout.github.io/nightscout/setup_variables#careportal-careportal).
+Your can upload locally entered [treatments](../mainUI/#treatments) to Nightscout [Care Portal](https://nightscout.github.io/nightscout/setup_variables/#careportal-careportal).
 
 <img src="../images/M-S-CU-NSl.png" style="zoom:75%;" />
 
@@ -88,7 +88,7 @@ You can directly upload BG and device status in a Mongo Database.
 MongoDB upload has been deprecated since mLab was acquired by MongoDB and many migrated to Atlas: you **cannot** use a DNS seed URI `mongodb+srv`.  
 Use this feature only if you run your own [Mongo](https://github.com/mongodb/mongo) database, default port is 27017.
 
-The [connection string URI](https://www.mongodb.com/docs/manual/reference/connection-string#connection-string-uri-format) structure is:
+The [connection string URI](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-string-uri-format) structure is:
 
 ```
 mongodb://databaseusername:databasepassword@your.mongo.url/databasename
@@ -149,7 +149,7 @@ Manage followers is **not functional** anymore. You should do this from the Dexc
 <img src="../images/M-S-CU-TP.png" style="zoom:75%;" />
 
 If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.  
-If xDrip+ can display [basal information from an external status](/use/display#basal-information), it will also be uploaded to Tidepool.
+If xDrip+ can display [basal information from an external status](../use/display/#basal-information), it will also be uploaded to Tidepool.
 
 <img src="../images/M-S-CU-TPa.png" style="zoom:75%;" />
 

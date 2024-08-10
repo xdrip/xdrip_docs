@@ -63,11 +63,11 @@ Toasts are pop-up messages, you can enable them and have extra information tappi
 
 <img src="../images/M-S-SW-AW-XP9.png" style="zoom:75%;" />
 
-If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have the step counter on the watchface and can have [steps data](/use/display/) displayed on your phone xDrip+.
+If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have the step counter on the watchface and can have [steps data](../../use/display/) displayed on your phone xDrip+.
 
 <img src="../images/M-S-SW-AW-XP10.png" style="zoom:75%;" />
 
-If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have hearth rate on the watchface and can have [hearth rate data](/use/display/) displayed on your phone xDrip+.
+If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have hearth rate on the watchface and can have [hearth rate data](../../use/display/) displayed on your phone xDrip+.
 
 <img src="../images/M-S-SW-AW-XP11.png" style="zoom:75%;" />
 
@@ -103,7 +103,7 @@ On xDrip+ and xDrip+ Large, change the divider (status line) color to match back
 
 <img src="../images/M-S-SW-AW-XP19.png" style="zoom:75%;" />
 
-Force update is available for Wear 2.0 and above watches if available for the current version and enabled as explained [here](/smartwatch/wearinstall#wear-os-20-and-above).
+Force update is available for Wear 2.0 and above watches if available for the current version and enabled as explained [here](../wearinstall/#wear-os-20-and-above).
 
 <img src="../images/M-S-SW-AW-XP20.png" style="zoom:75%;" />
 
@@ -113,7 +113,7 @@ Demigod is available for [patched watches](https://github.com/NightscoutFoundati
 
 ### Keypad Treatment
 
-Keypad treatment is identical to xDrip+ [syringe icon](/use/mainUI#treatments).
+Keypad treatment is identical to xDrip+ [syringe icon](../../use/mainUI/#treatments).
 
 <img src="../images/M-S-SW-AW-KT.png" style="zoom:75%;" />
 
@@ -141,7 +141,7 @@ On wear 2.x and above alerts might show as notifications and you will need to ma
 
 <img src="../images/M-S-SW-AW-SA3.png" style="zoom:75%;" />
 
-## [Standalone collector mode](/smartwatch/wear#standalone-collector-mode)
+## [Standalone collector mode](../wear/#standalone-collector-mode)
 
 xDrip Prefs. menu will contain additional information mirrored from xDrip+ on the phone when both are connected together.
 
@@ -175,7 +175,7 @@ BT collector is an information on which hardware data source collector is set on
 
 <img src="../images/M-S-SW-AW-ST1.png" style="zoom:75%;" />
 
-Enable collector matches the setting in [Wear integration](/smartwatch/wear#standalone-collector-mode).
+Enable collector matches the setting in [Wear integration](../wear/#standalone-collector-mode).
 
 <img src="../images/M-S-SW-AW-ST2.png" style="zoom:75%;" />
 

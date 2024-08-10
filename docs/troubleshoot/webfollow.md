@@ -25,7 +25,7 @@ Try to uninstall and reinstall the vendor follower app.
 
 Once the system is running on the vendor apps, you can troubleshoot xDrip+.
 
-1. Make sure the data source is [Web follower](/install/webfollower/).
+1. Make sure the data source is [Web follower](../../install/webfollower/).
 2. Use the credentials from the follower you invited with the vendor master app.
 3. If it doesn't work, you can try to use the server credentials to troubleshoot but be cautious to reduce the risks of an account lock.
 

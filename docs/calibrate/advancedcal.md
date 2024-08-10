@@ -11,7 +11,7 @@ This menu provides some important settings and mechanisms for calibration.
 !!!xdripitem "Use Treatment BG values&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
     &ensp;Choose whether to calibrate with the BG value in a Treatments entry  
 
-You can decide to use BG [treatments](/use/mainUI#treatments) (blood tests) as calibrations.
+You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests) as calibrations.
 
 !!!warning  
     Always use treatments as calibrations is **not recommended**.
@@ -30,7 +30,7 @@ Ask me every time will do exactly this every time you enter a BG treatment.
 
 <img src="../images/M-S-LCS-AC3c.png" style="zoom:75%;" />
 
-Never use treatments will never use them to calibrate (and will prevent you from transforming a [treatment](/use/mainUI#treatments) into a calibration).
+Never use treatments will never use them to calibrate (and will prevent you from transforming a [treatment](../../use/mainUI/#treatments) into a calibration).
 
 ##### Automatic Calibration
 
@@ -72,7 +72,7 @@ Be careful as noisy calibrations might lead to inconsistent results.
 
 Enable if you want xDrip+ to plot results using the plugin.
 
-<img src="/use/images/M-S-DS2l2.png" style="zoom:75%;" />
+<img src="../../use/images/M-S-DS2l2.png" style="zoom:75%;" />
 
 !!!xdripitem "Use Plugin Glucose&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
     &ensp;Main glucose display number comes from plugin!  
@@ -121,7 +121,7 @@ Carrying forward calibrations from the old sensor to a new one is dangerous. **L
 
 During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip+ will wait. Enabling this will allow calibration without checking. **Not recommended.**
 
-<img src="/install/images/M-SS-InitialR2.png" style="zoom:65%;" />
+<img src="../../install/images/M-SS-InitialR2.png" style="zoom:65%;" />
 
 </br>
 

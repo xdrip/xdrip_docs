@@ -46,7 +46,7 @@ If you cannot allow notification access, check the three dots menu in the app se
 
 You will get data in xDrip+ when available in the app and notifications from the app are visible on the phone.
 
-If no data is visible and no error message pops-up you might need to [Start sensor](/use/startsensor#followers-and-companion-apps).
+If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 

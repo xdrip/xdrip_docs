@@ -2,14 +2,14 @@
 <img src="../../images/M-S.png" style="zoom:75%;" />  
 <img src="../images/M-S-PS.png" style="zoom:75%;" />
 
-xDrip+ Predictive Simulation settings is an experimental, non medically approved feature. Make sure to re-read the [EULA](/install/install#understand-what-is-xdrip) before enabling it. Do not use them to take medical decisions.
+xDrip+ Predictive Simulation settings is an experimental, non medically approved feature. Make sure to re-read the [EULA](../../install/install/#understand-what-is-xdrip) before enabling it. Do not use them to take medical decisions.
 
 !!!warning  
     If you use a closed-loop system do not rely on these predictions since they don't take into account basal modulation.
 
 <img src="../images/M-S-PS1.png" style="zoom:75%;" />
 
-Enabling predictions will add the light purple prediction curve on the main graph. This curve is showing you how your BG should theoretically evolve using current insulin and carbs entered in xDrip+. More details on display [here](/use/display#treatments-and-predictions-curves).
+Enabling predictions will add the light purple prediction curve on the main graph. This curve is showing you how your BG should theoretically evolve using current insulin and carbs entered in xDrip+. More details on display [here](../display/#treatments-and-predictions-curves).
 
 <img src="../images/M-S-PS1a.png" style="zoom:75%;" />
 
@@ -20,7 +20,7 @@ xDrip+ can handle multiple insulin types. See [below](#multiple-insulin-types).
 ### Carb ratio and insulin sensitivity
 
 !!!note "Automatic import"  
-    If you use [accepting treatments](/use/interapp#receiving-from-nsclient) from AAPS or NSClient, these parameters and the basal profile will automatically import at profile switch.
+    If you use [accepting treatments](../interapp/#receiving-from-nsclient) from AAPS or NSClient, these parameters and the basal profile will automatically import at profile switch.
 
 ### Carb absorbtion rate
 
@@ -58,7 +58,7 @@ Remember to save.
 ### Basal Profile Editor
 
 !!!info "This feature is under development."  
-    Current basal profile is automatically imported from NSClient when [Accept Treatments](/use/interapp#receiving-from-nsclient) is enabled.
+    Current basal profile is automatically imported from NSClient when [Accept Treatments](../interapp/#receiving-from-nsclient) is enabled.
 
 <img src="../images/M-S-PS4f.png" style="zoom:78%;" />
 
@@ -84,7 +84,7 @@ To edit your basal profile:
 
 ### Use trend momentum
 
-Trend momentum is independent from predictions, it is just a mathematical extrapolation (i.e. if BG continues to evolve with his trend, not considering insulin and carbs, where will it go?) of your current BG trend (up/down/flat). It can be used for [Forecasted Low alarms](/use/alarms#forecasted-low).
+Trend momentum is independent from predictions, it is just a mathematical extrapolation (i.e. if BG continues to evolve with his trend, not considering insulin and carbs, where will it go?) of your current BG trend (up/down/flat). It can be used for [Forecasted Low alarms](../alarms/#forecasted-low).
 
 Trend momentum can be integrated in predictions (recommended).
 
@@ -100,7 +100,7 @@ Might
 
 ### EULA
 
-Review the [EULA](/install/install#understand-what-is-xdrip) before using this feature.
+Review the [EULA](../../install/install/#understand-what-is-xdrip) before using this feature.
 
 <img src="../images/M-S-PS6.png" style="zoom:75%;" />
 
@@ -130,13 +130,13 @@ You can select up to three insulin types and then decide which one is used basal
 
 <img src="../images/M-S-PS2b2.png" style="zoom:75%;" />
 
-When adding multiple insulin type, using [treatments](/use/mainUI#treatments) will ask you to select the one you're using for this treatment.
+When adding multiple insulin type, using [treatments](../mainUI/#treatments) will ask you to select the one you're using for this treatment.
 
 <img src="../images/M-S-PS2b3.png" style="zoom:75%;" />
 
 You can add basal insulin on the display and integrate it in calculation.  
 Not recommended as basal insulin in MDI is only used to keep background BG constant.  
-Use [notes](/use/mainUI#treatment-notes) to track basal injections.
+Use [notes](../mainUI/#treatment-notes) to track basal injections.
 
 Multiple insulin types will be displayed in an identical way on the main graph.
 

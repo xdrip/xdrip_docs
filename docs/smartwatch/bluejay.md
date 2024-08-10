@@ -81,7 +81,7 @@ Setup the watch as a follower and you should see your BG within minutes.
 
 !!!xdripitem "Send Readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹" 
 
-Check [System Status](/troubleshoot/systemstatus/) to confirm the watch paired correctly. Swipe to the advanced status tab BlueJay.  
+Check [System Status](../../troubleshoot/systemstatus/) to confirm the watch paired correctly. Swipe to the advanced status tab BlueJay.  
 
 <img src="../images/M-S-SW-BJc8.png" style="zoom:66%;" />
 
@@ -112,7 +112,7 @@ For GTS you can do it directly through the watch [menu](https://bluejay.website/
 
 In order to use the watch with xDrip+ you must have a transmitter directly connected to xDrip+ with BG data currently displaying in xDrip+.
 
-Define which slot will connect to the transmitter. Refer to the table [above](#g6g7-and-11) to setup your slots.
+Define which slot will connect to the transmitter. Refer to the table [above](#g6) to setup your slots.
 
 !!!xdripitem "BlueJay Advanced Settings" 
 

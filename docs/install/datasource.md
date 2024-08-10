@@ -2,23 +2,23 @@ Scroll down until you see your sensor or usecase.
 
 ## G6, ONE, ONE+ and G7
 
-If you connect xDrip+ directly to your sensor ([G6, ONE, ONE+ and G7](/install/g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](/use/cloud#tidepool)). You might be able to use sharing through [share](/use/cloud#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
+If you connect xDrip+ directly to your sensor ([G6, ONE, ONE+ and G7](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
 
 <img src="../images/DS-DxDrip.png" style="zoom:50%;" />
 
-If you use the vendor apps (G6, G7), you can connect xDrip+ as a [Share follower](/install/dexshare) as long as a follower has been setup with the vendor apps.
+If you use the vendor apps (G6, G7), you can connect xDrip+ as a [Share follower](../dexshare) as long as a follower has been setup with the vendor apps.
 
 <img src="../images/DS-DShare.png" style="zoom:50%;" />
 
-When using [BYODA](/install/byod) (G6) if you've enabled Broadcast to xDrip+ you don't need a network connection to have data in xDrip+. Use the 640G/Eversense data source
+When using [BYODA](../byod) (G6) if you've enabled Broadcast to xDrip+ you don't need a network connection to have data in xDrip+. Use the 640G/Eversense data source
 
 <img src="../images/DS-BYOD.png" style="zoom:45%;" />
 
-You can add xDrip+ to your current setup and select [Companion app](/install/companion) to have xDrip+ read BG from the vendor app notifications (G6, G7, ONE).
+You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications (G6, G7, ONE).
 
 <img src="../images/DS-DComp.png" style="zoom:50%;" />
 
-And this is also possible if you use [CamAPS](/install/companion), still using the Companion app data source
+And this is also possible if you use [CamAPS](../companion), still using the Companion app data source
 
 <img src="../images/DS-GCAPS.png" style="zoom:50%;" />
 
@@ -26,50 +26,50 @@ And this is also possible if you use [CamAPS](/install/companion), still using t
 
 xDrip+ connects directly to Libre 2 EU, you can use Libre 1 and 14 days US with a bridge device. Other Libre 2 and 3 sensors are not directly supported.
 
-You can connect Libre 2 EU to xDrip+, adding [OOP2](/use/OOP/). You **cannot** use the vendor app for alarms (just NFC scans) and upload data to the vendor servers (use [Nightscout](https://nightscout.github.io/) or [Tidepool](/use/cloud#tidepool)). Use the [Libre Bluetooth](/install/libreBT) data source.
+You can connect Libre 2 EU to xDrip+, adding [OOP2](../../use/OOP/). You **cannot** use the vendor app for alarms (just NFC scans) and upload data to the vendor servers (use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). Use the [Libre Bluetooth](../libreBT) data source.
 
 <img src="../images/DS-L2EU.png" style="zoom:50%;" />
 
-Since Libre 1 don't have bluetooth, you need to add a [bridge](/install/libreBT) device. Use the [Libre Bluetooth](/install/libreBT) data source.  
-Some of these bridges also work with Libre 2 EU. Check your sensor doesn't require an [OOP](/use/OOP/).
+Since Libre 1 don't have bluetooth, you need to add a [bridge](../libreBT) device. Use the [Libre Bluetooth](../libreBT) data source.  
+Some of these bridges also work with Libre 2 EU. Check your sensor doesn't require an [OOP](../../use/OOP/).
 
 <img src="../images/DS-LBT.png" style="zoom:50%;" />
 
-The [patched app](/install/libre2patch) can send data to xDrip+.
+The [patched app](../libre2patch) can send data to xDrip+.
 
 <img src="../images/DS-L2Patch.png" style="zoom:50%;" />
 
-For non-supported sensors (Libre 2 non-EU and Libre 3) you can also use Diabox or Juggluco, then [broadcast](/install/libre2patch) data to xDrip+ that will receive data from the [Libre 2 patched](/install/libre2patch) data source (**not** the patched app itself).
+For non-supported sensors (Libre 2 non-EU and Libre 3) you can also use Diabox or Juggluco, then [broadcast](../libre2patch) data to xDrip+ that will receive data from the [Libre 2 patched](../libre2patch) data source (**not** the patched app itself).
 
 <img src="../images/DS-LOther.png" style="zoom:50%;" />
 
-You can follow a Libre 2 CGM (availability depends on countries) or a Libre 3 with xDrip+ with the [Web follower](/install/webfollower) data source.
+You can follow a Libre 2 CGM (availability depends on countries) or a Libre 3 with xDrip+ with the [Web follower](../webfollower) data source.
 
 <img src="../images/DS-L3Web.png" style="zoom:50%;" />
 
 ## Guardian and Minimed
 
-With a [640G/670G pump](/install/640_670) you need to get BG data from the pump using a glucometer connected to your phone with an OTG cable.
+With a [640G/670G pump](../640_670) you need to get BG data from the pump using a glucometer connected to your phone with an OTG cable.
 
 <img src="../images/DS-M6xx.png" style="zoom:50%;" />
 
-You can add xDrip+ to your current setup and select [Companion app](/install/companion) to have xDrip+ read BG from the vendor app notifications.
+You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications.
 
 <img src="../images/DS-MComp.png" style="zoom:50%;" />
 
-You can follow sensor data when shared through [Carelink](/install/carelinkfollow), but this feature might be broken frequently by the vendor.
+You can follow sensor data when shared through [Carelink](../carelinkfollow), but this feature might be broken frequently by the vendor.
 
 <img src="../images/DS-MFoll.png" style="zoom:50%;" />
 
-## [Aidex](/install/aidex)
+## [Aidex](../aidex)
 
 You can receive data from the vendor app into xDrip+.
 
-You can add xDrip+ to your current setup and select [Companion app](/install/companion) to have xDrip+ read BG from the vendor app notifications.
+You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications.
 
 ## Sibionics
 
-The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip+ with the [640G/Eversense](/install/640_670) data source.
+The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip+ with the [640G/Eversense](../640_670) data source.
 
 </br>
 
@@ -116,44 +116,44 @@ If the button is not visible you can display it using a long touch on the xDrip+
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install29.png" style="zoom:50%;" />
 - G5  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install30.png" style="zoom:49%;" />
-- [G6, G7, 1 and 1+](/install/g6)  
+- [G6, G7, 1 and 1+](../g6)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
-- [Libre (with bridge)](/install/libreBT)  
+- [Libre (with bridge)](../libreBT)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
 - Libre with patched SWR50 smartwatch  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install34.png" style="zoom:51%;" />
-- [Libre 2 (only EU)](/install/libre2)  
+- [Libre 2 (only EU)](../libre2)  
   <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
-- [Medtrum A6/S7](/install/medtrum)  
+- [Medtrum A6/S7](../medtrum)  
   <img src="../images/Install36.png" style="zoom:54%;" />    <img src="../images/Install37.png" style="zoom:53%;" />
 
 ### The following sensors and features are supported with a companion app:
 
-- [Libre 2 (only EU)](/install/libre2patch)  
+- [Libre 2 (only EU)](../libre2patch)  
   <img src="../images/Install32.png" style="zoom:51%;" />    <img src="../images/Install35.png" style="zoom:53%;" />
-- [Eversense](/install/eversense)  
+- [Eversense](../eversense)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install41.png" style="zoom:53%;" />
-- [640G/670G pumps](/install/640_670)  
+- [640G/670G pumps](../640_670)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
-- [Build your own app (BYODA)](/install/byod) for G6 sensors  
+- [Build your own app (BYODA)](../byod) for G6 sensors  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
-- [Aidex](/install/aidex)  
+- [Aidex](../aidex)  
   See below GlucoRx/Aidex.
-- [Companion app](/install/companion) for G6, G7, 1, 1+, CamAPS and Eversense  
+- [Companion app](../companion) for G6, G7, 1, 1+, CamAPS and Eversense  
   See below.
 
 </br>
 
 ## Follower mode
 
-- [xDrip+ Sync](/install/xdripfollower) (requires Google Play Services)
-- [Nightscout](/install/nightscoutfollower)  
+- [xDrip+ Sync](../xdripfollower) (requires Google Play Services)
+- [Nightscout](../nightscoutfollower)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
-- [Dex Share](/install/dexshare)  
+- [Dex Share](../dexshare)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
-- [Libre Web Follower](/install/webfollower)  
+- [Libre Web Follower](../webfollower)  
   See below.
-- [CareLink Follower](/install/carelinkfollow)  
+- [CareLink Follower](../carelinkfollow)  
   See below.
 
 </br>
@@ -171,11 +171,11 @@ G4 (with bridge) or G4 Platinum receiver
 
 <img src="../images/M-S-HDSlistA.png" style="zoom:75%;" />
 
-[G5, G6, 1, 1+ and G7](/install/g6) 
+[G5, G6, 1, 1+ and G7](../g6) 
 
 <img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
 
-[Libre (with bridge)](/install/libreBT) 
+[Libre (with bridge)](../libreBT) 
 
 <img src="../images/M-S-HDSlistC.png" style="zoom:75%;" />
 
@@ -183,7 +183,7 @@ G4 (with bridge) or G4 Platinum receiver
 
 <img src="../images/M-S-HDSlistD.png" style="zoom:75%;" />
 
-[xDrip+ Sync](/install/xdripfollower)
+[xDrip+ Sync](../xdripfollower)
 
 <img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
 
@@ -191,39 +191,39 @@ Libre with patched SWR50 smartwatch
 
 <img src="../images/M-S-HDSlistF.png" style="zoom:75%;" />
 
-[Libre 2 (only EU), Diabox or Juggluco](/install/libre2patch)
+[Libre 2 (only EU), Diabox or Juggluco](../libre2patch)
 
 <img src="../images/M-S-HDSlistG.png" style="zoom:75%;" />
 
-[640G/670G pumps](/install/640_670), [Eversense](/install/eversense) and [Build your own app (BYODA)](/install/byod)
+[640G/670G pumps](../640_670), [Eversense](../eversense) and [Build your own app (BYODA)](../byod)
 
 <img src="../images/M-S-HDSlistH.png" style="zoom:75%;" />
 
-[Medtrum A6/S7](/install/medtrum) 
+[Medtrum A6/S7](../medtrum) 
 
 <img src="../images/M-S-HDSlistI.png" style="zoom:75%;" />
 
-[Nightscout](/install/nightscoutfollower) 
+[Nightscout](../nightscoutfollower) 
 
 <img src="../images/M-S-HDSlistJ.png" style="zoom:75%;" />
 
-[Dex Share](/install/dexshare) 
+[Dex Share](../dexshare) 
 
 <img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
 
-[Companion app](/install/companion) for G6, G7, One and CamAPS
+[Companion app](../companion) for G6, G7, One and CamAPS
 
 <img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
 
-[GlucoRx/Aidex](/install/aidex)
+[GlucoRx/Aidex](../aidex)
 
 <img src="../images/M-S-HDSlistP.png" style="zoom:75%;" />
 
-[Web Follower](/install/webfollower) for Libre 2 CGM and Libre 3
+[Web Follower](../webfollower) for Libre 2 CGM and Libre 3
 
 <img src="../images/M-S-HDSlistO.png" style="zoom:75%;" />
 
-[CareLink](/install/carelinkfollow)
+[CareLink](../carelinkfollow)
 
 <img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
 

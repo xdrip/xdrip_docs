@@ -37,7 +37,7 @@ xDrip+ performs limited (24 hours) data backfilling from Nightscout.
 You can receive data from [Diabox](https://sirius.thetaphi.de/diabox/) by enabling http broadcast in the app and making xDrip+ a local follower.
 
 !!!warning  
-    You cannot use this feature with xDrip+ running a [web service](/use/interapp#web-service).
+    You cannot use this feature with xDrip+ running a [web service](../../use/interapp/#web-service).
 
 <img src="../images/Diabox1.png" style="zoom:75%;" />
 

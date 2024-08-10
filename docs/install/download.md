@@ -5,14 +5,14 @@ You have two main choices when installing xDrip+, either install the **Latest re
 
 !!!note  
     If you already have xDrip+ installed on your phone you don't need to uninstall it before installing an update.  
-    If you use a forked version and want to change xDrip+ to an official release, or vice versa, follow [this](/troubleshoot/reinstall.md).
+    If you use a forked version and want to change xDrip+ to an official release, or vice versa, follow [this](../../troubleshoot/reinstall/).
 
 !!!info "Multiple xDrip+ installation"  
     If you need to install more than one xDrip+ on the same phone you need a [variant](#variants).
 
 ### Latest release
 
-Latest release is a stable version of xDrip+. It doesn't have all the newest features but has proven stability and doesn't suffer severe bugs. It's a safe version to start with unless you need a specific feature (see the [change log](/changelog) to check).
+Latest release is a stable version of xDrip+. It doesn't have all the newest features but has proven stability and doesn't suffer severe bugs. It's a safe version to start with unless you need a specific feature (see the [change log](../../changelog) to check).
 
 You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk) or follow this QR code:
 
@@ -21,20 +21,6 @@ You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xd
 You will also find it in the [main repository](https://github.com/NightscoutFoundation/xDrip) selecting Latest.
 
 <img src="../images/GitHubLatest.png" style="zoom:75%;" />
-
-</br>
-
-#### Download warning
-
-xDrip+ downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](https://github.com/NightscoutFoundation/xDrip/releases) is safe.
-
-<img src="../images/Install46.png" style="zoom:75%;" />
-
-</br>
-
-Once downloaded, [Proceed to installing xDrip+](/install/install)
-
-</br>
 
 ### Pre-release
 
@@ -59,10 +45,6 @@ xDrip+ downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](
 
 </br>
 
-Once downloaded, [Proceed to installing xDrip+](/install/install)
-
-</br>
-
 ## Forked versions
 
 Some developers add features and customizations that are not available in the official pre-releases until the author will create a Pull Request in xDrip+ and get it merged in the main project.
@@ -71,7 +53,7 @@ Some developers add features and customizations that are not available in the of
     You can use these versions but need to understand they might be supported only by their creator.  
     **xDrip+ automatic updates won't work with forked versions.**  
     Also keep in mind you cannot install a forked version if you have an official version installed on your phone:  
-    you will need to [uninstall](/troubleshoot/reinstall.md) it first.  
+    you will need to [uninstall](../../troubleshoot/reinstall/) it first.  
     The same applies for the other way round (from forked to official).
 
 </br>

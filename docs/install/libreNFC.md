@@ -44,7 +44,7 @@ If you have trouble with your phone NFC, try to **enable** `Any tag` method.
 
 ## Supported sensors
 
-Only Libre 1 and Pro are natively supported by xDrip+ for NFC readings. In order to scan a Libre 14 days US or a Libre 2 Europe you need an [Out of Process Algorithm](/use/OOP/) installed on the phone.
+Only Libre 1 and Pro are natively supported by xDrip+ for NFC readings. In order to scan a Libre 14 days US or a Libre 2 Europe you need an [Out of Process Algorithm](../../use/OOP/) installed on the phone.
 
 | - Libre 1 / Pro - | - 14 days US - | - Libre 2 EU - |
 | :---------------: | :------------: | :------------: |
@@ -55,7 +55,7 @@ Only Libre 1 and Pro are natively supported by xDrip+ for NFC readings. In order
 
 </br>
 
-Continue to [Start Sensor](/use/startsensor#libre), remembering that you will need to scan the sensor to get initial readings.
+Continue to [Start Sensor](../../use/startsensor/#libre), remembering that you will need to scan the sensor to get initial readings.
 
 </br>
 

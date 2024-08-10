@@ -3,11 +3,11 @@ This documentation is based on the [latest Nightly Build](https://github.com/Nig
 
 ## **If you're completely new to xDrip+**
 
-If you want to install it for the first time continue to ⇒ [prerequisites](/install/prerequisites) and follow the flow.
+If you want to install it for the first time continue to ⇒ [prerequisites](../prerequisites) and follow the flow.
 
 ## **If you're already using xDrip+** 
 
-If you don't find a feature documented here and want it, you might need to [update](/use/update) your xDrip+ app.  
+If you don't find a feature documented here and want it, you might need to [update](../../use/update) your xDrip+ app.  
 See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
 
 </br>
@@ -25,7 +25,7 @@ Always rely on the original documentation unless obsolete (will be mentioned).
 ### Translation
 
 The documentation is only available in English for now.  
-You might find it easier to follow if you [switch your xDrip+ to English](/use/display#language) and read it using and automatic translation with Google.
+You might find it easier to follow if you [switch your xDrip+ to English](../../use/display/#language) and read it using and automatic translation with Google.
 
 ### Search
 

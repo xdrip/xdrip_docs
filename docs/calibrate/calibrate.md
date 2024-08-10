@@ -18,7 +18,7 @@ xDrip+ can provide its own calibrations algorithms for sensors sending raw data.
 
 G5 and G6 native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
 
-Libre sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](/use/OOP/) (short OOP).
+Libre sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
 
 Libre 2 patched app will use its own proprietary algorithm (an old version though).
 
@@ -27,11 +27,11 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 | G4                                                           | Mandatory                       | Not available      |
 | G5                                                           | Available                       | Available          |
 | G6 old (rebatteried)                                         | Available                       | Available          |
-| G6 new ([Firefly](/troubleshoot/connection#firefly-transmitters)) | Not available                   | Mandatory          |
+| G6 new ([Firefly](../../troubleshoot/connection/#firefly-transmitters)) | Not available                   | Mandatory          |
 | Libre 1                                                      | Mandatory                       | OOP1               |
 | Libre 14 days US                                             | Not available                   | OOP1 US (obsolete) |
 | Libre 2 EU patched app                                       | Limited offset (see below)      | By design          |
-| Libre 2 EU, Libre 14 days US                                 | [Optional](/use/OOP#oop2) | OOP2               |
+| Libre 2 EU, Libre 14 days US                                 | [Optional](../../use/OOP/#oop2) | OOP2               |
 
 ##### Libre 2 patched app
 
@@ -43,9 +43,9 @@ When using the patched app, you can calibrate but correction is applied as an of
     The information below is relevant to xDrip+ calibration.  
     For G6/G7/ONE/ONE+ native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
-Before calibrating check your [settings](/calibrate/advancedcal).
+Before calibrating check your [settings](../advancedcal).
 
-One thing you want to enable is [data tables](/use/lesscommon#show-data-tables) in the main menu. This will really help understanding when things go wrong.
+One thing you want to enable is [data tables](../../use/lesscommon/#show-data-tables) in the main menu. This will really help understanding when things go wrong.
 
 ### First calibration
 
@@ -54,7 +54,7 @@ If your sensor requires calibrations, after connecting it to xDrip+ and receivin
 
 <img src="../images/CAL01.png" style="zoom:75%;" />
 
-Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](/calibrate/advancedcal#calibrations).
+Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](../advancedcal/#calibrations).
 
 <img src="../images/CAL02.png" style="zoom:75%;" />
 
@@ -94,7 +94,7 @@ Depending on the difference between blood samples and the variability of current
 
 ### Successive calibrations
 
-For safety reasons you will check regularly your real BG value, at least once per day because you can't trust blindly a sensor. Enter these blood tests as [treatments](/use/mainUI#treatments).  
+For safety reasons you will check regularly your real BG value, at least once per day because you can't trust blindly a sensor. Enter these blood tests as [treatments](../../use/mainUI/#treatments).  
 In order to have BG values that are not varying too rapidly, you shouldn't calibrate when you have carbs or insulin active at that time.
 
 !!!note "Frequency"  
@@ -111,13 +111,13 @@ If you see, at stable BG, comparing xDrip+ value 10 minutes after your blood tes
 
 Since BG trends often are difficult to forecast, you can use a trick:
 
-- Check Use Treatment BG Values is not set to Never Use Them in [Advanced Calibrations](/calibrate/advancedcal).
+- Check Use Treatment BG Values is not set to Never Use Them in [Advanced Calibrations](../advancedcal).
 - Enter your blood test as a treatment.  
   <img src="../images/CAL07.png" style="zoom:75%;"  />
 - Wait 10 minutes and decide if it would have been a good time to calibrate (stable enough).  
   <img src="../images/CAL08.png" style="zoom:75%;"  />
 - If it was, touch your treatment and make it a calibration.  
-  <img src="/use/images/UI-Treat11.png" style="zoom:75%;"  />
+  <img src="../../use/images/UI-Treat11.png" style="zoom:75%;"  />
 
 You now have another calibration point.
 
