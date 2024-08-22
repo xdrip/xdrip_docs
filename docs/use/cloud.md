@@ -28,13 +28,9 @@ The URL format should be like this:
 
 `https://API_SECRET@sitename.domain.com/api/v1/`
 
-Contact the vendor if you use NS10BE or T1Pal.
+and you'll find the API_SECRET in your Nightscout [variables](https://nightscout.github.io/nightscout/setup_variables/#nightscout-configuration).
 
-If you use a classic DIY Nightscout, it will be like:
-
-**`https://API_SECRET@sitename.herokuapp.com/api/v1/`**
-
-and you'll find the API_SECRET variable in [Heroku](https://nightscout.github.io/nightscout/new_user/#editing-config-vars-in-heroku).
+Contact the vendor if you use a hosted service.
 
 <img src="../images/M-S-CU-NSe.png" style="zoom:75%;" />
 
@@ -42,7 +38,9 @@ In the case you have several devices uploading to Nightscout (not recommended) y
 
 <img src="../images/M-S-CU-NSf.png" style="zoom:75%;" />
 
-In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.
+In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.  
+
+##### *Note: only BG values will upload to the secondary URLs*
 
 !!!warning "Automatic Calibration"  
     This is the same [Automatic Calibration](../../calibrate/advancedcal) setup in calibrations. Use with care.
@@ -176,4 +174,4 @@ If you also upload data manually from your pump, you might want to disable xDrip
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 18/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
