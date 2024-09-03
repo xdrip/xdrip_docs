@@ -1,75 +1,104 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../images/M-S-CU.png" style="zoom:75%;" />
+!!!xdrip "`Cloud Upload`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;Cloud Upload
 
-Cloud upload allows you to upload your BG to various cloud services or databases.
+Cloud upload allows you to upload your BG to various cloud services or databases.  
+This can be used to share data with non-xDrip+ devices and for reporting. 
 
 ### Nightscout Sync (REST-API)
 
-<img src="../images/M-S-CU-NS.png" style="zoom:75%;" />
+!!!xdripitem "Nightscout Sync (REST-API)"  
+    &ensp;The REST-API is the standard way to connect to Nightscout  
 
-[Nightscout](https://nightscout.github.io/) is the universal method to share your BG numbers and much more...
+[Nightscout](https://nightscout.github.io/) is the universal method to share your BG numbers, create reports and much more...
 
-Enable it to upload from xDrip+ to your site. Upload is supported for xDrip+ Sync followers, and sensors direct connection. 
+After you created your Nightscout site, enable Sync to upload data from xDrip+.
 
-<img src="../images/M-S-CU-NSa.png" style="zoom:75%;" />
+!!!xdripitem "Enable&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;The REST-API is the standard way to connect to Nightscout  
 
-Make sure this is enabled if you're using a cellular phone with a SIM and a data plan, else it will only upload when connected to a Wi-Fi network.
+If you want to use Nightscout to share your BG, make sure this is enabled if you're using a cellular phone with a SIM and a data plan. Else it will only upload when connected to a Wi-Fi network, which is fine if you use Nightscout to collect data for reports.
 
-<img src="../images/M-S-CU-NSb.png" style="zoom:75%;" />
+!!!xdripitem "Use mobile data&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Upload even when using mobile data  
 
 If you use filters or calibration plugins, you can select this to send to Nightscout the data as displayed by xDrip+ instead of uncalibrated/unfiltered data.
 
-<img src="../images/M-S-CU-NSc.png" style="zoom:75%;" />
+!!!xdripitem "Send display glucose&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+    &ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value 
 
-The base URL is composed by your API_SECRET (or TOKEN) and the URL of your site.  
-The example provided in the dialog was for an Azure based Nightscout.  
+The base URL is composed by your API_SECRET (or a token) and the URL of your site.  
+The example provided in the dialog was for an Azure based Nightscout.
+
+!!!xdripitem "Base URL"  
+    &ensp;https://yourpassphrase@{YOUR-SITE}.azurewebsites.net/api/v1  
+
 The URL format should be like this:
 
-`https://API_SECRET@sitename.domain.com/api/v1/`
+**`https://your-API_SECRET@your-site.domain.fqd/api/v1/`**
 
-and you'll find the API_SECRET in your Nightscout [variables](https://nightscout.github.io/nightscout/setup_variables/#nightscout-configuration).
+You'll find the API_SECRET in your Nightscout [variables](https://nightscout.github.io/nightscout/setup_variables/#nightscout-configuration).
+
+Alternatively you can use an admin [token](https://nightscout.github.io/nightscout/security/#create-authentication-tokens-for-users) to authenticate, it would then look like this:
+
+**`https://xdrip-12ab34cd5678ef90@your-site.domain.fqd/api/v1/`**
 
 Contact the vendor if you use a hosted service.
 
-<img src="../images/M-S-CU-NSe.png" style="zoom:75%;" />
+!!!info "Multiple sites"  
+    In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.  
+    ***Only BG values will upload to the secondary URL(s), not treatments***
 
-In the case you have several devices uploading to Nightscout (not recommended) you might want to also download treatments from Nightscout to see the information that was uploaded by the others.
+In the case you have several devices uploading to Nightscout (not recommended) you might want to also download treatments from Nightscout to see the information that was uploaded by others.
 
-<img src="../images/M-S-CU-NSf.png" style="zoom:75%;" />
-
-In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.  
-
-##### *Note: only BG values will upload to the secondary URLs*
+!!!xdripitem "Download treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Also try to download treatments from Nightscout  
 
 !!!warning "Automatic Calibration"  
-    This is the same [Automatic Calibration](../../calibrate/advancedcal) setup in calibrations. Use with care.
+    This is the same [Automatic Calibration](../../calibrate/advancedcal#use-treatment-bg-values) setup in calibrations. Use with care.
 
-<img src="../images/M-S-CU-NSh.png" style="zoom:75%;" />
+!!!xdripitem "Automatic Calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"  
+    &ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
 
-<img src="../images/M-S-CU-NSi.png" style="zoom:75%;" />
+</br>
 
-If your Nightscout is only on a local server, don't try to upload data to Nightscout when you're not home.
+!!!xdripitem "Extra Options"
 
-<img src="../images/M-S-CU-NSj.png" style="zoom:75%;" />
+If your Nightscout is available only on a local server (on a private IP), don't try to upload data to Nightscout when you're not home. Ignore for cloud based Nightscout.
+
+!!!xdripitem "Skip LAN uploads&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+    &ensp;For local servers with 192.168.x.x addresses, skip uploads when there is no local network connectivity 
 
 You can upload your bridge or sensor battery level (if supported).
 
-<img src="../images/M-S-CU-NSk.png" style="zoom:75%;" />
+!!!xdripitem "Upload bridge battery&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+    &ensp;Send your bridge battery level to Nightscout. Uncheck if your battery sensor is broken
+
+!!!xdripitem "Upload OB1 Dex transmitter battery&emsp;&emsp;&emsp; ☐"  
+    &ensp;Send Dexcom transmitter battery statistics to Nightscout. Includes all the data shown on the Collector Status screen
 
 Your can upload locally entered [treatments](../mainUI/#treatments) to Nightscout [Care Portal](https://nightscout.github.io/nightscout/setup_variables/#careportal-careportal).
 
-<img src="../images/M-S-CU-NSl.png" style="zoom:75%;" />
+!!!xdripitem "Upload treatments&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+    &ensp;Send treatment data to Nightscout. Uncheck if your careportal is broken
 
 You can setup an alert when upload fails, and add more information to the BG data uploaded.
 
-<img src="../images/M-S-CU-NSm.png" style="zoom:75%;" />
+!!!xdripitem "Alert on failures&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"  
+    &ensp;Display and sound a notification if Nightscout upload is failing
+
+!!!xdripitem "Append source info to device name&nbsp;&emsp;&emsp;&emsp; ☐"  
+    &ensp;For Dex, send collector type (e.g. OB1) and reading backfill status (for native) to Nightscout
+
+##### Backfill data to Nightscout
 
 If you recently created a Nightscout site and want to upload your historical data from xDrip+ database, you can use back-fill.
 
-<img src="../images/M-S-CU-NSn.png" style="zoom:75%;" />
+!!!xdripitem "Back-fill data"  
+    &ensp;Send treatment data to Nightscout. Uncheck if your careportal is broken
 
-Select the first day of the period you want to upload (until today) and touch DO IT!  
+Select the first day of the period you want to upload (until today) and touch **DO IT!**  
 Depending on the amount of data and network speed, upload can take a very long time (hours).
 
 <img src="../images/M-S-CU-NSn2.png" style="zoom:75%;" />
@@ -77,13 +106,14 @@ Depending on the amount of data and network speed, upload can take a very long t
 ### MongoDB
 
 !!!warning  
-    This method has been deprecated.
+    This method has been deprecated for Nightscout.
 
-You can directly upload BG and device status in a Mongo Database.
+You can directly upload BG and device status in a Mongo database.
 
-<img src="../images/M-S-CU-MD.png" style="zoom:75%;" />
+!!!xdripitem "MongoDB"  
+    &ensp;Direct database upload, not recommended for Nightscout
 
-MongoDB upload has been deprecated since mLab was acquired by MongoDB and many migrated to Atlas: you **cannot** use a DNS seed URI `mongodb+srv`.  
+MongoDB upload has been deprecated since mLab was acquired by MongoDB and many migrated to Atlas: **you cannot use a DNS seed URI `mongodb+srv`**.  
 Use this feature only if you run your own [Mongo](https://github.com/mongodb/mongo) database, default port is 27017.
 
 The [connection string URI](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-string-uri-format) structure is:
@@ -97,19 +127,16 @@ In order to keep the database compatible with Nightscout, do not change Collecti
 !!!info  
     Uploaded data might not show in the Nightscout web page but only in Nightscout reports.
 
-<img src="../images/M-S-CU-MDa.png" style="zoom:75%;" />
-
 ### InfluxDB
 
-You can also upload to an InfluxDB and use Grafana to present your data.
+You can also upload to an [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) and use Grafana to present your data.
 
-<img src="../images/M-S-CU-ID.png" style="zoom:75%;" />
+!!!xdripitem "InfluxDB"  
+    &ensp;If using a private InfluxDB database, this should be enabled
 
 Mind your InfluxDB URI will be expressed like:
 
 `https://host_address:port` for example for a local server: `https://192.168.0.56:8086`
-
-<img src="../images/M-S-CU-ID2.png" style="zoom:75%;" />
 
 ### Dexcom Share Server Upload
 
@@ -117,61 +144,75 @@ Mind your InfluxDB URI will be expressed like:
     You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
     Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers.
 
-Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to manage your followers.
+Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to upload to Dexcom Share.
 
-<img src="../images/M-S-CU-DX.png" style="zoom:75%;" />
+!!!xdripitem "Dexcom Share Server Upload"  
+    &ensp;Upload data to Dexcoms servers so you can use your data with Dexcoms apps
 
 !!!info  
-    You can upload your BG to Dexcom share, not to Clarity.
+    You can upload your BG to Dexcom Share, **not to Dexcom Clarity**.
 
-<img src="../images/M-S-CU-DXa.png" style="zoom:75%;" />
+!!!xdripitem "Upload BG values as Dexcom Share&emsp;&emsp;&emsp; 🗹"  
+    &ensp;Enable this to upload to Dexcom's servers
 
-If you use an USA account enable this, for any country outside of the US leave it disabled. 
+If you use an USA account enable this, **for any other country leave it disabled**. 
 
-<img src="../images/M-S-CU-DXb.png" style="zoom:75%;" />
+!!!xdripitem "Dexcom USA based account&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"  
+    &ensp;Enable = Your account and follower apps are from the USA
 
 Enter the credentials you use to log into Clarity.
 
-<img src="../images/M-S-CU-DXc.png" style="zoom:75%;" />
+!!!xdripitem "Dexcom Account Login"
+
+
+!!!xdripitem "Dexcom Account Password"
 
 If you don't own a physical receiver there should be no need to enter anything here.
 
-<img src="../images/M-S-CU-DXd.png" style="zoom:75%;" />
+!!!xdripitem "10-Characters Dexcom Receiver serial number"
 
-Manage followers is **not functional** anymore. You should do this from the Dexcom app.
+Manage followers is **not functional** anymore. You must do these operations from the Dexcom app.
 
-<img src="../images/M-S-CU-DXe.png" style="zoom:75%;" />
+!!!xdripitem "Manage Followers"
 
 ### Tidepool
 
-<img src="../images/M-S-CU-TP.png" style="zoom:75%;" />
+!!!xdripitem "Tidepool"  
+    &ensp;Upload data to the Tidepool service
 
 If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.  
 If xDrip+ can display [basal information from an external status](../use/display/#basal-information), it will also be uploaded to Tidepool.
 
-<img src="../images/M-S-CU-TPa.png" style="zoom:75%;" />
+!!!xdripitem "Sync to Tidepool&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"
 
-Add your email address and password (those you used to [register](https://app.tidepool.org/signup/personal)).  
+Add your email address and password (those you used to [register](https://app.tidepool.org/signup/personal)).
+
+!!!xdripitem "Login User Name"
+
+!!!xdripitem "Login Password"
+
 Once done, test the connection.
 
-<img src="../images/M-S-CU-TPb.png" style="zoom:75%;" />
+!!!xdripitem "Test Tidepool Login"
 
-Tidepool doesn't need real time data, select the amount of data to upload.
+Tidepool doesn't need real time data, select the period data will upload, using the cursor. Default is 15 minutes.
 
-<img src="../images/M-S-CU-TPc.png" style="zoom:75%;" />
+!!!xdripitem "Data Age Mins (15)"
 
-Do **not** use test servers (keep unselected).
+Do **NOT** use test servers (keep unselected).
 
-<img src="../images/M-S-CU-TPd.png" style="zoom:75%;" />
+!!!xdripitem "Use integration (test) servers&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"
 
 You can select to upload at specific conditions to save battery and data costs.
 
-<img src="../images/M-S-CU-TPe.png" style="zoom:75%;" />
+!!!xdripitem "Only when charging&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"
+
+!!!xdripitem "Only on Wifi&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"
 
 If you also upload data manually from your pump, you might want to disable xDrip+ treatments upload to avoid duplicates.
 
-<img src="../images/M-S-CU-TPf.png" style="zoom:75%;" />
+!!!xdripitem "Don't upload treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"
 
 </br>
 
-[*Last modified 18/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 2/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31)
