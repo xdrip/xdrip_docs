@@ -234,7 +234,7 @@ Raw data that can be displayed by xDrip+ if available.
 
 <img src="../images/M-S-DS6f.png" style="zoom:75%;" />
 
-G4, G5 and [old G6](../../troubleshoot/connection/#firefly-transmitters) provide raw data.
+G4, G5 and rebatteried G6 provide raw data.
 
 <img src="../images/M-S-DS6f2.png" style="zoom:75%;" />
 
