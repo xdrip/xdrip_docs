@@ -4,23 +4,24 @@ xDrip+ provides an easy way to copy settings from one phone to another.
 
 Show settings QR code displays a QR code containing xDrip+ settings.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../images/M-S-QR.png" style="zoom:75%;" />
+!!!xdrip "`Show settings QR code`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Show settings QR code
 
-<img src="../images/M-S-QRa.png" style="zoom:75%;" />
+!!!xdripitem "Share Settings via QR code"  
+    &ensp;Use QR codes to transfer settings->Auto configure feature
 
 xDrip+ security key is used for xDrip+ Sync, if you only want to share a a follower code (that is difficult to copy manually) use this.
 
-<img src="../images/M-S-QRb.png" style="zoom:75%;" />
+!!!xdripitem "`XDRIP PLUS SECURITY KEY SETTINGS ONLY`"
 
 General and collection settings include general settings and your hardware data source settings.
 
-<img src="../images/M-S-QRc.png" style="zoom:75%;" />
+!!!xdripitem "`SHOW GENERAL AND COLLECTION SETTINGS`"
 
 All settings include all (not alarms: you need to recreate them manually).
 
-<img src="../images/M-S-QRd.png" style="zoom:75%;" />
+!!!xdripitem "`COPY ALL SETTINGS`"
 
 You will obtain a QR code that you can scan with Auto Configure on another phone.
 
@@ -30,8 +31,9 @@ You will obtain a QR code that you can scan with Auto Configure on another phone
 
 Auto configure allows you to import settings from a QR code.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../images/M-S-AC.png" style="zoom:75%;" />
+!!!xdrip "`Auto Configure`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Auto Configure
 
 You need to authorize xDrip+ to access the phone camera.
 
