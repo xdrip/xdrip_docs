@@ -94,9 +94,11 @@ Including current trend (1) can prevent sharp prediction variations and might be
 
 <img src="../images/M-S-PS5a.png" style="zoom:75%;" />
 
+<img src="../images/M-S-PS5b.png" style="zoom:75%;" />
+
 Might
 
-<img src="../images/M-S-PS5b.png" style="zoom:75%;" />
+<img src="../images/M-S-PS5c.png" style="zoom:75%;" />
 
 ### EULA
 

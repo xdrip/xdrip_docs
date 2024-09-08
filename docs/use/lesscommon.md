@@ -59,6 +59,8 @@ Display raw values on the [main graph](../display/#graph-settings)
 
 <img src="../images/M-S-LCS6a.png" style="zoom:75%;" />
 
+<img src="../images/M-S-DS6f3.png" style="zoom:75%;" />
+
 Show more information in status
 
 <img src="../images/M-S-LCS6b.png" style="zoom:75%;" />

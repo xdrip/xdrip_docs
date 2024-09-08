@@ -90,7 +90,7 @@ If your bridge paired to Android, unpair it before continuing.
     Sensors and bridges can only connect to one smartphone (or tablet) at a time, and only to one app at a time.  
     You should uninstall the vendor app in order to connect xDrip+ to your sensor or bridge.  
     If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.  
-    **You cannot connect to two phones or applications. With an exception for G6: the second device can only be a receiver/connected pump or a BlueJay watch.**
+    **You cannot connect to two phones or applications. With an exception for Dex G6/G7/1 and 1+: the second device can only be a receiver/connected pump or a BlueJay watch.**
 
 </br>
 
@@ -235,4 +235,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 5/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04)
