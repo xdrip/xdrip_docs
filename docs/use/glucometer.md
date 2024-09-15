@@ -6,7 +6,7 @@
 
 ##### NFC meter
 
-If you use a  Glucomen Aero meter with an NFC reader capable phone you can scan it to get last reading.
+If you use a  Glucomen Aero meter with an NFC reader capable phone you can scan it to get the last reading.
 
 <img src="../images/M-S-GMe.png" style="zoom:78%;" />
 

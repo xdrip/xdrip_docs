@@ -4,7 +4,8 @@
 
 !!!warning "Work in progress"  
     In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
-    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23).
+    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
+    Update xDrip+ to a version at least [15th Sep 2024 - c](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) to use the new [xDripCloud](#use-xdrip-cloud) method.
 
 !!!warning  
     [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
@@ -33,6 +34,13 @@ Only one master can use the same security key. If two masters are detected, the 
 You can setup the master phone to receive and accept followers treatments and calibrations. Be extremely careful when using this feature if you use automatic calibrations. Also remember sensor start and stop might be sent by followers and accepted by the master.
 
 <img src="../images/M-S-SY4.png" style="zoom:75%;" />
+
+##### Use xDrip Cloud
+
+After Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip+ Sync in July 2024, a new sharing method has been developed. If you want to use xDrip Cloud (recommended), all phones must have this feature enabled.
+
+!!!xdripitem "Use xDrip Cloud&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Use the new xDrip+ cloud servers. Master and follower must have this setting set the same.  
 
 ##### Whole house
 
@@ -93,4 +101,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 15/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c)

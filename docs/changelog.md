@@ -6,12 +6,20 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | c - **[xDripCloud](../use/sync/#use-xdrip-cloud)** for xDrip+ Sync |
+| [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15b) | b - xDripCloud                                               |
+| [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15) | xDripCloud, BlueJay                                          |
+| [4th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | GCM reworks                                                  |
+| [31st Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New Dex device/FW                                            |
+| [30th Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.30) | **Stelo** companion app                                      |
+| [26th Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.26) | Internal fixes                                               |
+| [7th Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.07) | OB1 provide BG with err 7, fix sensor expiry alert decimals  |
 | [2nd Aug 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) | QR code from file, save logs                                 |
 | [23rd Jul 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | **xDrip Sync rework** for GCM API shutdown                   |
 | [17th Jul 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.17) | G7 backfill                                                  |
 | [28th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28) | Cleanup retired settings, Nightscout calibrations backfill   |
 | [25th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Microtech **Aidex** companion app, Wear OS complications     |
-| [11th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.11) | Add more Libre SN, remove stop G7,                           |
+| [11th Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.11) | Add more Libre SN, remove stop G7                            |
 | [ 1st Jun 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) | Removed G5, Cleanup                                          |
 | [29th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) | Android 15 compatibility                                     |
 | [28th May 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) | New G7 FW                                                    |
@@ -31,19 +39,19 @@
 | [15th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.15) | NFC scan fix Android 14                                      |
 | [14th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.14) | Add ONE+                                                     |
 | [ 7th Feb 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.07) | AOD improvements, no stop G7                                 |
-| [16th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **Eversense**. Broadcast compatibility for older AAPS versions. |
+| [16th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **Eversense**. Broadcast compatibility for older AAPS versions |
 | [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13b) | b - Eversense                                                |
-| [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Add Eversense to Companion app. Improve broadcast compatibility. |
+| [13th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Add Eversense to Companion app. Improve broadcast compatibility |
 | [ 10th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.10) | Plugin fix get intercept.                                    |
 | [ 5th Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.05) | Keep BT on for airplane mode.                                |
-| [ 2nd Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.02) | Fix cal for native sensors stop.                             |
-| [23rd Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.23) | Update status pages.                                         |
+| [ 2nd Jan 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.02) | Fix cal for native sensors stop                              |
+| [23rd Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.23) | Update status pages                                          |
 | [16th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.16) | [Quick start guide](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md). Adding **CareSens Air** |
-| [15th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.15) | G7 fixes. Insulin list.                                      |
-| [11th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | IPv6. Sync with upstream AndroidX.                           |
-| [ 7th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | G7 data table, expiry. AndroidX migration.                   |
-| [ 5th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | CareLink fixes. Notification channel fix.                    |
-| [29th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | CareLink follower fix and optimization.                      |
+| [15th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.15) | G7 fixes. Insulin list                                       |
+| [11th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | IPv6. Sync with upstream AndroidX                            |
+| [ 7th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | G7 data table, expiry. AndroidX migration                    |
+| [ 5th Dec 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | CareLink fixes. Notification channel fix                     |
+| [29th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | CareLink follower fix and optimization                       |
 | [28th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | History 1 min. G7 24h backfill. CareLink auth.               |
 | [21st Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | G7: no initial calibration, warmup and firmware updates. Android lib 28 |
 | [14th Nov 2023](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | Update Health Connect for Android 14                         |
