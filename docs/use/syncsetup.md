@@ -7,7 +7,7 @@
 !!!warning "Work in progress"  
     In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
     Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
-    Update xDrip+ to a version at least [15th Sep 2024 - c](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) to use the new [xDripCloud](#use-xdrip-cloud) method.
+    Updating xDrip+ to minimum latest release is recommended.
 
 xDrip+ provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
 
@@ -71,7 +71,7 @@ Write down the master key.
 
 ## Setup follower
 
-Make sure Use xDrip Cloud is enabled like on the master phone.
+After Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip+ Sync in July 2024, a new sharing method has been developed. If you experience issues, enable this feature.
 
 !!!xdripitem "Use xDrip Cloud&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
     &ensp;Use the new xDrip+ cloud servers. Master and follower must have this setting set the same.  
@@ -113,4 +113,4 @@ You might need to reboot the follower phone to validate everything and get data.
 
 </br>
 
-[*Last modified 15/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c)
+[*Last modified 28/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27)

@@ -7,7 +7,7 @@
 !!!warning "Work in progress"  
     In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
     Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
-    Update xDrip+ to a version at least [15th Sep 2024 - c](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) to use the new [xDripCloud](#use-xdrip-cloud) method.
+    Updating xDrip+ to minimum latest release is recommended.
 
 Select this data source if you've setup a device with xDrip+ as master and decided this other device will be the follower.  
 A master device is usually the one getting BG from the sensor.  
@@ -19,5 +19,5 @@ See [here](../../use/syncsetup) how to setup xDrip+ Sync follower.
 
 </br>
 
-[*Last modified 15/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c)
+[*Last modified 28/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27)
 
