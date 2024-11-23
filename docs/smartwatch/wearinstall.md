@@ -20,6 +20,9 @@ Wear OS 4 and 5 might present challenges.
 
 ### Wear OS 1.x
 
+!!!warning "Android 15"  
+    The old Android Wear 2.9 package is not compatible with Android 15.
+
 Usually it's the Sony Smartwatch 3 ([SWR50](https://www.sony.com/electronics/support/other-products-xperia-smart-devices/swr50)). 
 
 #### Method 1 (easiest)
