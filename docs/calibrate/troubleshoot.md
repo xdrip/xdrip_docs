@@ -51,7 +51,7 @@ Slope limits depend on your sensor:
 
 Since slope and intercept safety limits will prevent xDrip+ from having a too high intercept, calibrations leading to this situation will be ignored.
 
-In the example below you see the orange line is the one that matches the best calibartions, still, xDrip+ will use the red one for safety as its intercept is safe. You can see the plugin intercept value reflecting what would better match calibrations.
+In the example below you see the orange line is the one that matches the best calibrations, still, xDrip+ will use the red one for safety as its intercept is safe. You can see the plugin intercept value reflecting what would better match calibrations.
 
 <img src="../images/CAL20.png" style="zoom:75%;"  />
 

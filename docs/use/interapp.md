@@ -1,39 +1,58 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../use/images/M-S-IA.png" style="zoom:75%;" />
+!!!xdrip "`Inter-apps`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_open_in_app_grey600_48dp.png" style="width:5%;" />&ensp;Inter-app settings
+
+</br>
 
 Inter-app settings offers two ways to interface xDrip+ with other apps: local broadcast (internal to this phone) and web service (internal and external).
-
-<img src="../images/M-S-IASa.png" style="zoom:75%;" />
 
 ### Local Broadcast
 
 Broadcast locally will make xDrip+ send internal messages that can be used by other apps like Nightwatch or AAPS.
 
-<img src="../images/M-S-IASb.png" style="zoom:75%;" />
+!!!xdripitem "Broadcast locally&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
 
-If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.  
+If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.
+
+!!!xdripitem "Send Display Glucose"  
+    &ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value
+
 You can also block noisy data broadcast for safety.
 
-<img src="../images/M-S-IASc.png" style="zoom:75%;" />
+!!!xdripitem "Noise Blocking"  
+    &ensp;Level at which noisy data should not be broadcast as it could confuse receiving apps
 
 Recent apps/phones should accept compatible broadcast. Do not uncheck.
 
-<img src="../images/M-S-IASd.png" style="zoom:75%;" />
+!!!xdripitem "Compatible Broadcast&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+    &ensp;Send broadcasts without locking the old permission model
 
-You specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
+You can specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
 
-<img src="../images/M-S-IASe.png" style="zoom:75%;" />
+!!!xdripitem "Identify receiver"  
+    &ensp;Only send to named package
 
 ##### Receiving from NSClient.
 
 xDrip+ can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
 
-<img src="../images/M-S-IASf.png" style="zoom:75%;" />
+!!!xdripitem "Accept Glucose"  
+    &ensp;Process glucose data received from NSClient app
 
-You can enable or disable the sound that plays after updating xDrip+ profile.
+!!!xdripitem "Accept Treatments"  
+    &ensp;Process treatment data received from NSClient app
 
-<img src="../images/M-S-IASf2.png" style="zoom:78%;" />
+Be careful when accepting calibrations from other apps.
+
+!!!xdripitem "Accept Calibrations"  
+    &ensp;Process calibrations received from other apps
+
+You can enable or disable (recommended for AAPS) the sound that plays after updating xDrip+ profile.
+
+!!!xdripitem "Import sounds&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+    &ensp;Play sounds when importing significant data such as profiles
 
 ### Web Service
 
@@ -41,16 +60,21 @@ Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob
 
 !!!warning  
     If you have another app using port 17580 (like Diabox) you should disable this feature.  
-    Note the service is not available as secured http and recent [Fitbit](../../smartwatch/smartwatch/#fitbit) apps will not accept data from it.
+    Note the service is not available as secured http and recent [Fitbit](../../smartwatch/smartwatch/#fitbit) apps might not accept data from it.
 
 Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.  
 The web server will respond to requests on address `127.0.0.1` port `17580`
 
-<img src="../images/M-S-IASg.png" style="zoom:75%;" />
+!!!xdripitem "xDrip Web Service"  
+    &ensp;Operating a local web server for interacting with Fitbit Ionic etc.
 
-By default the web service is only available to your device, you can open it so that other devices on the network can access it.
+By default the web service is only available to your device, you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
 
-<img src="../images/M-S-IASh.png" style="zoom:75%;" />
+!!!xdripitem "Open Web Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+    &ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
+
+!!!xdripitem "xDrip Web Service Secret"  
+    &ensp;Shared secret for open web service.
 
 #### Open option
 
@@ -202,9 +226,10 @@ This should be the current cumulative rate bpm on the device measuring. Not a hi
 
 ### Broadcast Service API
 
-This service allows broadcast of xDrip+ values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration).
+This service allows broadcast of xDrip+ values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
 
-<img src="../images/M-S-IASi.png" style="zoom:76%;" />
+!!!xdripitem "Broadcast Service API&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Enable xDrip communication with third-party applications by using new API
 
 </br>
 
@@ -212,12 +237,20 @@ This service allows broadcast of xDrip+ values as an API and can be used by exte
 
 You can share information with Google Health.
 
-<img src="../images/M-S-IASj.png" style="zoom:76%;" />
+!!!xdripitem "Google Health Connect"  
+    &ensp;Send and receive data from Google Health Connect and Google Fit
 
 You need [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&hl=en&gl=US) installed on your device, which is available for Android 8 and above.
 
-<img src="../images/M-S-IASj1.png" style="zoom:76%;" />
+!!!xdripitem "Use Health Connect"  
+    &ensp;Required Android 8+ and Google companion application
+
+You can then decide to use incoming and allow outgoing data.
 
 xDrip+ can share steps, heart rate and BG with Google Health.
+
+!!!xdripitem "Get data from Health Connect"  
+
+!!!xdripitem "Send data to Health Connect"  
 
 [*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)

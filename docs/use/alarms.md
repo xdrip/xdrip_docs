@@ -266,7 +266,7 @@ You can also setup alerts for fast BG changes and define the 1 minute change tri
 ##### Alert preferences
 
 The alerts above and **also Missed Readings** use the sound defined below.  
-Some recent Android versions do not ring it unless you use [Notification channels](#notification-channel).
+Some recent Android versions do not ring it unless you use [Notification channels](#notification-channels).
 
 !!!xdripitem "Alert Preferences (For these Alerts)"  
     &ensp;Alert Sound  

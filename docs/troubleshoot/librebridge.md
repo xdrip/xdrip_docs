@@ -49,7 +49,7 @@ Bluetooth should always be connected.
 
 First actions to perform if Bluetooth is not connected:
 
-1. Check your [Bluetooth settings](../../install/libreBT/#bridge-settings) and [Restart collector](#restart-collector-forget-device). If restart collector allowed you to recover connection, the issue might be with your Bluetooth settings or phone energy savings settings.  
+1. Check your [Bluetooth settings](../../install/libreBT/#bridge-settings) and Restart Collector in the System Status classic tab. If restart collector allowed you to recover connection, the issue might be with your Bluetooth settings or phone energy savings settings.  
 2. Open Android Settings -> Apps -> xDrip+: make sure it can run in background and is not optimized for battery savings.  
 3. Still in Apps look for Bluetooth system apps (might be hidden by default and present in the three dots menu, upper right): make sure all Bluetooth services can run in background and are not optimized.
 

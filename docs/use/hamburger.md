@@ -1,5 +1,5 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />    
-<img src="../images/UI-HM.png" style="zoom:75%;" />
+!!!xdrip "`Main menu`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
 
 Many items can be added to this menu, by default you'll find the following ones:
 
@@ -15,36 +15,26 @@ Many items can be added to this menu, by default you'll find the following ones:
 
 [**Settings**](../settings/) opens the settings menu.
 
-Additionally if can show more entries if you add items or when you use a sensor.
-
-<img src="../images/UI-HM-SSS.png" style="zoom:77%;" />
-
+Additionally it can show more entries if you add items or when you use a sensor:  
 You will see sensor actions if you use xDrip+ directly connected to a sensor, also on xDrip+ Sync follower if the master is.
 
 **[Start Sensor](../startsensor)** or **[Stop Sensor](../stopsensor)** refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
 
 !!!warning  
-    xDrip+ Sync follower can transmit Start or Stop sensor and calibrations remotely.  
-    Be extremely careful when using these features on a follower.
+    xDrip+ Sync follower can transmit Start or Stop sensor (if supported by the sensor) and calibrations, remotely.  
+    Be extremely careful when using these features on a follower if the master xDrip+ accepts follower actions.
 
-For Bluetooth bridges ([G4](../../install/G4/) and [Libre](../../install/libreBT/)) you will also see **Scan Bluetooth**.
-
-<img src="../../images/M-BTS.png" style="zoom:75%;" />
+For Bluetooth bridges ([Libre](../../install/libreBT/)) you will also see **Scan Bluetooth**.
 
 **Level Alerts** will show if enabled in [Alerts and Alarms](../alarms/#glucose-level-alert-list).
 
-<img src="../images/M-LA.png" style="zoom:77%;" />
-
-**BG Data Table**, **Calibration Graph** and **Calibration Data Table** should be [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
-
-<img src="../images/M-DT.png" style="zoom:77%;" />
+**BG Data Table**, **Calibration Graph** and **Calibration Data Table** should be manually [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
 
 ### History
 
 When xDrip+ has been in use for some time, history allows you to browse old data.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />    
-<img src="../images/M-HIS.png" style="zoom:75%;" />
+!!!xdripitem "History"  
 
 1. browse the previous number of day(s)
 2. browse the next number of day(s)

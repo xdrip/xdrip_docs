@@ -83,8 +83,11 @@ More smartwatches and devices can receive data from xDrip+ even if they are not 
 
 #### Fitbit
 
-!!!Warning "Not available for EU users"  
-    Google has [removed](https://support.google.com/fitbit/answer/14237121?hl=en) the possibility since June 2024. Installed watchfaces are not impacted but new users can't install custom watchfaces anymore.
+!!!warning "Google is discontinuing Sense/Ionic/Versa"  
+    Consider these products will be end of life in the near future.
+
+!!!warning "Not available for EU users"  
+    Google has [removed](https://support.google.com/fitbit/answer/14237121?hl=en) the possibility since June 2024. Installed watchfaces are not impacted but new users can't install custom watchfaces anymore. You need to use a VPN as a workaround.
 
 !!!warning "Android 9 and below"  
     Android users with a version below 10 need to downgrade the Fitbit app to a previous version like 3.58 and disable automatic updates. You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers.
