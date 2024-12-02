@@ -1,5 +1,5 @@
 !!!xdrip "`BlueJay Watch`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Smart Watch Features  
     &emsp;  BlueJay Watch
 
@@ -67,7 +67,7 @@ Settings Menu -> Admin Menu -> Show QR Code
 
 7 - In xDrip+ scan the watch QR code  
 !!!xdrip "`Auto Configure`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Auto Configure    
 You need to authorize xDrip+ to access the phone camera.  
 Scan the QR code displayed on the watch.  

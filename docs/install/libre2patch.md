@@ -1,5 +1,5 @@
 !!!xdrip "Other app → `Libre (patched app)`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre (patched app)
@@ -57,7 +57,7 @@ Enable the `Forward to xDrip` flag.
 The original implementation included a 25 minutes smoothing algorithm to remove noise and make DIY close looping safer with Libre sensors. You can now reduce the smoothing period to 10, 15 or 25 minutes with the menu `Smooth Libre 3 data when using xxx method` in the NFC scan features menu.
 
 !!!xdrip "`NFC Scan Features`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;NFC Scan Features
 

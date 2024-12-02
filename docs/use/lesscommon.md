@@ -1,93 +1,160 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-LCS.png" style="zoom:75%;" />
+!!!xdrip "`Less Common settings`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+    &ensp;Settings  
+    &emsp;&ensp;Less Common settings
 
 More xDrip+ settings are available in less common settings.  
 If you can't find the setting you're looking for, keep in mind you can use the search lens from the main [settings](../settings) menu.
-
-<img src="../images/M-S-LCS.png" style="zoom:75%;" />
 
 ### Extra Status Line
 
 Top left of your main graph you can see the standard status line.  
 This menu allows you to add extra information in this area.
 
-<img src="../images/M-S-LCS2.png" style="zoom:75%;" />
-
-<img src="../images/M-S-LCS2a.png" style="zoom:75%;" />
+!!!xdripitem "Extra Status Line"  
+    &ensp;Options for the extra line
 
 You need to enable the extra status line to add extra information.
 
-<img src="../images/M-S-LCS2b.png" style="zoom:75%;" />
+!!!xdripitem "Extra Status Line&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Additional text status
 
 You can make selected statistics to be calculated on the last 24 hours. By default they're starting at midnight.
 
-<img src="../images/M-S-LCS2c.png" style="zoom:75%;" />
+!!!xdripitem "Sliding Window"  
+    &ensp;Use last 24 hours instead of time since midnight for statistics
 
 There is a long list of available extra information you can display.  
 Only select those you really need to see every 5 minutes.
 
-<img src="../images/M-S-LCS2d.png" style="zoom:75%;" />
+!!!xdripitem "Average"  
+    &ensp;Today's average value 
 
-<img src="../images/M-S-LCS2f.png" style="zoom:75%;" />
+!!!xdripitem "A1c DCCT"  
+    &ensp;A1c estimation in DCCT format (%) 
+
+!!!xdripitem "A1c IFCC"  
+    &ensp;A1c estimation in IFCC format (mmol/mol)
+
+!!!xdripitem "In percentage"  
+    &ensp;Percentage of values in range
+
+!!!xdripitem "High percentage"  
+    &ensp;Percentage of values above range
+
+!!!xdripitem "Low percentage"  
+    &ensp;Percentage of values below range
+
+!!!xdripitem "Standard deviation"  
+    &ensp;Show standard deviation of values
+
+!!!xdripitem "Total carbohydrate"  
+    &ensp;Show treatment carbohydrate total
+
+!!!xdripitem "Total insulin"  
+    &ensp;Show treatment insulin total
+
+!!!xdripitem "External status"  
+    &ensp;Display status from other apps like AAPS
+
+!!!xdripitem "Pump status"  
+    &ensp;Display pump status information if available
+
+!!!xdripitem "Carb/Insulin ratio"  
+    &ensp;Show treatment Carb/Insulin ratio
+
+!!!xdripitem "Packet capture percentage"  
+    &ensp;Show percentage of sensor readings received 
+
+!!!xdripitem "Realtime packet capture percentage"  
+    &ensp;Percentage of sensor readings received in realtime (non-backfilled). G5 native mode only.
+
+!!!xdripitem "Accuracy evaluation"  
+    &ensp;Show accuracy evaluation from last 3 days
+
+!!!xdripitem "Time"  
+    &ensp;The current time
+
+!!!xdripitem "Calibration data (long)"  
+    &ensp;Show slope and intercept in long form
+
+!!!xdripitem "Calibration data (short)"  
+    &ensp;Show slope and intercept in short form
+
+!!!xdripitem "Calibration plugin"  
+    &ensp;Show slope and glucose data from the active plugin
 
 You can also add this extra information on your [widget](../mainUI/#widget).
 
-<img src="../images/M-S-LCS2e.png" style="zoom:75%;" />
+!!!xdripitem "Show on widget"  
+    &ensp;Also show the extra status line on the widget
 
 ### [Advanced Calibration](../../calibrate/advancedcal)
 
-<img src="../images/M-S-LCS3.png" style="zoom:75%;" />
+See the dedicated section.
+
+!!!xdripitem "Advanced calibration"  
+    &ensp;Extra options relating to calibrations
 
 ### [Bluetooth Settings](../bluetooth)
 
-<img src="../images/M-S-LCS4.png" style="zoom:75%;" />
+See the dedicated section.
+
+!!!xdripitem "Bluetooth settings"  
+    &ensp;Advanced Bluetooth settings
 
 ### blueReader Settings
 
 Settings for the [pioneer](https://www.startnext.com/en/bluereader/wall) Libre bridge device from Sandra.
 
-<img src="../images/M-S-LCS5.png" style="zoom:75%;" />
+!!!xdripitem "blueReader settings"  
+    &ensp;Advanced blueReader settings
 
 ### Advanced Settings for Libre 2
 
 Show additional information for Libre 2 sensors
 
-<img src="../images/M-S-LCS6.png" style="zoom:75%;" />
+!!!xdripitem "Advanced settings for Libre 2"
 
 Display raw values on the [main graph](../display/#graph-settings)
 
-<img src="../images/M-S-LCS6a.png" style="zoom:75%;" />
+!!!xdripitem "Show raw values in graph"  
+    &ensp;Switch on to show the raw values on the graph
 
 <img src="../images/M-S-DS6f3.png" style="zoom:75%;" />
 
 Show more information in status
 
-<img src="../images/M-S-LCS6b.png" style="zoom:75%;" />
+!!!xdripitem "Show sensor infos in status"  
+    &ensp;Switch to on to show additional sensor information in status for Libre 2 sensors
 
 ### Aggressive Service Restarts
 
 Enabling this provokes a [collector restart](../../troubleshoot/systemstatus/#restart-collector-forget-device) when detecting missing data. This can be useful if you have connection problems.
 
-<img src="../images/M-S-LCS7.png" style="zoom:75%;" />
+!!!xdripitem "Aggressive service restarts"  
+    &ensp;Repeatedly restart the collection service at any hint of missing data. Enable only if you are getting data loss.
 
 ### Interpret Raw Values
 
-Display data when not available on the G4 receiver.
+Display data when not available on the Dexcom receiver.
 
-<img src="../images/M-S-LCS8.png" style="zoom:75%;" />
+!!!xdripitem "Interpret raw values"  
+    &ensp;If using share, xDrip+ will display values when they are normally hidden on the receiver
 
 ### Extra Logging Settings
 
-<img src="../images/M-S-LCS9.png" style="zoom:75%;" />
+!!!xdripitem "Extra Logging Settings" 
 
 These options are not used anymore.
 
-<img src="../images/M-S-LCS9a.png" style="zoom:75%;" />
+!!!xdripitem "Enable remote logging" 
+
+!!!xdripitem "Store logs for troubleshooting"  
 
 Adding extra tags is useful for debugging as it will add specific traces in the log.
 
-<img src="../images/M-S-LCS9b.png" style="zoom:75%;" />
+!!!xdripitem "Extra tags for logging"  
 
 You need to know what you want to debug and set the correct level. Make sure to put valid tags to avoid xDrip+ crashing.
 
@@ -95,52 +162,55 @@ You need to know what you want to debug and set the correct level. Make sure to 
 
 ### Show Data tables
 
-This feature is extremely useful if you calibrate using the xDrip+ algorithm (non native).
+This feature is extremely useful if you calibrate using the xDrip+ algorithm (non native).  
+It will add two entries in the drawer menu for visualization of calibration and data tables.
 
-<img src="../images/M-S-LCS10.png" style="zoom:75%;" />
-
-This will add new entries in your main menu:
-
-<img src="../images/M-S-LCS10a.png" style="zoom:75%;" />
+!!!xdripitem "Show Data tables"  
+    &ensp;Show calibration and BG datatables in the app drawer
 
 *Note: Calibration graph will not show in native mode.*
 
 ### Display Bridge Battery
 
-You can display your Bluetooth bridge battery level on the main view. This also applies to Libre Bluetooth bridges.
+You can display your Bluetooth bridge battery level on the main view. This also applies to Libre Bluetooth bridges.  
+In follower mode it will most probably display the master phone battery level rather than the bride itself.
 
-<img src="../images/M-S-LCS11.png" style="zoom:75%;" />
+!!!xdripitem "Display Bridge Battery"  
+    &ensp;Choose to display the bridge battery level
 
 <img src="../images/M-S-LCS11a.png" style="zoom:75%;" />
 
 ### Disable Battery Warning
 
-Disable battery warnings for G4 bridges
+Disable battery warnings for bridges
 
-<img src="../images/M-S-LCS12.png" style="zoom:75%;" />
+!!!xdripitem "Disable Battery Warning"  
+    &ensp;Disable the warning for low transmitter battery state on the home screen (only relevant to DIY receivers)
 
 ### Database automatic maintenance
 
 Save Database Daily will actually export the database file every day before doing cleanup. This will use a large amount of your device memory and is not recommended.
 
-<img src="../images/M-S-LCS13.png" style="zoom:75%;" />
+!!!xdripitem "Save Database Daily"  
+    &ensp;Allows the daily intent service to save the database before purging
 
 Glucose retention will automatically delete data older than the number of days selected.  
 Zero means don't delete anything (recommended). You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip+.
 
-<img src="../images/M-S-LCS14.png" style="zoom:75%;" />
-
-<img src="../images/M-S-LCS14a.png" style="zoom:75%;" />
+!!!xdripitem "Glucose retention"  
+    &ensp;Erase daata older than this many days. 0 = don't erase anything.
 
 ### [Other Miscellaneous Options](../misc)
 
-<img src="../images/M-S-LCS15.png" style="zoom:75%;" />
+See the dedicated section.
+
+!!!xdripitem "Other misc. options"
 
 ### Sensor Location
 
 Not used anymore.
 
-<img src="../images/M-S-LCS16.png" style="zoom:75%;" />
+!!!xdripitem "Store sensor location to help algorithm impro."
 
 </br>
 

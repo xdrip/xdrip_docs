@@ -1,5 +1,5 @@
 !!!xdrip "`Cloud Upload`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Cloud Upload
 

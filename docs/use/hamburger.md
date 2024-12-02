@@ -1,5 +1,5 @@
 !!!xdrip "`Main menu`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
 
 Many items can be added to this menu, by default you'll find the following ones:
 

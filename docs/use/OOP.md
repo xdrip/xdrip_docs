@@ -4,17 +4,17 @@ They are only used for Libre sensors and bridges now.
 
 There are two different families of Out Of Process Algorithms (OOP):
 
-| OOP Version                         | Version date | Supported sensors                        | File size |
-| ----------------------------------- | ------------ | ---------------------------------------- | --------- |
-| OOP1 (2bb9458)                      | 2018-08-26   | Libre                                    | 17.1MB    |
-| OOP1new (fa218ef)                   | 2019-11-22   | Libre, Libre 2 EU                        | 25.3MB    |
-| OOP1us (e901151) - **do not use**   | 2019-09-13   | Libre 14 days US (old)                   | 27.8MB    |
-| OOP2 (70129ac) - **do not use**     | 2021-12-04   | Libre 2 EU                               | 2.63MB    |
-| OOP2new (93e5cac) - **do not use**  | 2020-12-08   | Libre 14 days US, Libre 2 EU             | 2.65MB    |
-| OOP2 1.2 (8a0ee8f) - **do not use** | 2022-06-10   | Libre 14 days US (old), Libre 2 EU       | 2.66MB    |
-| OOP2_e6 (6de6678) - **do not use**  | 2023-01-10   | Libre 14 days US (new), Libre 2 EU       | 2.66MB    |
-| OOP2_more (27da3f5)                 | 2023-05-25   | Libre 14 days US (new), Libre 2 EU (new) | 2.66MB    |
-| OOP2_c6_09_31 (27da3f5)             | 2024-05-31   | Libre 14 days US (new), Libre 2 EU (new) | 2.7MB     |
+| OOP Version                         | Version date   | Supported sensors                        | File size |
+| ----------------------------------- | -------------- | ---------------------------------------- | --------- |
+| OOP1 (2bb9458)                      | 2018-08-26     | Libre                                    | 17.1MB    |
+| OOP1new (fa218ef)                   | 2019-11-22     | Libre, Libre 2 EU                        | 25.3MB    |
+| OOP1us (e901151) - **do not use**   | 2019-09-13     | Libre 14 days US (old)                   | 27.8MB    |
+| OOP2 (70129ac) - **do not use**     | 2021-12-04     | Libre 2 EU                               | 2.63MB    |
+| OOP2new (93e5cac) - **do not use**  | 2020-12-08     | Libre 14 days US, Libre 2 EU             | 2.65MB    |
+| OOP2 1.2 (8a0ee8f) - **do not use** | 2022-06-10     | Libre 14 days US (old), Libre 2 EU       | 2.66MB    |
+| OOP2_e6 (6de6678) - **do not use**  | 2023-01-10     | Libre 14 days US (new), Libre 2 EU       | 2.66MB    |
+| OOP2_more (27da3f5)                 | 2023-05-25     | Libre 14 days US (new), Libre 2 EU (new) | 2.66MB    |
+| **OOP2_c6_09_31 (27da3f5)**         | **2024-05-31** | **Libre 14 days US, Libre 2/2+ EU**      | 2.7MB     |
 
 ### OOP1
 
@@ -55,7 +55,8 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
 
 Some older xDrip+ versions will detect the presence or necessity of the out of process algorithm.
 
-Make sure you enable it only for OOP1 and **not for OOP2**.
+Enable <u>only</u> for OOP1.  
+**Do not enable for OOP2**. If you enabled it by mistake: [disable](../misc/#out-of-process-algorithm) OOP1.
 
 <img src="../images/OOP_AD.png" style="zoom:75%;" />
 
@@ -65,8 +66,8 @@ Use service corresponds to switching ON or OFF the OOP app. If you want to use i
 
 <img src="../images/OOP_UI1.png" style="zoom:75%;" />
 
-Foreground service is an addition that makes it less probable the app will be put to sleep by the phone.  
-Enable it if you have data loss (recommended).
+Foreground service is an addition that makes it less probable the app will be put to sleep by the phone. This will not prevent Google Play Protect to stop it.  
+Enable it if you have data loss (**recommended**).
 
 <img src="../images/OOP_UI2.png" style="zoom:75%;" />
 
@@ -81,4 +82,4 @@ When having data loss you can reduce the interval. The less the interval, the mo
 
 </br>
 
-[*Last modified 26/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26)
+[*Last modified 2/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

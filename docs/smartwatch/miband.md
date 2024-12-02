@@ -1,5 +1,5 @@
 !!!xdrip "`MiBand`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Smart Watch Features  
     &emsp;  MiBand
 

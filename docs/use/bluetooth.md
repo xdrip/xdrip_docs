@@ -3,7 +3,7 @@ The amount of Android phones manufacturers and sensors/bridges particularities h
 Trial and error approach is recommended, but change only one setting at a time to avoid further confusion.
 
 !!!xdrip "`Bluetooth Settings`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Less common settings  
     &ensp;&emsp;Bluetooth Settings

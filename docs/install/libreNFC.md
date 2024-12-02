@@ -12,7 +12,7 @@ If you will only use xDrip+ to scan the sensor you should choose LibreAlarm.
 ## Enabling NFC
 
 !!!xdrip "`NFC Scan Features`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;NFC Scan Features  
 

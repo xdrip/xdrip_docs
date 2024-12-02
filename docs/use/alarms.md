@@ -1,5 +1,5 @@
 !!!xdrip "`Alarms and Alerts`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Alarms and Alerts
 
@@ -326,7 +326,7 @@ After missed readings, a notification will sound when new data is received after
 ## Snooze Alert
 
 !!!xdrip "`Snooze Alert`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Snooze Alert
 
 If there is no active alert, you can **pre-snooze** alerts from this menu so that they won't trigger for a certain time.

@@ -5,7 +5,7 @@ xDrip+ provides an easy way to copy settings from one phone to another.
 Show settings QR code displays a QR code containing xDrip+ settings.
 
 !!!xdrip "`Show Settings QR Code`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code
 
 !!!xdripitem "Share Settings via QR code"  
@@ -32,7 +32,7 @@ You will obtain a QR code that you can scan with Auto Configure on another phone
 Auto configure allows you to import settings from a QR code.
 
 !!!xdrip "`Auto Configure`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure
 
 You need to authorize xDrip+ to access the phone camera.

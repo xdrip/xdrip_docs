@@ -36,7 +36,7 @@ Once the system is running on the vendor apps, you can troubleshoot xDrip+.
 Server updates might break the mechanism. Once xDrip+ has been fixed, you might need to reset it following this sequence:
 
 !!!xdrip "`Web Follower`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Web Follower

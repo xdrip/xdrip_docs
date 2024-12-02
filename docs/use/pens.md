@@ -1,20 +1,19 @@
+!!!xdrip "`Insulin pens`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_mode_edit_grey_600_48dp.png" style="width:5%;" />&ensp;Insulin Pens
+
 ### NovoPen Insulin Pen
 
 xDrip+ can download dosage to NovoPen 6 and Echo Plus.
-
-<img src="../images/M-S-NP.png" style="zoom:75%;" />
 
 ### InPen Insulin Pen
 
 xDrip+ can download dosage to the pen.
 
-<img src="../images/M-S-IP.png" style="zoom:75%;" />
-
 ### Pendiq 2.0 Insulin Pen
 
 xDrip+ can read and write dosage.
-
-<img src="../images/M-S-PI.png" style="zoom:75%;" />
 
 </br>
 

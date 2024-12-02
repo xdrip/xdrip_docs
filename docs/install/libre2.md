@@ -1,5 +1,5 @@
 !!!xdrip "Libre 2 (EU)  → `Libre Bluetooth`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre Bluetooth
@@ -57,7 +57,7 @@ Physically insert your Libre2 sensor and start it using either the reader device
 #### Connect to the sensor
 
 !!!xdrip "`Stop Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Stop Sensor  
 
 If you have a previous sensor connected to xDrip+, stop the old sensor.
@@ -69,7 +69,7 @@ Scan the sensor with xDrip+ NFC and make sure you see the toast messages "Scanni
     Remember you should wait one minute between two successive NFC scans.
 
 !!!xdrip "`Start Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Start Sensor  
 
 Start the sensor in xDrip+. When required to enter the time you physically started the sensor, do not put a time earlier than reality to avoid having inconsistent values.

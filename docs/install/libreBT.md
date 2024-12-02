@@ -1,5 +1,5 @@
 !!!xdrip "`Hardware data source`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre Bluetooth
@@ -37,7 +37,7 @@ If you haven't yet, [check xDrip+ will not be put to sleep](../install/#make-sur
 Before trying to connect your bridge verify your settings are correct to avoid frequent disconnections.
 
 !!!xdrip "`Bluetooth Settings`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Less Common Settings  
     &ensp;&emsp;Bluetooth Settings  
@@ -118,7 +118,7 @@ Make sure your bridge is not connected to anything else: any other device and an
 Scan Bluetooth.
 
 !!!xdrip "`Bluetooth Scan`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Bluetooth Scan  
 
 If scan doesn't start automatically, select `SCAN`.
@@ -149,7 +149,7 @@ xDrip+ cannot physically stop a Libre sensor, it will stop running by itself aft
 Still, when changing sensor it is strongly recommended to inform xDrip+ of the change by stopping the sensor.
 
 !!!xdrip "`Stop Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Stop Sensor  
 
 Confirm you really want to stop the sensor.

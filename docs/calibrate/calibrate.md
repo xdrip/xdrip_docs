@@ -142,7 +142,7 @@ The fastest way to restart calibration from scratch (Initial Calibration) when i
 From the main menu, Stop Sensor.
 
 !!!xdrip "`Stop Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Stop Sensor  
 
 **Do not stop sensor** reset all calibrations.

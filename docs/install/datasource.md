@@ -163,7 +163,7 @@ If the button is not visible you can display it using a long touch on the xDrip+
 You can select another data source without using the wizard from the settings menu:
 
 !!!xdrip "`Hardware data source`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source
 

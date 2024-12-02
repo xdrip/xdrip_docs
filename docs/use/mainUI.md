@@ -159,14 +159,14 @@ With a long touch on the central area between main and three dots menu you can o
 
 Shows the button driving you through the data source selection as described [here](../../install/datasource).
 
-<img src="../../install/images/Install12.png" style="zoom:75%;" />
+!!!xdripitem "          `START SOURCE SETUP WIZARD`" 
 
 ##### Show Time Buttons
 
 Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.  
 If you long press a time button you can lock the view to that time period.
 
-<img src="../images/UI-TimeButtons.png" style="zoom:75%;" />
+!!!xdripitem "          `24 HOUR`    `12 HOUR`    `6 HOUR`    `3 HOUR`  " 
 
 ##### Locked time period always used
 
@@ -206,8 +206,6 @@ Graphical trend arrows angle depends on the reading difference with the previous
 This menu contains some shortcuts to settings and other unique functions.
 
 <img src="../../images/3dots_menu.png" style="zoom:75%;" />
-
-<img src="../../images/3DM.png" style="zoom:75%;" />
 
 ### Widget
 

@@ -1,12 +1,15 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../../images/M-S-LSS.png" style="zoom:75%;" />
+!!!xdrip "`Load/Save settings`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_content_save_grey600_48dp.png" style="width:5%;" />&ensp;Load/Save settings
 
-You also can access it from the 3 dots menu:  `Import Export features` `Load/Save settings`
+You also can access it from the 3 dots menu:  `Import Export features` then `Load/Save settings`
 
-<img src="../../images/3dots_menu.png" style="zoom:75%;" />  
-<img src="../../images/3DM.png" style="zoom:75%;" />  
-<img src="../../images/3DM-IE.png" style="zoom:75%;" />
+<img src="../../images/3dots_menu.png" style="zoom:75%;" /> 
+
+!!!xdripitem "Import Export features >" 
+
+!!!xdripitem "Load/Save settings" 
 
 You will find all options in this view.
 
@@ -37,7 +40,7 @@ You might need to restart your phone to complete the operation.
 
 <img src="../images/M-S-LSSd.png" style="zoom:75%;" />
 
-Exported settings contain private information, once transfered to another phone or a safe location you might want to delete the backup.
+Exported settings contain private information, once transferred to another phone or a safe location you might want to delete the backup.
 
 </br>
 

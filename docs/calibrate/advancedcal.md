@@ -1,7 +1,7 @@
 This menu provides some important settings and mechanisms for calibration.
 
 !!!xdrip "`Advanced Calibration`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Less Common Settings  
     &emsp;&ensp;Advanced Calibration

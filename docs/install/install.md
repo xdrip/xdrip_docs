@@ -76,7 +76,7 @@ xDrip+ needs to access phone notifications to perform as expected.
 Touch the back button on your phone until you're back to the main screen. Select the hamburger menu top left then `System Status`.
 
 !!!xdrip "`System Status`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;  System Status
 
 Current version will be displayed after `Version`. In the example below, January 28th 2022.
@@ -96,7 +96,7 @@ See [here](../../use/update/) for upgrade or downgrade.
 These settings are default, but still make sure they are exactly like shown below. Any time your phone will update, come back and check again: disable and enable checkboxes that should be enabled to enforce the settings.
 
 !!!xdrip "`Other misc. options`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Less Common Settings  
     &ensp;&emsp;Other misc. Options  

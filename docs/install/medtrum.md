@@ -1,5 +1,5 @@
 !!!xdrip "`Hardware data source`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:60%;" />  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Medtrum A6
