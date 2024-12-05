@@ -24,8 +24,10 @@ Always rely on the original documentation unless obsolete (will be mentioned).
 
 ### Translation
 
-The documentation is only available in English for now.  
+The documentation is only available in English.  
 You might find it easier to follow if you [switch your xDrip+ to English](../../use/display/#language) and read it using and automatic translation with Google.
+
+Most menu pictures have been changed to text to allow automatic translation, this means they might not match the display but hopefully they will point you to the right item.
 
 ### Search
 
@@ -37,7 +39,7 @@ You're welcome to feedback opening an [issue](https://github.com/xdrip/xdrip_doc
 
 You're welcome to contribute creating a [pull request](https://github.com/xdrip/xdrip_docs/pulls) in the main repository.
 
-You can also feedback in the the main Facebook group [xDrip](https://www.facebook.com/groups/xDripG5) or in [Gitter](https://gitter.im/jamorham/xDrip-plus) (GitHub recommended though).
+You can also feedback in the the main Facebook group [xDrip](https://www.facebook.com/groups/xDripG5) (GitHub recommended though).
 
 </br>
 

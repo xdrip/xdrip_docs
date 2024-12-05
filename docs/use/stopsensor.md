@@ -1,8 +1,12 @@
 Stopping a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G5, G6, ONE and G7
+### G5, G6 and 1
 
 Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
+
+### G7 and 1+
+
+These sensors stop by themselves after 10 days and 12 hours.
 
 </br>
 
@@ -16,7 +20,7 @@ xDrip+ sensor stop is only used to invalidate previous calibrations. This operat
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
-<img src="../../install/images/M-StoS.png" style="zoom:75%;" />
+!!!xdripitem "Stop Sensor"
 
 Confirm `STOP SENSOR` unless you only want to [reset all calibrations](../../calibrate/calibrate/#reset-all-calibrations).
 
@@ -40,4 +44,4 @@ There is no interest in stopping a sensor when using a follower app.
 
 <br>
 
-[*Last modified 8/10/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)
+[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

@@ -1,18 +1,22 @@
 Starting a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G5, G6, ONE and G7
+### G5, G6 and 1
 
 Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
+
+### G7 and 1+
+
+The sensor will start automatically at the time it is inserted. You don't need to start it in xDrip+.
 
 </br>
 
 ### Libre
 
-Note - this section does NOT apply to Libre 2 connecting to xDrip without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
+Note - this section does NOT apply to Libre 2/2+ (EU) connecting to xDrip+ without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
 
 xDrip+ is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
 
-In order to start your sensor you need to use the vendor reader or app, some other third party apps like Glimp-S and eDropletNFC can start the Libre sensor.
+In order to start your sensor you need to use the vendor reader or app, some other third party apps like Glimp-S and eDropletNFC can start the Libre 1 sensor. Juggluco can start Libre 2 and 3 sensors.
 
 xDrip+ sensor start is only used to track lifetime and make sure calibrations are updated. This operation is necessary and recommended each time you replace your sensor.
 
@@ -20,7 +24,7 @@ xDrip+ sensor start is only used to track lifetime and make sure calibrations ar
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
-<img src="../../install/images/M-StaS.png" style="zoom:75%;" />
+!!!xdripitem "Start sensor" 
 
 Confirm `START SENSOR`
 
@@ -93,7 +97,7 @@ Starting or stopping a sensor in xDrip+, when using a follower or companion sour
 
 <img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
-<img src="../../install/images/M-StaS.png" style="zoom:75%;" />
+!!!xdripitem "Start sensor" 
 
 Confirm `START SENSOR`
 
@@ -107,4 +111,4 @@ xDrip+ should pick-up readings with the next measurement.
 
 <br>
 
-[*Last modified 8/10/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.06)
+[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

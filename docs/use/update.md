@@ -2,9 +2,10 @@ You can update xDrip+ by installing another version on top of the current one wi
 
 You can also use xDrip+ internal update mechanism.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../../images/M-S.png" style="zoom:75%;" />  
-<img src="../images/M-S-US.png" style="zoom:75%;" />
+!!!xdrip "`xDrip+ Update Settings`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Update Settings
 
 Update settings allows you to choose between various xDrip+ versions update.
 
@@ -21,13 +22,17 @@ Update settings allows you to choose between various xDrip+ versions update.
     Your settings will be maintained unless a serious modification was made on a specific setting.  
     As a precaution it's better to keep xDrip+ monitored if you selected an alpha or nightly release.
 
-You can enable automatic update check.
+You should enable automatic update check.
 
-<img src="../images/M-S-US1.png" style="zoom:75%;" />
+!!!xdripitem "Automatic update check&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+    &ensp;Get notified of new apk releases  
 
 If you leave it disabled xDrip+ will remind you to update every 60 days.
 
-<img src="../images/M-S-US1a.png" style="zoom:75%;" />
+!!!xdripitem "Hey fam..."  
+    &ensp;You have update checks switched off!  
+    &ensp;We try to fix bug and add xDrip+ features over time.  
+    &ensp;Every 60 days this reminder will appear to ask you to turn update checking on.  
 
 There are four update channels:
 
@@ -36,15 +41,18 @@ There are four update channels:
 - Alpha: versions in development
 - Nightly: prototypes for testing
 
-Most tested versions will not include latest features.
+Most tested versions will not include latest features and fixes.
 
-Less tested versions might include bugs.
+Less tested versions might include bugs but will also include latest features and fixes.
 
-You need to decide based on the familiarity you have with xDrip+ and safety considerations.
+!!!xdripitem "Update channel (beta)"  
+    &ensp;Choose Stable, Beta or Alpha release
 
-<img src="../images/M-S-US2.png" style="zoom:75%;" />
-
-<img src="../images/M-S-US2a.png" style="zoom:75%;" />
+!!!xdripitem "Update Channel"  
+    &ensp;Stable - tried and tested versions  
+    &ensp;Beta - new features but not fully tested  
+    &ensp;Alpha - versions for early testing  
+    &ensp;Nightly - untested raw code - experts only!
 
 Looking in the [official repository](https://github.com/NightscoutFoundation/xDrip/releases), you can identify the latest release by the label Latest.    
 You can download the latest release [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk).  
@@ -54,13 +62,13 @@ All others are labelled Pre-release.
 
 Reporting features are not used anymore. If you need support use [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [Facebook](https://www.facebook.com/groups/xDripG5).
 
-<img src="../images/M-S-US3.png" style="zoom:75%;" />
+!!!xdripitem "Automatic crash reporting"
+
+!!!xdripitem "Enable telemetry"
 
 Feedback in not used anymore. Only use it for compliments.
 
-<img src="../images/M-S-US4.png" style="zoom:75%;" />
-
-<img src="../images/3DM-SF.png" style="zoom:75%;" /> 
+!!!xdripitem "Send feedback message"
 
 ### Update
 

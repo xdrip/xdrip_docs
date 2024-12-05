@@ -4,7 +4,7 @@
     &emsp;Hardware Data Source  
     &ensp;&emsp;xDrip+ Sync Follower
 
-!!!warning "Work in progress"  
+!!!warning "Old xDrip+ Sync"  
     In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
     Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
     Updating xDrip+ to minimum latest release is recommended.

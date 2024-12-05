@@ -49,7 +49,7 @@ In order to set it up you need to first add a contact, then optionally put a nam
 
 <img src="../images/3DM-EM1.png" style="zoom:75%;" />
 
-You can then send a test message to very correct functioning of the emergency system.
+You can then send a test message to verify correct functioning of the emergency system.
 
 <img src="../images/3DM-EM2.png" style="zoom:75%;" />
 
@@ -84,6 +84,7 @@ When sharing screenshots of the error log make sure to enable all and manually h
 `High` displays errors
 
 <img src="../images/3DM-EL1.png" style="zoom:75%;" />
+
 `Mid` displays traces
 
 <img src="../images/3DM-EL2.png" style="zoom:75%;" /> 
@@ -120,8 +121,6 @@ If a new version is available it will open the download screen.
 Only use this feature to send compliments.
 
 For other enquiries prefer [xDrip+ GitHub discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [Facebook](https://www.facebook.com/groups/xDripG5).
-
-<img src="../images/3DM-SF.png" style="zoom:75%;" /> 
 
 </br>
 

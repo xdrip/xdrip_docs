@@ -1,5 +1,6 @@
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-<img src="../images/M-STA.png" style="zoom:75%;" />
+!!!xdrip "`Statistics`"  
+    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+    &ensp;Statistics
 
 Statistics view offers 3 basic statistics displays you can configure for different periods of time.
 
