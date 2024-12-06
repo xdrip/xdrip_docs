@@ -126,7 +126,7 @@ You must enable this to have readings sent to the watch.
 !!!xdripitem "Send Alarms&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
     &ensp;Send notifications to the band for glucose alarms
 
-!!!xdripitem "Send Calls&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"   
+!!!xdripitem "Send Calls&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"   
     &ensp;Send call notifications to the band (Android 6+)
 
 You can enable various options to have the watch vibrate on readings, receive alarms or receive notifications as phone calls.

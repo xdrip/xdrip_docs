@@ -175,7 +175,7 @@ You can also try [Graph smoothing](#graph-smoothing) to clean your graph.
 
 After you first installed xDrip+ you will see hints during first opening of some features, you can disable this behavior or reset it.
 
-!!!xdripitem "Show interface hints&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Show interface hints&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;Show tips/hints describing buttons functions etc. Uncheck and recheck to reset to the beginning.
 
 <img src="../images/M-S-DS5a.png" style="zoom:75%;" />
@@ -410,7 +410,7 @@ This will bring xDrip+ [graph and notifications](../misc/#run-collector-in-foreg
 
 You can disable High Priority Notifications, but you shouldn't disable it completely with [Run collector in foreground](../misc#run-collector-in-foreground) if you don't want xDrip+ to be put to sleep by Android.
 
-!!!xdripitem "High Priority Notifications&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "High Priority Notifications&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;Show notifications and graph at the top (also useful on lock screen).
 
 <img src="../images/M-S-DS2j2.png" style="zoom:75%;" />

@@ -8,7 +8,7 @@ Trial and error approach is recommended, but change only one setting at a time t
     &emsp;Less common settings  
     &ensp;&emsp;Bluetooth Settings
 
-!!!xdripitem "Turn Bluetooth on&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Turn Bluetooth on&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Automatically enable Bluetooth if it is switched off when we try to connect to a Bluetooth device 
 
 This option will make xDrip+ try to enable Bluetooth.
@@ -16,7 +16,7 @@ This option will make xDrip+ try to enable Bluetooth.
 If xDrip+ is connecting to a Bluetooth device, Turn Bluetooth on is mandatory.  
 xDrip+ might not be able to fully override your phone settings, meaning that if you disable Bluetooth in Android settings or put your phone in airplane mode it might not be able to turn it on. Bluetooth must be enabled in Android settings if you want xDrip+ to use it.  
 
-!!!xdripitem "Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Automatically enable Bluetooth if it is switched off when we try to connect to a Bluetooth device
 
 In case of missing data due to Bluetooth connection loss, you can make xDrip+ switch off then on your phone Bluetooth, default timing is 20 minutes without data. You can customize this value.
@@ -27,7 +27,7 @@ If you see the message that **xDrip+ turned off Bluetooth** this is probably bec
     Mind the Bluetooth watchdog ang G5 Bluetooth watchdog activating will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't recover automatically Bluetooth connection.  
     Note that G6/G7/1/1+ Bluetooth watchdog is not controlled by this setting
 
-!!!xdripitem "Dex Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Dex Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Reset Bluetooth by turning it off then on as a way to keep the Dex data source working. Without this, the Dex collector may fail.
 
 For G5 sensors you can systematically have xDrip+ turn off and on Bluetooth. Keep it enabled if you have connection issues.
@@ -77,17 +77,17 @@ If you use a Transmitter_T or a Droplet bridge for Libre sensors (we miss you [M
 
 RFDuino support is only necessary if you use a [DIY bridge with RFDuino](https://github.com/TomaszStachowicz/Transmiter-xBridgePlus). Obsolete. Leave **disabled**.
 
-!!!xdripitem "xBridge+ Polling Mode&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "xBridge+ Polling Mode&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Experimental support for xBridge+ polling feature
 
 xBridge+ polling mode allows xDrip+ to send requests to the bridge. Even if it doesn't have any effect with other Bluetooth devices you can leave it enabled if you have frequent connection loss as it will anyway keep your phone Bluetooth busy trying to connect.
 
-!!!xdripitem "Always discover services&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Always discover services&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Probe Bluetooth service on every connect
 
 Enabled by default.
 
-!!!xdripitem "Allow BluCon unbonding&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Allow BluCon unbonding&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Only suitable for phones which support automatic pairing
 
 Allow BluCon unbonding is only useful if you use a BluCon bridge as others don't bond with your phone. If you have frequent pairing request with this bridge, disable it.

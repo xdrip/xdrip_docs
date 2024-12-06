@@ -45,26 +45,26 @@ Used to avoid server lock if xDrip+ performs too frequent requests.
 
 You can download treatments and receive notifications.
 
-!!!xdripitem "Finger BGs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Finger BGs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;You can download finger BGs from CareLink  
 
-!!!xdripitem "Boluses&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Boluses&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;You can download boluses from CareLink
 
-!!!xdripitem "Meals&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Meals&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;You can download meals from CareLink
 
-!!!xdripitem "Notifications&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Notifications&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;You can download notifications from CareLink
 
 </br>
 
 #### Status line
 
-!!!xdripitem "External Status&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "External Status&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Dusplay status from other apps like AndroidAPS
 
-!!!xdripitem "Pump Status&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Pump Status&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Display pump status information if available
 
 Sensor status and pump status are available in [Extra status line](../../use/lesscommon/#extra-status-line) option.

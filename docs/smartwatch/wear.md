@@ -11,7 +11,7 @@ You will find the reference documentation [here](https://github.com/NightscoutFo
 Once you have installed xDrip+ on the watch paired with your phone, you can enable Wear.  
 xDrip+ will then communicate with a reduced version of itself on the watch.
 
-!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Connect Wear to BT Collector when phone is out-of-range
 
 For few combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See below for more information.
@@ -45,12 +45,12 @@ If you have several Android Wear smartwatch with xDrip+, you can select which on
 !!!note "Switching watch"  
     When switching between watches, xDrip+ might not be able to communicate its intention to both watches if one is switched off. If you want to change the collecting watch, force collector in xDrip+ and also force collector in the watch xDrip Prefs menu.
 
-!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     Send Wear logs to Event Viewer
 
 Sync wear logs is a very useful feature when troubleshooting: it will add the watch logs in xDrip+ [events log](../../use/3dotsmenu/#events-log) with a prefix to identify the activity is on the watch. By default the prefix is `wear` but you can customize it. It is recommended to keep it enabled.
 
-!!!xdripitem "Show Treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Show Treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     Show Treatment points on graph
 
 Show treatments add treatments symbols on the watch graph.
@@ -97,7 +97,7 @@ First time attempt or failure recovery:
 !!!xdripitem "Android Wear Integration&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`← `3`"
 
 2 - Enable wear logs.  
-!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Sync Wear Logs&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     Send Wear logs to Event Viewer
 
 3 - Restart your smartwatch. Wait until it's fully running.
@@ -109,9 +109,9 @@ First time attempt or failure recovery:
 
 6 - Make sure you keep phone, watch and sensor close together and enable first collection then force collector.  
 
-!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;🗹 `1`"
+!!!xdripitem "Enable Wear Collection Service&emsp;&emsp;&emsp;&emsp;&emsp;✔ `1`"
 
-!!!xdripitem "Force Wear Collection Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹 `2`"
+!!!xdripitem "Force Wear Collection Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;✔ `2`"
 
 7 - Pairing process will take typically 10 minutes, open the phone xDrip+ event logs and wait for events starting by `wear`.  
 <img src="../images/M-S-SW-AW31.png" style="zoom:75%;" />

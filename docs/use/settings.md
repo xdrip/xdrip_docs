@@ -101,7 +101,7 @@ More settings are available in this menu.
 ### [xDrip+ Predictive Simulation Settings](../predictions)
 
 !!!xdrip "xDrip+ Predictive Simulation Settings"  
-    &emsp;<img src="../images/CrystalBall.png" style="width:8%;" />&ensp;Insulin, carb ratios, etc. for models
+    &emsp;<img src="../images/CrystalBall.png" style="width:5%;" />&ensp;Insulin, carb ratios, etc. for models
 
 ### [xDrip+ Sync Settings](../sync)
 

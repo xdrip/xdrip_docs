@@ -23,7 +23,7 @@ If your Nightscout site is [secured](https://nightscout.github.io/nightscout/sec
 
 `https://access_token@sitename.yourprovider.com`
 
-!!!xdripitem "Download Treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Download Treatments&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Also download treatments from Nightscout as follower
 
 You can also download compatible treatments from Nightscout (BG, calibrations, treatments, notes).

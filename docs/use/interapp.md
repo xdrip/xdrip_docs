@@ -26,7 +26,7 @@ You can also block noisy data broadcast for safety.
 
 Recent apps/phones should accept compatible broadcast. Do not uncheck.
 
-!!!xdripitem "Compatible Broadcast&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Compatible Broadcast&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Send broadcasts without locking the old permission model
 
 You can specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.

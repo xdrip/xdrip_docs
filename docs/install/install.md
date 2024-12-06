@@ -101,7 +101,7 @@ These settings are default, but still make sure they are exactly like shown belo
     &emsp;Less Common Settings  
     &ensp;&emsp;Other misc. Options  
 
-!!!xdripitem "Run Collector in foreground&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Run Collector in foreground&emsp;&emsp;&emsp;✔"  
     &ensp;Shows a persistent notification graph, visible on lock-screen and prevents Android from killing the service.
 
 `Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive. It **must be enabled**.
@@ -111,7 +111,7 @@ These settings are default, but still make sure they are exactly like shown belo
 
 `Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install. If not, whitelist xDrip+ from battery optimization in Android settings.
 
-!!!xdripitem "Wake workarounds&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Wake workarounds&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
 
 Previously "Samsung workaround", this option is a fix to non compliance from some vendors to Android specifications. This option should enable automatically with some smartphones. Recommended.

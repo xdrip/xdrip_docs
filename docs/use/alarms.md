@@ -106,31 +106,31 @@ Smart snoozing and alerting avoid the alert to trigger or re-raise if BG is goin
 - Change is more than +4mg/dl in 5 minutes from low alert  
 - Change is more than -1mg/dl in 5 minutes from high alert
 
-!!!xdripitem "Smart snoozing&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Smart snoozing&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Keep snoozing if glucose is heading in the right direction
 
-!!!xdripitem "Smart alerting&nbsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Smart alerting&nbsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Don't alert if glucose is heading in the right direction
 
 ##### Don't alarm during phone calls
 
 Alarms will not sound if they trigger during a phone call.
 
-!!!xdripitem "Don't alarm during phone calls&nbsp;&ensp;&emsp;&emsp;🗹"  
+!!!xdripitem "Don't alarm during phone calls&nbsp;&ensp;&emsp;&emsp;✔"  
     &ensp;Alarms silenced during telephone calls
 
 ##### Buttons silence alarms
 
 Button silence alarms is a quick way to snooze alarms by just pressing volume up or down.
 
-!!!xdripitem "Buttons silence alarms&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Buttons silence alarms&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Pressing the volume up or down button will snooze an active alarm when in the app
 
 ##### Alert buttons
 
 Alert button will add an action button in the drop down view of the alert.
 
-!!!xdripitem "Alert buttons&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Alert buttons&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Show action buttons (like Snooze Alert) within alert notifications
 
 <img src="../images/M-S-AA-GAm2.png" style="zoom:75%;" />
@@ -270,7 +270,7 @@ Some recent Android versions do not ring it unless you use [Notification channel
 
 !!!xdripitem "Alert Preferences (For these Alerts)"  
     &ensp;Alert Sound  
-    &ensp;Override Silent mode on these alerts&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹
+    &ensp;Override Silent mode on these alerts&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔
 
 ### Extra Alerts
 

@@ -14,14 +14,14 @@ Remember to first enable the NFC feature in Android settings.
 
 **Enable** `Use NFC Feature`
 
-!!!xdripitem "Scan when not in xDrip+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Scan when not in xDrip+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;NFC scanning will also work from your app launcher screen.
 
 In order to automatically open xDrip+ upon NFC sensor detection you should **enable** `Scan when not in xDrip+` (recommended). If several apps can scan NFC devices, you will be asked to select the one to use each scan.
 
-!!!xdripitem "Vibrate to indicate scanning status&ensp;&emsp;&emsp;&emsp;🗹" 
+!!!xdripitem "Vibrate to indicate scanning status&ensp;&emsp;&emsp;&emsp;✔" 
 
-!!!xdripitem "Beep when scanning within xDrip+ app&emsp;&emsp;🗹" 
+!!!xdripitem "Beep when scanning within xDrip+ app&emsp;&emsp;✔" 
 
 You can decide how xDrip+ will inform you that the scan completed.  Vibration and sound are helpful during (long) NFC scans, you should **enable** both.
 
@@ -31,7 +31,7 @@ When scanning remember that you need to keep the phone in the NFC antenna spot f
 
 `Faster scan` should remain **disabled** to start. You can try to enable it once successful in scanning sensors.
 
-!!!xdripitem "Use any-tag optimized reading method&emsp;&emsp;🗹" 
+!!!xdripitem "Use any-tag optimized reading method&emsp;&emsp;✔" 
 
 If you have trouble with your phone NFC, try to **enable** `Any tag` method.
 

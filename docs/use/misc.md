@@ -12,7 +12,7 @@ If they are hidden here it's probably because you won't need to change them ever
 Mandatory to keep xDrip+ from being put to sleep by Android.  
 This will force displaying a graph in the notifications area, **you shouldn't disable it**.
 
-!!!xdripitem "Run collector in foreground&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Run collector in foreground&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;Shows a persistent notification graph, visible on lock screen and prevents Android killing the service.
 
 <img src="../images/M-S-LCS15a2.png" style="zoom:75%;" />

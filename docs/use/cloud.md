@@ -67,12 +67,12 @@ In the case you have several devices uploading to Nightscout (not recommended) y
 
 If your Nightscout is available only on a local server (on a private IP), don't try to upload data to Nightscout when you're not home. Ignore for cloud based Nightscout.
 
-!!!xdripitem "Skip LAN uploads&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Skip LAN uploads&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;For local servers with 192.168.x.x addresses, skip uploads when there is no local network connectivity 
 
 You can upload your bridge or sensor battery level (if supported).
 
-!!!xdripitem "Upload bridge battery&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Upload bridge battery&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;Send your bridge battery level to Nightscout. Uncheck if your battery sensor is broken
 
 !!!xdripitem "Upload OB1 Dex transmitter battery&emsp;&emsp;&emsp; ☐"  
@@ -80,7 +80,7 @@ You can upload your bridge or sensor battery level (if supported).
 
 Your can upload locally entered [treatments](../mainUI/#treatments) to Nightscout [Care Portal](https://nightscout.github.io/nightscout/setup_variables/#careportal-careportal).
 
-!!!xdripitem "Upload treatments&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Upload treatments&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
     &ensp;Send treatment data to Nightscout. Uncheck if your careportal is broken
 
 You can setup an alert when upload fails, and add more information to the BG data uploaded.
@@ -152,7 +152,7 @@ Once you have an active follower, created by the Dexcom apps, you can use xDrip+
 !!!info  
     You can upload your BG to Dexcom Share, **not to Dexcom Clarity**.
 
-!!!xdripitem "Upload BG values as Dexcom Share&emsp;&emsp;&emsp; 🗹"  
+!!!xdripitem "Upload BG values as Dexcom Share&emsp;&emsp;&emsp; ✔"  
     &ensp;Enable this to upload to Dexcom's servers
 
 If you use an USA account enable this, **for any other country leave it disabled**. 

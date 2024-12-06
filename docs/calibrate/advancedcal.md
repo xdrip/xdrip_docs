@@ -20,15 +20,25 @@ Automatic mode will only suggest you to use the treatment as a calibration if xD
 
 It might also suggest to you enable automatic calibration.  
 
-<img src="../images/M-S-LCS-AC1a.png" style="zoom:75%;" />
+!!!xdripitem "Use Treatment BG values"  
+    &emsp;Automatic mode (best)&emsp;○  
+    &emsp;Ask me every time&emsp;&emsp;&emsp;○  
+    &emsp;Never use them&nbsp;&emsp;&emsp;&emsp;&emsp;●  
+    &emsp;Always use them&nbsp;&ensp;&emsp;&emsp;&emsp;○ 
 
 **It is not recommended to use this feature with G6/G7/1/1+ sensors.**
 
-<img src="../images/M-S-LCS-AC3b.png" style="zoom:75%;" />
+!!!xdripitem "Enable automatic calibration"  
+    &emsp;Entered blood tests which occur during flat trend periods can automatically be used to recalibrate after 20 minutes. This should provide the most accurate method to calibrate with.  
+    
+    &ensp;Do you want to enable this feature?  
+    
+    &emsp;`NO`&emsp;&emsp;&emsp;&emsp;YES, ENABLE
 
 Ask me every time will do exactly this every time you enter a BG treatment.
 
-<img src="../images/M-S-LCS-AC3c.png" style="zoom:75%;" />
+!!!xdripitem "Use BG for calibration?"  
+    &emsp;Do you want to use this entered finger-stick blood glucose test to calibrate with?  
 
 Never use treatments will never use them to calibrate (and will prevent you from transforming a [treatment](../../use/mainUI/#treatments) into a calibration).
 
@@ -52,7 +62,12 @@ Calibration plugins are available in xDrip+, most are not used anymore.  If enab
 !!!warning "Wear extension"  
     Plugins are not fully implemented in Wear. You might see different vaues on your watch.
 
-<img src="../images/M-S-LCS-AC3a.png" style="zoom:75%;" />
+!!!xdripitem "Calibration Plugin"  
+    &emsp;None  
+    &emsp;Datricsae  
+    &emsp;Fixed slope - **DO NOT USE**  
+    &emsp;xDrip   
+    &emsp;Last7Ua
 
 **`None`** by default the xDrip+ algorithm is used. **Recommended**
 
@@ -67,7 +82,7 @@ Be careful as noisy calibrations might lead to inconsistent results.
 
 **`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 7 calibrations (if non-existing, current xDrip+ algorithm is used). **Not recommended.**
 
-!!!xdripitem "Plugin plot on graph&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Plugin plot on graph&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Show glucose results from the plugin on the main graph  
 
 Enable if you want xDrip+ to plot results using the plugin.
@@ -109,7 +124,7 @@ Libre sensors might be difficult to calibrate. If you cannot manage to get full 
 
 **Always calibrate at stable glucose when in the lower normal range for safety.**
 
-!!!xdripitem "Check Libre Serial&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Check Libre Serial&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Automatically stop if Libre Serial changes unexpectedly  
 
 Carrying forward calibrations from the old sensor to a new one is dangerous. **Leave this enabled.**
@@ -121,8 +136,14 @@ Carrying forward calibrations from the old sensor to a new one is dangerous. **L
 
 During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip+ will wait. Enabling this will allow calibration without checking. **Not recommended.**
 
-<img src="../../install/images/M-SS-InitialR2.png" style="zoom:65%;" />
+!!!xdripitem "Collecting Initial Readings"  
+    &ensp;✔ Data collector running  
+    &ensp;✔ Receiving data from collector  
+    &ensp;✔ Received some recent data  
+    &ensp;⧖ Received enough good data to calibrate  
+    &ensp;**Need 3 recent readings, got only one so far**  
+    &ensp;Next reading expected in 1 minute 
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 6/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

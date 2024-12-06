@@ -44,17 +44,17 @@ Before trying to connect your bridge verify your settings are correct to avoid f
 
 Use settings as shown below to start with.
 
-!!!xdripitem "Turn Bluetooth on&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Turn Bluetooth on&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Automatically turn on Bluetooth if it is switched off when we try to connect to a Bluetooth device.
 
 Bluetooth must be on. **Enable** `Turn Bluetooth on`.
 
-!!!xdripitem "Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Reset Bluetooth by turning it off then on if we don't get anything within 20 minutes
 
 **Enable** the Watchdog but read the info below.
 
-!!!xdripitem "Dex Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "Dex Bluetooth Watchdog&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Reset Bluetooth by turning it off then on as a way to keep the Dex data source working. Without this, the Dex collector may fail.
 
 **Enable** the Dex Watchdog but read the info below.
@@ -95,7 +95,7 @@ Leave both the options above **disabled**.
 
 If your bridge is a Transmitter_T or a Droplet enable this else keep it **disabled**.
 
-!!!xdripitem "xBridge+ Polling Mode&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🗹"  
+!!!xdripitem "xBridge+ Polling Mode&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
     &ensp;Experimental support for xBridge+ polling feature.
 
 If you have connection losses you can **enable** polling mode. It will not do anything useful but keep the phone Bluetooth awake.

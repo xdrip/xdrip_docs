@@ -31,7 +31,7 @@ Make the primary data source phone master (enable checkbox):
 !!!xdripitem "Settings"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings   
       
-    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers&emsp;&emsp;&emsp;🗹**
+    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers&emsp;&emsp;&emsp;✔**
 
 </br>
 
