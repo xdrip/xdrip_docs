@@ -19,7 +19,7 @@ If it is installed on another phone or you're using the Bluetooth reader, you've
 
 (Click [Start Sensor](#starting-libre-2-sensors) for subsequent sensors).
 
-!!!info "Only Libre 2 Europe sensor model is supported"  
+!!!info "Only Libre 2/2+ Europe sensor models are supported"  
     You need to install the [latest OOP2 app](../../use/OOP/#oop2).
 
 
@@ -36,7 +36,7 @@ Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how
 
 #### Setup xDrip+
 
-As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2 direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. (They set calibration to off - recommended for first use. If instead you want calibration, [follow this](../libre2direct-calib)). The full list of imported settings is shown [here](../libre2direct-qr-settings).
+As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2/2+ direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. (They set **[calibration to off](../../use/misc/#oop2) - recommended for first use**. If instead you want calibration, [follow this](../libre2direct-calib)). The full list of imported settings is shown [here](../libre2direct-qr-settings).
 
 QR Codes - Click image to expand
 
@@ -48,11 +48,11 @@ If you used the QR codes, you can skip to [Starting Libre 2 Sensors](#starting-l
 
 #### Configure NFC
 
-Configure NFC exactly [like this](../libreNFC/#enabling-nfc).
+Configure NFC exactly [like this](../../use/NFC).
 
 #### Starting Libre 2 Sensors
 
-Physically insert your Libre2 sensor and start it using either the reader device, or LibreLink. Make a note of the time that the sensor will be ready. If using the same phone as xDrip, disable LibreLink on the phone. You should see BG values when scanning it. Now wait 60 minutes until the sensor has warmed up and self-calibrated.
+Physically insert your Libre 2/2+ sensor and start it using either the reader device, or LibreLink. Make a note of the time that the sensor will be ready. If using the same phone as xDrip, disable LibreLink on the phone. You should see BG values when scanning it. Now wait 60 minutes until the sensor has warmed up and self-calibrated.
 
 #### Connect to the sensor
 
@@ -75,8 +75,8 @@ Scan the sensor with xDrip+ NFC and make sure you see the toast messages "Scanni
 Start the sensor in xDrip+. When required to enter the time you physically started the sensor, do not put a time earlier than reality to avoid having inconsistent values.
 
 Wait 60 seconds and scan again with xDrip+. This adds the sensor as the BT device that xDrip+ will take the readings from. Expect to see NEW SENSOR STARTED notification. If you are set to No Calibration", you should see the first reading immediately. If you have set Calibration, you should then be in the "Collecting Initial Readings" screen.
-You will now need to wait between 3 and 15 minutes for 3 readings to be received, and then you will be taken to the **Calibrate Sensor?** prompt.
-After entering the calibration data, the Libre 2 sensor should be bonded to xDrip+, and should deliver readings every 5 minutes.
+You will now need to wait between 3 and 15 minutes for 3 readings to be received, and then you will be taken to the **Calibrate Sensor?** prompt, unless you selected "No calibration" in [OOP2 settings](../../use/misc/#oop2).
+After entering the calibration data, the Libre 2/2+ sensor should be bonded to xDrip+, and should deliver readings every 5 minutes.
 
 You can confirm that all is working by comparing to "How it should look" [here](../../troubleshoot/libre2direct/## What it should look like)
 
@@ -90,5 +90,5 @@ Try the [troubleshooting](../../troubleshoot/libre2direct/) page.
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 6/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
 

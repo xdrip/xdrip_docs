@@ -37,6 +37,13 @@ These settings depend on the data source selected.
 
 !!!xdrip "Hardware Data Source"
 
+### [NFC Scan Features](../NFC)
+
+This menu is only visible if you choose a Libre Bluetooth data source in the Hardware Data Source. If you need to access it to change smoothing parameters for Libre sensors, temporarily modify the data source.
+
+!!!xdrip "NFC Scan Features"  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_nfc_grey600_48dp.png" style="width:5%;" />&ensp;Options for scanning NFC based sensors with the phone handset  
+
 ### [Auto Configure](../copysettings/#auto-configure)
 
 Auto configure will help you copy settings between two xDrip+ apps installed on different phones.

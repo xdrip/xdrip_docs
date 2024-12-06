@@ -116,6 +116,13 @@ Use [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=co
 3. Browse the the `/res/raw` folder of the xDrip+ package and copy the file `android_wear_micro_apk.apk` into your ADB folder.
 4. Sideload the xDrip+ wear extension to the watch.
 
+### Wear OS 5
+
+Google and Samsung have brought important changes to Wear OS 5 and do not easily allow custom watchfaces.
+
+Installing the AAPS Watch Face has to be done with Wear Installer 2 following [this video](https://www.youtube.com/watch?v=yef_qGvcCnk) until 3:56. At this point you need to select xDrip+ in the installed apps, not a custom APK.
+Accidental change of the Watch Face to another one requires the procedure above to be repeated.
+
 ### Update xDrip+ on your watch
 
 #### Wear OS 1.x

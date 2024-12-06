@@ -85,6 +85,7 @@ nav:
         - 'Advanced Calibration': 'calibrate/advancedcal.md'
         - 'Bluetooth Settings': 'use/bluetooth.md'
         - 'Other Misc. Options': 'use/misc.md'
+        - 'NFC Scan Features': 'use/NFC.md'
         - 'Out of Process Algorithm': 'use/OOP.md'
         - 'Insulin Pens': 'use/pens.md'
         - 'G5/G6 Debug Settings': 'use/g56debug.md'

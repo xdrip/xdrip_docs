@@ -51,22 +51,7 @@ Enable the `Forward to xDrip` flag.
 
 #### Smoothing
 
-!!!note  
-    Smoothing will apply to any external data source app using the `Libre2 (patched app)` data source.
-
-The original implementation included a 25 minutes smoothing algorithm to remove noise and make DIY close looping safer with Libre sensors. You can now reduce the smoothing period to 10, 15 or 25 minutes with the menu `Smooth Libre 3 data when using xxx method` in the NFC scan features menu.
-
-!!!xdrip "`NFC Scan Features`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-    &ensp;Settings  
-    &emsp;NFC Scan Features
-
-!!!xdripitem "Smooth Libre 3 data when using xxx method"  
-    &ensp;Number of minutes to take in consideration when using librex data
-
-Smoothing adds a delay in xDrip+ BG from raw data. The delay is about half the smoothing period. Set the delay accordingly to the sensor behavior for your safety. If you don't use a DIY closed loop system with xDrip+ providing glucose values, set it to 10 minutes.
-
-<img src="../images/M-S-HDS-NFC8.png" style="zoom:75%;" />
+This data source is subject to 25 minutes default smoothing. The smoothing period can be adjusted in the [NFC menu](../../use/NFC/#smooth-libre-3-data-when-using-xxx-method) to decrease the delay generated, if the noise level allows it.
 
 </br>
 
