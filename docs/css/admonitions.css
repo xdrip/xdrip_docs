@@ -66,35 +66,39 @@
 
 /* xDrip+ menu-like admonitions */
 
-/*.admonition.xdrip {
-  max-width: 450px;
-}*/
-
 .admonition.xdrip {
   border-left-color: #8B0000;
   background-color: #212121;
   border-bottom-color: #d1e8d7;
   border-right-color: #d1e8d7;
   border-top-color: #d1e8d7;
+  border: none;
   color: #FFFFFF !important;
   font-size: 1.1em !important;
+  max-width: 500px;
+}
+
+.admonition.xdrip .admonition-title img {
+  display: inline-block;
+  vertical-align: left;
+  margin-bottom: 0;
 }
 
 .admonition.xdrip .admonition-title {
   color: #FFFFFF;
   background-color: #212121;
   border-bottom-color: #d1e8d7;
+  margin-bottom: 0;
 }
 
 .admonition.xdrip .admonition-title::before {
+  margin-bottom: 0;
   content: none;
-/*  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  background-image: url('../../xDrip+logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;*/
+}
+
+.admonition.xdripitem .admonition-content {
+  margin: 0; /* Completely remove margin */
+  padding: 0 0; /* Minimal padding to avoid overlap */
 }
 
 .admonition.xdripitem {
@@ -103,24 +107,42 @@
   border-bottom-color: #d1e8d7;
   border-right-color: #d1e8d7;
   border-top-color: #d1e8d7;
+  border: none;
   color: #FFFFFF !important;
   font-size: 0.9em !important;
   max-width: 500px;
 }
 
 .admonition.xdripitem .admonition-title {
+  display: flex;
+  justify-content: space-between; /* Title on the left, symbol on the right */
+  align-items: center; /* Center elements vertically */
   font-weight: normal;
-  padding-bottom: 0;
+  padding: 0.5em; /* Add padding for spacing */
+  margin: 0;
   margin-bottom: 0;
   color: #FFFFFF;
   background-color: #212121;
   border-bottom-color: #d1e8d7;
-    font-size: 1.4em !important;
+  font-size: 1.4em !important;
+  border: none;
 }
 
 .admonition.xdripitem .admonition-title::before {
   content: none;
 }
+
+.admonition.xdripitem .admonition-title .symbol {
+ /* color: #8B0000; /* Customize the color of the parameter */
+  font-size: 1.4em; /* Match the font size of the title */
+  margin-left: 10px; /* Add spacing between title text and symbol */
+}
+
+/*.admonition.xdripitem .admonition-title::after {
+  content: "✔";
+  font-size: 1.4em;
+  margin-left: 10px;
+}*/
 
 /* Title */
 .admonition-title {

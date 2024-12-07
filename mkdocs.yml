@@ -24,6 +24,8 @@ extra_css:
 markdown_extensions:
     - admonition
     - tables
+    - attr_list
+    - md_in_html
     - pymdownx.details
     - toc:
         permalink: ⌁

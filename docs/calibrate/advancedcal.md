@@ -1,14 +1,13 @@
 This menu provides some important settings and mechanisms for calibration.
 
-!!!xdrip "`Advanced Calibration`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;"/>"   
     &ensp;Settings  
     &emsp;Less Common Settings  
     &emsp;&ensp;Advanced Calibration
 
 ##### Use Treatment BG values
 
-!!!xdripitem "Use Treatment BG values&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Use Treatment BG values"  
     &ensp;Choose whether to calibrate with the BG value in a Treatments entry  
 
 You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests) as calibrations.
@@ -31,6 +30,7 @@ It might also suggest to you enable automatic calibration.
 !!!xdripitem "Enable automatic calibration"  
     &emsp;Entered blood tests which occur during flat trend periods can automatically be used to recalibrate after 20 minutes. This should provide the most accurate method to calibrate with.  
     
+
     &ensp;Do you want to enable this feature?  
     
     &emsp;`NO`&emsp;&emsp;&emsp;&emsp;YES, ENABLE
@@ -44,7 +44,7 @@ Never use treatments will never use them to calibrate (and will prevent you from
 
 ##### Automatic Calibration
 
-!!!xdripitem "Automatic Calibrations&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Automatic Calibrations <span class='symbol'>☐</span>"  
     &ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
 
 
@@ -82,33 +82,33 @@ Be careful as noisy calibrations might lead to inconsistent results.
 
 **`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 7 calibrations (if non-existing, current xDrip+ algorithm is used). **Not recommended.**
 
-!!!xdripitem "Plugin plot on graph&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
+!!!xdripitem "Plugin plot on graph <img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Show glucose results from the plugin on the main graph  
 
 Enable if you want xDrip+ to plot results using the plugin.
 
 <img src="../../use/images/M-S-DS2l2.png" style="zoom:75%;" />
 
-!!!xdripitem "Use Plugin Glucose&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Use Plugin Glucose <img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Main glucose display number comes from plugin!  
 
 Enable if you want the main BG number to be from plugin results. A circled P will show.
 
 <img src="../images/M-S-LCS-AC5a.png" style="zoom:75%;" />
 
-!!!xdripitem "Plugin Override ALL&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Plugin Override ALL <img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Main glucose display number comes from plugin!  
 
 Not implemented.
 
 ### Calibrations
 
-!!!xdripitem "Double Calibrations&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Double Calibrations <span class='symbol'>🗹</span>"  
     &ensp;Ask for a second optional initial calibration blood test  
 
 If you're not actually performing two different blood tests for initial calibration: disable this.
 
-!!!xdripitem "Infrequent Calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Infrequent Calibration <span class='symbol'>🗹</span>"  
     &ensp;If needed, use calibrations from longer ago, e.g. if calibrations are supplies infrequently  
 
 Calibrations get ignored when too old, if you calibrate rarely and want older calibrations measurements to weight on the current calibration curve: enable this. 
@@ -117,21 +117,21 @@ Calibrations get ignored when too old, if you calibrate rarely and want older ca
 
 ##### Non-fixed Libre Slopes
 
-!!!xdripitem "Non-fixed Libre Slopes&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Non-fixed Libre Slopes <span class='symbol'>☐</span>"  
     &ensp;Enable to allow variable slopes with Libre collection methods  
 
 Libre sensors might be difficult to calibrate. If you cannot manage to get full range accuracy or never calibrate in the higher range, disable this and make the slope equal to 1. This is recommended for beginners.
 
 **Always calibrate at stable glucose when in the lower normal range for safety.**
 
-!!!xdripitem "Check Libre Serial&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
+!!!xdripitem "Check Libre Serial <span class='symbol'>🗹</span>"  
     &ensp;Automatically stop if Libre Serial changes unexpectedly  
 
 Carrying forward calibrations from the old sensor to a new one is dangerous. **Leave this enabled.**
 
 ### Bypass quality check
 
-!!!xdripitem "Bypass quality check&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;☐"  
+!!!xdripitem "Bypass quality check <span class='symbol'>☐</span>"  
     &ensp;Allow initial calibration even if we don't have good enough data. Beware could result in inaccurate calibration.  
 
 During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip+ will wait. Enabling this will allow calibration without checking. **Not recommended.**
