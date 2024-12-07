@@ -1,5 +1,4 @@
-!!!xdrip "BYODA → `640G / Eversense`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" /> "  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;640G / Eversense

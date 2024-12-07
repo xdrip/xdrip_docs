@@ -7,23 +7,23 @@ This menu provides some important settings and mechanisms for calibration.
 
 ##### Use Treatment BG values
 
+You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests) as calibrations.
+
 !!!xdripitem "Use Treatment BG values"  
     &ensp;Choose whether to calibrate with the BG value in a Treatments entry  
-
-You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests) as calibrations.
 
 !!!warning  
     Always use treatments as calibrations is **not recommended**.
 
 Automatic mode will only suggest you to use the treatment as a calibration if xDrip+ detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
 
-It might also suggest to you enable automatic calibration.  
-
 !!!xdripitem "Use Treatment BG values"  
     &emsp;Automatic mode (best)&emsp;○  
     &emsp;Ask me every time&emsp;&emsp;&emsp;○  
     &emsp;Never use them&nbsp;&emsp;&emsp;&emsp;&emsp;●  
     &emsp;Always use them&nbsp;&ensp;&emsp;&emsp;&emsp;○ 
+
+It might also suggest to you enable automatic calibration.  
 
 **It is not recommended to use this feature with G6/G7/1/1+ sensors.**
 
@@ -44,23 +44,25 @@ Never use treatments will never use them to calibrate (and will prevent you from
 
 ##### Automatic Calibration
 
-!!!xdripitem "Automatic Calibrations <span class='symbol'>☐</span>"  
-    &ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
-
-
 It is recommended to **disable this for G6/G7/1/1+ sensors**.
 
 Automatic calibration will accept a treatment as a calibration if it satisfies the conditions of a flat trend for 20 minutes.
 
+!!!xdripitem "Automatic Calibrations <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
+
 ### Plugins
+
+Calibration plugins are available in xDrip+, most are not used anymore.  If enabled, a plugin acts instead of the standard xDrip+ calibration. The idea was to have a customizable calibration algorithm selection but was never fully implemented. In general, a sensor needing a plugin to be calibrated should be replaced for safety reasons.
+
+!!!warning "**SAFETY**"  
+    **Calibration safety mechanisms do not apply to plugins. Using a plugin to bypass calibration failure is dangerous.**
 
 !!!xdripitem "Calibration Plugin"  
     &ensp;Experimental calibration secondary plugin  
 
-Calibration plugins are available in xDrip+, most are not used anymore.  If enabled, a plugin acts instead of the standard xDrip+ calibration. The idea was to have a customizable calibration algorithm selection but was never fully implemented.
-
 !!!warning "Wear extension"  
-    Plugins are not fully implemented in Wear. You might see different vaues on your watch.
+    Plugins are not fully implemented in Wear. You might see different values on your watch.
 
 !!!xdripitem "Calibration Plugin"  
     &emsp;None  
@@ -103,12 +105,12 @@ Not implemented.
 
 ### Calibrations
 
-!!!xdripitem "Double Calibrations <span class='symbol'>🗹</span>"  
+!!!xdripitem "Double Calibrations <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Ask for a second optional initial calibration blood test  
 
 If you're not actually performing two different blood tests for initial calibration: disable this.
 
-!!!xdripitem "Infrequent Calibration <span class='symbol'>🗹</span>"  
+!!!xdripitem "Infrequent Calibration <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;If needed, use calibrations from longer ago, e.g. if calibrations are supplies infrequently  
 
 Calibrations get ignored when too old, if you calibrate rarely and want older calibrations measurements to weight on the current calibration curve: enable this. 
@@ -117,21 +119,21 @@ Calibrations get ignored when too old, if you calibrate rarely and want older ca
 
 ##### Non-fixed Libre Slopes
 
-!!!xdripitem "Non-fixed Libre Slopes <span class='symbol'>☐</span>"  
+!!!xdripitem "Non-fixed Libre Slopes <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Enable to allow variable slopes with Libre collection methods  
 
 Libre sensors might be difficult to calibrate. If you cannot manage to get full range accuracy or never calibrate in the higher range, disable this and make the slope equal to 1. This is recommended for beginners.
 
 **Always calibrate at stable glucose when in the lower normal range for safety.**
 
-!!!xdripitem "Check Libre Serial <span class='symbol'>🗹</span>"  
+!!!xdripitem "Check Libre Serial <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Automatically stop if Libre Serial changes unexpectedly  
 
 Carrying forward calibrations from the old sensor to a new one is dangerous. **Leave this enabled.**
 
 ### Bypass quality check
 
-!!!xdripitem "Bypass quality check <span class='symbol'>☐</span>"  
+!!!xdripitem "Bypass quality check <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Allow initial calibration even if we don't have good enough data. Beware could result in inaccurate calibration.  
 
 During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip+ will wait. Enabling this will allow calibration without checking. **Not recommended.**
@@ -146,4 +148,4 @@ During preliminary measurements for first calibration, 3 valid measurements are 
 
 </br>
 
-[*Last modified 6/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

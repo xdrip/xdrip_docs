@@ -56,6 +56,7 @@ nav:
         - 'BYODA': 'install/byod.md'
         - 'Companion app': 'install/companion.md'
         - 'GlucoRx/Aidex': 'install/aidex.md'
+        - 'CareSens Air': 'install/caresens.md'
         - 'Web Follower': 'install/webfollower.md'
     - Discover and use:
         - 'Main view': 'use/mainUI.md'
@@ -90,7 +91,6 @@ nav:
         - 'NFC Scan Features': 'use/NFC.md'
         - 'Out of Process Algorithm': 'use/OOP.md'
         - 'Insulin Pens': 'use/pens.md'
-        - 'G5/G6 Debug Settings': 'use/g56debug.md'
         - 'Spoken Commands': 'use/spokencommands.md'
     - Smartwatch:
         - 'Smartwatches': 'smartwatch/smartwatch.md'

@@ -1,5 +1,4 @@
-!!!xdrip "`xDrip+ Sync Follower`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;xDrip+ Sync Follower
@@ -19,5 +18,5 @@ See [here](../../use/syncsetup) how to setup xDrip+ Sync follower.
 
 </br>
 
-[*Last modified 28/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
 

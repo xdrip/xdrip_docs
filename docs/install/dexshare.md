@@ -1,5 +1,4 @@
-!!!xdrip "`Dex Share Follower`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Dex Share Follower
@@ -14,18 +13,18 @@ In order for xDrip+ to receive data from share servers, you need to have:
 
 <img src="../images/M-S-HDS-DexSh1.png" style="zoom:75%;" />
 
+Enter the credentials you use to authenticate with Clarity.
+
 !!!xdripitem "Share  Username"  
     &ensp;Login username for Dex Share following
 
 !!!xdripitem "Share Password"  
     &ensp;Login password for Dex Share following
 
+Only enable US servers if your account is in the USA.
+
 !!!xdripitem "US Servers"  
     &ensp;Your account and follower app are from the USA
-
-Enter the credentials you use to authenticate with Clarity.
-
-Only enable US servers if your account is in the USA.
 
 !!!warning "Account lock"  
     Leaving xDrip+ with a wrong password will lock your account.  
@@ -36,4 +35,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

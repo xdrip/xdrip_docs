@@ -1,5 +1,4 @@
-!!!xdrip "Libre 2 (EU)  → `Libre Bluetooth`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre Bluetooth
@@ -36,7 +35,9 @@ Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how
 
 #### Setup xDrip+
 
-As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2/2+ direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. (They set **[calibration to off](../../use/misc/#oop2) - recommended for first use**. If instead you want calibration, [follow this](../libre2direct-calib)). The full list of imported settings is shown [here](../libre2direct-qr-settings).
+As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2/2+ direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. If you are browsing the documentation from the phone on which you're installing xDrip+, save the pictures first, and then load them in the auto configure "image file" feature.
+
+They set **[calibration to off](../../use/misc/#oop2) - recommended for first use**. If instead you want calibration, [follow this](../libre2direct-calib). The full list of imported settings is shown [here](../libre2direct-qr-settings).
 
 QR Codes - Click image to expand
 
@@ -56,8 +57,7 @@ Physically insert your Libre 2/2+ sensor and start it using either the reader de
 
 #### Connect to the sensor
 
-!!!xdrip "`Stop Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Stop Sensor  
 
 If you have a previous sensor connected to xDrip+, stop the old sensor.
@@ -68,8 +68,7 @@ Scan the sensor with xDrip+ NFC and make sure you see the toast messages "Scanni
     Hold the phone steady when scanning the sensor and don't move it: it's taking longer than reading the sensor as you usually do with the vendor app.  
     Remember you should wait one minute between two successive NFC scans.
 
-!!!xdrip "`Start Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Start Sensor  
 
 Start the sensor in xDrip+. When required to enter the time you physically started the sensor, do not put a time earlier than reality to avoid having inconsistent values.
@@ -90,5 +89,5 @@ Try the [troubleshooting](../../troubleshoot/libre2direct/) page.
 
 </br>
 
-[*Last modified 6/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
 

@@ -1,10 +1,9 @@
-!!!xdrip "Other app → `Libre (patched app)`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+**This is a generic data source for various apps, not only the vendor patched app.**
+
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre (patched app)
-
-**This is a generic data source for various apps, not only the vendor patched app.**
 
 The apps listed below use the same protocol to send data to xDrip+.
 
@@ -55,4 +54,4 @@ This data source is subject to 25 minutes default smoothing. The smoothing perio
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

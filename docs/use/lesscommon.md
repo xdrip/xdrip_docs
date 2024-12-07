@@ -1,5 +1,4 @@
-!!!xdrip "`Less Common settings`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;&ensp;Less Common settings
 

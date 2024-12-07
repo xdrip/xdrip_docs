@@ -16,22 +16,19 @@ Some of the most important prerequisites are:
 
 xDrip+ can provide its own calibrations algorithms for sensors sending raw data.
 
-G5 and G6 native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
+G6, G7, 1, 1+ native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
 
-Libre sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
+Libre 1, 14 Days, Pro, 2 (EU) and 2+ (EU) sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
 
 Libre 2 patched app will use its own proprietary algorithm (an old version though).
 
-| Sensor                                                       | xDrip+ calibration              | Native calibration |
-| ------------------------------------------------------------ | ------------------------------- | ------------------ |
-| G4                                                           | Mandatory                       | Not available      |
-| G5                                                           | Available                       | Available          |
-| G6 old (rebatteried)                                         | Available                       | Available          |
-| G6 new ([Firefly](../../troubleshoot/connection/#firefly-transmitters)) | Not available                   | Mandatory          |
-| Libre 1                                                      | Mandatory                       | OOP1               |
-| Libre 14 days US                                             | Not available                   | OOP1 US (obsolete) |
-| Libre 2 EU patched app                                       | Limited offset (see below)      | By design          |
-| Libre 2 EU, Libre 14 days US                                 | [Optional](../../use/OOP/#oop2) | OOP2               |
+| Sensor                          | xDrip+ calibration              | Native calibration |
+| ------------------------------- | ------------------------------- | ------------------ |
+| G6 rebatteried                  | Available                       | Available          |
+| G6, G7, 1, 1+                   | Not available                   | Mandatory          |
+| Libre 1                         | Mandatory                       | OOP1 (obsolete)    |
+| Libre 2 EU patched app          | Limited offset (see below)      | By design          |
+| Libre 2/2+ EU, Libre 14 days US | [Optional](../../use/OOP/#oop2) | OOP2               |
 
 ##### Libre 2 patched app
 
@@ -41,7 +38,7 @@ When using the patched app, you can calibrate but correction is applied as an of
 
 !!!warning "xDrip+ calibration only"  
     The information below is relevant to xDrip+ calibration.  
-    For G6/G7/ONE/ONE+ native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
+    For G6/G7/1/1+ native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
 Before calibrating check your [settings](../advancedcal).
 
@@ -49,10 +46,17 @@ One thing you want to enable is [data tables](../../use/lesscommon/#show-data-ta
 
 ### First calibration
 
-
 If your sensor requires calibrations, after connecting it to xDrip+ and receiving three values you should see this request:
 
-<img src="../images/CAL01.png" style="zoom:75%;" />
+!!!xdripitem "Calibrate Sensor?"  
+    &emsp;We have some readings!  
+    
+
+    &ensp;Next, we need the first calibration blood test.  
+    
+    &ensp;Ready to calibrate now?  
+    
+    &emsp;NO&emsp;&emsp;&emsp;&emsp;CALIBRATE
 
 Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](../advancedcal/#calibrations).
 
@@ -112,12 +116,21 @@ If you see, at stable BG, comparing xDrip+ value 10 minutes after your blood tes
 Since BG trends often are difficult to forecast, you can use a trick:
 
 - Check Use Treatment BG Values is not set to Never Use Them in [Advanced Calibrations](../advancedcal).
-- Enter your blood test as a treatment.  
-  <img src="../images/CAL07.png" style="zoom:75%;"  />
-- Wait 10 minutes and decide if it would have been a good time to calibrate (stable enough).  
-  <img src="../images/CAL08.png" style="zoom:75%;"  />
-- If it was, touch your treatment and make it a calibration.  
-  <img src="../../use/images/UI-Treat11.png" style="zoom:75%;"  />
+- Enter your blood test as a treatment.
+
+<img src="../images/CAL07.png" style="zoom:75%;"  />
+
+- Wait 10 minutes and decide if it would have been a good time to calibrate (stable enough).
+
+<img src="../images/CAL08.png" style="zoom:75%;"  />
+
+- If it was, touch your treatment (the new BG test read and white square dot on the graph) and make it a calibration.
+
+!!!xdripitem "Blood Test Action"  
+      
+    &emsp;What would you like to do?  
+      
+      &emsp;NOTHING&emsp;DELETE&emsp;&emsp;&emsp;`CALIBRATE`
 
 You now have another calibration point.
 
@@ -137,22 +150,31 @@ It will show in red and will not be used for calculation anymore.
 
 ### Reset all calibrations
 
+This method only applies to sensors supporting xDrip+ calibration.
+
+**Do not use it for native calibration only sensors (G6 new, G7, 1, 1+ etc.)-**
+
 The fastest way to restart calibration from scratch (Initial Calibration) when it becomes clear that the current ones are wrong, or if you don't have data after calibrating is to reset all calibrations.
 
 From the main menu, Stop Sensor.
 
-!!!xdrip "`Stop Sensor`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"    
     &ensp;Stop Sensor  
 
-**Do not stop sensor** reset all calibrations.
+**Do not stop sensor**: only reset all calibrations.
 
-<img src="../images/CAL13.png" style="zoom:75%;"  />
+!!!xdripitem "<img src="../../images/BDM.png" style="zoom:75%;" /> Stop Sensor <span class='symbol'></span>"  
+      &emsp;Only stop your sensor when you actually plan to remove it, otherwise leave it running!  
+       
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`DON'T STOP, JUST RESET ALL CALIBRATIONS`
 
-<img src="../images/CAL14.png" style="zoom:75%;"  />
+!!!xdripitem "Are you sure?"  
+      &emsp;Do you want to delete and reset the calibrations for this sensor?  
+       
+     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp; `YES`
 
 xDrip+ will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

@@ -1,5 +1,4 @@
-!!!xdrip "`640G / Eversense`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;640G / Eversense
@@ -12,5 +11,5 @@ Original instructions [here](https://github.com/BernhardRo/Esel).
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
 

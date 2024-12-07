@@ -1,6 +1,6 @@
 ### Native Algorithm
 
-If you use xDrip+ with a G5 or G6 and native algorithm, see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
+If you use xDrip+ with a G6, G7, 1, 1+ or Stelo native algorithm, see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
 ### xDrip+ Algorithm
 
@@ -46,7 +46,7 @@ Slope limits depend on your sensor:
 | Sensor                        | Minimum slope | Maximum slope |
 | ----------------------------- | ------------- | ------------- |
 | G5 or G6 non-native algorithm | 0.7           | 1.6           |
-| Libre                         | 0.5           | 1.6           |
+| Libre (raw data source)       | 0.5           | 1.6           |
 | Libre 2 patched app           | 1 (fixed)     | 1 (fixed)     |
 
 Since slope and intercept safety limits will prevent xDrip+ from having a too high intercept, calibrations leading to this situation will be ignored.
@@ -57,4 +57,4 @@ In the example below you see the orange line is the one that matches the best ca
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

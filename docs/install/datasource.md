@@ -176,8 +176,7 @@ Unused and obsolete sensors have been removed from this documentation.
 
 You can select another data source without using the wizard from the settings menu:
 
-!!!xdrip "`Hardware data source`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source
 
@@ -249,4 +248,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 5/9/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

@@ -13,6 +13,7 @@
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0px;
+  padding-bottom: 0;
 }
 .admonition p:last-child, .admonition ul:last-child, .admonition ol:last-child {
   margin-bottom: 0;
@@ -98,7 +99,7 @@
 
 .admonition.xdripitem .admonition-content {
   margin: 0; /* Completely remove margin */
-  padding: 0 0; /* Minimal padding to avoid overlap */
+  padding: 0.2em 0; /* Minimal padding to avoid overlap */
 }
 
 .admonition.xdripitem {

@@ -371,11 +371,11 @@ When an alert triggers you will see it in the notifications drop down panel.
 <img src="../images/M-SNOg.png" style="zoom:75%;" />  
 
 Swiping it will snooze it, touching it will open a preferences menu.  
-Deliver quietly will remove [notifications channel](#notification-channel) sound and vibration.
+Deliver quietly will remove [notifications channel](#notification-channels) sound and vibration.
 
 <img src="../images/M-SNOh.png" style="zoom:75%;" />
 
-You can restore it with allow sound and vibration with the [notifications channel](#notification-channel).
+You can restore it with allow sound and vibration with the [notifications channels](#notification-channels).
 
 <img src="../images/M-SNOi.png" style="zoom:75%;" />  
 
@@ -383,7 +383,7 @@ Settings will drive you to your phone notifications setup settings.
 
 <img src="../images/M-SNOk.png" style="zoom:75%;" />  
 
-You can also completely turn off [notifications channel](#notification-channel) for xDrip+.
+You can also completely turn off [notifications channels](#notification-channels) for xDrip+.
 
 <img src="../images/M-SNOj.png" style="zoom:75%;" />  
 

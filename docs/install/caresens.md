@@ -1,10 +1,9 @@
-!!!xdrip "`CareSens Air`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;CareSens Air
 
-Enable xDrip+ broadcast in the vendor app.
+Enable xDrip+ broadcast in the [vendor app](https://play.google.com/store/apps/details?id=com.isens.csair).
 
 <img src="../images/CareSens.png" style="zoom:75%;" />
 

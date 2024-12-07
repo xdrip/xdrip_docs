@@ -1,5 +1,4 @@
-!!!xdrip "`Companion App`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Companion App
@@ -8,19 +7,25 @@ If you're using the vendor app, you can have xDrip+ get sensor data from it.
 
 This feature is available for:
 
-- G6 (master only)
-- One (only if the app shows BG notifications)
-- G7 (master only)
-- CamAPS
-- Guardian
-- MiniMed
+- G6/G7 (master only) apps
+- 1/1+/Stelo (only if the app shows BG notifications) apps
+- CamAPS app
+- Guardian, MiniMed, Simplera apps
 - Omnipod 5 app
 - Eversense app
 - Micro tech LinX Aidex app
+- Ottai app
 
-In order to use this feature you need to authorize xDrip+ to access notifications.
+In order to use this feature you **must** authorize xDrip+ to access notifications.
 
-<img src="../images/Companion1.png" style="zoom:78%;" />
+xDrip+ will not use this access for any other purpose than reading the glucose value from notifications.
+
+!!!xdripitem "Please allow permission"  
+      
+
+    Permission is needed to receive data from other aplications. xDrip does not do anything beyond this scope. Please enable xDrip on the next screen.  
+      
+      &emsp;&emsp;&emsp;&emsp;&emsp;`OK`
 
 #### Older Android versions
 
@@ -50,4 +55,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
