@@ -1,6 +1,5 @@
-!!!xdrip "`BlueJay Watch`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-    &ensp;Smart Watch Features  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features  
     &emsp;  BlueJay Watch
 
 You can buy your BlueJay Watch [here: <img src="../images/M-S-SW-BJ1.png" style="zoom:100%;" />](https://bluejay.website/) 
@@ -8,7 +7,8 @@ You can buy your BlueJay Watch [here: <img src="../images/M-S-SW-BJ1.png" style=
 Two new generations of BlueJay are available.  
 X2 is not sold anymore.  
 [GTS](https://bluejay.website/shop/product/bluejay-gts-26) can be setup without xDrip+ (only standalone) and also with xDrip+.  
-[U1](https://bluejay.website/shop/product/bluejay-u1-27) is beta and runs the full xDrip+ package.
+[U1](https://bluejay.website/shop/product/bluejay-u1-27) is beta and runs the full xDrip+ package.  
+[U2](https://bluejay.website/shop/product/bluejay-u2-28) is released.
 
 !!!info "Sharing BG"  
     BlueJay X2/GTS are only Bluetooth and cannot share BG data without being connected to your phone xDrip+.
@@ -20,6 +20,8 @@ BlueJay watches are powerful companions for your G6, G7 and 1/1+ sensors. They c
 These transmitters have two Bluetooth slots: phone and non-phone.  
 You can configure your slots as per the table below. Only two devices can be connected simultaneously to the transmitter, each one using a unique slot.  
 By default BlueJay uses the non-phone slot. See [here for GTS](#run-collector) how to change this setting.
+
+U1 and U2 need to be connected first to the sensor. Once connected, you can also enable the second connection and the watch will automatically select the available free slot.
 
 | Vendor app          | Receiver                | Connected pump                            | BlueJay Watch                             |
 | ------------------- | ----------------------- | ----------------------------------------- | ----------------------------------------- |
@@ -37,9 +39,9 @@ By default BlueJay uses the non-phone slot. See [here for GTS](#run-collector) h
 
 2 - Enable BlueJay and disable watch collector.  
 
-!!!xdripitem "BlueJay Watch&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
+!!!xdripitem "BlueJay Watch <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
-!!!xdripitem "Run Collector&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+!!!xdripitem "Run Collector <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
 
 3 - If you have a BlueJay GTS continue to 6.  
 If you have a BlueJay X2 it should show a QR code on the screen.  
@@ -66,8 +68,7 @@ Settings Menu -> Admin Menu -> Show QR Code
 <img src="../images/M-S-SW-BJc6.png" style="zoom:76%;" /> 
 
 7 - In xDrip+ scan the watch QR code  
-!!!xdrip "`Auto Configure`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Auto Configure    
 You need to authorize xDrip+ to access the phone camera.  
 Scan the QR code displayed on the watch.  
@@ -75,11 +76,11 @@ Scan the QR code displayed on the watch.
 
 Setup the watch as a follower and you should see your BG within minutes.
 
-!!!xdripitem "BlueJay Watch&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
+!!!xdripitem "BlueJay Watch <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
-!!!xdripitem "Run Collector&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Run Collector <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
-!!!xdripitem "Send Readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔" 
+!!!xdripitem "Send Readings <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>" 
 
 Check [System Status](../../troubleshoot/systemstatus/) to confirm the watch paired correctly. Swipe to the advanced status tab BlueJay.  
 
@@ -118,23 +119,23 @@ Define which slot will connect to the transmitter. Refer to the table [above](#g
 
 ##### Run Phone Collector
 
-!!!xdripitem "Run Phone Collector&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Run Phone Collector <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Also run the standard collector on this phone. Only turn this off if you don't want this phone itself to be connecting to the transmitter.
 
 Enables/disable the connection of xDrip+ to the transmitter (using the phone slot).
 
 ##### BlueJay uses Phone slot
 
-!!!xdripitem "BlueJay uses Phone slot&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+!!!xdripitem "BlueJay uses Phone slot <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;This allows the BlueJay to occupy the phone slot on the transmitter. Select this if you want another non-phone device to be able to connect to the transmitter and you are not using a phone to connect to the transmitter.
 
 By default BlueJay uses the non-phone slot. You can let it use the phone slot with this option but you should then disable Run Phone Collector above.
 
 Once slots setup you can enable the watch as a standalone collector device.
 
-!!!xdripitem "BlueJay Watch&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
+!!!xdripitem "BlueJay Watch <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
-!!!xdripitem "Run Collector&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Run Collector <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
 You will then see your phone xDrip+ is not connected to the transmitter anymore: BlueJay is.  
 When your watch is within Bluetooth range, your phone should receive BG from BlueJay.
@@ -149,10 +150,8 @@ See the video [here](https://www.youtube.com/watch?v=JM5cw-xVAZk) for a guided t
 
 See here [how](https://www.youtube.com/watch?v=6YpjuZe2c_Q) to connect to the transmitter.
 
-## BlueJay U1
-
-[Coming soon!](https://bluejay.website/shop/product/bluejay-u1-27)
+## [BlueJay U1/U2](https://bluejay.website/website/u1-tips)
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

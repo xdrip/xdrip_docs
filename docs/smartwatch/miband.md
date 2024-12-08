@@ -1,6 +1,5 @@
-!!!xdrip "`MiBand`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-    &ensp;Smart Watch Features  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features  
     &emsp;  MiBand
 
 xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) for other smartbands.
@@ -50,7 +49,7 @@ You can uninstall the patched app. This is not mandatory. If you want to install
 
 Switch the MiBand feature on. Keep your watch close to your phone until it gets detected.
 
-!!!xdripitem "Use MiBand&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`" 
+!!!xdripitem "Use MiBand <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
 <img src="../images/M-S-SW-MB-I1.png" style="zoom:80%;" />
 
@@ -88,7 +87,7 @@ Make sure the watch is connected and matches the mac address before manually ent
 
 Once connected and authenticated, enable Send Readings. Wait for the next value in xDrip+, the watchface should update.
 
-!!!xdripitem "Send readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+!!!xdripitem "Send readings <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
     &ensp;Appropriate the watch date to show glucose values. Better with mmol/l - see documentation 
 
 To force the watch to update, you can manually send a reading. Look carefully at toast messages.
@@ -97,11 +96,11 @@ To force the watch to update, you can manually send a reading. Look carefully at
 
 If you have trouble displaying the graph, try to disable high MTU values.
 
-!!!xdripitem "Disable high MTU values&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"   
+!!!xdripitem "Disable high MTU values <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"   
 
 ### Features
 
-!!!xdripitem "Use MiBand Band →`ON`"   
+!!!xdripitem "Use MiBand Band <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
     &ensp;Sync data with MiBand fitness bands
 
 You can enable and disable MiBand integration with the main switch. When troubleshooting don't hesitate to turn it off then on to restart it.
@@ -116,17 +115,17 @@ The watch mac address should be detected automatically when the field is left em
 
  When a valid mac address is found you will also see the key field. If it's not filled automatically you can manually enter the 32 characters authentication key.
 
-!!!xdripitem "Send readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+!!!xdripitem "Send readings <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
     &ensp;Appropriate the watch date to show glucose values. Better with mmol/l - see documentation 
 
 You must enable this to have readings sent to the watch.
 
-!!!xdripitem "Vibrate on readings&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Vibrate on readings <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
-!!!xdripitem "Send Alarms&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"   
+!!!xdripitem "Send Alarms <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
     &ensp;Send notifications to the band for glucose alarms
 
-!!!xdripitem "Send Calls&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"   
+!!!xdripitem "Send Calls <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"   
     &ensp;Send call notifications to the band (Android 6+)
 
 You can enable various options to have the watch vibrate on readings, receive alarms or receive notifications as phone calls.
@@ -139,14 +138,14 @@ You can force watchface refresh using Update BG manually.
 
 More customizations are available in this menu.
 
-!!!xdripitem "Allow to use custom watchface&emsp;&emsp; `OFF`←"   
+!!!xdripitem "Allow to use custom watchface <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"   
 
 You can create your own watchface and modify the background image using these features.  
 Keep them disabled unless you have correctly set the files required in the phone xdrip folder.
 
 For tips and examples look [here](https://github.com/twinko).
 
-!!!xdripitem "Disable high MTU values&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"   
+!!!xdripitem "Disable high MTU values <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"   
 
 Disable High MTU can be used when experiencing watchface display issues.
 
@@ -154,14 +153,20 @@ Disable High MTU can be used when experiencing watchface display issues.
 
 ### Install [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)
 
-!!!note "Disable MiBand in xDrip+ if you use WatchDrip+"
+!!!note "Disable MiBand in xDrip+ if you use WatchDrip+"  
+    !!!xdripitem "Use MiBand <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>" 
 
 ### Setup xDrip+
 
 Enable Broadcast Service API in Settings -> Inter-app Settings
 
-<img src="../../use/images/M-S-IASi.png" style="zoom:76%;" />
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_open_in_app_grey600_48dp.png" style="width:5%;" />&ensp;Inter-app settings
+
+!!!xdripitem "Broadcast Service API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
+    &ensp;Enable xDrip communication with third party applications by using new API
 
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

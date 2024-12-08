@@ -10,7 +10,8 @@ Your watch needs to be compliant with Android Wear OS and bear the following log
 <img src="https://play-lh.googleusercontent.com/WmoV-m8b6x16sDRfzebu5b2vstcyBHRrpzCj6ODoh6hGuMa9Gg39EvnOk7z3qMa0_WM=s180-rw" style="zoom:50%;" align="left"/>
 
 Recent watches can be found [here](https://wearos.google.com/).  
-All Wear OS smartwatches are directly compatible with xDrip+ but [Google changes](https://www.androidpolice.com/2021/02/12/wear-os-is-making-app-sideloading-much-more-difficult/) have made it more complex to install it.
+All Wear OS smartwatches are directly compatible with xDrip+ but Wear OS [Google changes](https://www.androidpolice.com/2021/02/12/wear-os-is-making-app-sideloading-much-more-difficult/) have made it more complex to install it.  
+Further Samsung and Google Wear OS 5 behavioral changes have made that even more complicated.
 
 ### Wear OS versions
 
@@ -130,7 +131,7 @@ Accidental change of the Watch Face to another one requires the procedure above 
 To force the watch app to update, just synchronize all apps.  
 <img src="../images/M-S-SW-AW32.png" style="zoom:75%;" />
 
-#### Wear OS 2.0 and above
+#### Wear OS 2.0 to 4.0
 
 You will need to uninstall and reinstall the wear app every time you want to [update](../../use/update) your phone xDrip+ in order to maintain the apps sync'ed.
 
@@ -151,6 +152,10 @@ When the versions are identical this won't really do much, but this process can 
 
 The idea is that you no longer need to use Wear Installer or whatever method you used to install the first time around (eg PC based adb or downgrading play store) as xDrip can update itself.
 
+#### Wear OS 5.0
+
+Reinstall the watchface with [Wear Installer 2](#wear-os-5).
+
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

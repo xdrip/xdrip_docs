@@ -1,7 +1,6 @@
-!!!xdrip "`Alarms and Alerts`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;Alarms and Alerts
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_add_alert_grey600_48dp.png" style="width:5%;" />&ensp;Alarms and Alerts
 
 Many alerts can be setup with xDrip+.
 

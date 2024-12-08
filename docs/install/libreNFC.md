@@ -1,5 +1,10 @@
 These days almost all phones support NFC scanning. If yours does, you can scan your Libre 1, US 14 days, Libre 2/2+ (EU) and Libre Pro sensor with xDrip+ in addition to the vendor supplied LibreLink. Please note, xDrip+ NFC scan **cannot** start a sensor - only LibreLink - (or the reader) can do this. 
 
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;LibreAlarm
+
 ## Supported data sources
 
 In order to access the NFC menu, you need to select one of the Libre data sources.

@@ -1,5 +1,5 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-        &ensp;Settings  
+    &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;CareLink Follower
 

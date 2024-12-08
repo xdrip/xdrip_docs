@@ -33,10 +33,11 @@ Once the system is running on the vendor apps, you can troubleshoot xDrip+.
 
 ## Vendor servers updates
 
-Server updates might break the mechanism. Once xDrip+ has been fixed, you might need to reset it following this sequence:
+Server updates might break the mechanism.
 
-!!!xdrip "`Web Follower`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+**Once xDrip+ has been fixed**, you might need to reset it following this sequence:
+
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
     &ensp;&emsp;Web Follower
@@ -60,4 +61,4 @@ If the issue persist, install the vendor follower app on the same phone and chec
 
 </br>
 
-[*Last modified 18/6/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15)
+[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

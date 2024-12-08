@@ -1,33 +1,44 @@
-!!!xdrip "`System Status`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;System Status
 
 System status provides internal information on xDrip+ collector state (either from a sensor or as a follower) as well as sharing, followers and smartwatch connected directly.
 
-<img src="../images/M-SS-VerNew.png" style="zoom:75%;" />
+You can share a screenshot with the Android share button top right.
+
+!!!xdripitem "<img src="../../images/BDM.png" style="zoom:75%;" />System Status<span class='symbol'><img src="../../images/Share.png" style="zoom:75%;" /></span>"
 
 ### Classic Status Page
 
-This page shows information about currently installed version, and previously installed version.  
-For a new installation the downgradable version will show as 1603091400 by default.
+This page shows information about the currently installed version.
 
-<img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
+!!!xdripitem "<div style="background-color: DodgerBlue; color: white; text-align: center;">  &emsp;Classic Status Page&emsp;</div>"  
+    &emsp;Version: a2bbca9-2024.11.26
 
 Version information allows you to quickly [find the matching release or pre-release](https://github.com/NightscoutFoundation/xDrip/releases). Before the version date you'll see the build version.
 
 Any version name that shows additional information, like debug, dev, a smartwatch name, carelink, is a [forked version release](../../install/download/#forked-versions) of xDrip+ and might not contain all the latest functions of the released app (but probably some extra).
 
-On this page you'll find the data source type (the one you selected to receive your BG values) and the sensor start date (as entered as sensor start date and time, or automatically detected, depending on the sensor type).
+On this page you'll find the data source type (the one you selected to receive your BG values).
 
-<img src="../images/M-SS-CS1.png" style="zoom:75%;" />
+!!!xdripitem "Data Source:"
 
-In the case of a physical sensor, after the data source type, you'll see the name of the actual Bluetooth device connected to xDrip+. Keep in mind this page doesn't update automatically: you need to touch the rounded arrows to refresh it.
+Next line shows the xDrip+ database size: the amount of memory it uses in your phone.
+
+!!!xdripitem "Database size:"
+
+In the case of a physical sensor, after the data source type, you'll see the name of the actual Bluetooth device connected to xDrip+. You can also see the connection status, keep in mind some sensors only connect for a short amount of time every 5 minutes and Not connected might not be an actual issue.
+
+!!!xdripitem "Bluetooth Device:" 
+!!!xdripitem "Connection Status:"
+!!!xdripitem "Sensor Start:"
+
+Since this page doesn't update automatically: you need to touch the rounded arrows to refresh it.
 
 <img src="../images/M-SS-CS2.png" style="zoom:75%;" />
 
 #### Restart collector - Forget device
 
-<img src="../images/M-SS-CSRCFD.png" style="zoom:75%;" />
+!!!xdrip "`RESTART COLLECTOR`&emsp;`FORGET DEVICE`"
 
 Restart collector will restart xDrip+ internal collector mechanism. The effect depends on the data source.
 
@@ -92,6 +103,10 @@ If it's never been working make sure you have [setup](../../install/nightscoutfo
 
 <img src="../images/M-SS-NF.png" style="zoom:75%;" />
 
+Old Android versions might use expired certificates hence prevent Nightscout follower function. There is no workaround.
+
+<img src="../images/M-SS-NFcert.png" style="zoom:75%;" />
+
 </br>
 
-[*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

@@ -68,4 +68,4 @@ To disable the MIUI Optimizations, you have to **Enable Developer Options** firs
 
 </br>
 
-*Last modified 6/03/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)
+[*Last modified 6/03/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

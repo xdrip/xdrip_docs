@@ -17,11 +17,9 @@ Once installed, open xDrip+.
 
 ### Understand what is xDrip+
 
-**Read** the important Warning.  
+!!!warning "**Read** the important Warning"  
 
-<img src="../images/Install05.png" style="zoom:75%;" />
-
-!!!warning "Make sure you fully understand the conditions before selecting `I Agree`."  
+!!!xdrip "<img src="../images/Install05.png" style="zoom:75%;" />"  
     Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
     Do NOT rely on this system for any real-time alarms or time critical data.  
     Do NOT use or rely on this system for treatment decisions or use as a substitute for professional healthcare judgement.  
@@ -41,19 +39,26 @@ Once installed, open xDrip+.
 
 **Read** the EULA.  
 
-!!!warning "Make sure you fully understand it before saving."  
+!!!warning "Make sure you fully understand it before saving."
+
+!!!xDrip "<img src="../images/Install06a.png" style="zoom:75%;" />"  
     xDrip+ MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
     IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
     SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
-<img src="../images/Install06a.png" style="zoom:75%;" />
+
 
 </br>
 
 ### Authorize background activity
 
 xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
+
+!!!xdripitem "Please allow Permission"  
+    &emsp;xDrip+ needs whitelisting for proper performance.  
+      
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`OK`
 
 <img src="../images/Install07.png" style="zoom:75%;" />
 
@@ -131,4 +136,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
