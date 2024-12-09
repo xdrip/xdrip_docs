@@ -2,22 +2,32 @@
 
 .admonition {
   padding: 10px;
-  margin: 20px 0;
+  margin: 15px 0;
   border: 1px solid #eee;
   border-left-width: 8px;
   border-radius: 3px;
   background-color: #fCfCfc;
   font-size: 0.9em !important;
 }
+
+.admonition-title {
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight: 500;
+  /*line-height: 1.1;*/
+}
+
 .admonition .admonition-title {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0px;
   padding-bottom: 0;
 }
+
 .admonition p:last-child, .admonition ul:last-child, .admonition ol:last-child {
   margin-bottom: 0;
 }
+
 .admonition code {
   border-radius: 3px;
 }
@@ -81,8 +91,9 @@
 
 .admonition.xdrip .admonition-title img {
   display: inline-block;
-  vertical-align: left;
+  vertical-align: middle;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .admonition.xdrip .admonition-title {
@@ -90,11 +101,17 @@
   background-color: #212121;
   border-bottom-color: #d1e8d7;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .admonition.xdrip .admonition-title::before {
-  margin-bottom: 0;
   content: none;
+}
+
+.admonition.xdrip .admonition-content {
+  margin: 0; /* Remove extra margin */
+  padding: 0; /* Add padding for better spacing */
+  border: none; /* Remove any borders */
 }
 
 .admonition.xdripitem .admonition-content {
@@ -127,6 +144,7 @@
   border-bottom-color: #d1e8d7;
   font-size: 1.4em !important;
   border: none;
+  padding-bottom: 0;
 }
 
 .admonition.xdripitem .admonition-title::before {
@@ -146,10 +164,4 @@
 }*/
 
 /* Title */
-.admonition-title {
-  font-size: 1.2em;
-  font-family: inherit;
-  font-weight: 500;
-  /*line-height: 1.1;*/
-}
 
