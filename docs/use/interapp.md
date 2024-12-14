@@ -10,22 +10,22 @@ Inter-app settings offers two ways to interface xDrip+ with other apps: local br
 
 Broadcast locally will make xDrip+ send internal messages that can be used by other apps like Nightwatch or AAPS.
 
-!!!xdripitem "Broadcast locally&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Broadcast locally <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
 
 If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.
 
-!!!xdripitem "Send Display Glucose"  
+!!!xdripitem "Send Display Glucose <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value
 
-You can also block noisy data broadcast for safety.
+You can also block noisy data broadcast for safety. By default, only extreme noise level is not broadcasted.
 
 !!!xdripitem "Noise Blocking"  
     &ensp;Level at which noisy data should not be broadcast as it could confuse receiving apps
 
 Recent apps/phones should accept compatible broadcast. Do not uncheck.
 
-!!!xdripitem "Compatible Broadcast&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✔"  
+!!!xdripitem "Compatible Broadcast <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Send broadcasts without locking the old permission model
 
 You can specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
@@ -37,21 +37,23 @@ You can specify the identified receiver if you want xDrip+ to send messages only
 
 xDrip+ can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
 
-!!!xdripitem "Accept Glucose"  
+!!!xdripitem "Accept Glucose <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process glucose data received from NSClient app
 
-!!!xdripitem "Accept Treatments"  
+!!!xdripitem "Accept Treatments <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process treatment data received from NSClient app
+
+You can enable or disable (**disable for AAPS!!!**) the sound that plays after updating xDrip+ profile.
+
+!!!xdripitem "Import sounds <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+    &ensp;Play sounds when importing significant data such as profiles
 
 Be careful when accepting calibrations from other apps.
 
-!!!xdripitem "Accept Calibrations"  
+!!!xdripitem "Accept Calibrations <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process calibrations received from other apps
 
-You can enable or disable (recommended for AAPS) the sound that plays after updating xDrip+ profile.
 
-!!!xdripitem "Import sounds&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
-    &ensp;Play sounds when importing significant data such as profiles
 
 ### Web Service
 
@@ -64,12 +66,12 @@ Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob
 Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.  
 The web server will respond to requests on address `127.0.0.1` port `17580`
 
-!!!xdripitem "xDrip Web Service"  
+!!!xdripitem "xDrip Web Service <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Operating a local web server for interacting with Fitbit Ionic etc.
 
 By default the web service is only available to your device, you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
 
-!!!xdripitem "Open Web Service&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+!!!xdripitem "Open Web Service <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
 
 !!!xdripitem "xDrip Web Service Secret"  
@@ -227,7 +229,7 @@ This should be the current cumulative rate bpm on the device measuring. Not a hi
 
 This service allows broadcast of xDrip+ values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
 
-!!!xdripitem "Broadcast Service API&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Broadcast Service API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Enable xDrip communication with third-party applications by using new API
 
 </br>

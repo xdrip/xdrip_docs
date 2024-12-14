@@ -1,5 +1,4 @@
-!!!xdrip "`Glucose Meters`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_touch_app_grey600_48dp.png" style="width:5%;" />&ensp;Glucose Meters
 
@@ -9,7 +8,7 @@
 
 If you use a  Glucomen Aero meter with an NFC reader capable phone you can scan it to get the last reading.
 
-!!!xdripitem "Use NFC Meter&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Use NFC Meter <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Download glucose records from NFC meter when xDrip is open
 
 ##### If you use a compatible Bluetooth meter
@@ -19,7 +18,7 @@ If this is a new meter **make sure you have measured BG at least once before try
 
 Do **<u>not</u>** enable the Bluetooth meter option in xDrip+ now.
 
-!!!xdripitem "Use Bluetooth Meter&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; `OFF`←"  
+!!!xdripitem "Use Bluetooth Meter <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Automatically connect and retrieve data from a standard's compliant glucose meter like the Contour Next One
 
 Scan for Bluetooth meter:
@@ -34,7 +33,7 @@ Put your meter in pairing mode and touch scan in the Scan for Bluetooth Meter me
 
 Once paired you can enable the meter in the menu.
 
-!!!xdripitem "Use Bluetooth Meter&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Use Bluetooth Meter <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Automatically connect and retrieve data from a standard's compliant glucose meter like the Contour Next One
 
 Your meter your now be shown below:
@@ -49,12 +48,12 @@ You can enable sounds to indicate connection, disconnection and data collection.
 
 You can have xDrip+ suggest to use the result to calibrate your connected sensor (if it supports calibration).
 
-!!!xdripitem "Use meter for calibrations&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ✔"  
+!!!xdripitem "Use meter for calibrations <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;When a new blood glucose result is received, ask if that should be used to calibrate with
 
 It is not recommended to enable automatic calibration.
 
-!!!xdripitem "Automatic calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ☐"  
+!!!xdripitem "Automatic calibration <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Calibrate using new blood glucose readings if the conditions appear right to do so without asking confirmation (experimental)
 
 When you enable the use of the Bluetooth meter, all blood tests will automatically transfer into xDrip+ as [treatments](../mainUI/#treatments).

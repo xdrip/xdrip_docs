@@ -4,24 +4,27 @@ xDrip+ provides an easy way to copy settings from one phone to another.
 
 Show settings QR code displays a QR code containing xDrip+ settings.
 
-!!!xdrip "`Show Settings QR Code`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code
 
-!!!xdripitem "Share Settings via QR code"  
+!!!xdrip "Share Settings via QR code"  
     &ensp;Use QR codes to transfer settings->Auto configure feature
 
 xDrip+ security key is used for xDrip+ Sync, if you only want to share a a follower code (that is difficult to copy manually) use this.
 
-!!!xdripitem "**`XDRIP PLUS SECURITY KEY SETTINGS ONLY`**"
+!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;XDRIP PLUS SECURITY KEY SETTINGS ONLY&emsp;</div>"
+
+If you used customization QR codes for this phone xDrip+ (G7, 1+, BlueJay, ...), you can transfer them directly to another phone
+
+!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;EXPORT KEKS KEY TO ANOTHER PHONE&emsp;</div>"
 
 General and collection settings include general settings and your hardware data source settings.
 
-!!!xdripitem "**`SHOW GENERAL AND COLLECTION SETTINGS`**"
+!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;SHOW GENERAL AND COLLECTION SETTINGS&emsp;</div>"
 
 All settings include all (not alarms: you need to recreate them manually).
 
-!!!xdripitem "**`COPY ALL SETTINGS`**"
+!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;COPY ALL SETTINGS&emsp;</div>"
 
 You will obtain a QR code that you can scan with Auto Configure on another phone.
 
@@ -33,8 +36,7 @@ Auto configure allows you to import settings from a QR code.
 
 Make sure you know the origin of the QR code you will scan is safe.
 
-!!!xdrip "`Auto Configure`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure
 
 #### Camera
@@ -54,11 +56,12 @@ Current settings will be overwritten, a list will be displayed for you to acknow
     &ensp;Only import settings from sources you trust!  
     &ensp;Please confirm to import the following settings:  
       
-    setting1  
-    setting2  
-    setting3  
+
+    &emsp;setting1  
+    &emsp;setting2  
+    &emsp;setting3  
       
-    `No` &emsp;&emsp;`Yes`
+    &emsp;No &emsp;&emsp;&emsp;&emsp;Yes
 
 You might need to restart your phone to apply the changes.
 
@@ -81,14 +84,14 @@ Current settings will be overwritten, a list will be displayed for you to acknow
     &ensp;Only import settings from sources you trust!  
     &ensp;Please confirm to import the following settings:  
       
-    setting1  
-    setting2  
-    setting3  
+    &emsp;setting1  
+    &emsp;setting2  
+    &emsp;setting3  
       
-    `No`&emsp;&emsp;`Yes`  
+    &emsp;No&emsp;&emsp;&emsp;&emsp;&emsp;Yes  
 
 You might need to restart your phone to apply the changes.
 
 </br>
 
-[*Last modified 4/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
