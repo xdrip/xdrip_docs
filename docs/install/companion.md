@@ -25,7 +25,7 @@ xDrip+ will not use this access for any other purpose than reading the glucose v
 
     Permission is needed to receive data from other aplications. xDrip does not do anything beyond this scope. Please enable xDrip on the next screen.  
       
-      &emsp;&emsp;&emsp;&emsp;&emsp;`OK`
+      &emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
 #### Older Android versions
 

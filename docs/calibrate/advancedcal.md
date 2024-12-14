@@ -33,7 +33,7 @@ It might also suggest to you enable automatic calibration.
 
     &ensp;Do you want to enable this feature?  
     
-    &emsp;`NO`&emsp;&emsp;&emsp;&emsp;YES, ENABLE
+    &emsp;<span style="background-color: white; color: black;">&ensp;NO&ensp;</span>&emsp;&emsp;&emsp;&emsp;YES, ENABLE
 
 Ask me every time will do exactly this every time you enter a BG treatment.
 

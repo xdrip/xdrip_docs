@@ -58,7 +58,7 @@ xDrip+ must have the right to run in background: it must be whitelisted to batte
 !!!xdripitem "Please allow Permission"  
     &emsp;xDrip+ needs whitelisting for proper performance.  
       
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`OK`
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
 <img src="../images/Install07.png" style="zoom:75%;" />
 

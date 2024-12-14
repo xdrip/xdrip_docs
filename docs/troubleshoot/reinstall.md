@@ -61,13 +61,13 @@ You can restore the database from a local copy or from your [Google Drive](#clou
 ### Restore settings
 
 When xDrip+ install is complete, if a backup is available, xDrip+ will propose to restore it automatically.   
-Select `RESTORE SETTINGS`
+Select RESTORE SETTINGS
 
 !!!xdripitem "Backup detected"  
     &emsp;It looks like you maybe have a settings backup, shall we try to restore it?  
     
 
-    &emsp;NO&emsp;&emsp;&emsp;&emsp;RESTORE SETTINGS
+    &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RESTORE SETTINGS&ensp;</span>
 
 If you don't see this message, [restore them manually](../../use/loadsavesettings/#load-settings).
 
@@ -87,7 +87,7 @@ Make sure this is the database you want to restore then select RESTORE.
     &emsp;file:export20210328-085436.zip  
     
 
-    &emsp;NO&emsp;&emsp;&emsp;&emsp;`RESTORE`
+    &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RESTORE&ensp;</span>
 
 xDrip+ will confirm correct database restore.
 
@@ -131,7 +131,7 @@ Once sure you're trying to restore the correct backup, `Ok`
     &emsp;'export20220129-184615.zip'?  
     &emsp;This might negatively affect the data integrity of your system!  
 
-    &emsp;CANCEL&emsp;&emsp;&emsp;&emsp;`OK`
+    &emsp;CANCEL&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
 xDrip+ will confirm correct database restore.
 
@@ -164,14 +164,14 @@ In order to use this feature you should first select a backup location.
 
 ### Select backup location
 
-!!!xdrip "`Select Backup Location`"
+!!!xdrip "<span style="background-color: white; color: black;">&ensp;Select Backup Location&ensp;</span>"
 
 !!!xdripitem "Choose Backup File"  
     &emsp;&emsp;Select Automatic for xDrip to manage files in Google Drive or select an alternate specific file to use if you need to restore from elsewhere.  
       
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`AUTOMATICALLY MANAGE`  
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;AUTOMATICALLY MANAGE&ensp;</span>  
       
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`USE ALTERNATE FILE`
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;USE ALTERNATE FILE&ensp;</span>
 
 - Use alternate file will allow you to select a different folder and backup file when **restoring**. 
 - When doing your **first backup**, or when recovering **an xDrip+ reinstall** on the same phone, select Automatically manage.
@@ -192,7 +192,7 @@ xDrip+ will create a new folder named xDrip-Backups in the root of your Google d
 
 Once your backup location selected you can perform a backup. The backup file will be created on your device and then uploaded to your Google cloud drive.
 
-!!!xdrip "`Do Backup Now`"
+!!!xdrip "<span style="background-color: white; color: black;">&ensp;Do Backup Now&ensp;</span>"
 
 <img src="../images/3DM-BR-CB5.png" style="zoom:75%;" />
 
@@ -207,7 +207,7 @@ Do not enable this if you're using a limited mobile data plan.
 
 ### Restore from backup
 
-!!!xdrip "`Restore From Backup`"
+!!!xdrip "<span style="background-color: white; color: black;">&ensp;Restore From Backup&ensp;</span>"
 
 !!!warning "Data loss"  
     Restoring a database will delete all current data.  
@@ -218,8 +218,8 @@ Do not enable this if you're using a limited mobile data plan.
     &emsp;Restoring a backup will erase your current settings and data with that from the backup.  
       
     &emsp;Are you absolutely sure you wish to do this?  
-
-    &emsp;NO&emsp;&emsp;&emsp;&emsp;`YES`
+    
+    &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
 Restore will copy the cloud database locally and replace the current database.
 

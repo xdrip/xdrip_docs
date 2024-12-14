@@ -152,7 +152,7 @@ Confirm you really want to stop the sensor.
       &emsp;Only stop your sensor when you actually plan to remove it, otherwise leave it running!  
        
 
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`STOP SENSOR`
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;STOP SENSOR&ensp;</span>
 
 This will reset all calibrations and allow xDrip+ to start a new sensor.
 

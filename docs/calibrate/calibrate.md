@@ -56,11 +56,15 @@ If your sensor requires calibrations, after connecting it to xDrip+ and receivin
     
     &ensp;Ready to calibrate now?  
     
-    &emsp;NO&emsp;&emsp;&emsp;&emsp;CALIBRATE
+    &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;CALIBRATE&ensp;</span>
 
 Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](../advancedcal/#calibrations).
 
-<img src="../images/CAL02.png" style="zoom:75%;" />
+!!!xDrip "☰&emsp;Initial calibration"  
+    &emsp;<u>Enter First BG Value</u>  
+    &emsp;<u>Enter Second BG Value</u>  
+    
+    &emsp;<small>In order to get started, perform one or two finger prick tests and enter the values here!</small>    
 
 If you're using native calibration, the value will be sent to the transmitter for processing.
 
@@ -130,7 +134,7 @@ Since BG trends often are difficult to forecast, you can use a trick:
       
     &emsp;What would you like to do?  
       
-      &emsp;NOTHING&emsp;DELETE&emsp;&emsp;&emsp;`CALIBRATE`
+      &emsp;NOTHING&emsp;DELETE&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;CALIBRATE&ensp;</span>
 
 You now have another calibration point.
 
@@ -140,9 +144,14 @@ You now have another calibration point.
 
 It might happen that a calibration point is clearly bad and you want to delete it.
 
-Open the Calibration Data Table and long touch the calibration you want to disable.
+Open the Calibration Data Table and **long touch** the calibration you want to disable.
 
 <img src="../images/CAL10.png" style="zoom:75%;"  />
+
+!!!xdripitem "Disable this calibration?"  
+    Flagged calibrations will no longer have an effect.  
+      
+    &emsp;&emsp;&emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
 It will show in red and will not be used for calculation anymore.
 
@@ -166,12 +175,12 @@ From the main menu, Stop Sensor.
 !!!xdripitem "<img src="../../images/BDM.png" style="zoom:75%;" /> Stop Sensor <span class='symbol'></span>"  
       &emsp;Only stop your sensor when you actually plan to remove it, otherwise leave it running!  
        
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`DON'T STOP, JUST RESET ALL CALIBRATIONS`
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;DON'T STOP, JUST RESET ALL CALIBRATIONS&ensp;</span>
 
 !!!xdripitem "Are you sure?"  
       &emsp;Do you want to delete and reset the calibrations for this sensor?  
        
-     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp; `YES`
+     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
 xDrip+ will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
 

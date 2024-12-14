@@ -38,7 +38,7 @@ Since this page doesn't update automatically: you need to touch the rounded arro
 
 #### Restart collector - Forget device
 
-!!!xdrip "`RESTART COLLECTOR`&emsp;`FORGET DEVICE`"
+!!!xdrip "<span style="background-color: white; color: black;">&ensp;RESTART COLLECTOR&ensp;</span>&emsp;<span style="background-color: white; color: black;">&ensp;FORGET DEVICE&ensp;</span>"
 
 Restart collector will restart xDrip+ internal collector mechanism. The effect depends on the data source.
 
