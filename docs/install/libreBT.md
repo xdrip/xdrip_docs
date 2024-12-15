@@ -9,7 +9,7 @@ The original project was developed by Joern: [LimiTTer](https://github.com/Joern
 
 xDrip+ supports some of them for some sensors.  
 **Libre H, Libre 2/2+ US/CA/AUS are not supported.**  
-You can use Diabox or Juggluco in [Libre patched app](/install/libre2patch/) mode.
+You can use Diabox or Juggluco in [Libre patched app](../libre2patch/) mode.
 
 Here below a compatibility table for supported bridge devices, for compatible sensors **minimum** firmware version is indicated.
 
