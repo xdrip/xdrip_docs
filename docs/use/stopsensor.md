@@ -18,17 +18,26 @@ xDrip+ sensor stop is only used to invalidate previous calibrations. This operat
 
 </br>
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
 
-!!!xdripitem "Stop Sensor"
 
-Confirm `STOP SENSOR` unless you only want to [reset all calibrations](../../calibrate/calibrate/#reset-all-calibrations).
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &emsp;Stop Sensor
 
-<img src="../../install/images/M-StoSC.png" style="zoom:75%;" />
+Confirm STOP SENSOR unless you only want to [reset all calibrations](../../calibrate/calibrate/#reset-all-calibrations).
+
+!!!xdripitem "<img src="../../images/BDM.png" style="zoom:75%;" /> Stop Sensor <span class='symbol'></span>"  
+      &emsp;Only stop your sensor when you actually plan to remove it, otherwise leave it running!  
+       
+
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;STOP SENSOR&ensp;</span>
 
 Confirm you want to stop the sensor.
 
-<img src="../../install/images/M-StoSC2.png" style="zoom:76%;" />
+!!!xdripitem "Are you sure?"  
+      &emsp;Do you want to stop the sensor?  
+       
+
+     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
 If you change your mind and the sensor didn't expire yet, you can always ["restart"](../startsensor/#libre) it, il will resume the current session and eventually ask for a new calibration. xDrip+ doesn't physically restart Libre sensors.
 
@@ -44,4 +53,4 @@ There is no interest in stopping a sensor when using a follower app.
 
 <br>
 
-[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

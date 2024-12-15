@@ -53,8 +53,6 @@ Be careful when accepting calibrations from other apps.
 !!!xdripitem "Accept Calibrations <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process calibrations received from other apps
 
-
-
 ### Web Service
 
 Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/technical/Local_Web_Services.md).
@@ -232,6 +230,12 @@ This service allows broadcast of xDrip+ values as an API and can be used by exte
 !!!xdripitem "Broadcast Service API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Enable xDrip communication with third-party applications by using new API
 
+!!!xdripitem "Enable IoB reporting in API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
+    &ensp;Enable IoB reporting in web service API endpoint used by some smartwatches.
+
+!!!xdripitem "Fetch IoB from Companion App <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+    &ensp;Fetch IoB value from Companion App running on the same device, such as the Omnipod 5 app .
+
 </br>
 
 ### Google Health connect
@@ -243,15 +247,15 @@ You can share information with Google Health.
 
 You need [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&hl=en&gl=US) installed on your device, which is available for Android 8 and above.
 
-!!!xdripitem "Use Health Connect"  
+!!!xdripitem "Use Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Required Android 8+ and Google companion application
 
 You can then decide to use incoming and allow outgoing data.
 
 xDrip+ can share steps, heart rate and BG with Google Health.
 
-!!!xdripitem "Get data from Health Connect"  
+!!!xdripitem "Get data from Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
-!!!xdripitem "Send data to Health Connect"  
+!!!xdripitem "Send data to Health Connect <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
 
-[*Last modified 24/12/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09)
+[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

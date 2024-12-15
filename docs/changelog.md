@@ -6,6 +6,17 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [26th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26) | Carelink follow fix                                          |
+| [17th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.17) | dB size in status                                            |
+| [15th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.15) | Switches short text, persistent high values check            |
+| [8th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.08) | Interapps visual changes, companion **Aidex, Ottai Tag**, BlueJay updates |
+| [3rd Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.03) | Hide Sync key, silent Sync chunks upload in logs             |
+| [29th Oct 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.29) | Cleanup, lower voltage B, **Ottai Sens** companion           |
+| [11th Oct 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Persistent high alerts customizable, more companion G6 apps  |
+| [27th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27) | Companion fixes, remove restart for G7, 1+, Dex share cleanup |
+| [19th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | Carelink messages                                            |
+| [17th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | This is a latest **Release**                                 |
+| [16th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Share button, Sync reconnect, NFC background enable          |
 | [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | c - **[xDripCloud](../use/sync/#use-xdrip-cloud)** for xDrip+ Sync |
 | [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15b) | b - xDripCloud                                               |
 | [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15) | xDripCloud, BlueJay                                          |

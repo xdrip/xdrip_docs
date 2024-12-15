@@ -1,6 +1,5 @@
-!!!xdrip "`Statistics`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
-    &ensp;Statistics
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" /> Statistics
 
 Statistics view offers 3 basic statistics displays you can configure for different periods of time.
 

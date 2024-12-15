@@ -102,17 +102,30 @@ And blood tests like this (note the symbol is square unlike [calibrations](/cali
 
 When visible, you can delete treatments like this:
 
-- Touch the treatment, look at the bottom of the screen: touch Add Note or Blood Test.
+- Touch the treatment, look at the bottom of the screen: touch Add Note 
 
-<img src="../images/UI-Treat9.png" style="zoom:75%;" />
+<div style="background-color: black; color: white; text-align: left;">  &emsp;18:45 Treatment&emsp;<span style="color: cyan; float: right;">ADD NOTE&emsp;</span></div>
 
-- You can enter a note or touch Delete to delete the entry. This applies to blood tests, carbs and insulin.
+or Blood Test.
 
-<img src="../images/UI-Treat10.png" style="zoom:75%;" />
+<div style="background-color: black; color: white; text-align: left;">  &emsp;10:06 85 mg/dl&emsp;<span style="color: cyan; float: right;">BLOOD TEST&emsp;</span></div>
 
-Note that if you touch a blood test and edit it you can also convert it to a calibration using Calibrate. This is possible if you didn't select `Never use them` in [Advanced Calibrations](../../calibrate/advancedcal).
+- You can enter a note or touch DELETE to delete the entry. This applies to blood tests, carbs and insulin.
 
-<img src="../images/UI-Treat11.png" style="zoom:75%;" />
+!!!xdripitem "Treatment Note"  
+    <span style="color: cyan;">_____________________________________________________________________________________</span>  
+    <small>Default to voice input next time</small> ☐  
+    
+
+    <span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
+
+Note that if you touch a blood test and edit it you can also convert it to a calibration using CALIBRATE. This is possible if you didn't select **Never use them** in [Advanced Calibrations](../../calibrate/advancedcal).
+
+!!!xdripitem "Blood Test Action"  
+    What would you like to do?  
+    
+
+    <span style="color: cyan; float: left;">NOTHING&emsp;</span><span style="color: cyan; float: right;">DELETE&emsp;CALIBRATE&emsp;</span>
 
 ##### Spoken treatments
 
@@ -128,7 +141,14 @@ Independently of treatments you can enter notes.
 
 Enter the comment you want (like slow acting insulin units), or use the microphone icon to speak the note.
 
-<img src="../images/UI-Note1.png" style="zoom:75%;" />
+!!!xdripitem "Treatment Note"  
+    <span style="color: cyan;">_____________________________________________________________________________________</span>  
+    <small>Default to voice input next time</small> ☐  
+    
+
+    <span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
+
+
 
 They will be added to the graph like this:
 
@@ -159,14 +179,14 @@ With a long touch on the central area between main and three dots menu you can o
 
 Shows the button driving you through the data source selection as described [here](../../install/datasource).
 
-!!!xdripitem "          `START SOURCE SETUP WIZARD`" 
+!!!xdripitem "<span style="background-color: grey; color: white;">  &emsp;&emsp;START SOURCE SETUP WIZARD&emsp;</span>" 
 
 ##### Show Time Buttons
 
 Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.  
 If you long press a time button you can lock the view to that time period.
 
-!!!xdripitem "          `24 HOUR`    `12 HOUR`    `6 HOUR`    `3 HOUR`  " 
+!!!xdripitem "<span style="background-color: grey; color: white;"> &ensp;24 HOUR&ensp;</span> &emsp;<span style="background-color: grey; color: white;"> &ensp;12 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;6 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;3 HOUR&ensp;</span> </span>" 
 
 ##### Locked time period always used
 
@@ -194,7 +214,7 @@ Displays the remaining time before sensor expiry below the main graph.
 
 Adds an option allowing you to select other arrow styles.
 
-Use the wrench and drop down menu to select them.  
+Use the wrench <img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_wrench_grey600_48dp.png" style="width:3%;" /> and drop down menu ▼ to select them.  
 Color arrows include a hue cursor to change color. 
 
 Graphical trend arrows angle depends on the reading difference with the previous value (5 minutes) and not only flat/45/90 degree like the classic arrows.
@@ -238,4 +258,4 @@ When you put your phone in charge it will display a small graph and the BG value
 
 </br>
 
-[*Last modified 10/2/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

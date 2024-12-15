@@ -101,17 +101,17 @@ When sharing screenshots of the error log make sure to enable all and manually h
 
 ### Libre trend
 
-If you use a Libre sensor `Show Libre Trend` will display the last 45 minutes sensor information, minute by minute.
+If you use a Libre sensor Show Libre Trend will display the last 45 minutes sensor information, minute by minute.
 
 <img src="../images/3DM-LT.png" style="zoom:75%;" /> 
 
 ### Share Settings via QR code
 
-This is a shortcut to `Menu` / `Settings` / [`Show Settings QR Code`](../copysettings) 
+This is a shortcut to Menu` / `Settings / [Show Settings QR Code](../copysettings) 
 
 ### Check for Updated Version
 
-This entry triggers a version check as defined in `Menu` / `Settings` / [`xDrip+ Update Settings`](../update)  
+This entry triggers a version check as defined in Menu` / `Settings / [xDrip+ Update Settings](../update)  
 If a new version is available it will open the download screen.
 
 <img src="../images/3DM-CU.png" style="zoom:75%;" /> 
@@ -124,4 +124,4 @@ For other enquiries prefer [xDrip+ GitHub discussions](https://github.com/Nights
 
 </br>
 
-[*Last modified 25/3/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

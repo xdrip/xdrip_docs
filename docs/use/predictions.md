@@ -1,7 +1,6 @@
-!!!xdrip "`Predictive simulations`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="../images/CrystalBall.png" style="width:8%;" />&ensp;Predictive Simulations
+    &emsp;<img src="../images/CrystalBall.png" style="width:5%;" />&ensp;Predictive Simulations
 
 xDrip+ Predictive Simulation settings is an experimental, non medically approved feature. Make sure to re-read the [EULA](../../install/install/#understand-what-is-xdrip) before enabling it. Do not use them to take medical decisions.
 
@@ -186,7 +185,7 @@ In the lower part of the dialog, select which insulin will be used for basal (lo
 
 Once done, save your choices.
 
-!!!xdrip "`CANCEL`   `RESET`                  `SAVE`"
+!!!xdripitem "<span style="background-color: grey; color: white;"> &ensp;CANCEL&ensp;</span> &emsp;<span style="background-color: grey; color: white;"> &ensp;RESET&ensp;</span>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: grey; color: white;"> &ensp;SAVE&ensp;</span>  &emsp;</span>" 
 
 When adding multiple insulin type, using [treatments](../mainUI/#treatments) will ask you to select the one you're using for this treatment.
 
@@ -205,4 +204,4 @@ Multiple insulin types will be displayed in an identical way on the main graph.
 
 </br>
 
-[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

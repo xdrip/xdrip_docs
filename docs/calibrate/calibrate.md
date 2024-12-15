@@ -10,7 +10,7 @@ Some of the most important prerequisites are:
 
 1. **Stable BG.** Never calibrate when BG is rising or falling rapidly.
 2. **In range (important for Libre initial calibration).** Try to perform your calibrations when BG is within normal range (80-180 mg/dl or 5-10 mmol/l).
-3. **Don't overcalibrate.** Better few accurate than too many: you will most probably confuse xDrip+. For G4, G5 and G6 use the vendor recommendations.
+3. **Don't overcalibrate.** Better few accurate than too many: you will most probably confuse xDrip+. For G6, G7, 1, 1+ use the vendor recommendations.
 
 ### Native and xDrip+ algorithms
 

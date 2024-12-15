@@ -106,11 +106,11 @@ Disable alert completely disables it, it will show crossed in the Alert List
 You can customize the volume of your alerts
 
 !!!xdripitem "Alert volume profile"  
-    &ensp;High&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
-    &ensp;Medium&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
-    &ensp;Ascending volume&emsp;&emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;●  
-    &ensp;Vibrate only&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
-    &ensp;Silent&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○
+    &ensp;High <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Medium <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Ascending volume <span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Vibrate only <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Silent <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 Ascending volume is recommended if you don't want the alarm to blare immediately (useful during the night). You can also [delay](#delay-ascending-volume) ascending volume to filter noisy readings and limit the maximum volume.
 
@@ -124,10 +124,10 @@ Audio Focus allows you to decide how to handle other sounds when an xDrip+ alarm
 You can automatically lower the volume, pause the other apps playing sounds (like media players) or pause all other sounds in order to better focus on xDrip+ sound.
 
 !!!xdripitem "Audio Focus"  
-    &ensp;Don't adjust other app sounds&emsp;&ensp;&emsp;&emsp;&emsp;●  
-    &ensp;Lower volume of other apps&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
-    &ensp;Pause other apps playing audio&nbsp;&ensp;&emsp;&emsp;&emsp;○  
-    &ensp;Pause all other sounds&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○ 
+    &ensp;Don't adjust other app sounds <span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Lower volume of other apps <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Pause other apps playing audio <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &ensp;Pause all other sounds <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp; 
 
 ##### Smart snoozing
 
@@ -480,8 +480,7 @@ Touching snooze will snooze it for the period selected.
       <div style="background-color: black; color: dimgray; text-align: center;">&nbsp;  
         40 minutes  
     </div></div>  
-​    
-
+    
     Active alert exists named "Night" alert will rerise at 1:25:01 (0 minutes left)  
       
     <div style="background-color: dimgray; color: white; text-align: center;">  &emsp;Disable Low Alerts&emsp;</div>  
@@ -529,4 +528,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

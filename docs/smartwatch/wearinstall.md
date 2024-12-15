@@ -121,8 +121,9 @@ Use [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=co
 
 Google and Samsung have brought important changes to Wear OS 5 and do not easily allow custom watchfaces.
 
-Installing the AAPS Watch Face has to be done with Wear Installer 2 following [this video](https://www.youtube.com/watch?v=yef_qGvcCnk) until 3:56. At this point you need to select xDrip+ in the installed apps, not a custom APK.
-Accidental change of the Watch Face to another one requires the procedure above to be repeated.
+Installing the AAPS Watch Face has to be done with Wear Installer 2 following [this video](https://www.youtube.com/watch?v=EvTGEnPA9PY).
+
+**Accidental change of the Watch Face to another one requires the procedure above to be repeated.**
 
 ### Update xDrip+ on your watch
 

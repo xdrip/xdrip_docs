@@ -2,8 +2,7 @@ You can update xDrip+ by installing another version on top of the current one wi
 
 You can also use xDrip+ internal update mechanism.
 
-!!!xdrip "`xDrip+ Update Settings`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Update Settings
 
@@ -13,9 +12,8 @@ Update settings allows you to choose between various xDrip+ versions update.
     You can upgrade and downgrade xDrip+ just installing a newer or an older version on top of the current one.  
     Uninstalling xDrip+ might lead to complete and unrecoverable data loss if you don't [backup](../../troubleshoot/reinstall/#reinstall-xdrip).
 
-!!!warning  
-    Only xDrip+ official versions can use this feature.  
-    If you installed a [forked version](../../install/download/#forked-versions), only the author can provide upgrades. 
+Only xDrip+ official versions can use this feature.  
+If you installed a [forked version](../../install/download/#forked-versions), only the author can provide upgrades. 
 
 !!!note  
     Updating xDrip+ is completely transparent and will not require any specific actions on your current sensor.  
@@ -24,7 +22,7 @@ Update settings allows you to choose between various xDrip+ versions update.
 
 You should enable automatic update check.
 
-!!!xdripitem "Automatic update check&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; →`ON`"  
+!!!xdripitem "Automatic update check <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Get notified of new apk releases  
 
 If you leave it disabled xDrip+ will remind you to update every 60 days.
@@ -39,6 +37,9 @@ There are four update channels:
 - Stable: released versions that proved stability and reliability
 - Beta: versions that are candidates to stable release
 - Alpha: versions in development
+
+Once Alpha selected, update and you can see a new option:
+
 - Nightly: prototypes for testing
 
 Most tested versions will not include latest features and fixes.
@@ -106,4 +107,4 @@ You don't need to uninstall xDrip+ to return to an older version (unless [switch
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

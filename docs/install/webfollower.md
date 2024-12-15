@@ -1,6 +1,6 @@
 !!!warning "Subject to disruption"  
     As the vendor didn't publish an API, server and protocol updates will break this data source.  
-    You will need to wait until the community recovers another access method...
+    **Use the [latest pre-release](../download#pre-release) in case of issues.**
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  

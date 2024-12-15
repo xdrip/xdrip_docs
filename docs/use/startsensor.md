@@ -22,19 +22,24 @@ xDrip+ sensor start is only used to track lifetime and make sure calibrations ar
 
 </br>
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &emsp;Start sensor 
 
-!!!xdripitem "Start sensor" 
+Confirm START SENSOR
 
-Confirm `START SENSOR`
+!!!xdrip "<img src="../../images/BDM.png" style="zoom:75%;" />Start New Sensor"  
+    Do not hit start sensor unless the sensor is already embedded and the transmitter is connected  
+      
+    &emsp;&emsp;&emsp;&emsp;<span style="background-color: grey; color: white; align: center;">  &ensp;START SENSOR&ensp;</span>
 
-<img src="../../install/images/M-StaSC.png" style="zoom:75%;" />
+If you inserted the sensor today (i.e. not started or recently started), answer YES, TODAY
 
-If you inserted the sensor today (i.e. not started or recently started), answer `YES, TODAY`
+!!!xdripitem "Did you insert it today?"  
+    We need to know when the sensor was inserted to improve calculation accuracy.  
+    
+    <span style="color: cyan; float: right;">NOT TODAY&emsp;&emsp;YES TODAY&emsp;</span>
 
-<img src="../../install/images/M-StaSToday.png" style="zoom:75%;" />
-
-If you answered today select the hour you physically started the sensor dragging the blue pointer to the correct time. With 12 hours display, tap `am` or`pm`. With 24 hours display drop the correct hour either on the inner or outer ring for the correct hour. Tap `OK`.
+If you answered today select the hour you physically started the sensor dragging the blue pointer to the correct time. With 12 hours display, tap `am` or`pm`. With 24 hours display drop the correct hour either on the inner or outer ring for the correct hour. Tap OK.
 
 <img src="../../install/images/M-StaSHour.png" style="zoom:75%;" />
 
@@ -61,15 +66,25 @@ If you see a purple arrow you might have made a mistake in the date and time the
 
 xDrip+ will now wait for readings and update the progress. Stay on this screen. Every reading is done 5 minutes apart so it should take less than 20 minutes.
 
-<img src="../../install/images/M-SS-InitialR.png" style="zoom:65%;" />
-
+!!!xdripitem "Collecting Initial Readings"  
+    &ensp;✔ Data collector running  
+    &ensp;⧖  Receiving data from collector  
+    &emsp;&nbsp;Received some recent data  
+    &emsp;&nbsp;Received enough good data to calibrate  
+    &ensp;***No data received yet***  
 If the data source shows LimiTTer and you're not using an actual [LimiTTer](https://github.com/JoernL/LimiTTer), your bridge device is not connected correctly.
 
 <img src="../../install/images/M-SS-LimiTTer.png" style="zoom:70%;" />
 
 The indication ***No data received yet*** will change to ***Need 3 recent readings***. If no data is received, [check your parameters](../../install/libreBT/#bridge-settings).
 
-<img src="../../install/images/M-SS-InitialR2.png" style="zoom:72%;" />
+!!!xdripitem "Collecting Initial Readings"  
+    &ensp;✔ Data collector running  
+    &ensp;✔ Receiving data from collector  
+    &ensp;✔ Received some recent data  
+    &ensp;⧖ Received enough good data to calibrate  
+    &ensp;***Need 3 recent readings, got only one so far***  
+    &ensp;Next reading expected in 1 minute 
 
 When enough readings are received, the calibration request will display. More about calibration [here](../../calibrate/101).
 
@@ -77,7 +92,10 @@ If your BG is within normal range (recommended in the lower normal range for a n
 
 If your BG is quickly varying or not within normal range, it is not recommended to calibrate now. 
 
-<img src="../../install/images/M-SS-Calibrate.png" style="zoom:70%;" />
+!!!xdrip "Calibrate Sensor?"  
+    We have some readings!  
+    Next we need the first calibration blood test.  
+    Ready to calibrate now?
 
 Two readings are required from legacy G4 receiver, you can use only one if you're sure it's valid. Just put twice the same value. You can set one value as default [disabling double calibration](../../calibrate/advancedcal/#calibrations).
 
@@ -95,20 +113,25 @@ Starting or stopping a sensor in xDrip+, when using a follower or companion sour
     The only exception is [xDrip+ Sync follower that might transmit the Start or Stop command to the actual sensor if it is directly connected to xDrip+ acting as master](../sync/#accept-followers-actions).  
     Do not use Start and Stop sensor with xDrip+ Sync follower unless you know the person with the master xDrip+ phone will know what to do with a stopped sensor!
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &emsp;Start sensor 
 
-!!!xdripitem "Start sensor" 
+Confirm START SENSOR
 
-Confirm `START SENSOR`
+!!!xdrip "<img src="../../images/BDM.png" style="zoom:75%;" />Start New Sensor"  
+    Do not hit start sensor unless the sensor is already embedded and the transmitter is connected  
+      
+    &emsp;&emsp;&emsp;&emsp;<span style="background-color: grey; color: white; align: center;">  &ensp;START SENSOR&ensp;</span>
 
-<img src="../../install/images/M-StaSC.png" style="zoom:75%;" />
+Answer NOT TODAY
 
-Answer `NOT TODAY`
-
-<img src="../../install/images/M-StaSToday.png" style="zoom:75%;" />
+!!!xdripitem "Did you insert it today?"  
+    We need to know when the sensor was inserted to improve calculation accuracy.  
+    
+    <span style="color: cyan; float: right;">NOT TODAY&emsp;&emsp;YES TODAY&emsp;</span>
 
 xDrip+ should pick-up readings with the next measurement.
 
 <br>
 
-[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

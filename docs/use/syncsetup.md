@@ -1,5 +1,4 @@
-!!!xdrip "`xDrip+ Sync`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings
 
@@ -28,10 +27,12 @@ Your master should receive data reliably. Always troubleshoot the master first i
 
 Make the primary data source phone master (enable checkbox):
 
-!!!xdripitem "Settings"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings   
-      
-    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers&emsp;&emsp;&emsp;✔**
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    
+
+    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../../images/EN.png" style="zoom:75%;" />&emsp;&emsp;</span>**
 
 </br>
 
@@ -41,11 +42,9 @@ Make the primary data source phone master (enable checkbox):
 
 On the master phone display the Sync Key QR code:
 
-!!!xdripitem "Settings"  
-    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code
-
-!!!xdripitem "Use QR code to transfer settings using Settings->Auto-configure option "  
-    &emsp;**`XDRIP PLUS SECURITY KEY SETTINGS ONLY`**
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code  
+    <div style="background-color: gray; color: white; text-align: center;">  &emsp;XDRIP PLUS SECURITY KEY SETTINGS ONLY&emsp;</div>
 
 Leave the master phone on this picture for the moment.
 
@@ -57,11 +56,10 @@ Take a screenshot of the QR code and send it it the follower phone (MMS, WhatsAp
 
 #### Option 2 (complicated)
 
-Write down the master key.
-
-!!!xdripitem "Settings"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings   
-      
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    
     &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 
 <img src="../../use/images/M-S-SY2.png" style="zoom:75%;" />
@@ -72,10 +70,14 @@ Write down the master key.
 
 Make all other phones followers (disable checkbox):
 
-!!!xdripitem "Settings"  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
-      
-    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers&emsp;&emsp;&emsp;☐**
+    
+
+    &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../../images/DIS.png" style="zoom:75%;" />&emsp;&emsp;</span>**
+
+</br>
 
 !!!warning "Use xDrip Cloud must be set identically on all phones"  
     Master and followers. Either it is ON for all, or OFF for all.
@@ -87,9 +89,10 @@ Make all other phones followers (disable checkbox):
 
 #### Option 1 (recommended)
 
-!!!xdripitem "Settings"  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure  
-    &emsp;Camera
+    &emsp;&emsp;&emsp;Camera
 
 You need to authorize xDrip+ to access the phone camera.  
 Scan the QR code displayed on your master phone.
@@ -106,13 +109,14 @@ You will be asked to confirm you want to import these settings (make sure you im
     &ensp;setting2  
     &ensp;setting3  
       
-    `No`&emsp;&emsp;`Yes`     
+    No&emsp;&emsp;<span style="background-color: gray; color: white; text-align: center;">&ensp;Yes&ensp;</span>     
 
 #### Option 1 bis (follower phone cannot read the QR code)
 
-!!!xdripitem "Settings"  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure  
-    &emsp;Image file
+    &emsp;&emsp;&emsp;Image file
 
 Select the image containing the QR code.
 
@@ -126,19 +130,20 @@ Select the image containing the QR code.
     &ensp;setting2  
     &ensp;setting3  
     
-    `No`&emsp;&emsp;`Yes`  
+    No&emsp;&emsp;<span style="background-color: gray; color: white; text-align: center;">&ensp;Yes&ensp;</span>  
 
 #### Option 2 (complicated)
 
 Edit the key field and type **exactly** the same key than the master.
 
-!!!xdripitem "Settings"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings   
-        
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    
     &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 
 <img src="../../use/images/M-S-SY2.png" style="zoom:75%;" />
 
 </br>
 
-[*Last modified 3/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

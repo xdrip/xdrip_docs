@@ -1,5 +1,4 @@
-!!!xdrip "`Settings`"  
-    <img src="../../images/hamburger_menu.png" style="zoom:75%;" />  
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings
 
 There are many settings in xDrip+, if you can't find what you're looking for, use the search lens top right and enter the keyword you're looking for.

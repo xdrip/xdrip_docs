@@ -144,7 +144,7 @@ Mind your InfluxDB URI will be expressed like:
 
 `https://host_address:port` for example for a local server: `https://192.168.0.56:8086`
 
-### Dexcom Share Server Upload
+### Dex Share
 
 !!!warning "Your username cannot be a phone number"  
     You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
@@ -152,8 +152,8 @@ Mind your InfluxDB URI will be expressed like:
 
 Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to upload to Dexcom Share.
 
-!!!xdripitem "Dexcom Share Server Upload"  
-    &ensp;Upload data to Dexcoms servers so you can use your data with Dexcoms apps
+!!!xdripitem "Dex Share"  
+    &ensp;Upload data to Dex share servers
 
 !!!info  
     You can upload your BG to Dexcom Share, **not to Dexcom Clarity**.

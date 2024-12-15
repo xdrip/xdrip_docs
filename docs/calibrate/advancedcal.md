@@ -18,10 +18,10 @@ You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests
 Automatic mode will only suggest you to use the treatment as a calibration if xDrip+ detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
 
 !!!xdripitem "Use Treatment BG values"  
-    &emsp;Automatic mode (best)&emsp;○  
-    &emsp;Ask me every time&emsp;&emsp;&emsp;○  
-    &emsp;Never use them&nbsp;&emsp;&emsp;&emsp;&emsp;●  
-    &emsp;Always use them&nbsp;&ensp;&emsp;&emsp;&emsp;○ 
+    &emsp;Automatic mode (best)<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Ask me every time<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Never use them<span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Always use them<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp; 
 
 It might also suggest to you enable automatic calibration.  
 
@@ -148,4 +148,4 @@ During preliminary measurements for first calibration, 3 valid measurements are 
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

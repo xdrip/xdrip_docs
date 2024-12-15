@@ -68,7 +68,7 @@ It is an information on when xDrip+ received data against the expected time. Sec
 
 <img src="../images/M-SS-CSWU.png" style="zoom:75%;" />
 
-#### G5,G6, 1 and 1+ 
+#### G6, G7, 1 and 1+ 
 
 See [here](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
 
