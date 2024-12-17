@@ -14,7 +14,7 @@ This feature is available for:
 - Omnipod 5 app
 - Eversense app
 - Micro tech LinX Aidex app
-- Ottai app
+- Ottai Sens and Tag apps
 
 In order to use this feature you **must** authorize xDrip+ to access notifications.
 
@@ -55,4 +55,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 17/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17)

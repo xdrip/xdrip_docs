@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [17th Dec 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17) | Fix battery for followers, hide NS URL                       |
 | [26th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26) | Carelink follow fix                                          |
 | [17th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.17) | dB size in status                                            |
 | [15th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.15) | Switches short text, persistent high values check            |

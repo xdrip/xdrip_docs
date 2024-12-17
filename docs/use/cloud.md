@@ -31,7 +31,7 @@ The base URL is composed by your API_SECRET (or a token) and the URL of your sit
 The example provided in the dialog was for an Azure based Nightscout.
 
 !!!xdripitem "Base URL"  
-    &ensp;https://yourpassphrase@{YOUR-SITE}.azurewebsites.net/api/v1  
+    &ensp;https://password.hostname/api/v1  
 
 The URL format should be like this:
 
@@ -223,4 +223,4 @@ If upload fails, enable the new authentication protocol.
 
 </br>
 
-[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 17/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17)
