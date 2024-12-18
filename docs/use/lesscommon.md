@@ -193,11 +193,13 @@ Save Database Daily will actually export the database file every day before doin
 !!!xdripitem "Save Database Daily <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Allows the daily intent service to save the database before purging
 
+#### Glucose retention
+
 Glucose retention will automatically delete data older than the number of days selected.  
 Zero means don't delete anything (recommended). You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip+.
 
 !!!xdripitem "Glucose retention"  
-    &ensp;Erase daata older than this many days. 0 = don't erase anything.
+    &ensp;Erase data older than this many days. 0 = don't erase anything.
 
 ### [Other Miscellaneous Options](../misc)
 
