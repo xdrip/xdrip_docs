@@ -190,6 +190,8 @@ Disable battery warnings for bridges
 
 Save Database Daily will actually export the database file every day before doing cleanup. This will use a large amount of your device memory and is not recommended.
 
+Database exports will be saved in the same folder than manual exports:  `/storage/emulated/0/xDrip` or `Internal Storage/xDrip`.
+
 !!!xdripitem "Save Database Daily <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Allows the daily intent service to save the database before purging
 
