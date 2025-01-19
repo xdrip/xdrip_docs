@@ -209,12 +209,6 @@ See the dedicated section.
 
 !!!xdripitem "Other misc. options"
 
-### Sensor Location
-
-Not used anymore.
-
-!!!xdripitem "Store sensor location to help algorithm impro. <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
-
 </br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 19/1/2025*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18)

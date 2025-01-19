@@ -6,6 +6,9 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [18th Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18) | Carelink follow fix                                          |
+| [7th Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.07) | G6 broadcast typo                                            |
+| [31st Dec 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.31) | Database cleanup fix, retire sensor location input           |
 | [17th Dec 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17) | Fix battery for followers, hide NS URL                       |
 | [26th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26) | Carelink follow fix                                          |
 | [17th Nov 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.17) | dB size in status                                            |
