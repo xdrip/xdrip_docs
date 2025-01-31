@@ -12,7 +12,7 @@ This feature is available for:
 - CamAPS app
 - Guardian, MiniMed, Simplera apps
 - Omnipod 5 app
-- Eversense app
+- Eversense apps
 - Micro tech LinX Aidex app
 - Ottai Sens and Tag apps
 
