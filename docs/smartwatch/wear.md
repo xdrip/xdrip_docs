@@ -4,55 +4,55 @@ You will find the reference documentation [here](https://github.com/NightscoutFo
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features  
     &emsp;  Android Wear Integration
 
-!!!xdripitem "Android Wear Integration <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Send data to Android Wear Watchface
-
 Once you have installed xDrip+ on the watch paired with your phone, you can enable Wear.  
 xDrip+ will then communicate with a reduced version of itself on the watch.
 
-!!!xdripitem "Enable Wear Collection Service <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Connect Wear to BT Collector when phone is out-of-range
+!!!xdripitem "Android Wear Integration <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
+    &ensp;Send data to Android Wear Watchface
 
 For few combinations of sensors and smartwatch, xDrip+ can be used directly from the watch itself without needing the phone presence. See below for more information.
 
 Enable wear allows the watch to take over from the phone when the phone xDrip+ is losing connection to the sensor/bridge.
 
+!!!xdripitem "Enable Wear Collection Service <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Connect Wear to BT Collector when phone is out-of-range
+
+Force wear is forcing the watch to act as the main device connected to the sensor/bridge even if the phone is nearby (recommended).
+
 !!!xdripitem "Force Wear Collection Service <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Force phone to use Wear Collection Service
 
-Force wear is forcing the watch to act as the main device connected to the sensor/bridge even if the phone is nearby (recommended).
+Disable force on low battery will make the watch drop sensor/bridge connection to give it back to the phone when its battery level is too low.
 
 !!!xdripitem "Disable Force on Low Battery <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Disable Force Wear Collection Service on Wear low battery alert
 
-Disable force on low battery will make the watch drop sensor/bridge connection to give it back to the phone when its battery level is too low.
+Disable force on missed readings will make the watch drop sensor/bridge connection to give it back to the phone after a certain time of missed readings, defined in the menu below.
 
 !!!xdripitem "Disable Force on Missed Readings <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     Disable Force Wear Collection Service on minutes since last reading from Wear  
 
-Disable force on missed readings will make the watch drop sensor/bridge connection to give it back to the phone after a certain time of missed readings, defined in the menu below.
+Only use wear can be enabled if you have setup the watch once but will not use your phone to connect to the sensor/bridge.
 
 !!!xdripitem "Use only Wear <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     If you plan to use a Wear Collector and never your phone
 
-Only use wear can be enabled if you have setup the watch once but will not use your phone to connect to the sensor/bridge.
+If you have several Android Wear smartwatch with xDrip+, you can select which one will be the collector. The other will only display xDrip+ data.
 
 !!!xdripitem "Device Running Collection Service"  
-
-If you have several Android Wear smartwatch with xDrip+, you can select which one will be the collector. The other will only display xDrip+ data.
 
 !!!note "Switching watch"  
     When switching between watches, xDrip+ might not be able to communicate its intention to both watches if one is switched off. If you want to change the collecting watch, force collector in xDrip+ and also force collector in the watch xDrip Prefs menu.
 
+Sync wear logs is a very useful feature when troubleshooting: it will add the watch logs in xDrip+ [events log](../../use/3dotsmenu/#events-log) with a prefix to identify the activity is on the watch. By default the prefix is `wear` but you can customize it. It is recommended to keep it enabled.
+
 !!!xdripitem "Sync Wear Logs <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     Send Wear logs to Event Viewer
 
-Sync wear logs is a very useful feature when troubleshooting: it will add the watch logs in xDrip+ [events log](../../use/3dotsmenu/#events-log) with a prefix to identify the activity is on the watch. By default the prefix is `wear` but you can customize it. It is recommended to keep it enabled.
+Show treatments add treatments symbols on the watch graph.
 
 !!!xdripitem "Show Treatments <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     Show Treatment points on graph
-
-Show treatments add treatments symbols on the watch graph.
 
 ## Standalone collector mode
 
