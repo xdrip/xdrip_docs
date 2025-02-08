@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 7th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.07) | Web follow fix                                               |
 | [31st Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.31) | Eversense 365 US Companion app                               |
 | [28th Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.28) | Fixed always on display center bottom                        |
 | [24th Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.24) | Fixed sensor start/age in status                             |
