@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [14th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.14) | Carelink follow US fix                                       |
 | [ 7th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.07) | Web follow fix                                               |
 | [31st Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.31) | Eversense 365 US Companion app, Libre 2 direct identified for AAPS |
 | [28th Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.28) | Fixed always on display center bottom                        |
