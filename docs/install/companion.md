@@ -8,7 +8,7 @@ If you're using the vendor app, you can have xDrip+ get sensor data from it.
 This feature is available for:
 
 - G6/G7 (master only) apps
-- 1/1+/Stelo (only if the app shows BG notifications) apps
+- 1/1+ (only if the app shows BG notifications) apps
 - CamAPS app
 - Guardian, MiniMed, Simplera apps
 - Omnipod 5 app
