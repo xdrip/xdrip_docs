@@ -40,7 +40,8 @@ Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) wh
 | OOP2 1.2 (8a0ee8f) - **do not use** | 2022-06-10     | Libre 14 days US (old), Libre 2 EU       | 2.66MB    |
 | OOP2_e6 (6de6678) - **do not use**  | 2023-01-10     | Libre 14 days US (new), Libre 2 EU       | 2.66MB    |
 | OOP2_more (27da3f5)                 | 2023-05-25     | Libre 14 days US (new), Libre 2 EU (new) | 2.66MB    |
-| **OOP2_c6_09_31 (27da3f5)**         | **2024-05-31** | **Libre 14 days US, Libre 2/2+ EU**      | 2.7MB     |
+| OOP2_c6_09_31 (27da3f5)             | 2024-05-31     | Libre 14 days US, Libre 2/2+ EU          | 2.7MB     |
+| **OOP2-7f0e31 (27da3f5)**           | **2025-06-12** | **Libre 14 days US, Libre 2/2+ EU**      | 2.73MB    |
 
 OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
 
@@ -48,14 +49,14 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-Use only the latest OOP2 app with the latest xDrip+ version.
+**Use only the latest OOP2 app with the latest xDrip+ version.**
 
-**<u><big>[Download latest OOP2 here.](https://drive.google.com/file/d/15W6L3w3dwCNzESoBO2mjfsWmZafw9s73/view)</big></u>**
+**<u><big>[→ Download latest OOP2 here. ←](https://drive.google.com/file/d/1hkbs60Bv2udTlMS81UStCdY4RaHR0V57/view)</big></u>**
 
 *Note: you need to be logged into your Google account to access the link above.* 
 
 !!!warning  
-    Out Of process Libre Algorithm must be [disabled](../misc/#out-of-process-algorithm) when using OOP2.
+    *Out Of process Libre Algorithm* (OOP1) must be [disabled in xDrip+](../misc/#out-of-process-algorithm) when using OOP2.
 
 ### Auto-detection
 
