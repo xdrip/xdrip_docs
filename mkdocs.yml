@@ -38,7 +38,10 @@ extra:
 plugins:
   - search:
       lang: en
-  - unused_files
+  - redirects:
+      redirect_maps:
+        404.md: index.md
+
 
 nav:
 #    - Getting started:
