@@ -30,6 +30,11 @@ markdown_extensions:
     - toc:
         permalink: ⌁
 
+# This is only to get the current 404 page to work, delete it if you need to restore the site
+use_directory_urls: false
+extra:
+  404_page: 404.md
+
 plugins:
   - search:
       lang: en
