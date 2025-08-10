@@ -17,6 +17,9 @@ theme:
       primary: white
       scheme: default
     nav_style: primary
+    custom_dir: overrides
+    static_templates:
+      - 404.html
 
 extra_css:
     - css/admonitions.css
@@ -32,16 +35,10 @@ markdown_extensions:
 
 # This is only to get the current 404 page to work, delete it if you need to restore the site
 use_directory_urls: false
-extra:
-  404_page: 404.md
 
 plugins:
   - search:
       lang: en
-  - redirects:
-      redirect_maps:
-        404.md: index.md
-
 
 nav:
 #    - Getting started:
