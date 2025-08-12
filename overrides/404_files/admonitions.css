@@ -1,0 +1,167 @@
+/* Common styles for all types */
+
+.admonition {
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #eee;
+  border-left-width: 8px;
+  border-radius: 3px;
+  background-color: #fCfCfc;
+  font-size: 0.9em !important;
+}
+
+.admonition-title {
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight: 500;
+  /*line-height: 1.1;*/
+}
+
+.admonition .admonition-title {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.admonition p:last-child, .admonition ul:last-child, .admonition ol:last-child {
+  margin-bottom: 0;
+}
+
+.admonition code {
+  border-radius: 3px;
+}
+
+/* Tighten up space between multiple admonitions */
+.admonition + .admonition {
+  margin-top: -5px;
+}
+
+/* Variations */
+.admonition.danger {
+  border-left-color: #7dc991;
+  background-color: #d1e8d7;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+}
+.admonition.danger .admonition-title {
+  color: #7dc991;
+  background-color: #d1e8d7;
+  border-bottom-color: #d1e8d7;
+}
+.admonition.warning {
+  border-left-color: #f0ad4e;
+  background-color: #FFD8A0;
+  border-bottom-color: #FFD8A0;
+  border-right-color: #FFD8A0;
+  border-top-color: #FFD8A0;
+}
+.admonition.warning .admonition-title {
+  color: #AD6D11;
+  background-color: #FFD8A0;
+  border-bottom-color: #FFD8A0;
+}
+.admonition.info {
+  border-left-color: #5bc0de;
+  background-color: #BAEAF8;
+  border-bottom-color: #BAEAF8;
+  border-right-color: #BAEAF8;
+  border-top-color: #BAEAF8;
+}
+.admonition.info .admonition-title {
+  color: #1993B6;
+  background-color: #BAEAF8;
+  border-bottom-color: #BAEAF8;
+}
+
+/* xDrip+ menu-like admonitions */
+
+.admonition.xdrip {
+  border-left-color: #8B0000;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+  border: none;
+  color: #FFFFFF !important;
+  font-size: 1.1em !important;
+  max-width: 500px;
+}
+
+.admonition.xdrip .admonition-title img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.admonition.xdrip .admonition-title {
+  color: #FFFFFF;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.admonition.xdrip .admonition-title::before {
+  content: none;
+}
+
+.admonition.xdrip .admonition-content {
+  margin: 0; /* Remove extra margin */
+  padding: 0; /* Add padding for better spacing */
+  border: none; /* Remove any borders */
+}
+
+.admonition.xdripitem .admonition-content {
+  margin: 0; /* Completely remove margin */
+  padding: 0.2em 0; /* Minimal padding to avoid overlap */
+}
+
+.admonition.xdripitem {
+  border-left-color: #8B0000;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+  border: none;
+  color: #FFFFFF !important;
+  font-size: 0.9em !important;
+  max-width: 500px;
+}
+
+.admonition.xdripitem .admonition-title {
+  display: flex;
+  justify-content: space-between; /* Title on the left, symbol on the right */
+  align-items: center; /* Center elements vertically */
+  font-weight: normal;
+  padding: 0.5em; /* Add padding for spacing */
+  margin: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+  background-color: #212121;
+  border-bottom-color: #d1e8d7;
+  font-size: 1.4em !important;
+  border: none;
+  padding-bottom: 0;
+}
+
+.admonition.xdripitem .admonition-title::before {
+  content: none;
+}
+
+.admonition.xdripitem .admonition-title .symbol {
+ /* color: #8B0000; /* Customize the color of the parameter */
+  font-size: 1.4em; /* Match the font size of the title */
+  margin-left: 10px; /* Add spacing between title text and symbol */
+}
+
+/*.admonition.xdripitem .admonition-title::after {
+  content: "✔";
+  font-size: 1.4em;
+  margin-left: 10px;
+}*/
+
+/* Title */
+
